@@ -1,9 +1,19 @@
 # Welcome to Niflheim!
 
+Niflheim is a challenging, hardcore, modded server that -requires- users to install the Niflheim modpack.
+
+Niflheim, our newest Server, will go live at Midnight UTC 4/10/2021 (5:00PM PST and 8:00PM EST 4/9/2021)
+
 ## Rules
+- Niflheim players are expected to have joined the Dusk Discord Server and agree to obey all rules of the Dusk Discord server while playing in Niflheim as well.  These rules can be found [here](https://discord.com/channels/683821803252219974/683825744249749523/771419546505969667)
+
+- Niflheim players are expected to have read this document.
+- Niflheim players -must- use Hardcore characters see below.
+
+
 
 ## Joining the Dusk Discord Server
-https://discord.gg/dFbnbaFhRA
+New players who are not already part of the Dusk Discord server should join the server and use the Valheim channel to discuss, and the Niflheim voice channel.  The Server-Info channel will have up-to-date information. [Join here](https://discord.gg/dFbnbaFhRA)
 
 ## Preparing Valheim for Isolated Modding
 > Note it is highly reccommended that you make a backup copy of your Valheim installation so that updates don't ruin your experience.  If you're confident you know what you are doing however you -may- skip ahead to "Installing the Modpack"
@@ -49,35 +59,78 @@ You will be propmpted to Replace or Skip files.  Select "Replace the file in the
 
 ![Alt-Text](docs/images/Valheim-Niflheim-PostExtraction.PNG)
 
-It is now possible to play valheim with the Niflheim modpack!  Simply double-click valheim.exe and you're ready to go!  But before you do, consider following instructions in "Setting up a Shortcut" below first.
-
-## Setting up a Shortcut
-To make it easier to play valheim modded, we suggest adding the Niflheim valheim install as a custom Steam game.
-
-From Steam, click the "Games" menu at the top and select 'Add a non-Steam game to my Library...' and then press the browse button on the new dialog window as indicated in the image below.
-
-![Alt-Text](docs/images/Valheim-Niflheim-AddGame-Browse.png)
-
-From the file browser, open the 'steamapps' folder followed by the 'common' folder, and then finally the Valheim game folder (probably "Valheim-Dusk-Niflheim" if you followed the guide above.) Then select valheim.exe and click Open.  The final step of this process should look like the image below.
-
-![Alt-Text](docs/images/Valheim-Niflheim-AddGame-ExeLink.png)
-
-Finally, click "Add Selected Programs" from the Steam Add a Game Menu.
-
-Then, using the Steam Search bar, type in "Valheim" and you should see "Valheim" under "Recent" and "valheim" under "No Recorded Activity".  We are interested in this second 'valheim' entry. See the image below for reference.
-
-![Alt-Text](docs/images/Valheim-Niflheim-AddGame-Search.png)
-
-Right click on this valheim game, and select Properties.  Rename the game by clicking the textbox to the right of the game icon, and update it to say "Valheim-Niflheim" as in the image below, then close the dialog box.
-
-![Alt-Text](docs/images/Valheim-Niflheim-Rename.png)
-
-Congrats, you now have a dedicated Steam entry for playing on the Niflheim server! Simply hit play as you would with any other steam game while "Valheim-Niflheim" is selected.  See the image below to confirm.
-
-![Alt-Text](docs/images/Valheim-Niflheim-AddGame-Play.png)
+It is now possible to play valheim with the Niflheim modpack!  Simply double-click valheim.exe and you're ready to go!  
 
 ## Joining Niflheim
+In your Valheim folder, you will find a file named 'ServerCreds.txt'.  
+This file contains:
+- The server name (for searching) 
+- The IP address (for direct connect)
+- The current server password.
 
-## Odin's Caches
+When the server updates and a new Modpack is released, this file's contents (including password) will likely change.  Please make sure after updating that you review this file if you are having problems connecting the the server.
+
+## About Hardcore Vikings
+
+Niflheim is a harsh and unforgiving world, and Odin cannot abide failures.  A viking's death will result in character deletion!  You've been warned. 
+
+Discord user Fracticality has created the hardcore mod that enables this feature, if you like it, thank him.  If you have feedback, please let him know.
+
+In order to join Niflheim, a viking -must- be hardcore.  While this is not enforced at a technical level, anyone in violation, or using exploits to circumvent the penalty of death will be banned from the server.  We keep server-side logs.
+
+## Creating your Hardcore Viking
+
+Simply create a new character as usual.  On the right side, you will see a few extra options.
+
+- Hardcore 
+- Skip Intro
+- Disable Tutorials
+
+You are only required to use the "Hardcore Character" option at this time, and it is even suggested that you not Skip Intro for the sake of future updates.  Disabling Tutorials should be fine.
+
+Example of creating a hardcore viking in the image below.
+
+![Alt-Text](docs/images/HardcoreExample.PNG)
+
+## Special Event - Odin's Caches
+As a thank you to our playtesters and an extra incentive to get the server busy from launch, Odin has created various Caches throughout the starting areas of Niflheim.  Some will be easy to find, others not so much.  When you discover a cache, you will find an Idol (or idols) accompanying it like in the image below.
+
+> **Note: Wards found on the starting spawn area walls are NOT cache idols and no reward will be granted for their discovery!**
+
+![Alt-Text](docs/images/Idol-Unclaimed.PNG)
+
+If the cache has been already been claimed, the discoverer's name will be found on the Idol's Permitted List as in the image below, immortalizing their discovery.  If there are no other names, congrats, this cache hasn't yet been claimed!
+
+![Alt-Text](docs/images/Idol-Claimed.PNG)
+
+ If Odin is currently on the Server (F2 to check) you can request that he grant you your prize.  
+
+**You will be unable to open the caches until granted access to the idol's power.**
+
+If however, Odin is visiting warriors in other worlds, don't fret.  Simply take a snip of the game (Windows Key + Ctrl + S) and message @Odin on the Dusk Discord with the screenshot.  First discovery will be honored and the discoverer will be rewarded.  Odin will reach out via one of his Viking Champions in Discord and coordinate with you to receive your rewards at a later time.  As long as you were the first to discover a cache, you will be given the opportunity to claim your reward.  If you do not respond to Odin's Champion for more than 48 hours without prior notice of availability, the right of discovery may be given to the next Viking to find the cache.  
+
+### **Defacement or destruction of Odin's gifts by way of violence will be grounds for banishment from the realm.  If you find a chest protected by an idol, -DO NOT- simply bash the chest in to claim the loot.  This event will be recorded in the server logs, and you will be removed. You have been warned.**
+
+### Claiming Wardship
+Vikings who have discovered an Idol may request of Odin wardship over an idol and its surrounding regions.  Odin will likely ask the Viking to perform a feat of strength, offer him tribute, or make a sacrifice in his name of some sort in order to be granted wardship.  
+
+If Odin is appeased, he will destroy his idols and allow the Champion to replace them with his own, thereby claiming ownership over the Territory.  However, death will still lose this champion access to their warding, so consider appointing successors using the "Permitted" feature of wards, or simply leave the Ward inactive.
 
 ## Modded Gameplay Information
+
+The following is a brief description of what you can expect to find in Niflheim's modded world.  More details will come soon.
+
+- PERMADEATH!  Creating a hardcore character unique to the world is required to participate.
+- Magic and enchanted equipment, with an enchanting crafting system.
+- More variety of enemies to challenge our players.
+- New, improved Raid mechanics.
+- Odin himself has touched this world and left his mark upon it.  Seek his idols to claim his favor.  Desecration of his idols or works will result in banishment from Niflheim, and Hugin and Munin are watching... (We keep server-side logs)
+- New, Unique, Rare weapons are available, but will take great effort to craft.
+- A better UI.
+- Changes to Combat balance.
+- Secondary attacks for many weapons have been tweaked to inflict more appropriate damage types (such as a stabbing thrust with a sword doing piercing damage).
+- A Cartography skill that rewards players for exploring the world.
+- The ability to make and share maps with other players.
+- Improvements to farming.
+- A craftable trash can for discarding unwanted garbage.
+- and more!!!
