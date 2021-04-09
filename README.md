@@ -8,6 +8,8 @@ https://discord.gg/dFbnbaFhRA
 ## Preparing Valheim for Isolated Modding
 > Note it is highly reccommended that you make a backup copy of your Valheim installation so that updates don't ruin your experience.  If you're confident you know what you are doing however you -may- skip ahead to "Installing the Modpack"
 
+> **Note! If you participated in the playtest for Helheim, and you did not make a backup of your Valheim game files, you will need to cleanup your Valheim folder first.  After clicking browse in the dialog in the first step, delete all files and folders -except- 'valheim_Data' and 'UnityPlayer.exe' Then click "Verify integrity of game files..." prior to continuing the guide.  This will allow Valheim to get fresh files.**
+
 Navigate to your steamapps common directory.  This can be achieved by right-clicking on Valheim in your Steam Library, selecting properties, followed by selecting the 'LOCAL FILES' tab, and cllicking the Browse button as indicated in red below.
 
 ![Alt-Text](docs/images/Valheim-Browse-LocalFiles.PNG)
