@@ -68,7 +68,7 @@ Then, using the Steam Search bar, type in "Valheim" and you should see "Valheim"
 
 Right click on this valheim game, and select Properties.  Rename the game by clicking the textbox to the right of the game icon, and update it to say "Valheim-Niflheim" as in the image below, then close the dialog box.
 
-![Alt-Text](docs/images/Valheim-Niflheim-AddGame-Rename.png)
+![Alt-Text](docs/images/Valheim-Niflheim-Rename.png)
 
 Congrats, you now have a dedicated Steam entry for playing on the Niflheim server! Simply hit play as you would with any other steam game while "Valheim-Niflheim" is selected.  See the image below to confirm.
 
