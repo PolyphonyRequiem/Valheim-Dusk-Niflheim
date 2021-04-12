@@ -41,7 +41,7 @@ If done correctly, this will create a new Folder below Valheim titled "Valheim -
 You are now ready to install the new modpack.
 
 ## Installing the Modpack
-Download the latest modpack from [here](https://niflheim.blob.core.windows.net/modpacks/Niflheim.1.0.0.zip) - (Version 1.0.0 - 4/9/2021)
+Download the latest modpack from [here](https://niflheim.blob.core.windows.net/modpacks/Niflheim.1.1.0.zip) - (Version 1.1.0 - 4/12/2021)
 
 After the download completes, go to your "Downloads" folder and copy the Niflheim.x.y.z.zip file to your Valheim folder (see "Preparing Valheim for Isolated Modding" for help locating this folder.)  The result should look like the image below.
 
@@ -62,21 +62,17 @@ You will be propmpted to Replace or Skip files.  Select "Replace the file in the
 It is now possible to play valheim with the Niflheim modpack!  Simply double-click valheim.exe and you're ready to go!  
 
 ## Joining Niflheim
-In your Valheim folder, you will find a file named 'ServerCreds.txt'.  
-This file contains:
-- The server name (for searching) 
-- The IP address (for direct connect)
-- The current server password.
+As of Niflheim 1.1, Server credentials are embedded directly in the QuickConnect configuration.  When the server has an update, the credentials will change, forcing a new modpack installation.  Simply click the button indicated in the image below, select or create your character, and press Start!
 
-When the server updates and a new Modpack is released, this file's contents (including password) will likely change.  Please make sure after updating that you review this file if you are having problems connecting the the server.
+![Alt-Text](docs/images/Valheim-Niflheim-QuickConnect.png)
 
 ## About Hardcore Vikings
 
-Niflheim is a harsh and unforgiving world, and Odin cannot abide failures.  A viking's death will result in character deletion!  You've been warned. 
+Niflheim is a harsh and unforgiving world, and Odin cannot abide failures.  A viking's death will result in all items currently carried to be removed from the world, all skill progress lost, and all map information reset!  The character will once again be spawned at the World Spawn.  You've been warned. 
 
 Discord user Fracticality has created the hardcore mod that enables this feature, if you like it, thank him.  If you have feedback, please let him know.
 
-In order to join Niflheim, a viking -must- be hardcore.  While this is not enforced at a technical level, anyone in violation, or using exploits to circumvent the penalty of death will be banned from the server.  We keep server-side logs.
+In order to join Niflheim, a viking -must- be hardcore.  While this is not currently enforced at a technical level, anyone in violation, or using exploits to circumvent the penalty of death will be banned from the server.  We keep server-side logs.
 
 ## Creating your Hardcore Viking
 
@@ -86,13 +82,13 @@ Simply create a new character as usual.  On the right side, you will see a few e
 - Skip Intro
 - Disable Tutorials
 
-You are only required to use the "Hardcore Character" option at this time, and it is even suggested that you not Skip Intro for the sake of future updates.  Disabling Tutorials should be fine.
+You are only required to use the "Hardcore Character" option at this time.  If you select Skip Intro you will quickly be dropped in at the spawn at the start of the game, or upon death.  If you do not select Skip Intro, you will be flown in by a Valkyrie each time you die.
 
 Example of creating a hardcore viking in the image below.
 
 ![Alt-Text](docs/images/HardcoreExample.PNG)
 
-## Special Event - Odin's Caches
+## Niflheim 1.0 Special Event - Odin's Caches
 As a thank you to our playtesters and an extra incentive to get the server busy from launch, Odin has created various Caches throughout the starting areas of Niflheim.  Some will be easy to find, others not so much.  When you discover a cache, you will find an Idol (or idols) accompanying it like in the image below.
 
 > **Note: Wards found on the starting spawn area walls are NOT cache idols and no reward will be granted for their discovery!**

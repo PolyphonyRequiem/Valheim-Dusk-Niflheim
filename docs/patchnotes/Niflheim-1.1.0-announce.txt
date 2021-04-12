@@ -1,0 +1,14 @@
+Niflheim is being updated to version 1.1! You will need to update in order to connect to the server. See guidance about upgrading to 1.1 at https://github.com/Firoso/Valheim-Dusk-Niflheim/blob/main/docs/update-guidance/Niflheim-1.1.0-update.md
+
+  ECONOMY:
+  Changes have been made to the economy to prevent unintended misuse of the Vendor.  Many materials have been removed and others have had their prices reworked.  We have decided to keep the Vendor's stores unlocked however, allowing players to purchase anything of the Vendor's wares without first having discovered the items.  To accommodate price changes, we have also made coins have a carry weight of 0.
+
+  HARDCORE AND WARDS:
+  When a player died in 1.0, their character was deleted.  Although this -did- lead to desirable hardcore gameplay, what we found is that players usually recreated the same character again with the same name.  Furthermore these new characters would be barred from their own wards from before.  Clearly this was unintended.  Hardcore has been modified to reset the character completely when dying and respawn them without logging players out.  This allows us to keep the same internal player ID, permitting Wards to work as expected.
+
+  Speaking of wards, we have made changes to them to allow more flexibility and power to wards.  Highlights include buffs to players and structures in the Ward area, and Wards and Portals within the range of Wards are indestructable now.  See detailed notes for more information.
+
+  QUALITY OF LIFE:
+  We have added QuickConnect configurations to allow players to easily join Niflheim.  Simply click the [DUSK]Niflheim button and choose your character and click Start. Additionally players can now mass plant and mass harvest with Shift-Click!
+
+Detailed patch notes can be read at https://github.com/Firoso/Valheim-Dusk-Niflheim/blob/main/docs/patchnotes/Niflheim-1.1.0.md
