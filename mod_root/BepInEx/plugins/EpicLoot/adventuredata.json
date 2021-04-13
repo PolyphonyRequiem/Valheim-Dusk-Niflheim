@@ -1,7 +1,7 @@
 {
   "FulingCoinDropScale": 1.0,
   "SecretStash": {
-    "RefreshInterval": 2,
+    "RefreshInterval": 1,
     "Materials": [
       { "Item": "ShardMagic",       "CoinsCost": 81   },
       { "Item": "DustMagic",        "CoinsCost": 81   },
