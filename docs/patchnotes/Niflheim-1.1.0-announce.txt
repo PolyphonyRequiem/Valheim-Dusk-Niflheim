@@ -8,7 +8,7 @@ Niflheim is being updated to version 1.1! You will need to update in order to co
 
   Speaking of wards, we have made changes to them to allow more flexibility and power to wards.  Highlights include buffs to players and structures in the Ward area, and Wards and Portals within the range of Wards are indestructable now.  See detailed notes for more information.
 
-  QUALITY OF LIFE:
-  We have added QuickConnect configurations to allow players to easily join Niflheim.  Simply click the [DUSK]Niflheim button and choose your character and click Start. Additionally players can now mass plant and mass harvest with Shift-Click!
+  SIMPLER CONNECTING:
+  We have added QuickConnect configurations to allow players to easily join Niflheim.  Simply click the '[DUSK]Niflheim' button and choose your character and click Start.  Details can be found at https://github.com/Firoso/Valheim-Dusk-Niflheim#joining-niflheim
 
 Detailed patch notes can be read at https://github.com/Firoso/Valheim-Dusk-Niflheim/blob/main/docs/patchnotes/Niflheim-1.1.0.md
