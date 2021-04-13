@@ -173,7 +173,7 @@
     "GoldMaxLevel": 3,
     "GoldHealthMultiplier": 3.0, 
     "AddsMinLevel": 2,
-    "AddsMaxLevel": 5,
+    "AddsMaxLevel": 4,
     "AddsHealthMultiplier": 1.5, 
     "Targets": [
       { "Biome": "Meadows",     "TargetID": "Deer",             "RewardGold": 0, "RewardIron": 1   },
