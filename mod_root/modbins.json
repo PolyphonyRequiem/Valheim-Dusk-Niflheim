@@ -1,0 +1,9 @@
+{
+    "modpack-binaries":
+    [
+        {
+            "type": "treeZip",
+            "uri": "https://niflheim.blob.core.windows.net/modpack-binaries/Niflheim-ModBins-1.1.1.zip"
+        }
+    ]
+}
