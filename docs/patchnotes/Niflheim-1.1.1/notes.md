@@ -29,7 +29,9 @@ We will monitor this, feel free to provide feedback on the difficulty changes ar
  ### Raid Events:
  We want these to not punish players near the spawn or in lower level zones much.  Furthermore we don't want it to ruin your day by forcing you off your scaffolding on your 16m tall highwire construction projects, making you just as likely to die to a mob as plummet to your death in panic.  This will take ongoing effort, but we still wanted to address this a little for now.
 
- - Deathsquito and ghosts events are disabled. (for now...)
+ - For now, raids don't scale in difficulty based on the world state.  They just are what they are.  This is likely to be changed in the future.  Feedback solicited.
+ - Not all biomes get all raids.  Meadows bases should be safer for now...
+ - Deathsquito and ghosts events are disabled. For now...
 
  ### Dungeons:
  We want exploring, foraging, and scavaging to be a core part of the game loop.  Finding a dungeon should be a huge opportunity and very exciting!  However, we want players to move on once they've cleared a dungeon and not linger.  We also want to make sure players are well rewarded for their efforts!  To that end we've made a few changes.
