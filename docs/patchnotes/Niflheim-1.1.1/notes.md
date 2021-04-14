@@ -5,6 +5,7 @@
  
 ## Changes: 
  ### Vendor Updates:
+ - Coins now stack up to 99,999!
  - Vendor carries his original inventory again.
  - Gambling prices were WAY too cheap.  They're now adjusted to be an "affordable" alternative to buying all the materials needed for a legendary enchantment given the probability distributions.  It's cheaper on average to spend the same amount on gambling as it would be to buy legendary materials to make a legendary item.
  - Item prices related to the special store are fixed, shouldn't be as abusable.

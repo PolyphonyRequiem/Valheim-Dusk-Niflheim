@@ -1,0 +1,1 @@
+(\G|#Better Trader#)(\n|\r|\r\n)*(#EpicLoot#(\r\n)*)?(?<itemname>[A-z]+)(: ?stack ?= ?(?<itemstack>\d+)| ?price ?= ?(?<itemprice>\d+)| ?sellprice ?= ?(?<itemsellprice>\d+)| ?tradeable ?= ?(?<itemtradeable>true|false)| ?sellable ?= ?(?<itemsellable>true|false)| ?ignorewaitfordiscovery ?= ?(?<ignorewaitfordiscovery>true|false)){0,6}
