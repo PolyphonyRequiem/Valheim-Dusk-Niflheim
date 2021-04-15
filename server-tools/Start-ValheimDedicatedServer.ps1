@@ -27,6 +27,7 @@ function Start-ValheimDedicatedServer {
         $ValheimServerRootPath=$PSScriptRoot
         $env:SteamAppId=892970
         $ValheimWorldsConfig = "$PSScriptRoot\Valheim-Worlds.psd1"
+        Write-Host "Opening WorldsConfig at $ValheimWorldsConfig"
         if (-not (Test-Path $ValheimWorldsConfig))
         {
             throw "The Valheim World Configuration Source .\$ValheimWorldsConfig does not exist"
@@ -46,8 +47,14 @@ function Start-ValheimDedicatedServer {
             throw "Unable to find $valheimServerExe"
         }
 
-	Write-Host "Starting $valheimServerExe with arguments $($argumentList -join ' ')"
-        $argumentList = @('-no graphics', '-batchmode', "-name `"$config[$WorldId].ServerPublicName`"", "-port $ValheimWorldsConfig[$WorldId].Port", "-world `"$ValheimWorldsConfig[$WorldId].WorldDbName`"", "-password `"$ValheimWorldsConfig[$WorldId].Password`"" )
+	    $argumentList = @('-no graphics', '-batchmode')
+        $argumentList += "-name `"$($config[$WorldId].ServerPublicName)`""
+        $argumentList += "-port $($config[$WorldId].Port)"
+        $argumentList += "-world `"$($config[$WorldId].WorldDbName)`""
+        $argumentList += "-password `"$($config[$WorldId].Password)`""
+
+        Write-Host "Starting $valheimServerExe with arguments $($argumentList -join ' ')"
+
         Start-Process -FilePath $valheimServerExe -ArgumentList $argumentList
     }
 }
