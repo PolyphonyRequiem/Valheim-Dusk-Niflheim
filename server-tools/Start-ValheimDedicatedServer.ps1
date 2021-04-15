@@ -23,7 +23,6 @@ function Start-ValheimDedicatedServer {
         [ValidateScript( {Test-Path $_})]
         [string]$ValheimServerRootPath = $PSScriptRoot,
         [Parameter(Mandatory = $true)]
-        [ValidateScript( {Test-Path $_})]
         [string]$WorldId
     )
 
