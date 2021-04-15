@@ -29,12 +29,12 @@ function Start-ValheimDedicatedServer {
     process {
         $env:SteamAppId=892970
         $ValheimWorldsConfig = "$PSScriptRoot\Valheim-Worlds.psd1"
-        if (-not (Test-Path .\$ValheimWorldsConfig))
+        if (-not (Test-Path $ValheimWorldsConfig))
         {
             throw "The Valheim World Configuration Source .\$ValheimWorldsConfig does not exist"
         }
 
-        $config = Import-PowerShellDataFile .\$ValheimWorldsConfig
+        $config = Import-PowerShellDataFile $ValheimWorldsConfig
 
         if (-not $config.ContainsKey($WorldId))
         {
