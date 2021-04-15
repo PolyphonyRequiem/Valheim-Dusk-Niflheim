@@ -1,5 +1,5 @@
 #Requires -RunAsAdministrator
-function Update-SteamCmdGameValheimDedicatedServer {
+function Start-ValheimDedicatedServer {
     <#
     .SYNOPSIS
     Starts a Valheim Dedicated Server configured for Steam.
