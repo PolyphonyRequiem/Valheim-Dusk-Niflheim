@@ -43,6 +43,9 @@ We will monitor this, feel free to provide feedback on the difficulty changes ar
  ### Hardcore Death Messages:
   - Death messages will now try to be more representative of the means of death.  Thanks again to @Fracticality!
 
+ ### Bug Fixes
+  - Map pins were being impacted by the logic for the Hardcore mod.  This seems to have been fixed through some clever detective work.  Thanks @Fracticality!
+  
 ## Known Bugs:
 
 ## Final Words:
