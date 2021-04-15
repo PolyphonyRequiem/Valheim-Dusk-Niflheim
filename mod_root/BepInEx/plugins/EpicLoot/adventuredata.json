@@ -167,9 +167,9 @@
     "MinimapAreaRadius": 60,
     "SaleItems": [
       { "Item": "RunestoneMagic",     "ForestTokenCost": 5 },
-      { "Item": "RunestoneRare",      "ForestTokenCost": 10 },
-      { "Item": "RunestoneEpic",      "ForestTokenCost": 15 },
-      { "Item": "RunestoneLegendary", "ForestTokenCost": 20 }
+      { "Item": "RunestoneRare",      "ForestTokenCost": 12 },
+      { "Item": "RunestoneEpic",      "ForestTokenCost": 30 },
+      { "Item": "RunestoneLegendary", "ForestTokenCost": 75 }
     ] 
   },
   "Bounties": { 
