@@ -19,14 +19,12 @@ function Start-ValheimDedicatedServer {
 
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param (
-        [Parameter(Mandatory = $false)]
-        [ValidateScript( {Test-Path $_})]
-        [string]$ValheimServerRootPath = $PSScriptRoot,
         [Parameter(Mandatory = $true)]
         [string]$WorldId
     )
 
     process {
+        $ValheimServerRootPath=$PSScriptRoot
         $env:SteamAppId=892970
         $ValheimWorldsConfig = "$PSScriptRoot\Valheim-Worlds.psd1"
         if (-not (Test-Path $ValheimWorldsConfig))
@@ -41,7 +39,7 @@ function Start-ValheimDedicatedServer {
             throw "The worldId $WorldId was not found in the configuration source provided by $ValheimWorldsConfig"
         }
 
-        $valheimServerExe = Join-Path $ValheimServerRootPath $config[$WorldId].InstallPath "valheim_server.exe"
+        $valheimServerExe = Join-Path (Join-Path "$ValheimServerRootPath" "$($config[$WorldId].InstallPath)") "valheim_server.exe"
 
         if (-not (Test-Path $valheimServerExe))
         {
