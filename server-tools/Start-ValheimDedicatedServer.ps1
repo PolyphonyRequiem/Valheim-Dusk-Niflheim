@@ -19,9 +19,9 @@ function Update-SteamCmdGameValheimDedicatedServer {
 
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param (
-        [Parameter(Mandatory = $true)]
+        [Parameter(Mandatory = $false)]
         [ValidateScript( {Test-Path $_})]
-        [string]$ValheimServerRootPath,
+        [string]$ValheimServerRootPath = $PSScriptRoot,
         [Parameter(Mandatory = $true)]
         [ValidateScript( {Test-Path $_})]
         [string]$WorldId
@@ -29,8 +29,8 @@ function Update-SteamCmdGameValheimDedicatedServer {
 
     process {
         $env:SteamAppId=892970
-        $ValheimWorldsConfig = "Valheim-Worlds.psd1"
-        if (-not Test-Path .\$ValheimWorldsConfig)
+        $ValheimWorldsConfig = "$PSScriptRoot\Valheim-Worlds.psd1"
+        if (-not (Test-Path .\$ValheimWorldsConfig))
         {
             throw "The Valheim World Configuration Source .\$ValheimWorldsConfig does not exist"
         }
@@ -49,7 +49,8 @@ function Update-SteamCmdGameValheimDedicatedServer {
             throw "Unable to find $valheimServerExe"
         }
 
-        $argumentList = @('-no graphics', '-batchmode', "-name \"$config[$WorldId].ServerPublicName\"", "-port $config[$WorldId].Port", "-world \"$config[$WorldId].WorldDbName\"", "-password \"$config[$WorldId].Password\"" )
+	Write-Host "Starting $valheimServerExe with arguments $($argumentList -join ' ')"
+        $argumentList = @('-no graphics', '-batchmode', "-name `"$config[$WorldId].ServerPublicName`"", "-port $ValheimWorldsConfig[$WorldId].Port", "-world `"$ValheimWorldsConfig[$WorldId].WorldDbName`"", "-password `"$ValheimWorldsConfig[$WorldId].Password`"" )
         Start-Process -FilePath $valheimServerExe -ArgumentList $argumentList
     }
 }
