@@ -8,6 +8,7 @@
  - Coins now stack up to 99,999!
  - Gear prices across the board reworked
  - Vendor carries his normal inventory items once again (circlet, strength belt, fishing pole, etc.).
+ - Trophies in particular are worth FAR more than they used to be.
  - Item prices related to the special store are fixed, shouldn't be as abusable.  They represent a 10% discount on enchanting materials
  - Vendor will once again take your produce, but won't ruin his credit doing so anymore.
  - Adventuring is Useful! Forest, Iron, and Gold tokens received from treasure maps and bounties are now an important part of the economy at all levels.
