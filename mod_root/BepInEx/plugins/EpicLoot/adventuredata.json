@@ -103,6 +103,7 @@
       { "Item": "SwordSilver",            "CoinsCost": 49400 },
       { "Item": "SwordBlackmetal",        "CoinsCost": 97500 },
 
+      { "Item": "Bow",                    "CoinsCost": 5000 },
       { "Item": "BowFineWood",            "CoinsCost": 16200 },
       { "Item": "BowHuntsman",            "CoinsCost": 26950 },
       { "Item": "BowDraugrFang",          "CoinsCost": 97500 },
