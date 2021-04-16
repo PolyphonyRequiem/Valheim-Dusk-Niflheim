@@ -126,7 +126,7 @@
       { "Item": "ArmorWolfChest",         "CoinsCost": 25480 },
       { "Item": "ArmorPaddedCuirass",     "CoinsCost": 39000 },
 
-      { "Item": "ArmorRagsLegs",          "CoinsCost": 10000  },
+      { "Item": "ArmorRagsLegs",          "CoinsCost": 5000  },
       { "Item": "ArmorLeatherLegs",       "CoinsCost": 7175  },
       { "Item": "ArmorTrollLeatherLegs",  "CoinsCost": 12240  },
       { "Item": "ArmorBronzeLegs",        "CoinsCost": 12240  },
