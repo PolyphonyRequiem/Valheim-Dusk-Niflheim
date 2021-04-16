@@ -6,16 +6,20 @@
 ## Changes: 
  ### Vendor Updates:
  - Coins now stack up to 99,999!
- - Vendor carries his original inventory again.
- - Gambling prices were WAY too cheap.  They're now adjusted to be an "affordable" alternative to buying all the materials needed for a legendary enchantment given the probability distributions.  It's cheaper on average to spend the same amount on gambling as it would be to buy legendary materials to make a legendary item.
- - Item prices related to the special store are fixed, shouldn't be as abusable.
- - All items should buy for more than they sell for, or at least no less.
- - Some items previously removed were re-added to the vendor
-   - Greydwarf Eyes
-   - Vendor will BUY produce again (at much less value then before)
-   - Stuff I forgot...
- - Very low tier gear (leather/rag/wood/stone) seriously discounted compared to their higher level counterparts.
- - Look seriously a lot was tweaked and I'm dumb and didn't take notes and I'm too lazy to diff a reorganized file by hand so you're just going to have to be surprised.
+ - Gear prices across the board reworked
+ - Vendor carries his normal inventory items once again (circlet, strength belt, fishing pole, etc.).
+ - Item prices related to the special store are fixed, shouldn't be as abusable.  They represent a 10% discount on enchanting materials
+ - Vendor will once again take your produce, but won't ruin his credit doing so anymore.
+ - Adventuring is Useful! Forest, Iron, and Gold tokens received from treasure maps and bounties are now an important part of the economy at all levels.
+ - Gambling overhaul!
+   - Gambling was far too cheap.  Should be much more in line with the intended vision.
+   - Players are now encouraged to do treasure hunts and bounties in order to earn materials to get reliable gambling results for higher-quality results at a more affordable price.
+   - Some Examples---
+   
+   | Gambling Item       | What will it cost me?          | Mundane% |  Magic%  |   Rare%  |   Epic%  |Legendary%|
+   |---------------------|--------------------------------|----------|----------|----------|----------|----------|
+   | Legendary Porcupine | 3 Gold Tokens, 180,000 coins   | 0%       | 0%       | 0%       | 0%       | 100%     |
+   | ??? Iron Axe        | 25,000 coins                   | 10%      | 69%      | 15%      | 5%       | 1%       |
 
 
  ### Multiplayer Scaling:
