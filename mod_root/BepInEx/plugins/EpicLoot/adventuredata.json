@@ -1,31 +1,31 @@
 {
-  "FulingCoinDropScale": 1.0,
+  "FulingCoinDropScale": 5.0,
   "SecretStash": {
     "RefreshInterval": 1,
     "Materials": [
-      { "Item": "ShardMagic",       "CoinsCost": 81   },
-      { "Item": "DustMagic",        "CoinsCost": 81   },
-      { "Item": "ReagentMagic",     "CoinsCost": 81   },
-      { "Item": "EssenceMagic",     "CoinsCost": 81   },
-      { "Item": "ShardRare",        "CoinsCost": 342  },
-      { "Item": "DustRare",         "CoinsCost": 342  },
-      { "Item": "ReagentRare",      "CoinsCost": 342  },
-      { "Item": "EssenceRare",      "CoinsCost": 342  },
-      { "Item": "ShardEpic",        "CoinsCost": 1042  },
-      { "Item": "DustEpic",         "CoinsCost": 1042  },
-      { "Item": "ReagentEpic",      "CoinsCost": 1042  },
-      { "Item": "EssenceEpic",      "CoinsCost": 1042  },
-      { "Item": "ShardLegendary",   "CoinsCost": 2592  },
-      { "Item": "DustLegendary",    "CoinsCost": 2592  },
-      { "Item": "ReagentLegendary", "CoinsCost": 2592  },
-      { "Item": "EssenceLegendary", "CoinsCost": 2592  }
+      { "Item": "ShardMagic",       "CoinsCost": 180   },
+      { "Item": "DustMagic",        "CoinsCost": 270   },
+      { "Item": "ReagentMagic",     "CoinsCost": 270   },
+      { "Item": "EssenceMagic",     "CoinsCost": 270   },
+      { "Item": "ShardRare",        "CoinsCost": 630  },
+      { "Item": "DustRare",         "CoinsCost": 945  },
+      { "Item": "ReagentRare",      "CoinsCost": 945  },
+      { "Item": "EssenceRare",      "CoinsCost": 945  },
+      { "Item": "ShardEpic",        "CoinsCost": 2205  },
+      { "Item": "DustEpic",         "CoinsCost": 3307 },
+      { "Item": "ReagentEpic",      "CoinsCost": 3307  },
+      { "Item": "EssenceEpic",      "CoinsCost": 3307  },
+      { "Item": "ShardLegendary",   "CoinsCost": 7830  },
+      { "Item": "DustLegendary",    "CoinsCost": 11700  },
+      { "Item": "ReagentLegendary", "CoinsCost": 11700  },
+      { "Item": "EssenceLegendary", "CoinsCost": 11700  }
     ],
     "RollsPerRarity": [1, 1, 1, 1],
     "RandomItems": [
     ],
     "RandomItemsCount": 0, 
     "OtherItems": [
-      { "Item": "Andvaranaut", "CoinsCost": 10322 }
+      { "Item": "Andvaranaut", "CoinsCost": 10000 }
     ]
   },
   "Gamble": { 
