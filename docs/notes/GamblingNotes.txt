@@ -1,0 +1,31 @@
+Gambling Fomula is:
+
+Given
+Vendor Cost (C)
+Weighted Enchanting Materials base (MBase)
+Utility Factor (F)
+
+Where C:
+-Buy price from the Vendor
+
+Where MBase:
+-Total Cost of Materials by rarity from Vendor to enchant this item class [4000,15000,79250,16500] 
+-Weighted against the odds of getting that rarity [ .69, .15, .05, .01 ] 
+-Summed = 10622.5
+-Rounded = 10000
+
+Where F:
+-Hide/Stone/Utility .5
+-Flint/Leather .7
+-Copper/Bronze/Stagbreaker .9
+-Iron/Chitin 1.1 
+-Silver/Linen and Lox Capes 1.3
+-Blackmetal/Padded/BestInClass 1.5
+
+Final Cost = (MBase + C) * F
+
+Example: AtgeirIron:
+   C = 14500
+   MBase = 10000
+   F = 1.1
+   (14500+10000)*1.1 = 26950

@@ -1,5 +1,5 @@
 #Requires -RunAsAdministrator
-function Update-SteamCmdGameValheimDedicatedServer {
+function Start-ValheimDedicatedServer {
     <#
     .SYNOPSIS
     Starts a Valheim Dedicated Server configured for Steam.
@@ -20,36 +20,41 @@ function Update-SteamCmdGameValheimDedicatedServer {
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param (
         [Parameter(Mandatory = $true)]
-        [ValidateScript( {Test-Path $_})]
-        [string]$ValheimServerRootPath,
-        [Parameter(Mandatory = $true)]
-        [ValidateScript( {Test-Path $_})]
         [string]$WorldId
     )
 
     process {
+        $ValheimServerRootPath=$PSScriptRoot
         $env:SteamAppId=892970
-        $ValheimWorldsConfig = "Valheim-Worlds.psd1"
-        if (-not Test-Path .\$ValheimWorldsConfig)
+        $ValheimWorldsConfig = "$PSScriptRoot\Valheim-Worlds.psd1"
+        Write-Host "Opening WorldsConfig at $ValheimWorldsConfig"
+        if (-not (Test-Path $ValheimWorldsConfig))
         {
             throw "The Valheim World Configuration Source .\$ValheimWorldsConfig does not exist"
         }
 
-        $config = Import-PowerShellDataFile .\$ValheimWorldsConfig
+        $config = Import-PowerShellDataFile $ValheimWorldsConfig
 
         if (-not $config.ContainsKey($WorldId))
         {
             throw "The worldId $WorldId was not found in the configuration source provided by $ValheimWorldsConfig"
         }
 
-        $valheimServerExe = Join-Path $ValheimServerRootPath $config[$WorldId].InstallPath "valheim_server.exe"
+        $valheimServerExe = Join-Path (Join-Path "$ValheimServerRootPath" "$($config[$WorldId].InstallPath)") "valheim_server.exe"
 
         if (-not (Test-Path $valheimServerExe))
         {
             throw "Unable to find $valheimServerExe"
         }
 
-        $argumentList = @('-no graphics', '-batchmode', "-name \"$config[$WorldId].ServerPublicName\"", "-port $config[$WorldId].Port", "-world \"$config[$WorldId].WorldDbName\"", "-password \"$config[$WorldId].Password\"" )
+	    $argumentList = @('-no graphics', '-batchmode')
+        $argumentList += "-name `"$($config[$WorldId].ServerPublicName)`""
+        $argumentList += "-port $($config[$WorldId].Port)"
+        $argumentList += "-world `"$($config[$WorldId].WorldDbName)`""
+        $argumentList += "-password `"$($config[$WorldId].Password)`""
+
+        Write-Host "Starting $valheimServerExe with arguments $($argumentList -join ' ')"
+
         Start-Process -FilePath $valheimServerExe -ArgumentList $argumentList
     }
 }

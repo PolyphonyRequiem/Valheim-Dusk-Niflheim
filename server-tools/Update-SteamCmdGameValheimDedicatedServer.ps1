@@ -26,7 +26,6 @@ function Update-SteamCmdGameValheimDedicatedServer {
         [ValidateScript( {Test-Path $_})]
         [string]$SteamCmdExePath = "C:\SteamCmd\steamcmd.exe",
         [Parameter(Mandatory = $true)]
-        [ValidateScript( {Test-Path $_})]
         [string]$ValheimPath
     )
 
