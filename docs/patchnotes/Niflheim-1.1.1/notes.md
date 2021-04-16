@@ -18,9 +18,9 @@
    
    | Gambling Item       | What will it cost me?          | Mundane% |  Magic%  |   Rare%  |   Epic%  |Legendary%|
    |---------------------|--------------------------------|----------|----------|----------|----------|----------|
-   | Legendary Porcupine | 3 Gold Tokens, 180,000 coins   | 0%       | 0%       | 0%       | 0%       | 100%     |
+   | Legendary Porcupine | 3 Gold Tokens & 180,000 coins  | 0%       | 0%       | 0%       | 0%       | 100%     |
    | ??? Iron Axe        | 25,000 coins                   | 10%      | 69%      | 15%      | 5%       | 1%       |
-
+   | Rare Gold Ruby Ring | 9 Forest Tokens & 7,500 coins  | 0%       | 0%       | 90%      | 9%       | 1%       | 
 
  ### Multiplayer Scaling:
  We want to encourage players playing in groups, without punishing solo play.  As of right now, we feel that groups have it too easy, but soloplay is more-or less about where we want it.  We also want to create situations where nearby players are encouraged to come to the aid of teammates even if they're not immediately present as we feel like this encourages friendly play and team-work.  To that end we have made the following changes.
@@ -44,13 +44,13 @@ We will monitor this, feel free to provide feedback on the difficulty changes ar
  
  - We currently have a 140 minute (7 day in game) dungeon contents respawn timer.  We think this is too low.  We are doubling it for now.  Additionally, monsters were set to respawn every 20 minutes in a dungeon, which could be a VERY painful fate if they spawn on top of you when you're un-prepared.  Furthermore, when far above the target level for a dungeon, they could very easily turn into farming status with the current settings.  We want you to move on and maybe come back later for more.  Monster spawns are ALSO being set to 280 minutes (14 days.)
 
+ We are looking at ways to make Dungeons even more rewarding.  Finders keepers ;)
+
  ### Hardcore Death Messages:
   - Death messages will now try to be more representative of the means of death.  Thanks again to @Fracticality!
 
  ### Bug Fixes
   - Map pins were being impacted by the logic for the Hardcore mod.  This seems to have been fixed through some clever detective work.  Thanks @Fracticality!
-  
-## Known Bugs:
 
 ## Final Words:
 
