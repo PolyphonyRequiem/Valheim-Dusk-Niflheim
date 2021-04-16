@@ -1,0 +1,21 @@
+Niflheim is being updated to version 1.1.1! You will need to update in order to connect to the server. See guidance about upgrading to 1.1.1 at https://github.com/Firoso/Valheim-Dusk-Niflheim/blob/main/docs/update-guidance/Niflheim-1.1.1/notes.md
+
+  JAMS: 
+  We have introduced more jams as a way of saying thank you to our players, just for fun!
+
+  VENDOR CHANGES:
+  Pretty big overhaul of costs, adventures, and gambling economics, as well as some exploit fixes.  See patch notes for details.
+
+  MULTIPLAYER SCALING:
+  Playing as a group is now more dangerous than before, but should still be much easier than going it alone if you are similarly geared and work together.
+
+  RAIDS:
+  Some initial efforts to tame the lower biome raids so new players won't get shut out of starter zones after boss kills.
+
+  DUNGEONS:
+  Dungeons respawn less frequently, but the loot you carry out should be worth quite a bit!
+
+  MAPS: 
+  Map pin bug should be fixed!
+
+Detailed patch notes can be read at https://github.com/Firoso/Valheim-Dusk-Niflheim/blob/main/docs/patchnotes/Niflheim-1.1.1/notes.md

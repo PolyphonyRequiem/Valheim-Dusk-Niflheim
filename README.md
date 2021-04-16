@@ -41,7 +41,7 @@ If done correctly, this will create a new Folder below Valheim titled "Valheim -
 You are now ready to install the new modpack.
 
 ## Installing the Modpack
-Download the latest modpack from [here](https://niflheim.blob.core.windows.net/modpacks/Niflheim.1.1.0.zip) - (Version 1.1.0 - 4/12/2021)
+Download the latest modpack from [here](https://niflheim.blob.core.windows.net/modpacks/Niflheim.1.1.1.zip) - (Version 1.1.1 - 4/15/2021)
 
 After the download completes, go to your "Downloads" folder and copy the Niflheim.x.y.z.zip file to your Valheim folder (see "Preparing Valheim for Isolated Modding" for help locating this folder.)  The result should look like the image below.
 

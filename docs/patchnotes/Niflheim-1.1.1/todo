@@ -3,14 +3,14 @@
 | - Jam Yes
 | - HoneyPlus No
 
-Update Hardcore to 1.3 - THANKS FRAC!
+| Update Hardcore to 1.2 - THANKS FRAC!
 | Check for critical updates (no speculative updates) of mods
-Check to make sure there are no bugs we want to tackle for 1.1.1 still
-Compile patch notes
-Deploy and test changes (discuss test objectives with team)
-Package modbins and publish to blob store
-Start test modded dedicated server
-Write the announce
+| Check to make sure there are no bugs we want to tackle for 1.1.1 still
+| Compile patch notes
+| Deploy and test changes (discuss test objectives with team)
+| Package modbins and publish to blob store
+| Start test modded dedicated server
+| Write the announce
 post to discord
 take the server down
 update to validation password
