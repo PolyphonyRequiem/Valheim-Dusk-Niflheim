@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3543335153
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bundle_terraheim
+      Dependencies: {}

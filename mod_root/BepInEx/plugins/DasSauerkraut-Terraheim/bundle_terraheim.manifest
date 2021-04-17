@@ -1,0 +1,104 @@
+ManifestFileVersion: 0
+CRC: 163339340
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5e6c77f9720bc9c09b48d7d16c9563bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: eda0d339619d11c42b90b5a8f9cddee6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: cbd5fa323f5878a4a9d2067506849788, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8d45473e8c78044bb6d98eef5f4954b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3889f0d3463bb3442b35a71ae6a9aa81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c29880076ce5b8b47bd4dee159709bdc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d67fb1384d7b43040920e9b8ab1fdbfe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0309d8493dd3ea440afae051baab1b88, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 05474d6af533eb34fa1b524f64537ba4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f2f6da8a7f3787147bfb2b3e7a891588, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93cc5a2bf25f6df4fa99b86fd407f67a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53b94edb9c38ba04fbb1c12cbda9dbe8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 47a12bfc7ce7bd8418be7a43db1cbf9a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e755567d5b52c0c449bd580a6f673cda, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c845600e81725a74d81ad240acd4d849, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CustomItems/frostbomb/frostbomb_projectile.prefab
+- Assets/CustomItems/frostbomb/frostbomb_explosion.prefab
+- Assets/CustomItems/folcbrand/SwordFolcbrand.prefab
+- Assets/CustomItems/lightningbomb/lightningbomb_projectile.prefab
+- Assets/CustomItems/lightningbomb/BombLightning.prefab
+- Assets/CustomItems/firebomb/BombFire.prefab
+- Assets/CustomItems/kresja/AtgeirSilver.prefab
+- Assets/CustomItems/blackmetalspear/blackmetalspear_projectile.prefab
+- Assets/CustomItems/greatswordblackmetal/GreatswordBlackmetal.prefab
+- Assets/CustomItems/blackmetalspear/SpearBlackmetal.prefab
+- Assets/CustomItems/blackmetalAxehammer/BattleaxeBronzeTerraheim.prefab
+- Assets/CustomItems/firebomb/firebomb_explosion.prefab
+- Assets/CustomItems/Olympia/TorchOlympia.prefab
+- Assets/CustomItems/lightningbomb/lightningbomb_explosion.prefab
+- Assets/CustomItems/forstasca/AxeForstasca.prefab
+- Assets/CustomItems/greatswordiron/GreatswordIron.prefab
+- Assets/CustomItems/blackironPickaxe/PickaxeBlackmetal.prefab
+- Assets/CustomItems/BattleaxeSilver/BattleaxeSilver.prefab
+- Assets/CustomItems/firebomb/firebomb_projectile.prefab
+- Assets/CustomItems/BattleaxeBronze/BattleaxeBronzeTerraheim.prefab
+- Assets/CustomItems/frostbomb/BombFrost.prefab
+- Assets/CustomItems/BattleaxeBlackmetal/GreataxeBlackmetal.prefab
+- Assets/CustomItems/ironKnife/KnifeIron.prefab
+- Assets/CustomItems/blackmetalAxehammer/BattleaxeBlackmetal.prefab
+Dependencies: []

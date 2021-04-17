@@ -1,25 +1,368 @@
-# You can also set a specific configuration for one creature or boss only. This will limit the level for the serpent and prevent it from spawning with the Armored or Quick effect.
-Serpent:
-    stars:
-        0: [30]
-        1: [30, 10]
-        2: [30, 10, 5]
-    effect:
-        Armored: 0
-        Quick: 0
+# Define your own groups here and assign creatures to your groups. There are default groups for all biomes, which do not have to be created by you, unless you want to assign different creatures to it.
+# Special groups: all, creature, boss
+groups:
+    Ranged:
+        - Fuling Archer
+        - Draugr Archer
+    Caster:
+        - Fuling shaman
+        - Surtling
+        - Greydwarf shaman
+    Undead:
+        - Skeleton
+    Ethereal:
+        - Ghost
+        - Wraith
+    Plains:
+        - Fuling
+    Brutes:
+        - Troll
+        - Greydwarf brute
+        - Lox
+        - Fuling Berserker
+        - Stone Golem
+    Speedster:
+        - Deathsquito
+    Poison:
+        - Blob
+        - Oozer
+        - Leech
+    Melee:
+        - Draugr
+        - Draugr elite
+    Mountains:
+        - Wolf
+        - Fenrig
+        - Drake
+    Ocean:
+        - Serpent
+    Wildlife:
+        - Boar
+        - Neck
+    Forest Creatures:
+        - Greydwarf
 
-# This will prevent Deers from having their size increased per level and will double the loot you get from Deers with at least 2 stars, until you reach world level 1.
+Wildlife:
+    effect: 0
+    infusion: 0
+    damage per star: 0.04
+    damage: 1.3
+    movement speed: 1.2
+
 Deer:
-    loot:
-        0: [1.5, 2]
-        1: default
+    health per star: 1.2
+    movement speed: 1.2
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0 ]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
 
-Boar:
-    loot:
-        0: [1.5, 2]
-        1: default
+Eikthyr:
+    health: 0.8
+    damage per star: 0.06
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0 ]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+    affix:
+        0:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [0, 0, 0, 0, 0]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [30, 30, 30, 30, 30]
+        1:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [0, 0, 0, 0, 0]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [30, 30, 30, 30, 30]
+        2:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [0, 0, 0, 0, 0]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [30, 30, 30, 30, 30]
+        3:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [0, 0, 0, 0, 0]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [30, 30, 30, 30, 30]
+        4:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [0, 0, 0, 0, 0]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [30, 30, 30, 30, 30]
+        5:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [0, 0, 0, 0, 0]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [30, 30, 30, 30, 30]
 
-# You can use the 'health per star' and 'damage per star' keywords to adjust the health and damage a creature or boss gains per star. This will decrease the health and damage gained per star for Bonemass.
-boss:
-    health per star: 0.2
-    damage per star: 0.09
+The Elder:
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0 ]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+
+Bonemass:
+    health: 1.0
+    damage: 1.0
+    movement speed: 0.7
+    damage per star: 0.15
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0 ]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+
+Moder: 
+    health: 1.4
+    damage: 0.7
+    damage per star: 0.12
+    movement speed: 1.2
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0 ]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+
+Caster:
+    health: 0.4
+    damage: 1.5
+    movement speed: 1.1
+    damage per star: 0.15
+
+Brutes:
+    health: 1.0
+    damage: 1.5
+    movement speed: 0.5
+    damage per star: 0.2
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [100, 100, 100, 100, 100]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [100, 100, 100, 100, 100]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [100, 100, 100, 100, 100]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [100, 100, 100, 100, 100]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [100, 100, 100, 100, 100]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [100, 100, 100, 100, 100]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+
+Ethereal:
+    health: 1.2
+    damage: 0.5
+    movement speed: 1.5
+    damage per star: 0.15
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [100, 100, 100, 100, 100]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [100, 100, 100, 100, 100]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [100, 100, 100, 100, 100]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [100, 100, 100, 100, 100]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [100, 100, 100, 100, 100]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [100, 100, 100, 100, 100]
+
+Speedster:
+    health: 1.3
+    damage: 0.6
+    movement speed: 1.5
+    damage per star: 0.2
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [100, 100, 100, 100, 100]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [100, 100, 100, 100, 100]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [100, 100, 100, 100, 100]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [100, 100, 100, 100, 100]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [100, 100, 100, 100, 100]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [100, 100, 100, 100, 100]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+
+#     Poison:
+#         - Blob
+#         - Oozer
+#         - Leech
+#     Melee:
+#         - Draugr
+#         - Draugr elite
+#     Mountains:
+#         - Wolf
+#         - Fenrig
+#         - Drake
+#     Ocean:
+#         - Serpent
+#     Wildlife:
+#         - Boar
+#         - Neck
+#         - Deer
+
+# Ranged:
+#     health: 0.6
+#     damage: 0.7
+
+# Undead:
+#     health: 0.6
+#     damage: 0.7
+
+# Ethereal:
+#     health: 1.4
+#     damage: 0.7
+#     movement speed: 1.3
+
+
+# Speedster:
+#     health: 1.3
+#     damage: 0.6
+#     movement speed: 1.5
+
+# Wildlife:
+#     damage: 0.6
+#     movement speed: 1.2
+
+# Eikthyr:
+#     health: 0.7
+#     movement speed: 0.9
+
+# The Elder:
+#     damage: 0.7
+#     movement speed: 0.8
+
+# Bonemass:
+#     movement speed: 0.4
+#     damage per star: 0.15
+
+# Moder: 
+#     health: 1.3
+#     damage: 0.8
+#     damage per star: 0.12
+#     movement speed: 1.1
