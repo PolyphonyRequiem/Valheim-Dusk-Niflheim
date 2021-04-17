@@ -10,6 +10,7 @@ groups:
         - Greydwarf shaman
     Undead:
         - Skeleton
+        - Rancid remains
     Ethereal:
         - Ghost
         - Wraith
@@ -62,6 +63,7 @@ Deer:
 
 Eikthyr:
     health: 0.8
+    damage: 0.7
     damage per star: 0.06
     stars:
         0: [20, 0, 0, 0, 0]
@@ -121,6 +123,9 @@ Eikthyr:
             Twin: [30, 30, 30, 30, 30]
 
 The Elder:
+    health: 0.9
+    damage: 0.8
+    damage per star: 0.08
     stars:
         0: [20, 0, 0, 0, 0]
         1: [80, 5, 0, 0, 0 ]
@@ -128,6 +133,55 @@ The Elder:
         3: [0, 15, 80, 5, 0]
         4: [0, 0, 15, 80, 5]
         5: [0, 0, 0, 15, 85]
+    affix:
+        0:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [10, 10, 10, 10, 10]
+        1:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [10, 10, 10, 10, 10]
+        2:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [10, 10, 10, 10, 10]
+        3:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [10, 10, 10, 10, 10]
+        4:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [10, 10, 10, 10, 10]
+        5:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [10, 10, 10, 10, 10]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [30, 30, 30, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [10, 10, 10, 10, 10]
 
 Bonemass:
     health: 1.0
@@ -141,6 +195,55 @@ Bonemass:
         3: [0, 15, 80, 5, 0]
         4: [0, 0, 15, 80, 5]
         5: [0, 0, 0, 15, 85]
+    affix:
+        0:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [0, 0, 0, 0, 0]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [40, 40, 40, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [0, 0, 0, 0, 0]
+        1:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [0, 0, 0, 0, 0]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [40, 40, 40, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [0, 0, 0, 0, 0]
+        2:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [0, 0, 0, 0, 0]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [40, 40, 40, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [0, 0, 0, 0, 0]
+        3:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [0, 0, 0, 0, 0]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [40, 40, 40, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [0, 0, 0, 0, 0]
+        4:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [0, 0, 0, 0, 0]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [40, 40, 40, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [0, 0, 0, 0, 0]
+        5:
+            Mending: [0, 0, 0, 0, 0]
+            Shielded: [0, 0, 0, 0, 0]
+            Reflective: [0, 0, 0, 0, 0]
+            Summoner: [30, 30, 30, 30, 30]
+            Elementalist: [40, 40, 40, 30, 30]
+            Enraged: [30, 30, 30, 30, 30]
+            Twin: [0, 0, 0, 0, 0]
 
 Moder: 
     health: 1.4
@@ -157,9 +260,52 @@ Moder:
 
 Caster:
     health: 0.4
-    damage: 1.5
+    damage: 0.6
     movement speed: 1.1
     damage per star: 0.15
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
 
 Brutes:
     health: 1.0
@@ -308,6 +454,55 @@ Speedster:
             Regenerating: [0, 0, 0, 0, 0]
             Splitting: [0, 0, 0, 0, 0]
 
+Undead:
+    health: 0.6
+    damage: 0.7
+    movement speed: 1.3
+    damage per star: 0.05
+    effect:
+        0:
+            Aggressive: [100, 100, 100, 100, 100]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [100, 100, 100, 100, 100]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [100, 100, 100, 100, 100]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [100, 100, 100, 100, 100]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [100, 100, 100, 100, 100]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [100, 100, 100, 100, 100]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+
 #     Poison:
 #         - Blob
 #         - Oozer
@@ -327,10 +522,6 @@ Speedster:
 #         - Deer
 
 # Ranged:
-#     health: 0.6
-#     damage: 0.7
-
-# Undead:
 #     health: 0.6
 #     damage: 0.7
 
