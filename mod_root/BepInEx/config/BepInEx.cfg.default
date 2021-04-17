@@ -144,11 +144,3 @@ Type = Application
 # Default value: .cctor
 Method = .cctor
 
-[Server]
-
-dataRate = 500
-
-enforceMod = true
-
-enabled = true
-
