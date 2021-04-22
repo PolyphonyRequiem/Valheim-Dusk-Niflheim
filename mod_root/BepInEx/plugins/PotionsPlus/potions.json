@@ -16,25 +16,6 @@
       ]
     },
     {
-      "name": "Recipe_Lesser_Healing_Tide_Vial",
-      "item": "Lesser_Healing_Tide_Vial",
-      "amount": 1,
-      "craftingStation": "piece_cauldron",
-      "minStationLevel": 1,
-      "enabled": true,
-      "repairStation": "",
-      "resources": [
-        {
-          "item": "Raspberry",
-          "amount": 2
-        },
-        {
-          "item": "Resin",
-          "amount": 1
-        }
-      ]
-    },
-    {
       "name": "Recipe_Lesser_Stamina_Vial",
       "item": "Lesser_Stamina_Vial",
       "amount": 1,
