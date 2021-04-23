@@ -55,4 +55,4 @@ Write-Host "Packaging"
 
 $archiveName = if ($Version){"Niflheim-$Version.zip"} else {"Niflheim.zip"}
 
-Compress-Archive -Path $out -DestinationPath $out\$archiveName
+Compress-Archive -Path $out\* -DestinationPath $out\$archiveName
