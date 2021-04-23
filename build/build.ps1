@@ -35,3 +35,5 @@ Write-Host "Placing modbins..."
 Copy-Item $modbins\* $out -Force -Recurse
 Write-Host "Placing mod_root..."
 Copy-Item $mod_root\* $out -Force -Recurse
+
+Compress-Archive -Path $out -DestinationPath $out\Niflheim.zip
