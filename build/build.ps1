@@ -1,3 +1,10 @@
+param (
+    [switch]$Debug = $false,
+    [string]$Version = ""
+)
+
+$ErrorActionPreference = "Stop"
+
 $scriptRoot = if ($PSScriptRoot) {$PSScriptRoot} else {".\"}
 $root = Join-Path  $scriptRoot ..\
 $mod_root = Join-Path $root .\mod_root
@@ -36,4 +43,16 @@ Copy-Item $modbins\* $out -Force -Recurse
 Write-Host "Placing mod_root..."
 Copy-Item $mod_root\* $out -Force -Recurse
 
-Compress-Archive -Path $out -DestinationPath $out\Niflheim.zip
+if (-not $Debug)
+{
+    Write-Host "Stripping out debugging tools..."
+
+    Remove-Item -Path (Join-Path $out "\BepInEx\plugins\SkToolboxValheim.dll")
+    Remove-Item -Path (Join-Path $out "\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll")
+}
+
+Write-Host "Packaging"
+
+$archiveName = if ($Version){"Niflheim-$Version.zip"} else {"Niflheim.zip"}
+
+Compress-Archive -Path $out -DestinationPath $out\$archiveName
