@@ -1,4 +1,5 @@
 /modbins/**
 /modbase/**
+/out/**
 *.dll
 *.wav
