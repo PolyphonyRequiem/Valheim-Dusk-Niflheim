@@ -6,7 +6,6 @@ groups:
         - Draugr Archer
     Caster:
         - Fuling shaman
-        - Surtling
         - Greydwarf shaman
     Undead:
         - Skeleton
@@ -547,6 +546,63 @@ Forest Creatures:
             Quick: [5, 6, 7, 8, 9]
             Regenerating: [5, 6, 7, 8, 9]
             Splitting: [5, 6, 7, 8, 9]
+    loot:
+        0: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
+        1: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
+        2: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
+        3: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
+        4: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
+        5: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
+
+Surtling:
+    size: 0
+    health: 1.1
+    damage: 1.1
+    movement speed: 1.1
+    damage per star: 0.09
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
     loot:
         0: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
         1: [0.75, 1, 1.25, 1.75, 2.0, 2.5]
@@ -1688,7 +1744,7 @@ Yagluth:
     health: 1.2
     damage: 1.2
     damage per star: 0.11
-    movement speed: 1.4
+    movement speed: 1.55
     stars:
         0: [20, 0, 0, 0, 0]
         1: [80, 5, 0, 0, 0]
