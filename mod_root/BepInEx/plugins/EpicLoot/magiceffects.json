@@ -850,7 +850,6 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch",
-          "Tool",
           "Shield",
           "Helmet",
           "Chest",
@@ -886,7 +885,7 @@
           "Shoulder"
         ]
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 0,
       "Prefixes": [ "Weightless" ],
       "Suffixes": [ "Weightlessness" ]
     },
