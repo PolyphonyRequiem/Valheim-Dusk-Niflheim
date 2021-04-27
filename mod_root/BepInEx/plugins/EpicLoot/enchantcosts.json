@@ -86,12 +86,12 @@
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_fenring", "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_sgolem" ],
+      "ItemNames" : [ "$item_trophy_fenring", "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_deathsquito", ],
       "Products" : [ { "Item": "ShardEpic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_deathsquito", "$item_trophy_goblinbrute", "$item_trophy_goblinshaman", "$item_trophy_serpent" ],
+      "ItemNames" : [ "$item_trophy_goblinbrute", "$item_trophy_sgolem", "$item_trophy_goblinshaman", "$item_trophy_serpent" ],
       "Products" : [ { "Item": "ShardLegendary", "Amount": 1 } ]
     },
     {
@@ -107,7 +107,7 @@
     {
       "ItemTypes" : [ "Trophie" ],
       "ItemNames" : [ "$item_trophy_bonemass" ],
-      "Products" : [ { "Item": "RunestoneEpic", "Amount": 1 } ]
+      "Products" : [ { "Item": "RunestoneEpic", "Amount": 2 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
