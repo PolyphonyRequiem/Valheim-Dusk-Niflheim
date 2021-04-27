@@ -1,0 +1,107 @@
+{
+  "recipes": [
+    {
+      "name": "Recipe_LeatherQuiver",
+      "item": "LeatherQuiver",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        {
+          "item": "LeatherScraps",
+          "amount": 20
+        },
+        {
+          "item": "DeerHide",
+          "amount": 10
+        },
+        {
+          "item": "TrollHide",
+          "amount": 10
+        }
+      ]
+    },
+	{
+      "name": "Recipe_ArrowWoodAnywhere",
+      "item": "ArrowWood",
+      "amount": 20,
+      "craftingStation": "",
+      "resources": [
+        {
+          "item": "Wood",
+          "amount": 8
+        }
+      ]
+    },
+	{
+      "name": "Recipe_FireArrowTransform",
+      "item": "ArrowFire",
+      "amount": 20,
+      "craftingStation": "",
+      "resources": [
+        {
+          "item": "ArrowWood",
+          "amount": 20
+        },
+		{
+          "item": "Resin",
+          "amount": 8
+        },
+		{
+          "item": "Feathers",
+          "amount": 2
+        }
+      ]
+    },
+	{
+      "name": "Recipe_PoisonArrowTransform",
+      "item": "ArrowPoison",
+      "amount": 20,
+      "craftingStation": "",
+      "resources": [
+        {
+          "item": "ArrowObsidian",
+          "amount": 20
+        },
+		{
+          "item": "Ooze",
+          "amount": 2
+        }
+      ]
+    },
+	{
+      "name": "Recipe_SilverArrowTransform",
+      "item": "ArrowSilver",
+      "amount": 20,
+      "craftingStation": "",
+      "resources": [
+        {
+          "item": "ArrowWood",
+          "amount": 20
+        },
+		{
+          "item": "Silver",
+          "amount": 1
+        },
+		{
+          "item": "Feathers",
+          "amount": 2
+        }
+      ]
+    },
+	{
+      "name": "Recipe_FrostArrowTransform",
+      "item": "ArrowFrost",
+      "amount": 20,
+      "craftingStation": "",
+      "resources": [
+        {
+          "item": "ArrowObsidian",
+          "amount": 20
+        },
+		{
+          "item": "FreezeGland",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}
