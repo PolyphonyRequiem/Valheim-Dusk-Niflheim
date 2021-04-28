@@ -1,19 +1,10 @@
 {
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // MAGIC EFFECT COUNTS
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   "MagicEffectsCount": {
     "Magic":     [ [1, 80], [2, 18], [3, 2] ],
     "Rare":      [ [2, 80], [3, 18], [4, 2] ],
     "Epic":      [ [3, 80], [4, 18], [5, 2] ],
     "Legendary": [ [4, 80], [5, 18], [6, 2] ]
   },
-
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // ITEM RESTRICTIONS
-  //   - It's not recommended to change any of these, but if you wanted to allow Dyrnwyn or tankards for some reason,
-  //     remove them from this list. You really shouldn't remove Unarmed or CAPE TEST from this list.
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   "RestrictedItems": [
     "$item_tankard",
     "$item_tankard_odin",
@@ -24,13 +15,7 @@
     "$item_shield_iron_square"
   ],
 
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // ITEM SETS
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   "ItemSets": [
-
-    // Enchanting Mats
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "EnchantingMats",
       "Loot": [
@@ -105,9 +90,6 @@
         { "Item": "GoldRubyRing" }
       ]
     },
-
-    // Tier 0 Items
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier0Weapons",
       "Loot": [
@@ -141,14 +123,11 @@
       "Name": "Tier0Everything",
       "Loot": [
         { "Item": "Tier0Weapons" },
-        { "Item": "Tier0Tools"   },
         { "Item": "Tier0Armor"   },
         { "Item": "Tier0Shields" }
       ]
     },
 
-    // Tier 1 Items
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier1Weapons",
       "Loot": [
@@ -174,16 +153,21 @@
       ]
     },
     {
-      "Name": "Tier1Everything",
-      "Loot": [
-        { "Item": "Tier1Weapons" },
-        { "Item": "Tier1Armor"   },
-        { "Item": "Tier1Tools"   }
+      "Name": "Tier0T1Mats",
+      "Loot":[
+        { "Item": "DustMagic"},
+        { "Item": "EssenceMagic"},
+        { "Item": "ReagentMagic"}
       ]
     },
-
-    // Tier 2 Items
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier1Everything",
+      "Loot": [
+        { "Item": "Tier1Weapons", "Weight": 49},
+        { "Item": "Tier1Armor", "Weight": 49},
+        { "Item": "Tier0T1Mats", "Weight": 1 }
+      ]
+    },
     {
       "Name": "TrollArmor",
       "Loot": [
@@ -212,9 +196,9 @@
     { 
       "Name": "Tier2Armor",
       "Loot": [
-        { "Item": "ArmorBronzeLegs",  "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "ArmorBronzeChest", "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "HelmetBronze",     "Rarity": [ 95, 5, 0, 0 ] },
+        { "Item": "ArmorBronzeLegs", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
+        { "Item": "ArmorBronzeChest", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
+        { "Item": "HelmetBronze", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
         { "Item": "HelmetLeatherT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
         { "Item": "ArmorLeatherChestT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
         { "Item": "ArmorLeatherLegsT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
@@ -237,18 +221,32 @@
       ]
     },
     {
-      "Name": "Tier2Everything",
-      "Loot": [
-        { "Item": "TrollArmor"   },
-        { "Item": "Tier2Weapons" },
-        { "Item": "Tier2Armor"   },
-        { "Item": "Tier2Shields" },
-        { "Item": "Tier2Tools"   }
+      "Name": "Tier0T2Mats",
+      "Loot":[
+        { "Item": "DustMagic"},
+        { "Item": "EssenceMagic"},
+        { "Item": "ReagentMagic"}
       ]
     },
-
-    // Tier 3 Items
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier1T2Mats",
+      "Loot":[
+        { "Item": "DustRare"},
+        { "Item": "EssenceRare"},
+        { "Item": "ReagentRare"}
+      ]
+    },
+    {
+      "Name": "Tier2Everything",
+      "Loot": [
+        { "Item": "TrollArmor", "Weight":    24},
+        { "Item": "Tier2Weapons", "Weight":  24},
+        { "Item": "Tier2Armor", "Weight":    24},
+        { "Item": "Tier2Shields", "Weight":  24},
+        { "Item": "Tier0T2Mats", "Weight": 1 },
+        { "Item": "Tier1T2Mats", "Weight": 3 }
+      ]
+    },
     {
       "Name": "Tier3Weapons",
       "Loot": [
@@ -277,7 +275,11 @@
         { "Item": "ArmorTrollLeatherLegsT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
         { "Item": "HelmetLeatherT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
         { "Item": "ArmorLeatherChestT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorLeatherLegsT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "ArmorLeatherLegsT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeLegsJDT3",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeChestJDT3",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeHelmetJDT3",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        
       ]
     },
     {
@@ -294,22 +296,45 @@
       ]
     },
     {
-      "Name": "Tier3Everything",
-      "Loot": [
-        { "Item": "Tier3Weapons" },
-        { "Item": "Tier3Armor"   },
-        { "Item": "Tier3Shields" },
-        { "Item": "Tier3Tools"   }
+      "Name": "Tier0T3Mats",
+      "Loot":[
+        { "Item": "DustMagic"},
+        { "Item": "EssenceMagic"},
+        { "Item": "ReagentMagic"}
       ]
     },
-
-    // Tier 4 Items
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier1T3Mats",
+      "Loot":[
+        { "Item": "DustRare"},
+        { "Item": "EssenceRare"},
+        { "Item": "ReagentRare"}
+      ]
+    },
+    {
+      "Name": "Tier23T3Mats",
+      "Loot":[
+        { "Item": "DustEpic"},
+        { "Item": "EssenceEpic"},
+        { "Item": "ReagentEpic"}
+      ]
+    },
+    {
+      "Name": "Tier3Everything",
+      "Loot": [
+        { "Item": "Tier3Weapons", "Weight": 31 },
+        { "Item": "Tier3Armor", "Weight": 31   },
+        { "Item": "Tier3Shields", "Weight": 31 },
+        { "Item": "Tier0T3Mats", "Weight": 3 },
+        { "Item": "Tier1T3Mats", "Weight": 2 },
+        { "Item": "Tier2T3Mats", "Weight": 1 }
+      ]
+    },
     {
       "Name": "Tier4Weapons",
       "Loot": [
-        { "Item": "SwordSilver",   "Weight": 10, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "SpearWolfFang", "Weight": 10, "Rarity": [ 10, 40, 45, 15 ] },
+        { "Item": "SwordSilver",   "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
+        { "Item": "SpearWolfFang", "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
         { "Item": "MaceSilver",    "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
         { "Item": "BowDraugrFang", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
         { "Item": "AxeForstasca", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
@@ -336,40 +361,75 @@
         { "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
         { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
         { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] }
+        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
+        { "Item": "ArmorBarbarianBronzeLegsJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeChestJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeHelmetJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
       ]
     },
     {
       "Name": "Tier4Shields",
       "Loot": [
-        { "Item": "ShieldSilver",       "Weight": 5, "Rarity": [ 10, 40, 45, 15 ] },
+        { "Item": "ShieldSilver",       "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
         { "Item": "ShieldSerpentscale", "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] }
+      ]
+    },
+    {
+      "Name": "Tier0T4Mats",
+      "Loot":[
+        { "Item": "DustMagic"},
+        { "Item": "EssenceMagic"},
+        { "Item": "ReagentMagic"}
+      ]
+    },
+    {
+      "Name": "Tier1T4Mats",
+      "Loot":[
+        { "Item": "DustRare"},
+        { "Item": "EssenceRare"},
+        { "Item": "ReagentRare"}
+      ]
+    },
+    {
+      "Name": "Tier2T4Mats",
+      "Loot":[
+        { "Item": "DustEpic"},
+        { "Item": "EssenceEpic"},
+        { "Item": "ReagentEpic"}
+      ]
+    },
+    {
+      "Name": "Tier3T4Mats",
+      "Loot":[
+        { "Item": "DustLegendary"},
+        { "Item": "EssenceLegendary"},
+        { "Item": "ReagentLegendary"}
       ]
     },
     {
       "Name": "Tier4Everything",
       "Loot": [
-        { "Item": "Tier4Weapons" },
-        { "Item": "Tier4Armor"   },
-        { "Item": "Tier4Shields" }
+        { "Item": "Tier4Weapons", "Weight": 93 },
+        { "Item": "Tier4Armor", "Weight": 93 },
+        { "Item": "Tier4Shields", "Weight": 93},
+        { "Item": "Tier0T4Mats", "Weight": 3 },
+        { "Item": "Tier1T4Mats", "Weight": 8 },
+        { "Item": "Tier2T4Mats", "Weight": 5 },
+        { "Item": "Tier3T4Mats", "Weight": 1 }
       ]
     },
-
-    // Tier 5 Items
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier5Weapons",
       "Loot": [
-        { "Item": "AtgeirBlackmetal", "Weight": 3, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "AxeBlackMetal",    "Weight": 3, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "KnifeBlackMetal",  "Weight": 3, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "SwordBlackmetal",  "Weight": 3, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "AtgeirBlackmetal", "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "AxeBlackMetal",    "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "KnifeBlackMetal",  "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "SwordBlackmetal",  "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "MaceNeedle",       "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "SpearBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "BattleaxeBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "GreatswordBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "GreataxeBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "PickaxeBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] }
+        { "Item": "GreataxeBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] }
       ]
     },
     {
@@ -380,9 +440,9 @@
         { "Item": "HelmetPadded",       "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "CapeLinen",          "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "CapeLox",            "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },{ "Item": "HelmetIronT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetDrakeT5_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorWolfChestT5_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorWolfLegsT5_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "HelmetDrakeT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "ArmorWolfChestT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "ArmorWolfLegsT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "ArmorIronChestT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "ArmorIronLegsT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "HelmetBronzeT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
@@ -393,7 +453,10 @@
         { "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
         { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] }
+        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
+        { "Item": "ArmorBarbarianBronzeLegsJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeChestJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
+        { "Item": "ArmorBarbarianBronzeHelmetJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
       ]
     },
     {
@@ -404,21 +467,57 @@
       ]
     },
     {
+      "Name": "Tier5Tools",
+      "Loot": [
+        { "Item": "PickaxeBlackmetal", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+      ]
+    },
+    {
+      "Name": "Tier0T4Mats",
+      "Loot":[
+        { "Item": "DustMagic"},
+        { "Item": "EssenceMagic"},
+        { "Item": "ReagentMagic"}
+      ]
+    },
+    {
+      "Name": "Tier1T4Mats",
+      "Loot":[
+        { "Item": "DustRare"},
+        { "Item": "EssenceRare"},
+        { "Item": "ReagentRare"}
+      ]
+    },
+    {
+      "Name": "Tier2T4Mats",
+      "Loot":[
+        { "Item": "DustEpic"},
+        { "Item": "EssenceEpic"},
+        { "Item": "ReagentEpic"}
+      ]
+    },
+    {
+      "Name": "Tier3T4Mats",
+      "Loot":[
+        { "Item": "DustLegendary"},
+        { "Item": "EssenceLegendary"},
+        { "Item": "ReagentLegendary"}
+      ]
+    },
+    {
       "Name": "Tier5Everything",
       "Loot": [
-        { "Item": "Tier5Weapons" },
-        { "Item": "Tier5Armor"   },
-        { "Item": "Tier5Shields" }
+        { "Item": "Tier5Weapons",  "Weight": 30 },
+        { "Item": "Tier5Armor",  "Weight": 30 },
+        { "Item": "Tier5Shields",  "Weight": 30 },
+        { "Item": "Tier0T5Mats", "Weight": 1 },
+        { "Item": "Tier1T5Mats", "Weight": 3 },
+        { "Item": "Tier2T5Mats", "Weight": 3 },
+        { "Item": "Tier3T5Mats", "Weight": 1 }
       ]
     }
   ],
   "LootTables": [
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // CREATURES
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier0Mob",
       "LeveledLoot": [
@@ -466,8 +565,6 @@
         }
       ]
     },
-    // Tier 1 Mobs (Skeleton, Greydwarf)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier1Mob",
       "LeveledLoot": [
@@ -521,8 +618,6 @@
         }
       ]
     },
-    // Tier 2 Mobs (Greydwarf Brute, Greydwarf Shaman, Poison Skeleton)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier2Mob",
       "LeveledLoot": [
@@ -579,8 +674,6 @@
         }
       ]
     },
-    // Tier 3 Mobs (Troll, Ghost, Leech, Blob, Draugr)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier3Mob",
       "LeveledLoot": [
@@ -633,8 +726,6 @@
         }
       ]
     },
-    // Tier 4 Mobs (Draugr Elite, Oozer, Wraith, Wolf, Drake)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier4Mob",
       "LeveledLoot": [
@@ -687,8 +778,6 @@
         }
       ]
     },
-    // Tier 5 Mobs (Goblin, Deathsquito, Lox, Fenring, Stone Golem, Serpent)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier5Mob",
       "LeveledLoot": [
@@ -741,8 +830,6 @@
         }
       ]
     },
-    // Tier 6 Mobs (Fuling Berserker, Fuling Shaman)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier6Mob",
       "LeveledLoot": [
@@ -790,13 +877,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    // Greyling
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Greyling",
       "LeveledLoot": [
@@ -844,8 +924,6 @@
         }
       ]
     },
-    // Deer
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Deer",
       "LeveledLoot": [
@@ -893,8 +971,6 @@
         }
       ]
     },
-    // Boar
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Boar",
       "LeveledLoot": [
@@ -941,9 +1017,7 @@
           ]
         }
       ]
-    },
-    // Neck
-    ////////////////////////////////////////////////////////////////////////////////////
+    },    
     {
       "Object": "Neck",
       "LeveledLoot": [
@@ -990,14 +1064,7 @@
           ]
         }
       ]
-    },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 1 Mobs (Greydwarf, Skeleton)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    // Greydwarf
-    ////////////////////////////////////////////////////////////////////////////////////
+    }, 
     {
       "Object": "Greydwarf",
       "LeveledLoot": [
@@ -1045,8 +1112,6 @@
         }
       ]
     },
-    // Skeleton
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Skeleton",
       "LeveledLoot": [
@@ -1094,13 +1159,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 2 Mobs (Greydwarf Brute, Greydwarf Shaman, Rancid Remains)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    // Greydwarf Brute (Greydwarf_Elite)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Greydwarf_Elite",
       "LeveledLoot": [
@@ -1148,8 +1206,6 @@
         }
       ]
     },
-    // Greydwarf Shaman (Greydwarf_Shaman)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Greydwarf_Shaman",
       "LeveledLoot": [
@@ -1196,9 +1252,7 @@
           ]
         }
       ]
-    },
-    // Rancid Remains (Skeleton_Poison)
-    ////////////////////////////////////////////////////////////////////////////////////
+    },   
     {
       "Object": "Skeleton_Poison",
       "LeveledLoot": [
@@ -1246,13 +1300,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 3 Mobs (Troll, Ghost, Leech, Blob, Draugr, Surtling)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    // Troll
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Troll",
       "LeveledLoot": [
@@ -1300,8 +1347,6 @@
         }
       ]
     },
-    // Ghost
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Ghost",
       "LeveledLoot": [
@@ -1349,8 +1394,6 @@
         }
       ]
     },
-    // Blob
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Blob",
       "LeveledLoot": [
@@ -1398,8 +1441,6 @@
         }
       ]
     },
-    // Draugr
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Draugr",
       "LeveledLoot": [
@@ -1446,9 +1487,7 @@
           ]
         }
       ]
-    },
-    // Leech
-    ////////////////////////////////////////////////////////////////////////////////////
+    },   
     {
       "Object": "Leech",
       "LeveledLoot": [
@@ -1496,8 +1535,6 @@
         }
       ]
     },
-    // Surtling
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Surtling",
       "LeveledLoot": [
@@ -1545,13 +1582,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 4 Mobs (Draugr Elite, Oozer, Wraith, Wolf, Drake)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    // Draugr Elite (Draugr_Elite)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Draugr_Elite",
       "LeveledLoot": [
@@ -1598,9 +1628,7 @@
           ]
         }
       ]
-    },
-    // Oozer (BlobElite)
-    ////////////////////////////////////////////////////////////////////////////////////
+    }, 
     {
       "Object": "BlobElite",
       "LeveledLoot": [
@@ -1648,8 +1676,6 @@
         }
       ]
     },
-    // Wraith
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Wraith",
       "LeveledLoot": [
@@ -1696,9 +1722,7 @@
           ]
         }
       ]
-    },
-    // Wolf
-    ////////////////////////////////////////////////////////////////////////////////////
+    }, 
     {
       "Object": "Wolf",
       "LeveledLoot": [
@@ -1746,8 +1770,6 @@
         }
       ]
     },
-    // Drake (Hatchling)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Hatchling",
       "LeveledLoot": [
@@ -1795,13 +1817,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    //Begin Tier 5 Mobs (Stone Golem, Fenring, Serpent, Goblin, Deathsquito, Lox)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    // Stone Golem (StoneGolem)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "StoneGolem",
       "LeveledLoot": [
@@ -1849,8 +1864,6 @@
         }
       ]
     },
-    // Fenring
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Fenring",
       "LeveledLoot": [
@@ -1898,8 +1911,6 @@
         }
       ]
     },
-    // Serpent
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Serpent",
       "LeveledLoot": [
@@ -1946,9 +1957,7 @@
           ]
         }
       ]
-    },
-    // Deathsquito
-    ////////////////////////////////////////////////////////////////////////////////////
+    },    
     {
       "Object": "Deathsquito",
       "LeveledLoot": [
@@ -1995,9 +2004,7 @@
           ]
         }
       ]
-    },
-    // Lox
-    ////////////////////////////////////////////////////////////////////////////////////
+    },    
     {
       "Object": "Lox",
       "LeveledLoot": [
@@ -2044,9 +2051,7 @@
           ]
         }
       ]
-    },
-    // Fuling (Goblin)
-    ////////////////////////////////////////////////////////////////////////////////////
+    },    
     {
       "Object": "Goblin",
       "LeveledLoot": [
@@ -2094,13 +2099,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 6 Mobs (Fuling Berserker, Fuling Shaman)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    // Fuling Berserker (GoblinBrute)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "GoblinBrute",
       "LeveledLoot": [
@@ -2148,8 +2146,6 @@
         }
       ]
     },
-    // Fuling Shaman (GoblinShaman)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "GoblinShaman",
       "LeveledLoot": [
@@ -2197,13 +2193,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // BOSSES
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    // Eikthyr
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Eikthyr",
       "LeveledLoot": [
@@ -2253,8 +2242,6 @@
         }
       ]
     },
-    // gd_king (The Elder)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "gd_king",
       "LeveledLoot": [
@@ -2302,8 +2289,6 @@
         }
       ]
     },
-    // Bonemass
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Bonemass",
       "LeveledLoot": [
@@ -2351,8 +2336,6 @@
         }
       ]
     },
-    // Dragon (Moder)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Moder",
       "LeveledLoot": [
@@ -2400,8 +2383,6 @@
         }
       ]
     },
-    // Yagluth (GoblinKing)
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "GoblinKing",
       "LeveledLoot": [
@@ -2449,13 +2430,6 @@
         }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // TREASURE CHESTS
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    //TreasureChest_meadows
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows",
       "Drops": [ [0, 78], [1, 20], [2, 2] ],
@@ -2463,9 +2437,7 @@
         { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 97, 2, 1, 0] },
         { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 97, 2, 1, 0] }
       ]
-    },
-    //TreasureChest_blackforest
-    ////////////////////////////////////////////////////////////////////////////////////
+    },   
     {
       "Object": "TreasureChest_blackforest",
       "Drops": [ [0, 70], [1, 30] ],
@@ -2473,9 +2445,7 @@
         { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 95, 4, 1, 0] },
         { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] }
       ]
-    },
-    //TreasureChest_forestcrypt
-    ////////////////////////////////////////////////////////////////////////////////////
+    },  
     {
       "Object": "TreasureChest_forestcrypt",
       "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
@@ -2483,16 +2453,12 @@
         { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] },
         { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 95, 4, 1, 0] }
       ]
-    },
-    //TreasureChest_fCrypt (I think this is just a copy of forestcrypt)
-    ////////////////////////////////////////////////////////////////////////////////////
+    },    
     {
       "Object": "TreasureChest_fCrypt",
       "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
       "Loot": [{ "Item": "TreasureChest_forestcrypt.1" }]
-    },
-    //TreasureChest_trollcave
-    ////////////////////////////////////////////////////////////////////////////////////
+    },    
     {
       "Object": "TreasureChest_trollcave",
       "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
@@ -2501,8 +2467,6 @@
         { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] }
       ]
     },
-    // shipwreck_karve_chest
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "shipwreck_karve_chest",
       "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
@@ -2510,9 +2474,7 @@
         { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] },
         { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] }
       ]
-    },
-    // TreasureChest_meadows_buried
-    ////////////////////////////////////////////////////////////////////////////////////
+    },  
     {
       "Object": "TreasureChest_meadows_buried",
       "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
@@ -2521,8 +2483,6 @@
         { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 70, 25, 5, 0] }
       ]
     },
-    // TreasureChest_sunkencrypt
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_sunkencrypt",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
@@ -2531,8 +2491,7 @@
         { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 80, 17, 3, 0] }
       ]
     },
-    // TreasureChest_swamp
-    ////////////////////////////////////////////////////////////////////////////////////
+
     {
       "Object": "TreasureChest_swamp",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
@@ -2541,8 +2500,6 @@
         { "Item": "Tier3Everything", "Weight": 1 }
       ]
     },
-    // TreasureChest_mountains
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_mountains",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
@@ -2551,8 +2508,6 @@
         { "Item": "Tier4Everything", "Weight": 1 }
       ]
     },
-    // TreasureChest_plains_stone
-    ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_plains_stone",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
@@ -2560,8 +2515,8 @@
         { "Item": "TreasureChest_heath.1", "Weight": 1 }
       ]
     },
-    // TreasureChest_heath
-    ////////////////////////////////////////////////////////////////////////////////////
+    
+    
     {
       "Object": "TreasureChest_heath",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
@@ -2570,10 +2525,6 @@
         { "Item": "Tier5Everything", "Weight": 1 }
       ]
     },
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // TREASURE MAP CHESTS
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureMapChest_Meadows",
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
@@ -2603,7 +2554,7 @@
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
       "Loot": [
         { "Item": "Tier3Everything", "Weight": 1, "Rarity": [0, 30, 60, 10] },
-        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [0, 30, 60, 10] }
+        { "Item": "Tier4Everything", "Weight": 1, "RQarity": [0, 30, 60, 10] }
       ]
     },
     {
