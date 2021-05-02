@@ -3,7 +3,7 @@ cartography - https://www.nexusmods.com/valheim/mods/394
 better wards - https://www.nexusmods.com/valheim/mods/402
 bettertrader - https://www.nexusmods.com/valheim/mods/433
 Bepinex configuration manager - https://github.com/BepInEx/BepInEx.ConfigurationManager
-Creature Level Loot Control - 3.8.5 - https://www.nexusmods.com/valheim/mods/495
+Creature Level Loot Control - 3.9.1 - https://www.nexusmods.com/valheim/mods/495
 Epic Loot - https://www.nexusmods.com/valheim/mods/387
 Hardcore - https://github.com/fracticality/valheim-hardcore
 Jam - https://www.nexusmods.com/valheim/mods/177
@@ -19,11 +19,11 @@ FoodStaminaRegen - https://www.nexusmods.com/valheim/mods/431 - Maybe consider d
 Map Coordinates - https://www.nexusmods.com/valheim/mods/907
 ModConfigEnforcer - https://www.nexusmods.com/valheim/mods/460
 QuickConnect - https://www.nexusmods.com/valheim/mods/193
-RRRBetterRaids - https://www.nexusmods.com/valheim/mods/705
-RRRMonsters - https://www.nexusmods.com/valheim/mods/702
-RRRNPCs - https://www.nexusmods.com/valheim/mods/687
-RRR Spawn Variety - https://www.nexusmods.com/valheim/mods/685
-RRR Core - https://www.nexusmods.com/valheim/mods/671
+RRRBetterRaids - 0.2.0 - https://www.nexusmods.com/valheim/mods/705
+RRRMonsters - 0.2.0 - https://www.nexusmods.com/valheim/mods/702
+RRRNPCs - 0.2.0 -https://www.nexusmods.com/valheim/mods/687
+RRR Spawn Variety - 0.2.0 - https://www.nexusmods.com/valheim/mods/685
+RRR Core - 0.2.3 - https://www.nexusmods.com/valheim/mods/671
 Skill Injector - https://www.nexusmods.com/valheim/mods/341
 SecondaryAttacks - https://www.nexusmods.com/valheim/mods/596
 Trashcan - https://www.nexusmods.com/valheim/mods/902
@@ -41,6 +41,8 @@ Custom Building Items - 2.0.4 - https://www.nexusmods.com/valheim/mods/955
 Build Expansion - 1.0.2 - https://www.nexusmods.com/valheim/mods/950
 Odin's PotionsPlus - 1.0.5 - https://www.nexusmods.com/valheim/mods/1027
 Auto Fuel - 0.8.0 - https://www.nexusmods.com/valheim/mods/159
+More Gates - 1.0.7 - https://www.nexusmods.com/valheim/mods/1087
+Plant Everything - 1.4.3 - https://www.nexusmods.com/valheim/mods/1042
 
 BEING REVIEWED:
 Multiverse - https://www.nexusmods.com/valheim/mods/563
@@ -52,3 +54,4 @@ MapSharingMadeEasy - https://www.nexusmods.com/valheim/mods/300
 
 Mod ideas:
 Portal Gateway - Handy Portals, but as an extra portal type.
+Guardian Stones
