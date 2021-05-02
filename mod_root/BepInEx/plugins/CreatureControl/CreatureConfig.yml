@@ -965,8 +965,8 @@ RRR_GDThornweaver:
 Ethereal:
     size: 0
     health: 1.2
-    damage: 0.7
     attack speed: 0.5
+    damage: 0.7
     movement speed: 1.5
     damage per star: 0.15
     stars:
