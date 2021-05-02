@@ -47,18 +47,9 @@ if (-not $Debug)
 {
     Write-Host "Stripping out debugging tools..."
 
-    try
-    {
-        Remove-Item -Path (Join-Path $out "\BepInEx\plugins\Valheim.WhereAmI.dll")
-    }
-    try
-    {
-        Remove-Item -Path (Join-Path $out "\BepInEx\plugins\SkToolboxValheim.dll")
-    }
-    try 
-    {
-        Remove-Item -Path (Join-Path $out "\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll")
-    }
+    Remove-Item -Path (Join-Path $out "\BepInEx\plugins\Valheim.WhereAmI.dll")
+    Remove-Item -Path (Join-Path $out "\BepInEx\plugins\SkToolboxValheim.dll")
+    Remove-Item -Path (Join-Path $out "\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll")
 }
 
 Write-Host "Packaging"
