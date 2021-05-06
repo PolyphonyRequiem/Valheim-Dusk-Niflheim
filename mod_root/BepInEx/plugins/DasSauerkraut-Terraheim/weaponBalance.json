@@ -1,5 +1,6 @@
 {
-    "GreatswordAnimationSpeedAdjust": 1.6,
+    "GreatswordStartAnimationSpeedAdjust": 1.8,
+    "GreatswordAnimationSpeedAdjust": 1.4,
     "ThrowingAxeAnimationSpeedAdjust": 3,
     "BattleaxeBronze": {
         "modified": false,
@@ -103,6 +104,34 @@
                 "item": "LeatherScraps",
                 "amount": 4,
                 "perLevel": 1
+            }
+        ]
+    },
+    "BowBlackmetal": {
+        "modified": false,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 40
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 40,
+                "perLevel": 10
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
             }
         ]
     },
@@ -235,6 +264,35 @@
             {
                 "item": "LeatherScraps",
                 "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ParryingDagger": {
+        "modified": false,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
+                "item": "Bronze",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
+                "item": "Silver",
+                "amount": 6,
+                "perLevel": 4
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 2,
                 "perLevel": 1
             }
         ]
@@ -384,6 +442,44 @@
             {
                 "type": "spirit",
                 "value": 30
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Iron",
+                "amount": 5,
+                "perLevel": 3
+            },
+            {
+                "item": "Silver",
+                "amount": 50,
+                "perLevel": 20
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "AtgeirFire": {
+        "modified": false,
+        "effectVal": 0.35,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 85
+            },
+            {
+                "type": "fire",
+                "value": 40
             }
         ],
         "recipe": [
