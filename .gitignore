@@ -1,5 +1,8 @@
 /modbins/**
 /modbase/**
 /out/**
+/src/**/bin/*
+/src/**/obj/*
+/src/**/pkg/*
 *.dll
 *.wav
