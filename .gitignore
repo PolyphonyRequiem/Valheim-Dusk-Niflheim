@@ -6,3 +6,5 @@
 /src/**/pkg/*
 *.dll
 *.wav
+/src/.vs/Niflheim/v16
+/src/.vs/Niflheim/DesignTimeBuild
