@@ -1,7 +1,9 @@
 ﻿using Niflheim.Installer.Entities;
 using Niflheim.Installer.Extensions;
+using System;
 using System.IO;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Niflheim.Installer.Services
 {
@@ -17,41 +19,20 @@ namespace Niflheim.Installer.Services
             this.niflheimDirectoryInfo = niflheimDirectoryInfo;
         }
 
-
         public void InstallOrUpdate(ModpackArchiveDefinition modpack)
         {
-            if (TryUpdate(modpack))
+            if (GetModInfo() == ModInfo.None )
             {
-                //Update succeeded.
+                CleanInstall(modpack);
             }
-            else if (TryCleanInstall(modpack))
+
+            if (UpdateNeeded(modpack))
             {
-                //Clean install succeeded.
+                Update(modpack);
             }
         }
 
-        public string GetModVersion(DirectoryInfo niflheimDirectoryInfo)
-        {
-            return GetModInfo().Version;
-        }
-
-        private bool TryCleanInstall(ModpackArchiveDefinition modpack)
-        {
-            if (niflheimDirectoryInfo.Exists)
-            {
-                Directory.Delete(niflheimDirectoryInfo.FullName, true);
-            }
-
-            this.valheimDirectoryInfo.Copy(niflheimDirectoryInfo, true);
-
-            ExtractModpack(modpack);
-
-            WriteModInfo(new ModInfo { Version = modpack.Version });
-
-            return true;
-        }
-
-        private bool TryUpdate(ModpackArchiveDefinition modpack)
+        private bool UpdateNeeded(ModpackArchiveDefinition modpack)
         {
             if (!niflheimDirectoryInfo.Exists)
             {
@@ -65,9 +46,36 @@ namespace Niflheim.Installer.Services
                 return false;
             }
 
-            ExtractModpack(modpack);
+            if (modInfo.Version >= SemanticVersion.Parse(modpack.Version))
+            {
+                return false;
+            }
+            else
+            { 
+                return true;
+            }
+        }
 
-            return true;
+        public SemanticVersion GetModVersion(DirectoryInfo niflheimDirectoryInfo)
+        {
+            return GetModInfo().Version;
+        }
+
+        private void CleanInstall(ModpackArchiveDefinition modpack)
+        {
+            if (niflheimDirectoryInfo.Exists)
+            {
+                Directory.Delete(niflheimDirectoryInfo.FullName, true);
+            }
+
+            this.valheimDirectoryInfo.Copy(niflheimDirectoryInfo, true);
+
+            ExtractModpack(modpack);
+        }
+
+        private void Update(ModpackArchiveDefinition modpack)
+        {
+            ExtractModpack(modpack);
         }
 
         private void ExtractModpack(ModpackArchiveDefinition modpack)
@@ -88,6 +96,8 @@ namespace Niflheim.Installer.Services
             }
 
             ArchiveExtractor.ExtractArchive(archiveInfo, niflheimDirectoryInfo);
+
+            WriteModInfo(new ModInfo { Version = SemanticVersion.Parse(modpack.Version) });
         }
 
         private ModInfo GetModInfo()
@@ -105,7 +115,11 @@ namespace Niflheim.Installer.Services
             {
                 DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault,
                 PropertyNameCaseInsensitive = true,
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                Converters =
+                {
+                    new SemVerJsonConverter()
+                }
             });
         }
 
@@ -118,9 +132,25 @@ namespace Niflheim.Installer.Services
             {
                 DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault,
                 PropertyNameCaseInsensitive = true,
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                Converters =
+                {
+                    new SemVerJsonConverter()
+                }
             }));
         }
 
+        private class SemVerJsonConverter : JsonConverter<SemanticVersion>
+        {
+            public override SemanticVersion Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+            {
+                return reader.GetString();
+            }
+
+            public override void Write(Utf8JsonWriter writer, SemanticVersion value, JsonSerializerOptions options)
+            {
+                writer.WriteStringValue(value);
+            }
+        }
     }
 }

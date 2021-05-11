@@ -18,6 +18,16 @@ namespace Niflheim.Installer
         public int Minor { get; init; }
         public int Revision { get; init; }
 
+        public static implicit operator SemanticVersion(string v)
+        {
+            return Parse(v);
+        }
+
+        public static implicit operator string(SemanticVersion v)
+        {
+            return v.ToString();
+        }
+
         public static SemanticVersion Parse(string v)
         {
             Match matchResult = versionExpression.Match(v);
@@ -126,6 +136,11 @@ namespace Niflheim.Installer
         public static bool operator >=(SemanticVersion left, SemanticVersion right)
         {
             return left.CompareTo(right) >= 0;
+        }
+
+        public override string ToString()
+        {
+            return $"{Major}.{Minor}.{Revision}";
         }
     }
 }
