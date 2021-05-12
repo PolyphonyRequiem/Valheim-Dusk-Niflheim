@@ -1,6 +1,9 @@
-{
-  "release" : {
-      "id" : "niflheim-1.2.0-release",
-      "cleanInstall": true
-  }  
-}
+[
+    {
+        "id": "niflheim-1.2.0-public",
+        "description": "Niflheim public",
+        "version": "1.2.0",
+        "tag": "release",
+        "archiveUri": "https://niflheim.blob.core.windows.net/modpacks/testmodpack.zip"
+    }
+]
