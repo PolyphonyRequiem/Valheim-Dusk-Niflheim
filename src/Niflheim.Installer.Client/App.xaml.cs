@@ -7,6 +7,7 @@ using Niflheim.Installer.Client.Repositories;
 using Niflheim.Installer.Client.ViewModels;
 using Niflheim.Installer.Clients;
 using Niflheim.Installer.Entities;
+using Niflheim.Installer.Services;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -44,6 +45,7 @@ namespace Niflheim.Installer.Client
             serviceCollection.AddSingleton<MainWindow>()
                              .AddSingleton<MainViewModel>()
                              .AddSingleton<WebModpackRepository>()
+                             .AddSingleton<PreferencesService>()
                              .AddSingleton<JsonModpackClient<ModpackArchiveDefinition>>(new JsonModpackClient<ModpackArchiveDefinition>(new Uri(config.DiscoveryUrl)))
                              .AddSingleton<AppConfig>(config);
         }

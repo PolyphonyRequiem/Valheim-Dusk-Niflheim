@@ -24,7 +24,7 @@ namespace Niflheim.Installer.Client.ViewModels
         private string valheimPath = @"C:\Program Files (x86)\Steam\steamapps\common\Valheim";
         public string ValheimPath { get => valheimPath; set => SetProperty(ref valheimPath, value); }
 
-        private string niflheimPath = @"C:\Program Files (x86)\Steam\steamapps\common\Niflheim";
+        private string niflheimPath = "";
         public string NiflheimPath
         {
             get => niflheimPath;
@@ -33,6 +33,7 @@ namespace Niflheim.Installer.Client.ViewModels
                 if (value != niflheimPath)
                 {
                     SetProperty(ref niflheimPath, value);
+                    this.preferences.SetPreferredNiflheimInstallPath(preferencesFile, value);
                     CheckStatus();
                 }
             }
@@ -40,6 +41,7 @@ namespace Niflheim.Installer.Client.ViewModels
 
         private bool niflheimPathLocked = true;
         private ModpackArchiveDefinition latestModpack;
+        private FileInfo preferencesFile = new FileInfo("preferences.niflheimpath.cfg");
 
         public bool NiflheimPathLocked { get => niflheimPathLocked; set => SetProperty(ref niflheimPathLocked, value); }
 
@@ -48,37 +50,36 @@ namespace Niflheim.Installer.Client.ViewModels
         public BrowseCommand BrowseNiflheimCommand { get; init; }
 
         private readonly WebModpackRepository webModpackRepository;
+        private readonly PreferencesService preferences;
         private readonly AppConfig config;
 
-        public MainViewModel(WebModpackRepository webModpackRepository, AppConfig config)
+        public MainViewModel(WebModpackRepository webModpackRepository, PreferencesService preferences, AppConfig config)
         {
 
             this.webModpackRepository = webModpackRepository;
+            this.preferences = preferences;
             this.config = config;
 
             this.BrowseValheimCommand = new BrowseCommand(() => this.ValheimPath, (path) => this.ValheimPath = path);
             this.BrowseNiflheimCommand = new BrowseCommand(() => this.NiflheimPath, (path) => this.NiflheimPath = path);
-            this.InstallCommand = new InstallCommand(new Progress<string>(s => this.ConsoleText += $"\n{s}"), this.config.ServerUrl);
+            this.InstallCommand = new InstallCommand(new Progress<string>(s => this.ConsoleText += $"\n{s}"));
         }
 
         public void Loaded()
         {
-            Task.Run(() =>
-            {
-                this.AppendLog("Getting the latest version.");
-                var modpacks = this.webModpackRepository.GetAllActiveModpacksWithTag(this.config.Tag);
-                modpacks.OrderByDescending(_ => SemanticVersion.Parse(_.Version));
-                this.latestModpack = modpacks.FirstOrDefault() ?? (ModpackArchiveDefinition.None as ModpackArchiveDefinition);
-
-
-                this.CheckStatus();
-            });
+            this.NiflheimPath = this.preferences.GetPreferredNiflheimInstallPath(this.preferencesFile);
         }
 
         private void CheckStatus()
         {
             Task.Run(() =>
             {
+
+                this.AppendLog("Getting the latest version.");
+                var modpacks = this.webModpackRepository.GetAllActiveModpacksWithTag(this.config.Tag);
+                modpacks.OrderByDescending(_ => SemanticVersion.Parse(_.Version));
+                this.latestModpack = modpacks.FirstOrDefault() ?? (ModpackArchiveDefinition.None as ModpackArchiveDefinition);
+
                 if (latestModpack == ModpackArchiveDefinition.None)
                 {
                     MessageBox.Show("Unable to find the latest version of Niflheim.  This may be a transient error.  You may attempt to connect play still, but if you're unable to connect to the server please report this error in the discord server's bug");
@@ -105,13 +106,13 @@ namespace Niflheim.Installer.Client.ViewModels
                         this.PrepareLaunch();
                         return;
                     }
-                    if (latestModpack.Version < version)
+                    if (latestModpack.Version > version)
                     {
                         this.AppendLog($"Found Niflheim, current version {version} is out of date.  Ready to update to version {latestModpack.Version}");
                         this.PrepareUpdate(latestModpack);
                         return;
                     }
-                    if (latestModpack.Version > version)
+                    if (latestModpack.Version < version)
                     {
                         this.AppendLog($"Found Niflheim, current version {version} is AHEAD of latest ({latestModpack.Version}).  Uh oh!  Preparing for reinstall.");
                         this.PrepareInstall(latestModpack);

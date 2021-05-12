@@ -10,6 +10,6 @@ namespace Niflheim.Installer.Client.Configuration
     {
         public string DiscoveryUrl { get; set; }
         public string Tag { get; set; }
-        public string ServerUrl { get; set; }
+        //public string ServerUrl { get; set; }
     }
 }

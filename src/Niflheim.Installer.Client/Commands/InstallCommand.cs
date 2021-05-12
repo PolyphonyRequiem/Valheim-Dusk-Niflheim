@@ -16,14 +16,12 @@ namespace Niflheim.Installer.Client.Commands
         private ModpackArchiveDefinition modpack;
 
         private readonly IProgress<string> progress;
-        private readonly string serverEndpoint;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public InstallCommand(IProgress<string> progress, string serverEndpoint) : base(() => { }, () => false)
+        public InstallCommand(IProgress<string> progress) : base(() => { }, () => false)
         {
             this.progress = progress;
-            this.serverEndpoint = serverEndpoint;
         }
 
         protected override void Execute(object parameter)
@@ -49,7 +47,7 @@ namespace Niflheim.Installer.Client.Commands
             }
 
             progress.Report($"Launching Niflheim.");
-            var process = Process.Start(niflheimExe.FullName, $"+connect {serverEndpoint}");
+            var process = Process.Start(niflheimExe.FullName);
 
             process.WaitForExit();
 
@@ -60,7 +58,8 @@ namespace Niflheim.Installer.Client.Commands
         {
             try
             {
-                var installer = new InstallerService(new DirectoryInfo(this.valheimPath), new DirectoryInfo(this.niflheimPath));
+                this.SetWorking();
+                var installer = new InstallerService(new DirectoryInfo(this.niflheimPath), new DirectoryInfo(this.niflheimPath));
                 progress.Report($"Updating to {modpack.Version}... Please wait!");
                 installer.Update(this.modpack);
                 progress.Report($"Update installed!  Ready to Launch!");
@@ -80,7 +79,7 @@ namespace Niflheim.Installer.Client.Commands
         {
             try
             {
-
+                this.SetWorking();
                 var installer = new InstallerService(new DirectoryInfo(this.valheimPath), new DirectoryInfo(this.niflheimPath));
                 progress.Report($"Installing Niflheim to {this.niflheimPath} and updating to {modpack.Version}... Please wait!");
                 installer.CleanInstall(this.modpack);
