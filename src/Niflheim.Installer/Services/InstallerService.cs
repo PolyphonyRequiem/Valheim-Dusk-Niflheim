@@ -56,12 +56,12 @@ namespace Niflheim.Installer.Services
             }
         }
 
-        public SemanticVersion GetModVersion(DirectoryInfo niflheimDirectoryInfo)
+        public SemanticVersion GetModVersion()
         {
             return GetModInfo().Version;
         }
 
-        private void CleanInstall(ModpackArchiveDefinition modpack)
+        public void CleanInstall(ModpackArchiveDefinition modpack)
         {
             if (niflheimDirectoryInfo.Exists)
             {
@@ -73,7 +73,7 @@ namespace Niflheim.Installer.Services
             ExtractModpack(modpack);
         }
 
-        private void Update(ModpackArchiveDefinition modpack)
+        public void Update(ModpackArchiveDefinition modpack)
         {
             ExtractModpack(modpack);
         }

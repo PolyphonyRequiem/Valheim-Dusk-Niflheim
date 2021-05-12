@@ -2,7 +2,11 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Niflheim.Installer.Client.Configuration;
+using Niflheim.Installer.Client.Repositories;
 using Niflheim.Installer.Client.ViewModels;
+using Niflheim.Installer.Clients;
+using Niflheim.Installer.Entities;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -34,8 +38,14 @@ namespace Niflheim.Installer.Client
 
         private void ConfigureServices(HostBuilderContext context, IServiceCollection serviceCollection)
         {
+            AppConfig config = new AppConfig();
+            context.Configuration.GetSection("Configuration").Bind(config);
+
             serviceCollection.AddSingleton<MainWindow>()
-                             .AddSingleton<MainViewModel>();
+                             .AddSingleton<MainViewModel>()
+                             .AddSingleton<WebModpackRepository>()
+                             .AddSingleton<JsonModpackClient<ModpackArchiveDefinition>>(new JsonModpackClient<ModpackArchiveDefinition>(new Uri(config.DiscoveryUrl)))
+                             .AddSingleton<AppConfig>(config);
         }
 
         private void ConfigureLogging(HostBuilderContext context, ILoggingBuilder loggingBuilder)
