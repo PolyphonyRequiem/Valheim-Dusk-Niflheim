@@ -1,0 +1,6 @@
+{
+  "release" : {
+      "id" : "niflheim-1.2.0-release",
+      "cleanInstall": true
+  }  
+}
