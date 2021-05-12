@@ -1,4 +1,11 @@
 [
+     {
+        "id": "niflheim-1.2.0-releasecandidate-4",
+        "description": "Niflheim releasecandidate-4",
+        "version": "1.2.4",
+        "tag": "debug",
+        "archiveUri": "https://niflheim.blob.core.windows.net/modpacks/Niflheim-1.2.0-RC4-debug.zip"
+    },
     {
         "id": "niflheim-1.2.0-releasecandidate-3",
         "description": "Niflheim releasecandidate-3",
