@@ -7,7 +7,7 @@
         xmlns:viewModels="clr-namespace:Niflheim.Installer.Client.ViewModels"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800" ResizeMode="NoResize" Closed="OnClosed">
+        Title="Niflheim Installer" Height="600" Width="800" ResizeMode="NoResize" Closed="OnClosed">
     <Window.Resources>
         <ImageBrush x:Key="backgroundBrush" ImageSource="pack://application:,,,/Content/background.jpg" Stretch="UniformToFill"  />
         <SolidColorBrush x:Key="consoleBackground" Color="Teal" Opacity=".7"/>
