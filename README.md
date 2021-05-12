@@ -2,6 +2,9 @@
 
 Niflheim is a challenging, hardcore, modded server that -requires- users to install the Niflheim modpack.
 
+## Joining the Dusk Discord Server
+New players who are not already part of the Dusk Discord server should join the server and use the Valheim channel to discuss, and the Niflheim voice channel.  The Server-Info channel will have up-to-date information. [Join here](https://discord.gg/dFbnbaFhRA)
+
 ## Rules
 - Niflheim players are expected to have joined the Dusk Discord Server and agree to obey all rules of the Dusk Discord server while playing in Niflheim as well.  These rules can be found [here](https://discord.com/channels/683821803252219974/683825744249749523/771419546505969667)
 
@@ -10,8 +13,6 @@ Niflheim is a challenging, hardcore, modded server that -requires- users to inst
 Niflheim is a harsh and unforgiving world, and Odin cannot abide failures.  A viking's death will result in all items currently carried to be removed from the world, and all skill progress lost!  The character will once again be spawned at the World Spawn.  You've been warned. 
 
 Discord user Fracticality has created the hardcore mod that enables this feature, if you like it, thank him.  If you have feedback, please let him know.
-## Joining the Dusk Discord Server
-New players who are not already part of the Dusk Discord server should join the server and use the Valheim channel to discuss, and the Niflheim voice channel.  The Server-Info channel will have up-to-date information. [Join here](https://discord.gg/dFbnbaFhRA)
 
 ## Launching Niflheim
 
