@@ -1,30 +1,9 @@
-[
+{
+     "launcher" : 
      {
-        "id": "niflheim-1.2.0-releasecandidate-5",
-        "description": "Niflheim releasecandidate-5",
-        "version": "1.2.5",
-        "tag": "debug",
-        "archiveUri": "https://niflheim.blob.core.windows.net/modpacks/Niflheim-1.2.0-RC5-debug.zip"
-    },
-     {
-        "id": "niflheim-1.2.0-releasecandidate-4",
-        "description": "Niflheim releasecandidate-4",
-        "version": "1.2.4",
-        "tag": "debug",
-        "archiveUri": "https://niflheim.blob.core.windows.net/modpacks/Niflheim-1.2.0-RC4-debug.zip"
-    },
-    {
-        "id": "niflheim-1.2.0-releasecandidate-3",
-        "description": "Niflheim releasecandidate-3",
-        "version": "1.2.3",
-        "tag": "debug",
-        "archiveUri": "https://niflheim.blob.core.windows.net/modpacks/Niflheim-1.2.0-RC3-debug.zip"
-    },
-    {
-        "id": "niflheim-1.2.0-public",
-        "description": "Niflheim",
-        "version": "1.2.0",
-        "tag": "release",
-        "archiveUri": "https://niflheim.blob.core.windows.net/modpacks/Niflheim-1.2.0.zip"
-    }
-]
+             "latest": "1.2.1"
+             "updateUrl: "https://niflheim.blob.core.windows.net/installer/NiflheimLauncher-1.2.0-beta.zip"
+     },
+     "modpackFeedUrl" : "https://niflheim.blob.core.windows.net/modpacksources/feed.json"
+     
+}
