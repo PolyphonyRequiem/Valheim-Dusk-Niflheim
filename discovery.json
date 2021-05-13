@@ -2,7 +2,7 @@
      "launcher" : 
      {
              "latest": "1.2.1",
-             "updateUrl: "https://niflheim.blob.core.windows.net/installer/NiflheimLauncher-1.2.0-beta.zip"
+             "updateUrl": "https://niflheim.blob.core.windows.net/installer/NiflheimLauncher-1.2.0-beta.zip"
      },
      "modpackFeedUrl" : "https://niflheim.blob.core.windows.net/modpacksources/feed.json"
      
