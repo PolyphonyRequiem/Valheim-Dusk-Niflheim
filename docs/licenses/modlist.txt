@@ -3,7 +3,7 @@ cartography - https://www.nexusmods.com/valheim/mods/394
 better wards - https://www.nexusmods.com/valheim/mods/402
 bettertrader - https://www.nexusmods.com/valheim/mods/433
 Bepinex configuration manager - https://github.com/BepInEx/BepInEx.ConfigurationManager
-Creature Level Loot Control - https://www.nexusmods.com/valheim/mods/495 - we should update soon
+Creature Level Loot Control - 3.9.1 - https://www.nexusmods.com/valheim/mods/495
 Epic Loot - https://www.nexusmods.com/valheim/mods/387
 Hardcore - https://github.com/fracticality/valheim-hardcore
 Jam - https://www.nexusmods.com/valheim/mods/177
@@ -17,23 +17,41 @@ Extended Item Data Framework - https://www.nexusmods.com/valheim/mods/281
 FarmGrid - https://www.nexusmods.com/valheim/mods/449
 FoodStaminaRegen - https://www.nexusmods.com/valheim/mods/431 - Maybe consider dropping? idk.
 Map Coordinates - https://www.nexusmods.com/valheim/mods/907
-MapSharingMadeEasy - https://www.nexusmods.com/valheim/mods/300
 ModConfigEnforcer - https://www.nexusmods.com/valheim/mods/460
 QuickConnect - https://www.nexusmods.com/valheim/mods/193
-RRRBetterRaids - https://www.nexusmods.com/valheim/mods/705
-RRRMonsters - https://www.nexusmods.com/valheim/mods/702
-RRRNPCs - https://www.nexusmods.com/valheim/mods/687
-RRR Spawn Variety - https://www.nexusmods.com/valheim/mods/685
-RRR Core - https://www.nexusmods.com/valheim/mods/671
+RRRBetterRaids - 0.2.0 - https://www.nexusmods.com/valheim/mods/705
+RRRMonsters - 0.2.0 - https://www.nexusmods.com/valheim/mods/702
+RRRNPCs - 0.2.0 -https://www.nexusmods.com/valheim/mods/687
+RRR Spawn Variety - 0.2.0 - https://www.nexusmods.com/valheim/mods/685
+RRR Core - 0.2.3 - https://www.nexusmods.com/valheim/mods/671
 Skill Injector - https://www.nexusmods.com/valheim/mods/341
 SecondaryAttacks - https://www.nexusmods.com/valheim/mods/596
 Trashcan - https://www.nexusmods.com/valheim/mods/902
 WeightlessCoins - https://www.nexusmods.com/valheim/mods/607
+Terraheim - 1.6.5 - https://www.nexusmods.com/valheim/mods/803
+Crafting Stations Level Based Build Range - 1.5.0 - https://www.nexusmods.com/valheim/mods/105?tab=files&file_id=1903
+SpeedyPaths - 1.0.5 - https://www.nexusmods.com/valheim/mods/452
+CustomRaids - 1.3.2 - https://www.nexusmods.com/valheim/mods/278
+Drop That - 1.8.1 - https://www.nexusmods.com/valheim/mods/221
+Spawn That - 0.7.1 - https://www.nexusmods.com/valheim/mods/453
+ServerSide Map - 1.3.1 - https://www.nexusmods.com/valheim/mods/88
+Blacksmith's Tools - 1.1.0 - https://www.nexusmods.com/valheim/mods/566
+Barbarian's Armor - 1.0.0 - https://www.nexusmods.com/valheim/mods/640
+Custom Building Items - 2.0.4 - https://www.nexusmods.com/valheim/mods/955
+Build Expansion - 1.0.2 - https://www.nexusmods.com/valheim/mods/950
+Odin's PotionsPlus - 1.0.5 - https://www.nexusmods.com/valheim/mods/1027
+Auto Fuel - 0.8.0 - https://www.nexusmods.com/valheim/mods/159
+More Gates - 1.0.7 - https://www.nexusmods.com/valheim/mods/1087
+Plant Everything - 1.4.3 - https://www.nexusmods.com/valheim/mods/1042
 
 BEING REVIEWED:
 Multiverse - https://www.nexusmods.com/valheim/mods/563
-Terraheim - https://www.nexusmods.com/valheim/mods/803
 Equipment and Quickslots - https://www.nexusmods.com/valheim/mods/92
-Custom Raids - https://www.nexusmods.com/valheim/mods/278
 Supplemental Raids for Custom Raids - https://www.nexusmods.com/valheim/mods/988
 
+Retired:
+MapSharingMadeEasy - https://www.nexusmods.com/valheim/mods/300
+
+Mod ideas:
+Portal Gateway - Handy Portals, but as an extra portal type.
+Guardian Stones

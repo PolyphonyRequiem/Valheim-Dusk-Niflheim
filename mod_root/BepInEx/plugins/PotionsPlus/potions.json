@@ -1,0 +1,163 @@
+{
+  "potions": [
+    {
+      "name": "Recipe_Lesser_Spiritual_Healing_Vial",
+      "item": "Lesser_Spiritual_Healing_Vial",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Raspberry",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Lesser_Stamina_Vial",
+      "item": "Lesser_Stamina_Vial",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Resin",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Medium_Healing_Tide_Flask",
+      "item": "Medium_Healing_Tide_Flask",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Blueberries",
+          "amount": 2
+        },
+        {
+          "item": "Mushroom",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Medium_Stamina_Flask",
+      "item": "Medium_Stamina_Flask",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Thistle",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Medium_Spiritual_Healing_Flask",
+      "item": "Medium_Spiritual_Healing_Flask",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "MushroomYellow",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Grand_Stealth_Elixir",
+      "item": "Grand_Stealth_Elixir",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Flax",
+          "amount": 2
+        },
+        {
+          "item": "Cloudberry",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Grand_Spiritual_Healing_Potion",
+      "item": "Grand_Spiritual_Healing_Potion",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Bloodbag",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Grand_Healing_Tide_Potion",
+      "item": "Grand_Healing_Tide_Potion",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Cloudberry",
+          "amount": 1
+        },
+        {
+          "item": "Bloodbag",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Recipe_Grand_Stamina_Elixir",
+      "item": "Grand_Stamina_Elixir",
+      "amount": 1,
+      "craftingStation": "piece_cauldron",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Cloudberry",
+          "amount": 2
+        },
+        {
+          "item": "Flax",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}
