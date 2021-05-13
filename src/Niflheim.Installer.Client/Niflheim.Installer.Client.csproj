@@ -10,6 +10,7 @@
 	<PublishReadyToRun>true</PublishReadyToRun>
     <UseWPF>true</UseWPF>
     <AssemblyName>NiflheimLauncher</AssemblyName>
+	<Version>1.2.3</Version>
   </PropertyGroup>
 
   <ItemGroup>

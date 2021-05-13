@@ -1,18 +1,21 @@
-﻿using System.Runtime.CompilerServices;
-using System.ComponentModel;
+﻿using Microsoft.Win32;
 using Niflheim.Installer.Client.Commands;
-using System;
-using Niflheim.Installer.Client.Repositories;
-using System.Windows;
 using Niflheim.Installer.Client.Configuration;
-using System.Linq;
+using Niflheim.Installer.Client.Repositories;
+using Niflheim.Installer.Clients;
 using Niflheim.Installer.Entities;
-using System.IO;
 using Niflheim.Installer.Services;
-using System.Threading.Tasks;
-using Microsoft.Win32;
-using System.Text.RegularExpressions;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows;
 
 namespace Niflheim.Installer.Client.ViewModels
 {
@@ -69,13 +72,15 @@ namespace Niflheim.Installer.Client.ViewModels
 
         private readonly WebModpackRepository webModpackRepository;
         private readonly PreferencesService preferences;
+        private readonly DiscoveryClient discoveryClient;
         private readonly AppConfig config;
 
-        public MainViewModel(WebModpackRepository webModpackRepository, PreferencesService preferences, AppConfig config)
+        public MainViewModel(WebModpackRepository webModpackRepository, PreferencesService preferences, DiscoveryClient discoveryClient, AppConfig config)
         {
 
             this.webModpackRepository = webModpackRepository;
             this.preferences = preferences;
+            this.discoveryClient = discoveryClient;
             this.config = config;
 
             this.BrowseValheimCommand = new BrowseCommand(() => this.ValheimPath, (path) => this.ValheimPath = path);
@@ -87,6 +92,21 @@ namespace Niflheim.Installer.Client.ViewModels
         {
             this.NiflheimPath = this.preferences.GetPreference("niflheimPath");
             this.steamDetectionCompleted = Boolean.Parse(this.preferences.GetPreference("steamDetectionCompleted"));
+
+            var version = Assembly.GetExecutingAssembly().GetName().Version;
+
+            var launcherVersion = SemanticVersion.Parse($"{version.Major}.{version.Minor}.{version.Revision}");
+            var result = this.discoveryClient.CheckForLauncherUpdate(launcherVersion);
+
+            if (result.UpdateRequired)
+            {
+                var updatePrompt = MessageBox.Show($"An updated launcher, version {result.LatestVersion} is available! Clicking okay will launch your browser to download the latest version.  Once it is downloaded, close this Launcher and extract the files into the same directory your launcher is in!", "Launcher Update", MessageBoxButton.OKCancel);
+
+                if (updatePrompt == MessageBoxResult.OK)
+                {
+                    Process.Start("cmd", $"/c start {result.UpdateUrl}");
+                }
+            }
 
             if (this.steamDetectionCompleted == false)
             {

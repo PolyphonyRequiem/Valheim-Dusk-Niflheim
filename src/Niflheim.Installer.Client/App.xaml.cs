@@ -44,6 +44,11 @@ namespace Niflheim.Installer.Client
             AppConfig config = new AppConfig();
             context.Configuration.GetSection("Configuration").Bind(config);
 
+            var discoveryUrl = new Uri(config.DiscoveryUrl);
+            var discoveryClient = new DiscoveryClient(discoveryUrl);
+
+            var feedurl = discoveryClient.GetFeedUrl();
+
             serviceCollection.AddSingleton<MainWindow>()
                              .AddSingleton<MainViewModel>()
                              .AddSingleton<WebModpackRepository>()
@@ -53,7 +58,8 @@ namespace Niflheim.Installer.Client
                                  {"niflheimPath", @"C:\Program Files (x86)\Steam\steamapps\common\Niflheim" },
                                  {"steamDetectionCompleted", "false" }
                              }))
-                             .AddSingleton<JsonModpackClient<ModpackArchiveDefinition>>(new JsonModpackClient<ModpackArchiveDefinition>(new Uri(config.DiscoveryUrl)))
+                             .AddSingleton<JsonModpackClient<ModpackArchiveDefinition>>(new JsonModpackClient<ModpackArchiveDefinition>(feedurl))
+                             .AddSingleton<DiscoveryClient>(discoveryClient)
                              .AddSingleton<AppConfig>(config);
         }
 
