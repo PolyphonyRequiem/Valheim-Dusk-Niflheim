@@ -4,10 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
 	<PublishSingleFile>true</PublishSingleFile>
-	<SelfContained>true</SelfContained>
 	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
-	<PublishTrimmed>true</PublishTrimmed>
-	<PublishReadyToRun>true</PublishReadyToRun>
     <UseWPF>true</UseWPF>
     <AssemblyName>NiflheimLauncher</AssemblyName>
 	<Version>1.2.3</Version>

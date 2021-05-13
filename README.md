@@ -16,11 +16,15 @@ Discord user Fracticality has created the hardcore mod that enables this feature
 
 ## Launching Niflheim
 
-Download the latest version of the launcher from [here](https://niflheim.blob.core.windows.net/launchers/NiflheimLauncher-1.2.0.zip)
+Download the latest version of the launcher from [here](https://niflheim.blob.core.windows.net/installer/NiflheimLauncher.zipw)
 
 After the download completes, go to your "Downloads" folder and extract the Launcher.Zip
-Once extracted, open the extracted folder and run NiflheimLauncher.exe
+Once extracted, open the extracted folder and run NiflheimLauncher.exe 
+> Note: We currently don't have a codesigning certificate, so Microsoft SmartScreen wants to protect you from untrusted code.  As wonderful as this feature is, it WILL want to warn you about the NiflheimInstaller.  Simply click the "Run anyways" button.
 
+![Alt-Text](docs/images/SmartScreen.png)
+
+- The installer should be able to quickly locate your valheim install.
 - Verify that your Steam copy of Valheim exists at the path listed in the Launcher.
 - Select a -different- path for your new Niflheim modpack install.
 - If the Installer feels that everything looks good, it will change the multi-function button to say "Install"
