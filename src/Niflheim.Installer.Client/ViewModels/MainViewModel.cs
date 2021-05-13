@@ -10,19 +10,36 @@ using Niflheim.Installer.Entities;
 using System.IO;
 using Niflheim.Installer.Services;
 using System.Threading.Tasks;
+using Microsoft.Win32;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 namespace Niflheim.Installer.Client.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
-    {
+    { 
+        private bool steamDetectionCompleted = false;
+
         private string consoleText = "Welcome to the Niflheim Installer.";
         public string ConsoleText { get => consoleText; set => SetProperty(ref consoleText, value); }
 
         private string installButtonText = "Install";
         public string InstallButtonText { get => installButtonText; set => SetProperty(ref installButtonText, value); }
 
-        private string valheimPath = @"C:\Program Files (x86)\Steam\steamapps\common\Valheim";
-        public string ValheimPath { get => valheimPath; set => SetProperty(ref valheimPath, value); }
+        private string valheimPath = "";
+        public string ValheimPath
+        {
+            get => valheimPath;
+            set
+            {
+                if (value != valheimPath)
+                {
+                    SetProperty(ref valheimPath, value);
+                    this.preferences.SetPreference("valheimPath", value);
+                    CheckStatus();
+                }
+            }
+        }
 
         private string niflheimPath = "";
         public string NiflheimPath
@@ -33,7 +50,7 @@ namespace Niflheim.Installer.Client.ViewModels
                 if (value != niflheimPath)
                 {
                     SetProperty(ref niflheimPath, value);
-                    this.preferences.SetPreferredNiflheimInstallPath(preferencesFile, value);
+                    this.preferences.SetPreference("niflheimPath", value);
                     CheckStatus();
                 }
             }
@@ -42,6 +59,7 @@ namespace Niflheim.Installer.Client.ViewModels
         private bool niflheimPathLocked = true;
         private ModpackArchiveDefinition latestModpack;
         private FileInfo preferencesFile = new FileInfo("preferences.niflheimpath.cfg");
+        private bool ready;
 
         public bool NiflheimPathLocked { get => niflheimPathLocked; set => SetProperty(ref niflheimPathLocked, value); }
 
@@ -67,11 +85,95 @@ namespace Niflheim.Installer.Client.ViewModels
 
         public void Loaded()
         {
-            this.NiflheimPath = this.preferences.GetPreferredNiflheimInstallPath(this.preferencesFile);
+            this.NiflheimPath = this.preferences.GetPreference("niflheimPath");
+            this.steamDetectionCompleted = Boolean.Parse(this.preferences.GetPreference("steamDetectionCompleted"));
+
+            if (this.steamDetectionCompleted == false)
+            {
+                this.TryDetectSteam();
+                this.steamDetectionCompleted = true;
+                this.preferences.SetPreference("steamDetectionCompleted", this.steamDetectionCompleted.ToString());
+            }
+            this.ValheimPath = this.preferences.GetPreference("valheimPath");
+
+            this.ready = true;
+            CheckStatus();
+        }
+
+        private void TryDetectSteam()
+        {
+            this.AppendLog("Attempting to find Valheim...");
+            RegistryKey steamRegKey = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wow6432Node\Valve\Steam");
+            
+            if (steamRegKey == null)
+            {
+                this.AppendLog("Couldn't find steam.  Ah well.  Please browse to the Valheim install path above.");
+            }
+
+            var steamInstallPath = steamRegKey.GetValue("InstallPath") as string;
+
+            if (steamInstallPath == null)
+            {
+                this.AppendLog("Couldn't find steam.  Ah well.  Please browse to the Valheim install path above.");
+                return;
+            }
+
+            // find app manifest
+            FileInfo libraryFolders = new FileInfo(Path.Combine(steamInstallPath, @"steamapps\libraryfolders.vdf"));
+
+            List<DirectoryInfo> steamLibDirectories = new List<DirectoryInfo>();
+            steamLibDirectories.Add(new DirectoryInfo(Path.Combine(steamInstallPath, @"steamapps")));
+
+            if (libraryFolders.Exists)
+            {
+                var libfoldContent = File.ReadAllText(libraryFolders.FullName);
+                var matches = Regex.Matches(libfoldContent, "\"\\d\"\\s+\"(?<libraryPath>.*?)\"", RegexOptions.IgnoreCase);
+                if (matches.Count > 0)
+                {
+                    this.AppendLog($"Found {matches.Count} steam libraries.  Searching them for Valheim manifest.");
+                    var auxLibDirs = matches.Select(m => new DirectoryInfo(m.Groups["libraryPath"].Value.Replace("\\\\", "\\")));
+                    steamLibDirectories.AddRange(auxLibDirs);
+                }
+            }
+
+            foreach (var lib in steamLibDirectories)
+            {
+                this.AppendLog($"Checking {lib.FullName} for Valheim manifest.");
+                var candidate = new FileInfo(Path.Combine(lib.FullName, @"appmanifest_892970.acf"));
+
+                if (candidate.Exists)
+                {
+                    this.AppendLog($"Found!");
+                    var manifestContent = File.ReadAllText(candidate.FullName);
+                    var installDirMatch = Regex.Match(manifestContent, "\"installdir\"\\s+\"(?<valheimPath>.*?)\"", RegexOptions.IgnoreCase);
+
+                    if (installDirMatch.Success)
+                    {
+                        var valheimRelativeInstallDir = installDirMatch.Groups["valheimPath"].Value.Replace("\\\\", "\\");
+                        var valheimDir = Path.Combine(lib.FullName, "common", valheimRelativeInstallDir);
+
+                        DirectoryInfo valheimDirInfo = new DirectoryInfo(valheimDir);
+                        if (valheimDirInfo.Exists)
+                        {
+                            this.AppendLog($"Discovered Valheim at {valheimDirInfo.FullName}!");
+                            this.preferences.SetPreference("valheimPath", valheimDirInfo.FullName);
+                        }
+                        else
+                        {
+                            this.AppendLog("Couldn't verify Valheim Directory. Ah well.  Please browse to the Valheim install path above.");
+                        }
+                    }
+                    break;
+                }
+            }            
         }
 
         private void CheckStatus()
         {
+            if (!this.ready)
+            {
+                return;
+            }
             Task.Run(() =>
             {
 

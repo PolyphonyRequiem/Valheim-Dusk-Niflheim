@@ -9,7 +9,9 @@ using Niflheim.Installer.Clients;
 using Niflheim.Installer.Entities;
 using Niflheim.Installer.Services;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Windows;
 
 namespace Niflheim.Installer.Client
@@ -45,7 +47,12 @@ namespace Niflheim.Installer.Client
             serviceCollection.AddSingleton<MainWindow>()
                              .AddSingleton<MainViewModel>()
                              .AddSingleton<WebModpackRepository>()
-                             .AddSingleton<PreferencesService>()
+                             .AddSingleton<PreferencesService>(new PreferencesService(new FileInfo(@".\valheimlaucher.preferences.cfg"), new Dictionary<string, string>
+                             {
+                                 {"valheimPath", @"C:\Program Files (x86)\Steam\steamapps\common\Valheim" },
+                                 {"niflheimPath", @"C:\Program Files (x86)\Steam\steamapps\common\Niflheim" },
+                                 {"steamDetectionCompleted", "false" }
+                             }))
                              .AddSingleton<JsonModpackClient<ModpackArchiveDefinition>>(new JsonModpackClient<ModpackArchiveDefinition>(new Uri(config.DiscoveryUrl)))
                              .AddSingleton<AppConfig>(config);
         }
