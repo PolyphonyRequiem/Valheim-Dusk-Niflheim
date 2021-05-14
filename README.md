@@ -5,6 +5,8 @@ Niflheim is a challenging, hardcore, modded server that -requires- users to inst
 ## Joining the Dusk Discord Server
 New players who are not already part of the Dusk Discord server should join the server and use the Valheim channel to discuss, and the Niflheim voice channel.  The Server-Info channel will have up-to-date information. [Join here](https://discord.gg/dFbnbaFhRA)
 
+We hang out in the Valheim channel and there are three voice channels, Niflheim, Adventuring, and Homesteading.
+
 ## Rules
 - Niflheim players are expected to have joined the Dusk Discord Server and agree to obey all rules of the Dusk Discord server while playing in Niflheim as well.  These rules can be found [here](https://discord.com/channels/683821803252219974/683825744249749523/771419546505969667)
 
