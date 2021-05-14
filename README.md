@@ -18,7 +18,7 @@ Discord user Fracticality has created the hardcore mod that enables this feature
 
 ## Launching Niflheim
 
-Download the latest version of the launcher from [here](https://niflheim.blob.core.windows.net/installer/NiflheimLauncher.zipw)
+Download the latest version of the launcher from [here](https://niflheim.blob.core.windows.net/installer/NiflheimLauncher.zip)
 
 After the download completes, go to your "Downloads" folder and extract the Launcher.Zip
 Once extracted, open the extracted folder and run NiflheimLauncher.exe 
