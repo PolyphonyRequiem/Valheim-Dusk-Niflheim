@@ -42,7 +42,7 @@
         ]
     },
     "AtgeirFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 0.10,
         "station": "forge",
         "amountCrafted": 1,
@@ -80,7 +80,7 @@
         ]
     },
     "ArrowGreatFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 0.10,
         "station": "forge",
         "amountCrafted": 20,
@@ -199,7 +199,7 @@
         ]
     },
     "AxeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 0.50,
         "station": "forge",
         "amountCrafted": 1,
@@ -346,7 +346,7 @@
         ]
     },
     "BattleaxeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 15,
         "station": "forge",
         "amountCrafted": 1,
@@ -412,7 +412,7 @@
         ]
     },
     "BowFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 45,
         "station": "forge",
         "amountCrafted": 1,
@@ -543,7 +543,7 @@
         ]
     },
     "GreatswordFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 65,
         "station": "forge",
         "amountCrafted": 1,
@@ -613,7 +613,7 @@
         ]
     },
     "KnifeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 2.0,
         "effectDur": 1,
         "effectThreshold": 1,
@@ -741,7 +741,7 @@
         ]
     },
     "SpearFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 20,
         "station": "forge",
         "amountCrafted": 1,
@@ -779,7 +779,7 @@
         ]
     },
     "SledgeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 20,
         "station": "forge",
         "amountCrafted": 1,
@@ -817,7 +817,7 @@
         ]
     },
     "SwordFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 60,
         "station": "forge",
         "amountCrafted": 1,
@@ -999,7 +999,7 @@
         ]
     },
     "ThrowingAxeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 20,
         "station": "forge",
         "amountCrafted": 1,
@@ -1044,7 +1044,7 @@
         "enabled": false
     },
     "MaceFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 8,
         "cooldownVal": 17,
         "station": "forge",
