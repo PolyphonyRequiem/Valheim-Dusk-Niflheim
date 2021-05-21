@@ -833,36 +833,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.6" }
           ]
@@ -874,36 +880,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.6" }
           ]
@@ -915,36 +927,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.6" }
           ]
@@ -956,36 +974,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier0Mob.6" }
           ]
@@ -997,36 +1021,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.6" }
           ]
@@ -1038,6 +1068,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.1", "Weight" : 97 },
             { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 88, 2, 0, 0 ] }
@@ -1045,6 +1076,7 @@
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.2", "Weight" : 96 },
             { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 85, 5, 0, 0 ] }
@@ -1052,6 +1084,7 @@
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.3", "Weight" : 95 },
             { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 80, 10, 0, 0 ] }
@@ -1059,6 +1092,7 @@
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.4", "Weight" : 94 },
             { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 72, 17, 1, 0 ] }
@@ -1066,6 +1100,7 @@
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.5", "Weight" : 93 },
             { "Item": "ModUtility", "Weight" : 7, "Rarity": [ 66, 22, 2, 0 ] }
@@ -1073,6 +1108,7 @@
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier1Mob.6", "Weight" : 92 },
             { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 60, 27, 3, 0] }
@@ -1085,36 +1121,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.6" }
           ]
@@ -1126,36 +1168,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.6" }
           ]
@@ -1167,6 +1215,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.1", "Weight" : 97 },
             { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 75, 13, 2, 0] }
@@ -1174,6 +1223,7 @@
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.2", "Weight" : 96 },
             { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 70, 17, 3, 0 ] }
@@ -1181,6 +1231,7 @@
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.3", "Weight" : 95 },
             { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 65, 21, 4, 0 ]}
@@ -1188,6 +1239,7 @@
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.4", "Weight" : 94 },
             { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 55, 27, 6, 2 ] }
@@ -1195,6 +1247,7 @@
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.5", "Weight" : 93 },
             { "Item": "ModUtility", "Weight" : 7, "Rarity": [49, 31, 8, 2 ] }
@@ -1202,6 +1255,7 @@
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier2Mob.6", "Weight" : 92 },
             { "Item": "ModUtility", "Weight" : 8, "Rarity": [45, 32, 10, 3 ] }
@@ -1214,6 +1268,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.1", "Weight" : 97 },
             { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 60, 28, 2, 0 ] }
@@ -1221,6 +1276,7 @@
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.2", "Weight" : 96 },
             { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 54, 30, 5, 1 ] }
@@ -1228,6 +1284,7 @@
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.3", "Weight" : 95 },
             { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 48, 32, 8, 2 ]}
@@ -1235,6 +1292,7 @@
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.4", "Weight" : 94 },
             { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 42, 34, 11, 3 ] }
@@ -1242,6 +1300,7 @@
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.5", "Weight" : 93 },
             { "Item": "ModUtility", "Weight" : 7, "Rarity": [ 36, 36, 14, 4 ] }
@@ -1249,6 +1308,7 @@
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.6", "Weight" : 92 },
             { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 30, 38, 17, 5 ] }
@@ -1261,36 +1321,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.6" }
           ]
@@ -1302,36 +1368,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.6" }
           ]
@@ -1343,6 +1415,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.1", "Weight" : 97 },
             { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 60, 28, 2, 0 ] }
@@ -1350,6 +1423,7 @@
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.2", "Weight" : 96 },
             { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 54, 30, 5, 1 ] }
@@ -1357,6 +1431,7 @@
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.3", "Weight" : 95 },
             { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 48, 32, 8, 2 ]}
@@ -1364,6 +1439,7 @@
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.4", "Weight" : 94 },
             { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 42, 34, 11, 3 ] }
@@ -1371,6 +1447,7 @@
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.5", "Weight" : 93 },
             { "Item": "ModUtility", "Weight" : 7, "Rarity": [ 36, 36, 14, 4 ] }
@@ -1378,6 +1455,7 @@
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.6", "Weight" : 92 },
             { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 30, 38, 17, 5 ] }
@@ -1390,36 +1468,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.6" }
           ]
@@ -1431,36 +1515,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier3Mob.6" }
           ]
@@ -1472,6 +1562,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.1", "Weight" : 97 },
             { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 45, 38, 5, 2 ] }
@@ -1479,6 +1570,7 @@
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.2", "Weight" : 96 },
             { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 40, 39, 8, 3 ] }
@@ -1486,6 +1578,7 @@
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.3", "Weight" : 95 },
             { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 35, 40, 11, 4 ] }
@@ -1493,6 +1586,7 @@
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.4", "Weight" : 94 },
             { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 30, 41, 14, 5 ] }
@@ -1500,6 +1594,7 @@
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.5", "Weight" : 93 },
             { "Item": "ModUtility", "Weight" : 7, "Rarity": [ 25, 42, 17, 6 ] }
@@ -1507,6 +1602,7 @@
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.6", "Weight" : 92 },
             { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 20, 43, 20, 7 ]  }
@@ -1519,36 +1615,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.6" }
           ]
@@ -1560,36 +1662,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.6" }
           ]
@@ -1601,36 +1709,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.6" }
           ]
@@ -1642,36 +1756,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier4Mob.6" }
           ]
@@ -1683,36 +1803,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
           ]
@@ -1724,36 +1850,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
           ]
@@ -1765,36 +1897,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
           ]
@@ -1806,36 +1944,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
           ]
@@ -1847,36 +1991,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
           ]
@@ -1888,36 +2038,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
           ]
@@ -1929,36 +2085,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.6" }
           ]
@@ -1970,36 +2132,42 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.1" }
           ]
         },
         {
           "Level": 2,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.2" }
           ]
         },
         {
           "Level": 3,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.3" }
           ]
         },
         {
           "Level": 4,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.4" }
           ]
         }, 
         {
           "Level": 5,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.5" }
           ]
         },
         {
           "Level": 6,
+          "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier6Mob.6" }
           ]
