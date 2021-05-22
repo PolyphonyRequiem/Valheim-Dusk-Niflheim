@@ -90,25 +90,25 @@
     {
       "Name": "Tier1Weapons",
       "Loot": [
-        { "Item": "AxeFlint",   "Rarity": [ 99, 1, 0, 0 ] },
-        { "Item": "SpearFlint", "Rarity": [ 99, 1, 0, 0 ] },
-        { "Item": "KnifeFlint", "Rarity": [ 99, 1, 0, 0 ] },
-        { "Item": "Bow",        "Rarity": [ 99, 1, 0, 0 ] }
+        { "Item": "AxeFlint" },
+        { "Item": "SpearFlint" },
+        { "Item": "KnifeFlint" },
+        { "Item": "Bow" }
       ]
     },
     {
       "Name": "Tier1Armor",
       "Loot": [
-        { "Item": "ArmorLeatherLegs",  "Rarity": [ 99, 1, 0, 0 ] },
-        { "Item": "ArmorLeatherChest", "Rarity": [ 99, 1, 0, 0 ] },
-        { "Item": "HelmetLeather",     "Rarity": [ 99, 1, 0, 0 ] },
-        { "Item": "CapeDeerHide",      "Rarity": [ 99, 1, 0, 0 ] }
+        { "Item": "ArmorLeatherLegs" },
+        { "Item": "ArmorLeatherChest" },
+        { "Item": "HelmetLeather" },
+        { "Item": "CapeDeerHide" }
       ]
     },
     {
       "Name": "Tier1Tools",
       "Loot": [
-        { "Item": "PickaxeAntler", "Rarity": [ 99, 1, 0, 0 ] }
+        { "Item": "PickaxeAntler" }
       ]
     },
     {
@@ -121,45 +121,45 @@
     {
       "Name": "Tier2Weapons",
       "Loot": [
-        { "Item": "KnifeCopper",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "SledgeStagbreaker", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "SwordBronze",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "AxeBronze",         "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "MaceBronze",        "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "AtgeirBronze",      "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "SpearBronze",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "BowFineWood",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "KnifeChitin",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "SpearChitin",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "BattleaxeBronzeTerraheim",       "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] }
+        { "Item": "KnifeCopper",       "Weight": 1 },
+        { "Item": "SledgeStagbreaker", "Weight": 1 },
+        { "Item": "SwordBronze",       "Weight": 1 },
+        { "Item": "AxeBronze",         "Weight": 1 },
+        { "Item": "MaceBronze",        "Weight": 1 },
+        { "Item": "AtgeirBronze",      "Weight": 1 },
+        { "Item": "SpearBronze",       "Weight": 1 },
+        { "Item": "BowFineWood",       "Weight": 1 },
+        { "Item": "KnifeChitin",       "Weight": 1 },
+        { "Item": "SpearChitin",       "Weight": 1 },
+        { "Item": "BattleaxeBronzeTerraheim",       "Weight": 1 }
       ]
     },
     { 
       "Name": "Tier2Armor",
       "Loot": [
-        { "Item": "ArmorBronzeLegs", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "ArmorBronzeChest", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "HelmetBronze", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "ArmorTrollLeatherLegs",  "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "ArmorTrollLeatherChest", "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "HelmetTrollLeather",     "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "CapeTrollHide",          "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "HelmetLeatherT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "ArmorLeatherChestT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "ArmorLeatherLegsT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] }
+        { "Item": "ArmorBronzeLegs", "Weight": 1 },
+        { "Item": "ArmorBronzeChest", "Weight": 1 },
+        { "Item": "HelmetBronze", "Weight": 1 },
+        { "Item": "ArmorTrollLeatherLegs" },
+        { "Item": "ArmorTrollLeatherChest" },
+        { "Item": "HelmetTrollLeather" },
+        { "Item": "CapeTrollHide" },
+        { "Item": "HelmetLeatherT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherChestT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherLegsT1_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 }
       ]
     },
     {
       "Name": "Tier2Shields",
       "Loot": [
-        { "Item": "ShieldBronzeBuckler", "Rarity": [ 95, 5, 0, 0 ] }
+        { "Item": "ShieldBronzeBuckler" }
       ]
     },
     {
       "Name": "Tier2Tools",
       "Loot": [
-        { "Item": "PickaxeBronze", "Rarity": [ 95, 5, 0, 0 ] },
-        { "Item": "Cultivator",    "Rarity": [ 95, 5, 0, 0 ] }
+        { "Item": "PickaxeBronze" },
+        { "Item": "Cultivator" }
       ]
     },   
     {
@@ -173,49 +173,49 @@
     {
       "Name": "Tier3Weapons",
       "Loot": [
-        { "Item": "Battleaxe",      "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "SwordIron",      "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "AxeIron",        "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "SledgeIron",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "MaceIron",       "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "AtgeirIron",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "SpearElderbark", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "KnifeIron", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "GreatswordIron", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "Battleaxe",      "Weight": 1 },
+        { "Item": "SwordIron",      "Weight": 1 },
+        { "Item": "AxeIron",        "Weight": 1 },
+        { "Item": "SledgeIron",     "Weight": 1 },
+        { "Item": "MaceIron",       "Weight": 1 },
+        { "Item": "AtgeirIron",     "Weight": 1 },
+        { "Item": "SpearElderbark", "Weight": 1 },
+        { "Item": "KnifeIron", "Weight": 1 },
+        { "Item": "GreatswordIron", "Weight": 1 }
       ]
     },
     {
       "Name": "Tier3Armor",
       "Loot": [
-        { "Item": "ArmorIronLegs",  "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorIronChest", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "HelmetIron",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "HelmetBronzeT3_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBronzeChestT3_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBronzeLegsT3_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "HelmetTrollLeatherT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorTrollLeatherChestT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorTrollLeatherLegsT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "HelmetLeatherT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorLeatherChestT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorLeatherLegsT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeLegsJDT3",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeChestJDT3",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeHelmetJDT3",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "ArmorIronLegs",  "Weight": 1 },
+        { "Item": "ArmorIronChest", "Weight": 1 },
+        { "Item": "HelmetIron",     "Weight": 1 },
+        { "Item": "HelmetBronzeT3_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "ArmorBronzeChestT3_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "ArmorBronzeLegsT3_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "HelmetTrollLeatherT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorTrollLeatherChestT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorTrollLeatherLegsT3_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "HelmetLeatherT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherChestT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherLegsT3_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeLegsJDT3",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeChestJDT3",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeHelmetJDT3",     "Weight": 1 }
         
       ]
     },
     {
       "Name": "Tier3Shields",
       "Loot": [
-        { "Item": "ShieldBanded",    "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ShieldIronTower", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "ShieldBanded",    "Weight": 1 },
+        { "Item": "ShieldIronTower", "Weight": 1 }
       ]
     },
     {
       "Name": "Tier3Tools",
       "Loot": [
-        { "Item": "PickaxeIron", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "PickaxeIron", "Weight": 1 }
       ]
     },
     {
@@ -229,45 +229,45 @@
     {
       "Name": "Tier4Weapons",
       "Loot": [
-        { "Item": "SwordSilver",   "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "SpearWolfFang", "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "MaceSilver",    "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "BowDraugrFang", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "AxeForstasca", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "SwordFolchbrand", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "BattkeAxeSilver", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "AtgeirSilver", "Weight": 1,  "Rarity": [ 10, 40, 45, 15 ] }
+        { "Item": "SwordSilver",   "Weight": 1 },
+        { "Item": "SpearWolfFang", "Weight": 1 },
+        { "Item": "MaceSilver",    "Weight": 1 },
+        { "Item": "BowDraugrFang", "Weight": 1 },
+        { "Item": "AxeForstasca", "Weight": 1 },
+        { "Item": "SwordFolchbrand", "Weight": 1 },
+        { "Item": "BattkeAxeSilver", "Weight": 1 },
+        { "Item": "AtgeirSilver", "Weight": 1 }
       ]
     },
     {
       "Name": "Tier4Armor",
       "Loot": [
-        { "Item": "ArmorWolfLegs",  "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorWolfChest", "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "HelmetDrake",    "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "CapeWolf",       "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "HelmetIronT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorIronChestT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorIronLegsT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "HelmetBronzeT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorBronzeChestT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorBronzeLegsT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "HelmetTrollLeatherT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorTrollLeatherChestT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ArmorBarbarianBronzeLegsJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeChestJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeHelmetJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "ArmorWolfLegs",  "Weight": 1 },
+        { "Item": "ArmorWolfChest", "Weight": 1 },
+        { "Item": "HelmetDrake",    "Weight": 1 },
+        { "Item": "CapeWolf",       "Weight": 1 },
+        { "Item": "HelmetIronT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1 },
+        { "Item": "ArmorIronChestT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1 },
+        { "Item": "ArmorIronLegsT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1 },
+        { "Item": "HelmetBronzeT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "ArmorBronzeChestT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "ArmorBronzeLegsT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "HelmetTrollLeatherT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorTrollLeatherChestT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeLegsJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeChestJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeHelmetJDT3_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1 }
       ]
     },
     {
       "Name": "Tier4Shields",
       "Loot": [
-        { "Item": "ShieldSilver",       "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] },
-        { "Item": "ShieldSerpentscale", "Weight": 1, "Rarity": [ 10, 40, 45, 15 ] }
+        { "Item": "ShieldSilver",       "Weight": 1 },
+        { "Item": "ShieldSerpentscale", "Weight": 1 }
       ]
     },
     {
@@ -281,56 +281,56 @@
     {
       "Name": "Tier5Weapons",
       "Loot": [
-        { "Item": "AtgeirBlackmetal", "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "AxeBlackMetal",    "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "KnifeBlackMetal",  "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "SwordBlackmetal",  "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "MaceNeedle",       "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "SpearBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "BattleaxeBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "GreatswordBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "GreataxeBlackmetal", "Weight": 1,  "Rarity": [ 0, 30, 55, 15 ] }
+        { "Item": "AtgeirBlackmetal", "Weight": 1 },
+        { "Item": "AxeBlackMetal",    "Weight": 1 },
+        { "Item": "KnifeBlackMetal",  "Weight": 1 },
+        { "Item": "SwordBlackmetal",  "Weight": 1 },
+        { "Item": "MaceNeedle",       "Weight": 1 },
+        { "Item": "SpearBlackmetal", "Weight": 1 },
+        { "Item": "BattleaxeBlackmetal", "Weight": 1 },
+        { "Item": "GreatswordBlackmetal", "Weight": 1 },
+        { "Item": "GreataxeBlackmetal", "Weight": 1 }
       ]
     },
     {
       "Name": "Tier5Armor",
       "Loot": [
-        { "Item": "ArmorPaddedGreaves", "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorPaddedCuirass", "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetPadded",       "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "CapeLinen",          "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "CapeLox",            "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetIronT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetDrakeT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorWolfChestT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorWolfLegsT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorIronChestT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorIronLegsT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetBronzeT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorBronzeChestT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorBronzeLegsT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetTrollLeatherT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorTrollLeatherChestT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ArmorBarbarianBronzeLegsJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeChestJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] },
-        { "Item": "ArmorBarbarianBronzeHelmetJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "ArmorPaddedGreaves", "Weight": 1 },
+        { "Item": "ArmorPaddedCuirass", "Weight": 1 },
+        { "Item": "HelmetPadded",       "Weight": 1 },
+        { "Item": "CapeLinen",          "Weight": 1 },
+        { "Item": "CapeLox",            "Weight": 1 },
+        { "Item": "HelmetIronT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1 },
+        { "Item": "HelmetDrakeT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1 },
+        { "Item": "ArmorWolfChestT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1 },
+        { "Item": "ArmorWolfLegsT4_Terraheim_AddNewSets_AddSilverArmor",     "Weight": 1 },
+        { "Item": "ArmorIronChestT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1 },
+        { "Item": "ArmorIronLegsT4_Terraheim_AddNewSets_AddIronArmor",     "Weight": 1 },
+        { "Item": "HelmetBronzeT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "ArmorBronzeChestT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "ArmorBronzeLegsT4_Terraheim_AddNewSets_AddBronzeArmor",     "Weight": 1 },
+        { "Item": "HelmetTrollLeatherT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorTrollLeatherChestT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor",     "Weight": 1 },
+        { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeLegsJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeChestJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1 },
+        { "Item": "ArmorBarbarianBronzeHelmetJDT4_Terraheim_BarbarianArmor_AddNewSets",     "Weight": 1 }
       ]
     },
     {
       "Name": "Tier5Shields",
       "Loot": [
-        { "Item": "ShieldBlackmetal",      "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] },
-        { "Item": "ShieldBlackmetalTower", "Weight": 1, "Rarity": [ 0, 30, 55, 15 ] }
+        { "Item": "ShieldBlackmetal",      "Weight": 1 },
+        { "Item": "ShieldBlackmetalTower", "Weight": 1 }
       ]
     },
     {
       "Name": "Tier5Tools",
       "Loot": [
-        { "Item": "PickaxeBlackmetal", "Weight": 1, "Rarity": [ 40, 50, 9, 1 ] }
+        { "Item": "PickaxeBlackmetal", "Weight": 1 }
       ]
     },
     {
