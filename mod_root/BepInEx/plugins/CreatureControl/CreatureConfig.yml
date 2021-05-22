@@ -7,6 +7,7 @@ groups:
     Caster:
         - Fuling shaman
         - Greydwarf shaman
+        - Greydwarf Stormcaller
     Undead:
         - Skeleton
         - Rancid remains
@@ -37,6 +38,7 @@ groups:
         - Greydwarf
         - Greyling
     Low Humanoids:
+        - RRR_Hostile_T1
         - RRR_Hostile_T2
         - RRR_Hostile_T3
     High Humanoids:
@@ -670,8 +672,8 @@ Caster:
 
 Low Humanoids:
     size: 0
-    health: 0.8
-    damage: 0.7
+    health: 1.0
+    damage: .9
     movement speed: 1.0
     damage per star: 0.06
     stars:
