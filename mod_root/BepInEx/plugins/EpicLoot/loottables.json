@@ -1064,6 +1064,53 @@
       ]
     },
     {
+      "Object": "RRR_Hostile_T1",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
       "Object": "Skeleton",
       "LeveledLoot": [
         {
@@ -1112,6 +1159,53 @@
           "Loot": [
             { "Item": "Tier1Mob.6", "Weight" : 92 },
             { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 60, 27, 3, 0] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRR_Hostile_T2",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.6" }
           ]
         }
       ]
@@ -1209,7 +1303,54 @@
           ]
         }
       ]
-    },   
+    },
+    {
+      "Object": "RRRM_Greydwarf_Stormcaller",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.6" }
+          ]
+        }
+      ]
+    },
     {
       "Object": "Skeleton_Poison",
       "LeveledLoot": [
@@ -1264,7 +1405,201 @@
       ]
     },
     {
+      "Object": "RRR_GhostVengeful",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier2Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRR_Hostile_T3",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRR_GDThornweaver",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
       "Object": "Troll",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.1", "Weight" : 97 },
+            { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 60, 28, 2, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.2", "Weight" : 96 },
+            { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 54, 30, 5, 1 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.3", "Weight" : 95 },
+            { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 48, 32, 8, 2 ]}
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.4", "Weight" : 94 },
+            { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 42, 34, 11, 3 ] }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.5", "Weight" : 93 },
+            { "Item": "ModUtility", "Weight" : 7, "Rarity": [ 36, 36, 14, 4 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier3Mob.6", "Weight" : 92 },
+            { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 30, 38, 17, 5 ] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRR_TrollTosser",
       "LeveledLoot": [
         {
           "Level": 1,
@@ -1611,6 +1946,100 @@
       ]
     }, 
     {
+      "Object": "RRR_Hostile_T4",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRR_Grig",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier4Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
       "Object": "BlobElite",
       "LeveledLoot": [
         {
@@ -1799,6 +2228,53 @@
       ]
     },
     {
+      "Object": "RRR_Hostile_T5",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
       "Object": "StoneGolem",
       "LeveledLoot": [
         {
@@ -1938,7 +2414,54 @@
           ]
         }
       ]
-    },    
+    },
+    {
+      "Object": "RRRM_Storm",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier5Mob.6" }
+          ]
+        }
+      ]
+    },
     {
       "Object": "Deathsquito",
       "LeveledLoot": [
@@ -2076,6 +2599,53 @@
           "Drops": [ [1, 100] ],
           "Loot": [
             { "Item": "Tier5Mob.6" }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRR_Hostile_T6",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier6Mob.1" }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier6Mob.2" }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier6Mob.3" }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier6Mob.4" }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier6Mob.5" }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier6Mob.6" }
           ]
         }
       ]
