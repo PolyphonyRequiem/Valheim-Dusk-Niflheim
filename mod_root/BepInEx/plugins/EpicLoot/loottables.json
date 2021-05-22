@@ -165,23 +165,23 @@
     {
       "Name": "Tier2Everything",
       "Loot": [
-        { "Item": "Tier2Weapons", "Weight":   2},
-        { "Item": "Tier2Armor", "Weight":   2},
-        { "Item": "Tier2Shields", "Weight":   2}
+        { "Item": "Tier2Weapons",   "Weight":   2},
+        { "Item": "Tier2Armor",     "Weight":   2},
+        { "Item": "Tier2Shields",   "Weight":   2}
       ]
     },
     {
       "Name": "Tier3Weapons",
       "Loot": [
-        { "Item": "Battleaxe",      "Weight": 1 },
-        { "Item": "SwordIron",      "Weight": 1 },
-        { "Item": "AxeIron",        "Weight": 1 },
-        { "Item": "SledgeIron",     "Weight": 1 },
-        { "Item": "MaceIron",       "Weight": 1 },
-        { "Item": "AtgeirIron",     "Weight": 1 },
-        { "Item": "SpearElderbark", "Weight": 1 },
-        { "Item": "KnifeIron", "Weight": 1 },
-        { "Item": "GreatswordIron", "Weight": 1 }
+        { "Item": "Battleaxe",      "Weight": 2 },
+        { "Item": "SwordIron",      "Weight": 2 },
+        { "Item": "AxeIron",        "Weight": 2 },
+        { "Item": "SledgeIron",     "Weight": 2 },
+        { "Item": "MaceIron",       "Weight": 2 },
+        { "Item": "AtgeirIron",     "Weight": 2 },
+        { "Item": "SpearElderbark", "Weight": 2 },
+        { "Item": "KnifeIron",      "Weight": 2 },
+        { "Item": "GreatswordIron", "Weight": 2 }
       ]
     },
     {
@@ -236,7 +236,12 @@
         { "Item": "AxeForstasca", "Weight": 1 },
         { "Item": "SwordFolchbrand", "Weight": 1 },
         { "Item": "BattkeAxeSilver", "Weight": 1 },
-        { "Item": "AtgeirSilver", "Weight": 1 }
+        { "Item": "AtgeirSilver", "Weight": 1 },
+        { "Item": "MaceCoreGreat", "Weight": 1 },
+        { "Item": "MaceCoreGreatGreen", "Weight": 1 },
+        { "Item": "MaceCoreGreatBlue", "Weight": 1 },
+        { "Item": "SwordSilverGreat", "Weight": 1 },
+        { "Item": "AxeSilverBattle", "Weight": 1 }
       ]
     },
     {
@@ -289,7 +294,9 @@
         { "Item": "SpearBlackmetal", "Weight": 1 },
         { "Item": "BattleaxeBlackmetal", "Weight": 1 },
         { "Item": "GreatswordBlackmetal", "Weight": 1 },
-        { "Item": "GreataxeBlackmetal", "Weight": 1 }
+        { "Item": "GreataxeBlackmetal", "Weight": 1 },
+        { "Item": "SwordBlackmetalGreat", "Weight": 1 },
+        { "Item": "AxeBlackMetalBattle", "Weight": 1 }
       ]
     },
     {
