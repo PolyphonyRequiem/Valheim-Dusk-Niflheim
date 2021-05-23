@@ -24,7 +24,7 @@
       "item": "GoldRubyRing",
       "craftingStation": "forge",
       "resources": [
-        { "item": "Coins", "amount": 200 },
+        { "item": "Coins", "amount": 1000 },
         { "item": "Ruby", "amount": 1 }
       ]
     },
@@ -47,7 +47,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ShardRare", "amount": 5 },
-        { "item": "Coins",     "amount": 5 }
+        { "item": "Coins",     "amount": 50 }
       ]
     },
     {
@@ -57,7 +57,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ShardEpic", "amount": 5 },
-        { "item": "Coins",     "amount": 10 }
+        { "item": "Coins",     "amount": 250 }
       ]
     },
 
@@ -78,7 +78,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "DustRare", "amount": 5  },
-        { "item": "Coins",    "amount": 5 }
+        { "item": "Coins",    "amount": 50 }
       ]
     },
     {
@@ -88,7 +88,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "DustEpic", "amount": 5  },
-        { "item": "Coins",    "amount": 10 }
+        { "item": "Coins",    "amount": 250 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -108,7 +108,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ReagentRare", "amount": 5  },
-        { "item": "Coins",       "amount": 5 }
+        { "item": "Coins",       "amount": 50 }
       ]
     },
     {
@@ -118,7 +118,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ReagentEpic", "amount": 5  },
-        { "item": "Coins",       "amount": 10 }
+        { "item": "Coins",       "amount": 250 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -138,7 +138,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "EssenceRare", "amount": 5  },
-        { "item": "Coins",       "amount": 5 }
+        { "item": "Coins",       "amount": 50 }
       ]
     },
     {
@@ -148,7 +148,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "EssenceEpic", "amount": 5  },
-        { "item": "Coins",       "amount": 10 }
+        { "item": "Coins",       "amount": 250 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -168,7 +168,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "RunestoneRare", "amount": 5  },
-        { "item": "Coins",         "amount": 5 }
+        { "item": "Coins",         "amount": 50 }
       ]
     },
     {
@@ -178,7 +178,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "RunestoneEpic", "amount": 5  },
-        { "item": "Coins",         "amount": 10 }
+        { "item": "Coins",         "amount": 250 }
       ]
     },
 
