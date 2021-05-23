@@ -58,6 +58,11 @@
         ],
         "recipe": [
             {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
                 "item": "BlackMetal",
                 "amount": 5,
                 "perLevel": 1
@@ -95,6 +100,11 @@
             }
         ],
         "recipe": [
+            {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
             {
                 "item": "BlackMetal",
                 "amount": 1,
@@ -218,6 +228,11 @@
             }
         ],
         "recipe": [
+            {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
             {
                 "item": "BlackMetal",
                 "amount": 1,
@@ -362,6 +377,11 @@
         ],
         "recipe": [
             {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
                 "item": "BlackMetal",
                 "amount": 2,
                 "perLevel": 1
@@ -427,6 +447,11 @@
             }
         ],
         "recipe": [
+            {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
             {
                 "item": "BlackMetal",
                 "amount": 5,
@@ -559,6 +584,11 @@
         ],
         "recipe": [
             {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
                 "item": "BlackMetal",
                 "amount": 3,
                 "perLevel": 1
@@ -634,6 +664,11 @@
             }
         ],
         "recipe": [
+            {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
             {
                 "item": "BlackMetal",
                 "amount": 2,
@@ -757,6 +792,11 @@
         ],
         "recipe": [
             {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
                 "item": "BlackMetal",
                 "amount": 5,
                 "perLevel": 1
@@ -795,6 +835,11 @@
         ],
         "recipe": [
             {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
                 "item": "BlackMetal",
                 "amount": 5,
                 "perLevel": 1
@@ -832,6 +877,11 @@
             }
         ],
         "recipe": [
+            {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
             {
                 "item": "BlackMetal",
                 "amount": 2,
@@ -1019,6 +1069,11 @@
         ],
         "recipe": [
             {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
                 "item": "BlackMetal",
                 "amount": 5,
                 "perLevel": 1
@@ -1060,6 +1115,11 @@
             }
         ],
         "recipe": [
+            {
+                "item": "TorchOlympia",
+                "amount": 1,
+                "perLevel": 1
+            },
             {
                 "item": "BlackMetal",
                 "amount": 3,
