@@ -303,7 +303,7 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "CloudBerry", "amount": 2 },
+        { "item": "Cloudberry", "amount": 2 },
         { "item": "ShardLegendary", "amount": 2 }
       ]
     },
