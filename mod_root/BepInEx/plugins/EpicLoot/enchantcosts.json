@@ -76,7 +76,7 @@
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_boar", "$item_trophy_deer", "$item_trophy_neck" ],
+      "ItemNames" : [ "$item_trophy_boar", "$item_trophy_deer", "$item_trophy_neck", "$item_trophy_greydwarf" ],
       "Products" : [ { "Item": "ShardMagic", "Amount": 1 } ]
     },
     {
