@@ -315,10 +315,9 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardMagic", "amount": 5 },
-        { "item": "DustMagic", "amount": 1 },
-        { "item": "ReagentMagic", "amount": 1 },
-        { "item": "EssenceMagic", "amount": 1 },
+        { "item": "DustMagic", "amount": 2 },
+        { "item": "ReagentMagic", "amount": 2 },
+        { "item": "EssenceMagic", "amount": 2 },
         { "item": "FineWood", "amount": 10 }        
       ]
     },
@@ -328,10 +327,9 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardRare", "amount": 5 },
-        { "item": "DustRare", "amount": 1 },
-        { "item": "ReagentRare", "amount": 1 },
-        { "item": "EssenceRare", "amount": 1 },
+        { "item": "DustRare", "amount": 2 },
+        { "item": "ReagentRare", "amount": 2 },
+        { "item": "EssenceRare", "amount": 2 },
         { "item": "ElderBark", "amount": 10 }        
       ]
     },
@@ -341,10 +339,9 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardEpic", "amount": 5 },
-        { "item": "DustEpic", "amount": 1 },
-        { "item": "ReagentEpic", "amount": 1 },
-        { "item": "EssenceEpic", "amount": 1 },
+        { "item": "DustEpic", "amount": 2 },
+        { "item": "ReagentEpic", "amount": 2 },
+        { "item": "EssenceEpic", "amount": 2 },
         { "item": "Crystal", "amount": 5 }        
       ]
     },
@@ -354,10 +351,9 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardLegendary", "amount": 5 },
-        { "item": "DustLegendary", "amount": 1 },
-        { "item": "ReagentLegendary", "amount": 1 },
-        { "item": "EssenceLegendary", "amount": 1 },
+        { "item": "DustLegendary", "amount": 2 },
+        { "item": "ReagentLegendary", "amount": 2 },
+        { "item": "EssenceLegendary", "amount": 2 },
         { "item": "BlackMetalScrap", "amount": 5 }        
       ]
     },
