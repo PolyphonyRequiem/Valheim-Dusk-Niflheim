@@ -4,7 +4,9 @@
  - Many new building pieces! - Thanks to Odin Architect.
  - Over a dozen new enchanting affixes! - Thanks to Epic Loot.
  - A few new monsters await you.
- - New two-handers have been added.
+ - 9 new two-handers have been added.
+ - A new tier of bombs have been added.
+ - Two new bows have been added.
  - Several new Arrows have been added.
  
 ## Changes: 
