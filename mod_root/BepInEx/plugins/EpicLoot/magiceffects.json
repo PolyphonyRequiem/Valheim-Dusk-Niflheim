@@ -180,46 +180,47 @@
         "$mod_epicloot_me_modifydurability_suffix4"
       ]
     },
-    // {
-    //   "Type" : "ReduceWeight",
-    //   "DisplayText" : "$mod_epicloot_me_reduceweight_display",
-    //   "Description" : "$mod_epicloot_me_reduceweight_desc",
-    //   "Requirements" : {
-    //     "ExclusiveEffectTypes" : [
-    //       "Weightless"
-    //     ],
-    //     "AllowedItemTypes" : [
-    //       "OneHandedWeapon",
-    //       "TwoHandedWeapon",
-    //       "Bow",
-    //       "Torch",
-    //       "Shield",
-    //       "Tool",
-    //       "Helmet",
-    //       "Chest",
-    //       "Legs",
-    //       "Shoulder"
-    //     ],
-    //     "AllowedRarities" : [
-    //       "Magic",
-    //       "Rare",
-    //       "Epic"
-    //     ]
-    //   },
-    //   "ValuesPerRarity" : {
-    //     "Magic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
-    //     "Rare" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
-    //     "Epic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 }
-    //   },
-    //   "SelectionWeight" : 1,
-    //   "Prefixes": [
-    //     "$mod_epicloot_me_reduceweight_prefix1",
-    //     "$mod_epicloot_me_reduceweight_prefix2"
-    //   ],
-    //   "Suffixes": [
-    //     "$mod_epicloot_me_reduceweight_suffix1"
-    //   ]
-    // },
+    {
+      "Type" : "ReduceWeight",
+      "DisplayText" : "$mod_epicloot_me_reduceweight_display",
+      "Description" : "$mod_epicloot_me_reduceweight_desc",
+      "Requirements" : {
+        "NoRoll": true,
+        "ExclusiveEffectTypes" : [
+          "Weightless"
+        ],
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow",
+          "Torch",
+          "Shield",
+          "Tool",
+          "Helmet",
+          "Chest",
+          "Legs",
+          "Shoulder"
+        ],
+        "AllowedRarities" : [
+          "Magic",
+          "Rare",
+          "Epic"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
+        "Rare" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
+        "Epic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_reduceweight_prefix1",
+        "$mod_epicloot_me_reduceweight_prefix2"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_reduceweight_suffix1"
+      ]
+    },
     {
       "Type" : "RemoveSpeedPenalty",
       "DisplayText" : "$mod_epicloot_me_removespeedpenalty_display",
