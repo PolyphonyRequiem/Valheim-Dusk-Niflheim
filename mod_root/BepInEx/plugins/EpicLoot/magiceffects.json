@@ -1375,35 +1375,36 @@
         "$mod_epicloot_me_indestructible_suffix1"
       ]
     },
-    // {
-    //   "Type" : "Weightless",
-    //   "DisplayText" : "$mod_epicloot_me_weightless_display",
-    //   "Description" : "$mod_epicloot_me_weightless_desc",
-    //   "Requirements" : {
-    //     "ExclusiveEffectTypes" : [
-    //       "ReduceWeight"
-    //     ],
-    //     "AllowedItemTypes" : [
-    //       "OneHandedWeapon",
-    //       "TwoHandedWeapon",
-    //       "Bow",
-    //       "Torch",
-    //       "Tool",
-    //       "Shield",
-    //       "Helmet",
-    //       "Chest",
-    //       "Legs",
-    //       "Shoulder"
-    //     ]
-    //   },
-    //   "SelectionWeight" : 1,
-    //   "Prefixes": [
-    //     "$mod_epicloot_me_weightless_prefix1"
-    //   ],
-    //   "Suffixes": [
-    //     "$mod_epicloot_me_weightless_suffix1"
-    //   ]
-    // },
+    {
+      "Type" : "Weightless",
+      "DisplayText" : "$mod_epicloot_me_weightless_display",
+      "Description" : "$mod_epicloot_me_weightless_desc",
+      "Requirements" : {
+        "NoRoll": true,
+        "ExclusiveEffectTypes" : [
+          "ReduceWeight"
+        ],
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow",
+          "Torch",
+          "Tool",
+          "Shield",
+          "Helmet",
+          "Chest",
+          "Legs",
+          "Shoulder"
+        ]
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_weightless_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_weightless_suffix1"
+      ]
+    },
     {
       "Type" : "AddCarryWeight",
       "DisplayText" : "$mod_epicloot_me_addcarryweight_display",
@@ -1603,32 +1604,33 @@
         "$mod_epicloot_me_waterwalk_suffix2"
       ]
     },
-    // {
-    //   "Type" : "ExplosiveArrows",
-    //   "DisplayText" : "$mod_epicloot_me_explosivearrows_display",
-    //   "Description" : "$mod_epicloot_me_explosivearrows_desc",
-    //   "Requirements" : {
-    //     "AllowedItemTypes" : [
-    //       "Bow"
-    //     ],
-    //     "ExcludedSkillTypes": [
-    //       "Pickaxes"
-    //     ]
-    //   },
-    //   "ValuesPerRarity" : {
-    //     "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-    //     "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-    //     "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-    //     "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
-    //   },
-    //   "SelectionWeight" : 1,
-    //   "Prefixes": [
-    //     "$mod_epicloot_me_explosivearrows_prefix1"
-    //   ],
-    //   "Suffixes": [
-    //     "$mod_epicloot_me_explosivearrows_suffix1"
-    //   ]
-    // },
+    {
+      "Type" : "ExplosiveArrows",
+      "DisplayText" : "$mod_epicloot_me_explosivearrows_display",
+      "Description" : "$mod_epicloot_me_explosivearrows_desc",
+      "Requirements" : {
+        "NoRoll": true,
+        "AllowedItemTypes" : [
+          "Bow"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
+        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_explosivearrows_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_explosivearrows_suffix1"
+      ]
+    },
     {
       "Type" : "QuickDraw",
       "DisplayText" : "$mod_epicloot_me_quickdraw_display",
@@ -1996,26 +1998,27 @@
       "Prefixes": [ "$mod_epicloot_me_recallweapon_prefix1" ],
       "Suffixes": [ "$mod_epicloot_me_recallweapon_suffix1" ]
     },
-    // {
-    //   "Type" : "ReflectDamage",
-    //   "DisplayText" : "$mod_epicloot_me_reflectdamage_display",
-    //   "Description" : "$mod_epicloot_me_reflectdamage_desc",
-    //   "Requirements" : {
-    //     "AllowedItemTypes" : [
-    //       "Chest",
-    //       "Shield"
-    //     ]
-    //   },
-    //   "ValuesPerRarity" : {
-    //     "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-    //     "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-    //     "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-    //     "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
-    //   },
-    //   "SelectionWeight" : 1,
-    //   "Prefixes": [ "$mod_epicloot_me_reflectdamage_prefix1" ],
-    //   "Suffixes": [ "$mod_epicloot_me_reflectdamage_suffix1" ]
-    // },
+    {
+      "Type" : "ReflectDamage",
+      "DisplayText" : "$mod_epicloot_me_reflectdamage_display",
+      "Description" : "$mod_epicloot_me_reflectdamage_desc",
+      "Requirements" : {
+        "NoRoll": true,
+        "AllowedItemTypes" : [
+          "Chest",
+          "Shield"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
+        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "$mod_epicloot_me_reflectdamage_prefix1" ],
+      "Suffixes": [ "$mod_epicloot_me_reflectdamage_suffix1" ]
+    },
     {
       "Type" : "AvoidDamageTaken",
       "DisplayText" : "$mod_epicloot_me_avoiddamagetaken_display",
@@ -2493,50 +2496,51 @@
         "$mod_epicloot_me_opportunist_suffix1"
       ]
     },
-    // {
-    //   "Type" : "Duelist",
-    //   "DisplayText" : "$mod_epicloot_me_duelist_display",
-    //   "Description" : "$mod_epicloot_me_duelist_desc",
-    //   "Requirements" : {
-    //     "AllowedItemTypes" : [
-    //       "OneHandedWeapon"
-    //     ],
-    //     "AllowedSkillTypes" : [
-    //       "Swords"
-    //     ]
-    //   },
-    //   "ValuesPerRarity" : {
-    //     "Magic" : { "MinValue" : 20, "MaxValue" : 30, "Increment" : 1 },
-    //     "Rare" : { "MinValue" : 31, "MaxValue" : 40, "Increment" : 1 },
-    //     "Epic" : { "MinValue" : 41, "MaxValue" : 50, "Increment" : 1 },
-    //     "Legendary" : { "MinValue" : 51, "MaxValue" : 60, "Increment" : 1 }
-    //   },
-    //   "SelectionWeight" : 1,
-    //   "Prefixes": [
-    //     "$mod_epicloot_me_duelist_prefix1"
-    //   ],
-    //   "Suffixes": [
-    //     "$mod_epicloot_me_duelist_suffix1"
-    //   ]
-    // },
-    // {
-    //   "Type" : "Immovable",
-    //   "DisplayText" : "$mod_epicloot_me_immovable_display",
-    //   "Description" : "$mod_epicloot_me_immovable_desc",
-    //   "Requirements" : {
-    //     "AllowedItemTypes" : [
-    //       "Shield"
-    //     ],
-    //     "ItemHasNoParryPower" : true
-    //   },
-    //   "SelectionWeight" : 1,
-    //   "Prefixes": [
-    //     "$mod_epicloot_me_immovable_prefix1"
-    //   ],
-    //   "Suffixes": [
-    //     "$mod_epicloot_me_immovable_suffix1"
-    //   ]
-    // },
+    {
+      "Type" : "Duelist",
+      "DisplayText" : "$mod_epicloot_me_duelist_display",
+      "Description" : "$mod_epicloot_me_duelist_desc",
+      "Requirements" : {
+        "NoRoll": true,
+        "AllowedItemTypes" : [
+          "OneHandedWeapon"
+        ],
+        "AllowedSkillTypes" : [
+          "Swords"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 20, "MaxValue" : 30, "Increment" : 1 },
+        "Rare" : { "MinValue" : 31, "MaxValue" : 40, "Increment" : 1 },
+        "Epic" : { "MinValue" : 41, "MaxValue" : 50, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 51, "MaxValue" : 60, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_duelist_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_duelist_suffix1"
+      ]
+    },
+    {
+      "Type" : "Immovable",
+      "DisplayText" : "$mod_epicloot_me_immovable_display",
+      "Description" : "$mod_epicloot_me_immovable_desc",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "Shield"
+        ],
+        "ItemHasNoParryPower" : true
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_immovable_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_immovable_suffix1"
+      ]
+    },
     {
       "Type" : "ModifyStaggerDamage",
       "DisplayText" : "$mod_epicloot_me_modifystaggerdamage_display",
