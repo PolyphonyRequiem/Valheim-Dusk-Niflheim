@@ -86,7 +86,7 @@
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_skeleton, $item_trophy_skeletonpoison" ],
+      "ItemNames" : [ "$item_trophy_skeleton", "$item_trophy_skeletonpoison" ],
       "Products" : [ { "Item": "EssenceMagic", "Amount": 1 } ]
     },
     {
