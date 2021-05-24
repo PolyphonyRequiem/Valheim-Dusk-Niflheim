@@ -24,7 +24,7 @@
       "item": "GoldRubyRing",
       "craftingStation": "forge",
       "resources": [
-        { "item": "Coins", "amount": 200 },
+        { "item": "Coins", "amount": 1000 },
         { "item": "Ruby", "amount": 1 }
       ]
     },
@@ -47,7 +47,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ShardRare", "amount": 5 },
-        { "item": "Coins",     "amount": 5 }
+        { "item": "Coins",     "amount": 50 }
       ]
     },
     {
@@ -57,7 +57,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ShardEpic", "amount": 5 },
-        { "item": "Coins",     "amount": 10 }
+        { "item": "Coins",     "amount": 250 }
       ]
     },
 
@@ -78,7 +78,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "DustRare", "amount": 5  },
-        { "item": "Coins",    "amount": 5 }
+        { "item": "Coins",    "amount": 50 }
       ]
     },
     {
@@ -88,7 +88,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "DustEpic", "amount": 5  },
-        { "item": "Coins",    "amount": 10 }
+        { "item": "Coins",    "amount": 250 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -108,7 +108,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ReagentRare", "amount": 5  },
-        { "item": "Coins",       "amount": 5 }
+        { "item": "Coins",       "amount": 50 }
       ]
     },
     {
@@ -118,7 +118,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "ReagentEpic", "amount": 5  },
-        { "item": "Coins",       "amount": 10 }
+        { "item": "Coins",       "amount": 250 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -138,7 +138,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "EssenceRare", "amount": 5  },
-        { "item": "Coins",       "amount": 5 }
+        { "item": "Coins",       "amount": 50 }
       ]
     },
     {
@@ -148,7 +148,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "EssenceEpic", "amount": 5  },
-        { "item": "Coins",       "amount": 10 }
+        { "item": "Coins",       "amount": 250 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -168,7 +168,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "RunestoneRare", "amount": 5  },
-        { "item": "Coins",         "amount": 5 }
+        { "item": "Coins",         "amount": 50 }
       ]
     },
     {
@@ -178,7 +178,7 @@
       "craftingStation": "",
       "resources": [
         { "item": "RunestoneEpic", "amount": 5  },
-        { "item": "Coins",         "amount": 10 }
+        { "item": "Coins",         "amount": 250 }
       ]
     },
 
@@ -190,6 +190,7 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
+        { "item": "TrophyGreydwarf", "amount": 1 },
         { "item": "ShardMagic", "amount": 2 }
       ]
     },
@@ -199,6 +200,7 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
+        { "item": "BoneFragments", "amount": 2 },
         { "item": "ShardMagic", "amount": 2 }
       ]
     },
@@ -208,6 +210,7 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
+        { "item": "Thistle", "amount": 1 },
         { "item": "ShardMagic", "amount": 2 }
       ]
     },
@@ -218,8 +221,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardRare", "amount": 2 },
-        { "item": "Coins",     "amount": 2 }
+        { "item": "TrophyLeech", "amount": 1 },
+        { "item": "ShardRare", "amount": 2 }
       ]
     },
     {
@@ -228,8 +231,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardRare", "amount": 2 },
-        { "item": "Coins",     "amount": 2 }
+        { "item": "WitheredBone", "amount": 1 },
+        { "item": "ShardRare", "amount": 2 }
       ]
     },
     {
@@ -238,8 +241,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardRare", "amount": 2 },
-        { "item": "Coins",     "amount": 2 }
+        { "item": "MushroomBlue", "amount": 1 },
+        { "item": "ShardRare", "amount": 2 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -249,8 +252,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardEpic", "amount": 2 },
-        { "item": "Coins",     "amount": 3 }
+        { "item": "TrophyHatchling", "amount": 1 },
+        { "item": "ShardEpic", "amount": 2 }
       ]
     },
     {
@@ -259,8 +262,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardEpic", "amount": 2 },
-        { "item": "Coins",     "amount": 3 }
+        { "item": "WolfFang", "amount": 1 },
+        { "item": "ShardEpic", "amount": 2 }
       ]
     },
     {
@@ -269,8 +272,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardEpic", "amount": 2 },
-        { "item": "Coins",     "amount": 3 }
+        { "item": "Obsidian", "amount": 1 },
+        { "item": "ShardEpic", "amount": 2 }
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -280,8 +283,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardLegendary", "amount": 2 },
-        { "item": "Coins",          "amount": 4 }
+        { "item": "TrophyLox", "amount": 1 },
+        { "item": "ShardLegendary", "amount": 2 }
       ]
     },
     {
@@ -290,8 +293,8 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardLegendary", "amount": 2 },
-        { "item": "Coins",          "amount": 4 }
+        { "item": "Needle", "amount": 1 },
+        { "item": "ShardLegendary", "amount": 2 }
       ]
     },
     {
@@ -300,8 +303,58 @@
       "amount": 1,
       "craftingStation": "",
       "resources": [
-        { "item": "ShardLegendary", "amount": 2 },
-        { "item": "Coins",          "amount": 4 }
+        { "item": "Cloudberry", "amount": 2 },
+        { "item": "ShardLegendary", "amount": 2 }
+      ]
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "name": "Recipe_MagicRunestone_Conversion",
+      "item": "RunestoneMagic",
+      "amount": 1,
+      "craftingStation": "",
+      "resources": [
+        { "item": "DustMagic", "amount": 2 },
+        { "item": "ReagentMagic", "amount": 2 },
+        { "item": "EssenceMagic", "amount": 2 },
+        { "item": "FineWood", "amount": 10 }        
+      ]
+    },
+    {
+      "name": "Recipe_RareRunestone_Conversion",
+      "item": "RunestoneRare",
+      "amount": 1,
+      "craftingStation": "",
+      "resources": [
+        { "item": "DustRare", "amount": 2 },
+        { "item": "ReagentRare", "amount": 2 },
+        { "item": "EssenceRare", "amount": 2 },
+        { "item": "ElderBark", "amount": 10 }        
+      ]
+    },
+    {
+      "name": "Recipe_EpicRunestone_Conversion",
+      "item": "RunestoneEpic",
+      "amount": 1,
+      "craftingStation": "",
+      "resources": [
+        { "item": "DustEpic", "amount": 2 },
+        { "item": "ReagentEpic", "amount": 2 },
+        { "item": "EssenceEpic", "amount": 2 },
+        { "item": "Crystal", "amount": 5 }        
+      ]
+    },
+    {
+      "name": "Recipe_LegendaryRunestone_Conversion",
+      "item": "RunestoneLegendary",
+      "amount": 1,
+      "craftingStation": "",
+      "resources": [
+        { "item": "DustLegendary", "amount": 2 },
+        { "item": "ReagentLegendary", "amount": 2 },
+        { "item": "EssenceLegendary", "amount": 2 },
+        { "item": "BlackMetalScrap", "amount": 5 }        
       ]
     },
 
@@ -353,6 +406,22 @@
       "craftingStation": "piece_workbench",
       "resources": [
         { "item": "FreezeGland", "amount": 3 }
+      ]
+    },
+    {
+      "name": "Recipe_DragonTearRunestone",
+      "item": "RunestoneLegendary",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "DragonTear", "amount": 3 }
+      ]
+    },
+    {
+      "name": "Recipe_YagluthThingRunestone",
+      "item": "RunestoneLegendary",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "YagluthDrop", "amount": 1 }
       ]
     }
   ]

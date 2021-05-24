@@ -5,7 +5,6 @@ groups:
         - Fuling Archer
         - Draugr Archer
     Caster:
-        - Fuling shaman
         - Greydwarf shaman
     Undead:
         - Skeleton
@@ -37,6 +36,7 @@ groups:
         - Greydwarf
         - Greyling
     Low Humanoids:
+        - RRR_Hostile_T1
         - RRR_Hostile_T2
         - RRR_Hostile_T3
     High Humanoids:
@@ -158,6 +158,28 @@ Fuling:
             Chaos: [0, 5, 10, 20, 35, 50]
         5:
             Chaos: [25, 50, 100, 100, 100, 100]
+    loot:
+        0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        2: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        3: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        4: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        5: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+
+Greydwarf_Stormcaller:
+    size: 0
+    health: 1.0
+    damage: 1.15
+    movement speed: 1.0
+    damage per star: 0.12
+    health per star: 0.15
+    stars:
+        0: [10, 0.5, 0.3, 0.1, 0.01]
+        1: [15, 1, 0.5, 0.2, 0.1]
+        2: [20, 2, 0.8, 0.4, 0.2]
+        3: [25, 5, 2.3, 0.9, 0.5]
+        4: [35, 10, 5, 2.2, 1]
+        5: [50, 20, 8, 5, 2.5]
     loot:
         0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
         1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
@@ -314,6 +336,84 @@ Fenrig:
         5:
             Spirit: [50, 50, 50, 50, 50, 50]
             Chaos: [50, 50, 50, 50, 50, 50]
+    loot:
+        0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        2: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        3: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        4: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        5: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+
+Storm:
+    size: 0
+    health: 1.2
+    damage: 0.6
+    movement speed: 1.7
+    damage per star: 0.05
+    movement speed per star: 0.1
+    stars:
+        0: [10, 0.5, 0.3, 0.1, 0.01]
+        1: [15, 1, 0.5, 0.2, 0.1]
+        2: [20, 2, 0.8, 0.4, 0.2]
+        3: [25, 5, 2.3, 0.9, 0.5]
+        4: [35, 10, 5, 2.2, 1]
+        5: [50, 20, 8, 5, 2.5]
+    effect:
+        0:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [0, 0, 0, 0, 0]
+    infusion:
+        0:
+            Lightning: [100, 100, 100, 100, 100, 100]
+        1:
+            Lightning: [100, 100, 100, 100, 100, 100]
+        2:
+            Lightning: [100, 100, 100, 100, 100, 100]
+        3:
+            Lightning: [100, 100, 100, 100, 100, 100]
+        4:
+            Lightning: [100, 100, 100, 100, 100, 100]
+        5:
+            Lightning: [100, 100, 100, 100, 100, 100]
     loot:
         0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
         1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
@@ -557,9 +657,10 @@ Forest Creatures:
 Surtling:
     size: 0
     health: 1.1
-    damage: 1.1
+    damage: 0.4
     movement speed: 1.1
-    damage per star: 0.09
+    damage per star: 1.3
+    health per star: 1.2
     effect:
         0:
             Aggressive: [0, 0, 0, 0, 0]
@@ -603,6 +704,83 @@ Surtling:
             Quick: [0, 0, 0, 0, 0]
             Regenerating: [100, 100, 100, 100, 100]
             Splitting: [0, 0, 0, 0, 0]
+    loot:
+        0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        2: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        3: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        4: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        5: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+
+RRR_Grig:
+    size: 0
+    health: 1.2
+    damage: 0.7
+    movement speed: 0.8
+    damage per star: 0.15
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+    infusion:
+        0:
+            Chaos: [25, 25, 50, 50, 100, 100]
+        1:
+            Chaos: [25, 50, 50, 100, 100, 100]
+        2:
+            Chaos: [50, 50, 100, 100, 100, 100]
+        3:
+            Chaos: [50, 100, 100, 100, 100, 100]
+        4:
+            Chaos: [100, 100, 100, 100, 100, 100]
+        5:
+            Chaos: [100, 100, 100, 100, 100, 100]
+    effect:
+        0:
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [50, 50, 50, 50, 50]
+            Aggressive: [50, 50, 50, 50, 50]
+            Curious: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+        1:
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [50, 50, 50, 50, 50]
+            Aggressive: [50, 50, 50, 50, 50]
+            Curious: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+        2:
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [50, 50, 50, 50, 50]
+            Aggressive: [50, 50, 50, 50, 50]
+            Curious: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+        3:
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [50, 50, 50, 50, 50]
+            Aggressive: [50, 50, 50, 50, 50]
+            Curious: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+        4:
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [50, 50, 50, 50, 50]
+            Aggressive: [50, 50, 50, 50, 50]
+            Curious: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+        5:
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [50, 50, 50, 50, 50]
+            Aggressive: [50, 50, 50, 50, 50]
+            Curious: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
     loot:
         0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
         1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
@@ -668,10 +846,67 @@ Caster:
         4: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
         5: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
 
+Fuling shaman:
+    size: 0
+    health: 0.4
+    damage: 0.6
+    movement speed: 1.1
+    damage per star: 0.25
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [0, 0, 0, 0, 0]
+            Regenerating: [100, 100, 100, 100, 100]
+            Splitting: [0, 0, 0, 0, 0]
+    loot:
+        0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        2: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        3: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        4: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        5: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+
 Low Humanoids:
     size: 0
-    health: 0.8
-    damage: 0.7
+    health: 1.0
+    damage: .9
     movement speed: 1.0
     damage per star: 0.06
     stars:
@@ -954,6 +1189,84 @@ RRR_GDThornweaver:
             Chaos: [0, 5, 10, 20, 35, 50]
         5:
             Chaos: [25, 50, 100, 100, 100, 100]
+    loot:
+        0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        2: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        3: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        4: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+        5: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
+
+Drowned Soul:
+    size: 0
+    health: 1.2
+    damage: 0.7
+    attack speed: 0.5
+    movement speed: 1.5
+    damage per star: 0.10
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+    effect:
+        0:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [100, 100, 100, 100, 100]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        1:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [100, 100, 100, 100, 100]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        2:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [100, 100, 100, 100, 100]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        3:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [100, 100, 100, 100, 100]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        4:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [100, 100, 100, 100, 100]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+        5:
+            Aggressive: [0, 0, 0, 0, 0]
+            Armored: [0, 0, 0, 0, 0]
+            Curious: [0, 0, 0, 0, 0]
+            Quick: [100, 100, 100, 100, 100]
+            Regenerating: [0, 0, 0, 0, 0]
+            Splitting: [0, 0, 0, 0, 0]
+    infusion:
+        0:
+            Chaos: [100, 100, 100, 100, 100, 100]
+        1:
+            Chaos: [100, 100, 100, 100, 100, 100]
+        2:
+            Chaos: [100, 100, 100, 100, 100, 100]
+        3:
+            Chaos: [100, 100, 100, 100, 100, 100]
+        4:
+            Chaos: [100, 100, 100, 100, 100, 100]
+        5:
+            Chaos: [100, 100, 100, 100, 100, 100]
     loot:
         0: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
         1: [0.75, 1.25, 1.5, 1.75, 2.0, 2.5]
@@ -1570,31 +1883,31 @@ The Elder:
             Shielded: [0, 0, 0, 0, 0]
             Reflective: [0, 0, 0, 0, 0]
             Summoner: [34, 34, 34, 34, 34]
-            Elementalist: [33, 33, 33, 33, 33]
+            Elementalist: [0, 0, 0, 0, 0]
             Enraged: [33, 33, 33, 33, 33]
-            Twin: [0, 0, 0, 0, 0]
+            Twin: [10, 10, 10, 10, 10]
         1:
             Mending: [0, 0, 0, 0, 0]
             Shielded: [0, 0, 0, 0, 0]
             Reflective: [0, 0, 0, 0, 0]
             Summoner: [34, 34, 34, 34, 34]
-            Elementalist: [33, 33, 33, 33, 33]
+            Elementalist: [0, 0, 0, 0, 0]
             Enraged: [33, 33, 33, 33, 33]
-            Twin: [0, 0, 0, 0, 0]
+            Twin: [10, 10, 10, 10, 10]
         2:
             Mending: [0, 0, 0, 0, 0]
             Shielded: [0, 0, 0, 0, 0]
             Reflective: [0, 0, 0, 0, 0]
             Summoner: [34, 34, 34, 34, 34]
-            Elementalist: [33, 33, 33, 33, 33]
+            Elementalist: [0, 0, 0, 0, 0]
             Enraged: [33, 33, 33, 33, 33]
-            Twin: [0, 0, 0, 0, 0]
+            Twin: [10, 10, 10, 10, 10]
         3:
             Mending: [0, 0, 0, 0, 0]
             Shielded: [10, 10, 10, 10, 10]
             Reflective: [0, 0, 0, 0, 0]
             Summoner: [30, 30, 30, 30, 30]
-            Elementalist: [30, 30, 30, 30, 30]
+            Elementalist: [0, 0, 0, 0, 0]
             Enraged: [30, 30, 30, 30, 30]
             Twin: [10, 10, 10, 10, 10]
         4:
@@ -1602,7 +1915,7 @@ The Elder:
             Shielded: [10, 10, 10, 10, 10]
             Reflective: [0, 0, 0, 0, 0]
             Summoner: [30, 30, 30, 30, 30]
-            Elementalist: [30, 30, 30, 30, 30]
+            Elementalist: [0, 0, 0, 0, 0]
             Enraged: [30, 30, 30, 30, 30]
             Twin: [10, 10, 10, 10, 10]
         5:
@@ -1610,7 +1923,7 @@ The Elder:
             Shielded: [10, 10, 10, 10, 10]
             Reflective: [0, 0, 0, 0, 0]
             Summoner: [30, 30, 30, 30, 30]
-            Elementalist: [30, 30, 30, 30, 30]
+            Elementalist: [0, 0, 0, 0, 0]
             Enraged: [30, 30, 30, 30, 30]
             Twin: [10, 10, 10, 10, 10]
 

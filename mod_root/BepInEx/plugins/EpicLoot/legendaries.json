@@ -1,0 +1,44 @@
+{
+  "LegendaryItems": [
+    {
+      "ID": "Dyrnwyn",
+      "Name": "$mod_epicloot_l_dyrnwyn",
+      "Description": "$mod_epicloot_l_dyrnwyn_desc",
+      "EquipFx": "FireAura", 
+      "EquipFxMode" : "EquipRoot", 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      },
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFireDamage", "Values": { "MinValue" : 36, "MaxValue" : 48, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "SleipnirsHoof",
+      "Name": "$mod_epicloot_l_sleipnirshoof",
+      "Description": "$mod_epicloot_l_sleipnirshoof_desc",
+      "EquipFx": "WhiteAura", 
+      "EquipFxMode" : "EquipRoot", 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      },
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed", "Values": { "MinValue" : 10, "MaxValue" : 14, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Gungnir",
+      "Name": "$mod_epicloot_l_gungnir",
+      "Description": "$mod_epicloot_l_gungnir_desc",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Spears" ]
+      },
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } }
+      ]
+    }
+  ]  
+}
