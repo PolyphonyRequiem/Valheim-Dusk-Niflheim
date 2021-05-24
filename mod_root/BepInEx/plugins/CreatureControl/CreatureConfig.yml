@@ -327,9 +327,9 @@ Storm:
     size: 0
     health: 1.2
     damage: 0.6
-    movement speed: 1.5
-    damage per star: 0.09
-    movement speed per star: 0.5
+    movement speed: 1.7
+    damage per star: 0.05
+    movement speed per star: 0.1
     stars:
         0: [10, 0.5, 0.3, 0.1, 0.01]
         1: [15, 1, 0.5, 0.2, 0.1]
@@ -636,9 +636,10 @@ Forest Creatures:
 Surtling:
     size: 0
     health: 1.1
-    damage: 1.1
+    damage: 0.4
     movement speed: 1.1
-    damage per star: 1.5
+    damage per star: 1.3
+    health per star: 1.2
     effect:
         0:
             Aggressive: [0, 0, 0, 0, 0]
