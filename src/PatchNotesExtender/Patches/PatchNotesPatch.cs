@@ -27,7 +27,7 @@ namespace PatchNotesExtender.Patches
                 using (WebClient client = new WebClient())
                 {
                     var patchNotes = client.DownloadString(patchNotesUri.Trim());
-                    ___m_changeLog = new TextAsset(patchNotes + ___m_changeLog.text);
+                    ___m_changeLog = new TextAsset(patchNotes);
                 }
             }
             catch (Exception ex)
