@@ -1589,7 +1589,6 @@
           "Legs"
         ],
         "AllowedRarities" : [
-          "Rare",
           "Epic",
           "Legendary"
         ]
@@ -1636,6 +1635,7 @@
       "DisplayText" : "$mod_epicloot_me_quickdraw_display",
       "Description" : "$mod_epicloot_me_quickdraw_desc",
       "Requirements" : {
+        "NoRoll": true,
         "AllowedItemTypes" : [
           "Bow"
         ],
@@ -2065,6 +2065,11 @@
       "Requirements" : {
         "AllowedItemTypes" : [
           "Legs"
+        ],
+        "AllowedRarities" : [
+          "Rare",
+          "Epic",
+          "Legendary"
         ]
       },
       "SelectionWeight" : 1,
@@ -2128,10 +2133,10 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 7, "MaxValue" : 12, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 }
+        "Magic" : { "MinValue" : 14, "MaxValue" : 24, "Increment" : 2 },
+        "Rare" : { "MinValue" : 16, "MaxValue" : 26, "Increment" : 2 },
+        "Epic" : { "MinValue" : 18, "MaxValue" : 28, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 20, "MaxValue" : 60, "Increment" : 2 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2499,7 +2504,6 @@
       "DisplayText" : "$mod_epicloot_me_duelist_display",
       "Description" : "$mod_epicloot_me_duelist_desc",
       "Requirements" : {
-        "NoRoll": true,
         "AllowedItemTypes" : [
           "OneHandedWeapon"
         ],
