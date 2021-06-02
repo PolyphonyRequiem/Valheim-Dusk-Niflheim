@@ -1,0 +1,13 @@
+General proposal:
+
+- Split Raids (for management reasons) into Biomes
+- Global minimum raid frequency 20minutes (1 day)
+- Individually tune on World Levels, Raid Frequency, RaidChance, Day/Night, BaseOnly
+
+Introduce and leverage some new monsters here, introducing new raids bit by bit as able.
+
+Types of Raids:
+- Ambush - Just exists to make things interesting.  Meant to mostly make things interesting.
+- Champion - Offers a rare fight against a unique champion creature.
+- Raiders - Attacks on a base, meant to harass, but would have difficulty breaching a base if left unchallenged.
+- Seige - Attacks on a base, but meant to destroy defenses.

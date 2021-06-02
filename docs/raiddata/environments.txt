@@ -1,0 +1,966 @@
+m_name: Clear
+m_default: True
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.357, 0.368, 0.485, 1.000)
+m_ambColorDay: RGBA(0.463, 0.574, 0.706, 1.000)
+m_fogColorNight: RGBA(0.145, 0.150, 0.169, 1.000)
+m_fogColorMorning: RGBA(0.246, 0.255, 0.272, 1.000)
+m_fogColorDay: RGBA(0.302, 0.581, 0.747, 1.000)
+m_fogColorEvening: RGBA(0.272, 0.268, 0.331, 1.000)
+m_fogColorSunNight: RGBA(0.191, 0.202, 0.279, 1.000)
+m_fogColorSunMorning: RGBA(0.581, 0.368, 0.252, 1.000)
+m_fogColorSunDay: RGBA(0.801, 0.687, 0.430, 1.000)
+m_fogColorSunEvening: RGBA(0.507, 0.239, 0.239, 1.000)
+m_fogDensityNight: 0.01
+m_fogDensityMorning: 0.01
+m_fogDensityDay: 0.003
+m_fogDensityEvening: 0.01
+m_sunColorNight: RGBA(0.364, 0.384, 0.486, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.671, 0.420, 1.000)
+m_sunColorDay: RGBA(1.000, 0.772, 0.484, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.234, 0.000, 1.000)
+m_lightIntensityDay: 1.7
+m_lightIntensityNight: 1
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Twilight_Clear
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: True
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.205, 0.196, 0.228, 1.000)
+m_ambColorDay: RGBA(0.345, 0.355, 0.426, 1.000)
+m_fogColorNight: RGBA(0.078, 0.078, 0.078, 1.000)
+m_fogColorMorning: RGBA(0.246, 0.255, 0.272, 1.000)
+m_fogColorDay: RGBA(0.335, 0.379, 0.500, 1.000)
+m_fogColorEvening: RGBA(0.272, 0.268, 0.331, 1.000)
+m_fogColorSunNight: RGBA(0.252, 0.252, 0.309, 1.000)
+m_fogColorSunMorning: RGBA(0.551, 0.375, 0.280, 1.000)
+m_fogColorSunDay: RGBA(0.676, 0.396, 0.308, 1.000)
+m_fogColorSunEvening: RGBA(0.684, 0.353, 0.251, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.01
+m_fogDensityEvening: 0.01
+m_sunColorNight: RGBA(0.735, 0.779, 1.000, 1.000)
+m_sunColorMorning: RGBA(0.971, 0.427, 0.364, 1.000)
+m_sunColorDay: RGBA(1.000, 0.483, 0.331, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.096, 0.096, 1.000)
+m_lightIntensityDay: 0.5
+m_lightIntensityNight: 0.3
+m_sunAngle: 8
+m_windMin: 0.2
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0.1
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Misty
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.357, 0.361, 0.404, 1.000)
+m_ambColorDay: RGBA(0.513, 0.621, 0.750, 1.000)
+m_fogColorNight: RGBA(0.155, 0.160, 0.184, 1.000)
+m_fogColorMorning: RGBA(0.338, 0.338, 0.338, 1.000)
+m_fogColorDay: RGBA(0.647, 0.701, 0.772, 1.000)
+m_fogColorEvening: RGBA(0.308, 0.306, 0.338, 1.000)
+m_fogColorSunNight: RGBA(0.236, 0.241, 0.272, 1.000)
+m_fogColorSunMorning: RGBA(0.603, 0.491, 0.390, 1.000)
+m_fogColorSunDay: RGBA(0.684, 0.549, 0.372, 1.000)
+m_fogColorSunEvening: RGBA(0.507, 0.325, 0.325, 1.000)
+m_fogDensityNight: 0.15
+m_fogDensityMorning: 0.1
+m_fogDensityDay: 0.02
+m_fogDensityEvening: 0.1
+m_sunColorNight: RGBA(0.364, 0.384, 0.486, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.766, 0.588, 1.000)
+m_sunColorDay: RGBA(0.971, 0.840, 0.607, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.690, 0.596, 1.000)
+m_lightIntensityDay: 1
+m_lightIntensityNight: 1
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.3
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: True
+m_rainCloudAlpha: 1.5
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Darklands_dark
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: True
+m_isColdAtNight: True
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.191, 0.269, 0.360, 1.000)
+m_ambColorDay: RGBA(0.270, 0.327, 0.360, 1.000)
+m_fogColorNight: RGBA(0.047, 0.165, 0.196, 1.000)
+m_fogColorMorning: RGBA(0.047, 0.165, 0.196, 1.000)
+m_fogColorDay: RGBA(0.134, 0.185, 0.199, 1.000)
+m_fogColorEvening: RGBA(0.047, 0.165, 0.196, 1.000)
+m_fogColorSunNight: RGBA(0.061, 0.240, 0.287, 1.000)
+m_fogColorSunMorning: RGBA(0.063, 0.239, 0.286, 1.000)
+m_fogColorSunDay: RGBA(0.154, 0.259, 0.287, 1.000)
+m_fogColorSunEvening: RGBA(0.063, 0.239, 0.286, 1.000)
+m_fogDensityNight: 0.03
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.03
+m_fogDensityEvening: 0.03
+m_sunColorNight: RGBA(0.337, 0.729, 0.714, 1.000)
+m_sunColorMorning: RGBA(0.337, 0.729, 0.714, 1.000)
+m_sunColorDay: RGBA(0.312, 0.375, 0.372, 1.000)
+m_sunColorEvening: RGBA(0.337, 0.729, 0.714, 1.000)
+m_lightIntensityDay: 1
+m_lightIntensityNight: 0
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 4.49
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Heath clear
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.357, 0.368, 0.485, 1.000)
+m_ambColorDay: RGBA(0.684, 0.684, 0.684, 1.000)
+m_fogColorNight: RGBA(0.128, 0.130, 0.140, 1.000)
+m_fogColorMorning: RGBA(0.246, 0.255, 0.272, 1.000)
+m_fogColorDay: RGBA(0.458, 0.501, 0.779, 1.000)
+m_fogColorEvening: RGBA(0.272, 0.268, 0.331, 1.000)
+m_fogColorSunNight: RGBA(0.180, 0.188, 0.243, 1.000)
+m_fogColorSunMorning: RGBA(0.551, 0.375, 0.280, 1.000)
+m_fogColorSunDay: RGBA(0.757, 0.450, 0.284, 1.000)
+m_fogColorSunEvening: RGBA(0.507, 0.239, 0.239, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.006
+m_fogDensityEvening: 0.01
+m_sunColorNight: RGBA(0.364, 0.384, 0.486, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.623, 0.420, 1.000)
+m_sunColorDay: RGBA(1.000, 0.630, 0.390, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.234, 0.000, 1.000)
+m_lightIntensityDay: 1.5
+m_lightIntensityNight: 1
+m_sunAngle: 45
+m_windMin: 0.4
+m_windMax: 0.8
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: DeepForest Mist
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.198, 0.363, 0.456, 1.000)
+m_ambColorDay: RGBA(0.307, 0.546, 0.684, 1.000)
+m_fogColorNight: RGBA(0.112, 0.180, 0.221, 1.000)
+m_fogColorMorning: RGBA(0.239, 0.494, 0.639, 1.000)
+m_fogColorDay: RGBA(0.239, 0.494, 0.639, 1.000)
+m_fogColorEvening: RGBA(0.239, 0.494, 0.639, 1.000)
+m_fogColorSunNight: RGBA(0.163, 0.270, 0.331, 1.000)
+m_fogColorSunMorning: RGBA(0.544, 0.419, 0.260, 1.000)
+m_fogColorSunDay: RGBA(0.838, 0.472, 0.191, 1.000)
+m_fogColorSunEvening: RGBA(0.493, 0.309, 0.243, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.02
+m_fogDensityDay: 0.01
+m_fogDensityEvening: 0.02
+m_sunColorNight: RGBA(0.408, 0.488, 0.676, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.720, 0.507, 1.000)
+m_sunColorDay: RGBA(1.000, 0.871, 0.640, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.245, 0.015, 1.000)
+m_lightIntensityDay: 1.5
+m_lightIntensityNight: 1.2
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: GDKing
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.330, 0.221, 0.471, 1.000)
+m_ambColorDay: RGBA(0.453, 0.306, 0.640, 1.000)
+m_fogColorNight: RGBA(0.581, 0.377, 0.222, 1.000)
+m_fogColorMorning: RGBA(0.639, 0.412, 0.239, 1.000)
+m_fogColorDay: RGBA(0.639, 0.413, 0.239, 1.000)
+m_fogColorEvening: RGBA(0.639, 0.412, 0.239, 1.000)
+m_fogColorSunNight: RGBA(0.530, 0.699, 0.211, 1.000)
+m_fogColorSunMorning: RGBA(0.839, 0.741, 0.192, 1.000)
+m_fogColorSunDay: RGBA(0.838, 0.740, 0.191, 1.000)
+m_fogColorSunEvening: RGBA(0.839, 0.741, 0.192, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.02
+m_fogDensityDay: 0.01
+m_fogDensityEvening: 0.02
+m_sunColorNight: RGBA(0.506, 0.714, 1.000, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.720, 0.507, 1.000)
+m_sunColorDay: RGBA(1.000, 0.613, 0.316, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.438, 0.267, 1.000)
+m_lightIntensityDay: 1.5
+m_lightIntensityNight: 1.4
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.3
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Rain
+m_default: False
+m_isWet: True
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.382, 0.382, 0.382, 1.000)
+m_ambColorDay: RGBA(0.588, 0.588, 0.588, 1.000)
+m_fogColorNight: RGBA(0.176, 0.182, 0.208, 1.000)
+m_fogColorMorning: RGBA(0.271, 0.271, 0.279, 1.000)
+m_fogColorDay: RGBA(0.331, 0.331, 0.331, 1.000)
+m_fogColorEvening: RGBA(0.235, 0.235, 0.235, 1.000)
+m_fogColorSunNight: RGBA(0.213, 0.235, 0.287, 1.000)
+m_fogColorSunMorning: RGBA(0.353, 0.315, 0.257, 1.000)
+m_fogColorSunDay: RGBA(0.390, 0.358, 0.312, 1.000)
+m_fogColorSunEvening: RGBA(0.338, 0.303, 0.251, 1.000)
+m_fogDensityNight: 0.03
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.03
+m_fogDensityEvening: 0.03
+m_sunColorNight: RGBA(0.292, 0.304, 0.368, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.945, 0.773, 1.000)
+m_sunColorDay: RGBA(0.926, 0.926, 0.926, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.947, 0.772, 1.000)
+m_lightIntensityDay: 0.5
+m_lightIntensityNight: 0.77
+m_sunAngle: 45
+m_windMin: 0.5
+m_windMax: 1
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Rain_Loop11 (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: LightRain
+m_default: False
+m_isWet: True
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.382, 0.382, 0.382, 1.000)
+m_ambColorDay: RGBA(0.620, 0.641, 0.691, 1.000)
+m_fogColorNight: RGBA(0.176, 0.182, 0.208, 1.000)
+m_fogColorMorning: RGBA(0.271, 0.271, 0.279, 1.000)
+m_fogColorDay: RGBA(0.336, 0.357, 0.375, 1.000)
+m_fogColorEvening: RGBA(0.235, 0.235, 0.235, 1.000)
+m_fogColorSunNight: RGBA(0.213, 0.235, 0.287, 1.000)
+m_fogColorSunMorning: RGBA(0.353, 0.315, 0.257, 1.000)
+m_fogColorSunDay: RGBA(0.390, 0.358, 0.312, 1.000)
+m_fogColorSunEvening: RGBA(0.360, 0.272, 0.215, 1.000)
+m_fogDensityNight: 0.03
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.03
+m_fogDensityEvening: 0.03
+m_sunColorNight: RGBA(0.292, 0.304, 0.368, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.879, 0.773, 1.000)
+m_sunColorDay: RGBA(1.000, 0.952, 0.750, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.843, 0.772, 1.000)
+m_lightIntensityDay: 0.8
+m_lightIntensityNight: 0.9
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0.3
+m_ambientLoop: Amb_LightRain_S_Loop (UnityEngine.AudioClip)
+m_ambientVol: 0.7
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: ThunderStorm
+m_default: False
+m_isWet: True
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.382, 0.382, 0.382, 1.000)
+m_ambColorDay: RGBA(0.588, 0.588, 0.588, 1.000)
+m_fogColorNight: RGBA(0.176, 0.182, 0.208, 1.000)
+m_fogColorMorning: RGBA(0.271, 0.271, 0.279, 1.000)
+m_fogColorDay: RGBA(0.331, 0.331, 0.331, 1.000)
+m_fogColorEvening: RGBA(0.235, 0.235, 0.235, 1.000)
+m_fogColorSunNight: RGBA(0.228, 0.239, 0.279, 1.000)
+m_fogColorSunMorning: RGBA(0.353, 0.315, 0.257, 1.000)
+m_fogColorSunDay: RGBA(0.390, 0.358, 0.312, 1.000)
+m_fogColorSunEvening: RGBA(0.338, 0.303, 0.251, 1.000)
+m_fogDensityNight: 0.03
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.03
+m_fogDensityEvening: 0.03
+m_sunColorNight: RGBA(0.292, 0.304, 0.368, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.945, 0.773, 1.000)
+m_sunColorDay: RGBA(0.926, 0.926, 0.926, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.947, 0.772, 1.000)
+m_lightIntensityDay: 0.5
+m_lightIntensityNight: 0.77
+m_sunAngle: 45
+m_windMin: 0.8
+m_windMax: 1
+m_envObject: Thunder (UnityEngine.GameObject)
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Amb_MainRain_S_Loop (UnityEngine.AudioClip)
+m_ambientVol: 0.8
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Eikthyr
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.662, 0.345, 0.345, 1.000)
+m_ambColorDay: RGBA(0.662, 0.345, 0.345, 1.000)
+m_fogColorNight: RGBA(0.368, 0.243, 0.243, 1.000)
+m_fogColorMorning: RGBA(0.368, 0.243, 0.243, 1.000)
+m_fogColorDay: RGBA(0.368, 0.243, 0.243, 1.000)
+m_fogColorEvening: RGBA(0.368, 0.243, 0.243, 1.000)
+m_fogColorSunNight: RGBA(0.228, 0.239, 0.279, 1.000)
+m_fogColorSunMorning: RGBA(0.353, 0.315, 0.257, 1.000)
+m_fogColorSunDay: RGBA(0.390, 0.358, 0.312, 1.000)
+m_fogColorSunEvening: RGBA(0.338, 0.303, 0.251, 1.000)
+m_fogDensityNight: 0.05
+m_fogDensityMorning: 0.05
+m_fogDensityDay: 0.05
+m_fogDensityEvening: 0.05
+m_sunColorNight: RGBA(0.292, 0.304, 0.368, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.945, 0.773, 1.000)
+m_sunColorDay: RGBA(0.926, 0.926, 0.926, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.947, 0.772, 1.000)
+m_lightIntensityDay: 0.5
+m_lightIntensityNight: 0.77
+m_sunAngle: 45
+m_windMin: 0.9
+m_windMax: 1
+m_envObject: Thunder (UnityEngine.GameObject)
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: GoblinKing
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: False
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.662, 0.345, 0.509, 1.000)
+m_ambColorDay: RGBA(0.592, 0.345, 0.662, 1.000)
+m_fogColorNight: RGBA(0.361, 0.243, 0.368, 1.000)
+m_fogColorMorning: RGBA(0.361, 0.243, 0.368, 1.000)
+m_fogColorDay: RGBA(0.361, 0.243, 0.368, 1.000)
+m_fogColorEvening: RGBA(0.361, 0.243, 0.368, 1.000)
+m_fogColorSunNight: RGBA(0.228, 0.239, 0.279, 1.000)
+m_fogColorSunMorning: RGBA(0.337, 0.251, 0.553, 1.000)
+m_fogColorSunDay: RGBA(0.336, 0.251, 0.551, 1.000)
+m_fogColorSunEvening: RGBA(0.337, 0.251, 0.553, 1.000)
+m_fogDensityNight: 0.05
+m_fogDensityMorning: 0.05
+m_fogDensityDay: 0.05
+m_fogDensityEvening: 0.05
+m_sunColorNight: RGBA(0.292, 0.304, 0.368, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.945, 0.773, 1.000)
+m_sunColorDay: RGBA(0.926, 0.926, 0.926, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.947, 0.772, 1.000)
+m_lightIntensityDay: 0.6
+m_lightIntensityNight: 1
+m_sunAngle: 45
+m_windMin: 0.5
+m_windMax: 0.7
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: SW008_Wendland_Autumn_Wind_In_Reeds_Medium_Distance_Leaves_Only (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: nofogts
+m_default: False
+m_isWet: True
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.382, 0.382, 0.382, 1.000)
+m_ambColorDay: RGBA(0.588, 0.588, 0.588, 1.000)
+m_fogColorNight: RGBA(0.176, 0.182, 0.208, 1.000)
+m_fogColorMorning: RGBA(0.271, 0.271, 0.279, 1.000)
+m_fogColorDay: RGBA(0.331, 0.331, 0.331, 1.000)
+m_fogColorEvening: RGBA(0.235, 0.235, 0.235, 1.000)
+m_fogColorSunNight: RGBA(0.228, 0.239, 0.279, 1.000)
+m_fogColorSunMorning: RGBA(0.353, 0.315, 0.257, 1.000)
+m_fogColorSunDay: RGBA(0.390, 0.358, 0.312, 1.000)
+m_fogColorSunEvening: RGBA(0.338, 0.303, 0.251, 1.000)
+m_fogDensityNight: 0.005
+m_fogDensityMorning: 0.005
+m_fogDensityDay: 0.005
+m_fogDensityEvening: 0.005
+m_sunColorNight: RGBA(0.292, 0.304, 0.368, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.945, 0.773, 1.000)
+m_sunColorDay: RGBA(0.926, 0.926, 0.926, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.947, 0.772, 1.000)
+m_lightIntensityDay: 0.5
+m_lightIntensityNight: 0.77
+m_sunAngle: 45
+m_windMin: 1
+m_windMax: 1
+m_envObject: Thunder (UnityEngine.GameObject)
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Rain_Loop11 (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: SwampRain
+m_default: False
+m_isWet: True
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.295, 0.316, 0.272, 1.000)
+m_ambColorDay: RGBA(0.309, 0.338, 0.281, 1.000)
+m_fogColorNight: RGBA(0.089, 0.213, 0.143, 1.000)
+m_fogColorMorning: RGBA(0.208, 0.219, 0.192, 1.000)
+m_fogColorDay: RGBA(0.331, 0.331, 0.331, 1.000)
+m_fogColorEvening: RGBA(0.208, 0.221, 0.193, 1.000)
+m_fogColorSunNight: RGBA(0.098, 0.243, 0.215, 1.000)
+m_fogColorSunMorning: RGBA(0.419, 0.315, 0.203, 1.000)
+m_fogColorSunDay: RGBA(0.397, 0.396, 0.394, 1.000)
+m_fogColorSunEvening: RGBA(0.331, 0.267, 0.200, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.02
+m_fogDensityDay: 0.02
+m_fogDensityEvening: 0.02
+m_sunColorNight: RGBA(0.739, 0.859, 0.890, 1.000)
+m_sunColorMorning: RGBA(0.937, 1.000, 0.765, 1.000)
+m_sunColorDay: RGBA(0.938, 1.000, 0.765, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.930, 0.640, 1.000)
+m_lightIntensityDay: 0.6
+m_lightIntensityNight: 0.5
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.3
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Rain_Loop11 (UnityEngine.AudioClip)
+m_ambientVol: 0.2
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Bonemass
+m_default: False
+m_isWet: True
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.510, 0.514, 0.235, 1.000)
+m_ambColorDay: RGBA(0.511, 0.515, 0.235, 1.000)
+m_fogColorNight: RGBA(0.427, 0.388, 0.169, 1.000)
+m_fogColorMorning: RGBA(0.427, 0.388, 0.169, 1.000)
+m_fogColorDay: RGBA(0.426, 0.387, 0.169, 1.000)
+m_fogColorEvening: RGBA(0.427, 0.388, 0.169, 1.000)
+m_fogColorSunNight: RGBA(0.272, 0.229, 0.090, 1.000)
+m_fogColorSunMorning: RGBA(0.372, 0.264, 0.149, 1.000)
+m_fogColorSunDay: RGBA(0.427, 0.388, 0.169, 1.000)
+m_fogColorSunEvening: RGBA(0.427, 0.335, 0.169, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.02
+m_fogDensityDay: 0.02
+m_fogDensityEvening: 0.02
+m_sunColorNight: RGBA(0.343, 0.534, 0.647, 1.000)
+m_sunColorMorning: RGBA(0.996, 1.000, 0.765, 1.000)
+m_sunColorDay: RGBA(0.997, 1.000, 0.765, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.930, 0.640, 1.000)
+m_lightIntensityDay: 0.6
+m_lightIntensityNight: 0.4
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.3
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 1
+m_ambientLoop: Rain_Loop11 (UnityEngine.AudioClip)
+m_ambientVol: 0.5
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Snow
+m_default: False
+m_isWet: False
+m_isFreezing: True
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: False
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.350, 0.362, 0.485, 1.000)
+m_ambColorDay: RGBA(0.463, 0.573, 0.706, 1.000)
+m_fogColorNight: RGBA(0.154, 0.154, 0.154, 1.000)
+m_fogColorMorning: RGBA(0.247, 0.255, 0.271, 1.000)
+m_fogColorDay: RGBA(0.481, 0.552, 0.647, 1.000)
+m_fogColorEvening: RGBA(0.271, 0.267, 0.329, 1.000)
+m_fogColorSunNight: RGBA(0.153, 0.153, 0.153, 1.000)
+m_fogColorSunMorning: RGBA(0.537, 0.371, 0.260, 1.000)
+m_fogColorSunDay: RGBA(0.679, 0.518, 0.310, 1.000)
+m_fogColorSunEvening: RGBA(0.506, 0.239, 0.239, 1.000)
+m_fogDensityNight: 0.004
+m_fogDensityMorning: 0.004
+m_fogDensityDay: 0.004
+m_fogDensityEvening: 0.004
+m_sunColorNight: RGBA(0.393, 0.411, 0.500, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.671, 0.420, 1.000)
+m_sunColorDay: RGBA(0.949, 0.804, 0.545, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.439, 0.267, 1.000)
+m_lightIntensityDay: 1.2
+m_lightIntensityNight: 0.4
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0.1
+m_ambientLoop: Wind_ColdLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Twilight_Snow
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: True
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.311, 0.321, 0.419, 1.000)
+m_ambColorDay: RGBA(0.322, 0.399, 0.493, 1.000)
+m_fogColorNight: RGBA(0.078, 0.078, 0.078, 1.000)
+m_fogColorMorning: RGBA(0.247, 0.255, 0.271, 1.000)
+m_fogColorDay: RGBA(0.325, 0.372, 0.434, 1.000)
+m_fogColorEvening: RGBA(0.271, 0.267, 0.329, 1.000)
+m_fogColorSunNight: RGBA(0.175, 0.209, 0.243, 1.000)
+m_fogColorSunMorning: RGBA(0.537, 0.371, 0.260, 1.000)
+m_fogColorSunDay: RGBA(0.679, 0.442, 0.310, 1.000)
+m_fogColorSunEvening: RGBA(0.506, 0.239, 0.239, 1.000)
+m_fogDensityNight: 0.01
+m_fogDensityMorning: 0.03
+m_fogDensityDay: 0.01
+m_fogDensityEvening: 0.01
+m_sunColorNight: RGBA(0.420, 0.441, 0.544, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.671, 0.420, 1.000)
+m_sunColorDay: RGBA(0.949, 0.804, 0.545, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.439, 0.267, 1.000)
+m_lightIntensityDay: 0.5
+m_lightIntensityNight: 0.5
+m_sunAngle: 8
+m_windMin: 0.3
+m_windMax: 0.6
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0.4
+m_ambientLoop: Wind_ColdLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Twilight_SnowStorm
+m_default: False
+m_isWet: False
+m_isFreezing: True
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.209, 0.212, 0.243, 1.000)
+m_ambColorDay: RGBA(0.367, 0.400, 0.441, 1.000)
+m_fogColorNight: RGBA(0.110, 0.113, 0.113, 1.000)
+m_fogColorMorning: RGBA(0.221, 0.221, 0.221, 1.000)
+m_fogColorDay: RGBA(0.360, 0.360, 0.360, 1.000)
+m_fogColorEvening: RGBA(0.419, 0.419, 0.419, 1.000)
+m_fogColorSunNight: RGBA(0.226, 0.246, 0.279, 1.000)
+m_fogColorSunMorning: RGBA(0.544, 0.434, 0.360, 1.000)
+m_fogColorSunDay: RGBA(0.507, 0.436, 0.343, 1.000)
+m_fogColorSunEvening: RGBA(0.522, 0.334, 0.334, 1.000)
+m_fogDensityNight: 0.05
+m_fogDensityMorning: 0.05
+m_fogDensityDay: 0.05
+m_fogDensityEvening: 0.05
+m_sunColorNight: RGBA(0.420, 0.441, 0.544, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.783, 0.618, 1.000)
+m_sunColorDay: RGBA(1.000, 0.881, 0.669, 1.000)
+m_sunColorEvening: RGBA(0.985, 0.631, 0.522, 1.000)
+m_lightIntensityDay: 0.4
+m_lightIntensityNight: 0.4
+m_sunAngle: 8
+m_windMin: 0.7
+m_windMax: 1
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Wind_BlowingLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 0.6
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: SnowStorm
+m_default: False
+m_isWet: False
+m_isFreezing: True
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.390, 0.381, 0.381, 1.000)
+m_ambColorDay: RGBA(0.860, 0.860, 0.860, 1.000)
+m_fogColorNight: RGBA(0.184, 0.184, 0.184, 1.000)
+m_fogColorMorning: RGBA(0.000, 0.000, 0.000, 1.000)
+m_fogColorDay: RGBA(0.728, 0.728, 0.728, 1.000)
+m_fogColorEvening: RGBA(0.419, 0.419, 0.419, 1.000)
+m_fogColorSunNight: RGBA(0.153, 0.153, 0.153, 1.000)
+m_fogColorSunMorning: RGBA(0.412, 0.325, 0.266, 1.000)
+m_fogColorSunDay: RGBA(0.551, 0.541, 0.535, 1.000)
+m_fogColorSunEvening: RGBA(0.522, 0.334, 0.334, 1.000)
+m_fogDensityNight: 0.05
+m_fogDensityMorning: 0.05
+m_fogDensityDay: 0.05
+m_fogDensityEvening: 0.05
+m_sunColorNight: RGBA(0.367, 0.377, 0.426, 1.000)
+m_sunColorMorning: RGBA(0.985, 0.874, 0.790, 1.000)
+m_sunColorDay: RGBA(1.000, 1.000, 1.000, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.820, 0.765, 1.000)
+m_lightIntensityDay: 0.7
+m_lightIntensityNight: 0.2
+m_sunAngle: 45
+m_windMin: 0.8
+m_windMax: 1
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Wind_BlowingLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 0.6
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Moder
+m_default: False
+m_isWet: False
+m_isFreezing: True
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: True
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.280, 0.197, 0.303, 1.000)
+m_ambColorDay: RGBA(0.479, 0.338, 0.516, 1.000)
+m_fogColorNight: RGBA(0.449, 0.000, 0.000, 1.000)
+m_fogColorMorning: RGBA(0.588, 0.125, 0.125, 1.000)
+m_fogColorDay: RGBA(0.934, 0.000, 0.000, 1.000)
+m_fogColorEvening: RGBA(0.265, 0.049, 0.049, 1.000)
+m_fogColorSunNight: RGBA(0.048, 0.212, 0.294, 1.000)
+m_fogColorSunMorning: RGBA(0.184, 0.357, 0.443, 1.000)
+m_fogColorSunDay: RGBA(0.000, 0.385, 0.574, 1.000)
+m_fogColorSunEvening: RGBA(0.000, 0.178, 0.265, 1.000)
+m_fogDensityNight: 0.003
+m_fogDensityMorning: 0.003
+m_fogDensityDay: 0.003
+m_fogDensityEvening: 0.003
+m_sunColorNight: RGBA(0.145, 0.223, 0.263, 1.000)
+m_sunColorMorning: RGBA(0.165, 0.255, 0.302, 1.000)
+m_sunColorDay: RGBA(0.164, 0.256, 0.301, 1.000)
+m_sunColorEvening: RGBA(0.165, 0.255, 0.302, 1.000)
+m_lightIntensityDay: 0.7
+m_lightIntensityNight: 0.5
+m_sunAngle: 45
+m_windMin: 1
+m_windMax: 1
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 2
+m_ambientLoop: Wind_BlowingLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 0.6
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Ashrain
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: False
+m_alwaysDark: False
+m_ambColorNight: RGBA(0.671, 0.420, 0.345, 1.000)
+m_ambColorDay: RGBA(0.669, 0.418, 0.344, 1.000)
+m_fogColorNight: RGBA(0.485, 0.007, 0.007, 1.000)
+m_fogColorMorning: RGBA(0.514, 0.271, 0.271, 1.000)
+m_fogColorDay: RGBA(0.515, 0.272, 0.272, 1.000)
+m_fogColorEvening: RGBA(0.514, 0.271, 0.271, 1.000)
+m_fogColorSunNight: RGBA(0.486, 0.008, 0.008, 1.000)
+m_fogColorSunMorning: RGBA(0.434, 0.335, 0.207, 1.000)
+m_fogColorSunDay: RGBA(0.679, 0.518, 0.310, 1.000)
+m_fogColorSunEvening: RGBA(0.471, 0.364, 0.225, 1.000)
+m_fogDensityNight: 0.02
+m_fogDensityMorning: 0.02
+m_fogDensityDay: 0.02
+m_fogDensityEvening: 0.02
+m_sunColorNight: RGBA(0.420, 0.441, 0.544, 1.000)
+m_sunColorMorning: RGBA(1.000, 0.671, 0.420, 1.000)
+m_sunColorDay: RGBA(0.949, 0.804, 0.545, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.439, 0.267, 1.000)
+m_lightIntensityDay: 1.3
+m_lightIntensityNight: 0.8
+m_sunAngle: 45
+m_windMin: 0.1
+m_windMax: 0.5
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 1
+m_ambientLoop: Wind_ColdLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 0.3
+m_ambientList: 
+m_musicMorning: 
+m_musicEvening: 
+m_musicDay: 
+m_musicNight: 
+m_name: Crypt
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: False
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.314, 0.314, 0.314, 1.000)
+m_ambColorDay: RGBA(0.314, 0.314, 0.314, 1.000)
+m_fogColorNight: RGBA(0.176, 0.182, 0.216, 1.000)
+m_fogColorMorning: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogColorDay: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogColorEvening: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogColorSunNight: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogColorSunMorning: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogColorSunDay: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogColorSunEvening: RGBA(0.176, 0.180, 0.215, 1.000)
+m_fogDensityNight: 0.1
+m_fogDensityMorning: 0.1
+m_fogDensityDay: 0.1
+m_fogDensityEvening: 0.1
+m_sunColorNight: RGBA(0.420, 0.441, 0.544, 1.000)
+m_sunColorMorning: RGBA(0.941, 0.882, 0.727, 1.000)
+m_sunColorDay: RGBA(0.949, 0.949, 0.949, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.743, 0.743, 1.000)
+m_lightIntensityDay: 0
+m_lightIntensityNight: 0
+m_sunAngle: 60
+m_windMin: 0
+m_windMax: 0
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0
+m_ambientLoop: Amb_Eerie_GraveIntLoop (UnityEngine.AudioClip)
+m_ambientVol: 0.5
+m_ambientList: Crypt
+m_musicMorning: -
+m_musicEvening: -
+m_musicDay: forestcrypt
+m_musicNight: forestcrypt
+m_name: SunkenCrypt
+m_default: False
+m_isWet: False
+m_isFreezing: False
+m_isFreezingAtNight: False
+m_isCold: False
+m_isColdAtNight: False
+m_alwaysDark: True
+m_ambColorNight: RGBA(0.102, 0.235, 0.243, 1.000)
+m_ambColorDay: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorNight: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorMorning: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorDay: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorEvening: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorSunNight: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorSunMorning: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorSunDay: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogColorSunEvening: RGBA(0.102, 0.235, 0.243, 1.000)
+m_fogDensityNight: 0.2
+m_fogDensityMorning: 0.2
+m_fogDensityDay: 0.2
+m_fogDensityEvening: 0.2
+m_sunColorNight: RGBA(0.420, 0.441, 0.544, 1.000)
+m_sunColorMorning: RGBA(0.941, 0.882, 0.727, 1.000)
+m_sunColorDay: RGBA(0.949, 0.949, 0.949, 1.000)
+m_sunColorEvening: RGBA(1.000, 0.743, 0.743, 1.000)
+m_lightIntensityDay: 0
+m_lightIntensityNight: 0
+m_sunAngle: 60
+m_windMin: 0
+m_windMax: 0
+m_envObject: 
+m_psystems: UnityEngine.GameObject[]
+m_psystemsOutsideOnly: False
+m_rainCloudAlpha: 0
+m_ambientLoop: Amb_Eerie_CaveLoop3 (UnityEngine.AudioClip)
+m_ambientVol: 1
+m_ambientList: SunkenCrypt
+m_musicMorning: -
+m_musicEvening: -
+m_musicDay: -
+m_musicNight: -

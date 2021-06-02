@@ -1,4 +1,4 @@
-﻿[army_eikthyr]
+[army_eikthyr]
 Name=army_eikthyr
 Enabled=True
 Random=True
@@ -87,7 +87,6 @@ NotRequiredGlobalKeys=defeated_goblinking
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [army_goblin.0]
 Name=Goblin
@@ -194,7 +193,6 @@ PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL2
 
-
 [army_theelder.0]
 Name=greydwarf
 Enabled=True
@@ -299,7 +297,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [wolves.0]
 Name=wolves
@@ -345,7 +342,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [skeletons.0]
 Name=skeltons
@@ -421,7 +417,6 @@ NotRequiredGlobalKeys=defeated_bonemass
 PauseIfNoPlayerInArea=True
 ForceEnvironment=SwampRain
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [army_bonemass.0]
 Name=dragur
@@ -497,7 +492,6 @@ NotRequiredGlobalKeys=defeated_dragon
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Snow
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [army_moder.0]
 Name=Hatchlings
@@ -543,7 +537,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=ThunderStorm
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [blobs.0]
 Name=blob
@@ -619,7 +612,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL2
-ConditionDistanceToCenterMin=200
 
 [foresttrolls.0]
 Name=Trolls
@@ -665,7 +657,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Ashrain
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [surtlings.0]
 Name=surtlings
@@ -697,6 +688,81 @@ OutsideForest=True
 OceanDepthMin=0
 OceanDepthMax=0
 
+[boss_eikthyr]
+Name=boss_eikthyr
+Enabled=True
+Random=False
+Biomes=Meadows,Swamp,BlackForest,Plains,
+Duration=0
+StartMessage=
+EndMessage=
+NearBaseOnly=False
+RequiredGlobalKeys=
+NotRequiredGlobalKeys=
+PauseIfNoPlayerInArea=True
+ForceEnvironment=Eikthyr
+ForceMusic=boss_eikthyr
+
+[boss_bonemass]
+Name=boss_bonemass
+Enabled=True
+Random=False
+Biomes=Meadows,Swamp,BlackForest,Plains,
+Duration=0
+StartMessage=
+EndMessage=
+NearBaseOnly=False
+RequiredGlobalKeys=
+NotRequiredGlobalKeys=
+PauseIfNoPlayerInArea=True
+ForceEnvironment=Bonemass
+ForceMusic=boss_bonemass
+
+[boss_moder]
+Name=boss_moder
+Enabled=True
+Random=False
+Biomes=Meadows,Swamp,Mountain,BlackForest,Plains,AshLands,DeepNorth,Ocean,Mistlands,
+Duration=0
+StartMessage=
+EndMessage=
+NearBaseOnly=False
+RequiredGlobalKeys=
+NotRequiredGlobalKeys=
+PauseIfNoPlayerInArea=True
+ForceEnvironment=Moder
+ForceMusic=boss_moder
+
+[boss_gdking]
+Name=boss_gdking
+Enabled=True
+Random=False
+Biomes=Meadows,Swamp,Mountain,BlackForest,Plains,AshLands,DeepNorth,Ocean,Mistlands,
+Duration=0
+StartMessage=
+EndMessage=
+NearBaseOnly=False
+RequiredGlobalKeys=
+NotRequiredGlobalKeys=
+PauseIfNoPlayerInArea=True
+ForceEnvironment=GDKing
+ForceMusic=boss_gdking
+
+[boss_goblinking]
+Name=boss_goblinking
+Enabled=True
+Random=False
+Biomes=Meadows,Swamp,Mountain,BlackForest,Plains,AshLands,DeepNorth,Ocean,Mistlands,
+Duration=0
+StartMessage=
+EndMessage=
+NearBaseOnly=False
+RequiredGlobalKeys=
+NotRequiredGlobalKeys=
+PauseIfNoPlayerInArea=True
+ForceEnvironment=GoblinKing
+ForceMusic=boss_goblinking
+
 [RRR_EvHostiles_T1]
 Name=RRR_EvHostiles_T1
 Enabled=True
@@ -711,9 +777,6 @@ NotRequiredGlobalKeys=defeated_eikthyr
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Misty
 ForceMusic=CombatEventL1
-ConditionDistanceToCenterMin=200
-ConditionDistanceToCenterMax=1000
-
 
 [RRR_EvHostiles_T1.0]
 Name=RRR_EvHostiles_T1
@@ -755,12 +818,10 @@ StartMessage=A dreamy fog rolls in...
 EndMessage=The fog is passing...
 NearBaseOnly=True
 RequiredGlobalKeys=defeated_eikthyr
-NotRequiredGlobalKeys=
+NotRequiredGlobalKeys=defeated_gdking
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Misty
 ForceMusic=CombatEventL2
-ConditionDistanceToCenterMin=200
-ConditionDistanceToCenterMax=1000
 
 [RRR_EvHostiles_T2.0]
 Name=RRR_EvHostiles_T2
@@ -801,12 +862,11 @@ Duration=120
 StartMessage=A dreamy fog rolls in...
 EndMessage=The fog is passing...
 NearBaseOnly=True
-RequiredGlobalKeys=defeated_eikthyr
+RequiredGlobalKeys=defeated_gdking
 NotRequiredGlobalKeys=defeated_bonemass
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Misty
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvHostiles_T3.0]
 Name=RRR_EvHostiles_T3
@@ -852,7 +912,6 @@ NotRequiredGlobalKeys=defeated_dragon
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Misty
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvHostiles_T4.0]
 Name=RRR_EvHostiles_T4
@@ -898,7 +957,6 @@ NotRequiredGlobalKeys=defeated_goblinking
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Misty
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvHostiles_T5.0]
 Name=RRR_EvHostiles_T5
@@ -944,7 +1002,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Misty
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvHostiles_T6.0]
 Name=RRR_EvHostiles_T6
@@ -990,7 +1047,6 @@ NotRequiredGlobalKeys=defeated_bonemass
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL3
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvTrollTosser_T3.0]
 Name=Tosser
@@ -1036,7 +1092,6 @@ NotRequiredGlobalKeys=defeated_dragon
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvTrollTosser_T4.0]
 Name=Tosser
@@ -1082,7 +1137,6 @@ NotRequiredGlobalKeys=defeated_goblinking
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvTrollTosser_T5.0]
 Name=Tosser
@@ -1128,7 +1182,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvTrollTosser_T6.0]
 Name=Tosser
@@ -1174,7 +1227,6 @@ NotRequiredGlobalKeys=defeated_dragon
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Darklands_dark
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvGrigs_T4.0]
 Name=Grig
@@ -1220,7 +1272,6 @@ NotRequiredGlobalKeys=defeated_goblinking
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Darklands_dark
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvGrigs_T5.0]
 Name=Grig
@@ -1266,7 +1317,6 @@ NotRequiredGlobalKeys=
 PauseIfNoPlayerInArea=True
 ForceEnvironment=Darklands_dark
 ForceMusic=CombatEventL4
-ConditionDistanceToCenterMin=1000
 
 [RRR_EvGrigs_T6.0]
 Name=Grig
@@ -1297,3 +1347,4 @@ InForest=True
 OutsideForest=True
 OceanDepthMin=0
 OceanDepthMax=0
+
