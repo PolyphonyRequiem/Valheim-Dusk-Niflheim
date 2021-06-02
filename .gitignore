@@ -8,3 +8,6 @@
 *.wav
 /src/.vs/Niflheim/v16
 /src/.vs/Niflheim/DesignTimeBuild
+/src/**/packages/*
+.vs/slnx.sqlite-journal
+.vs/slnx.sqlite
