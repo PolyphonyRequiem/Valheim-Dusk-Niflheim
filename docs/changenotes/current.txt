@@ -2,6 +2,7 @@
   - Hotfix for some enchantment tuning
   - Troll tossers now correctly drop ores.
   - This patch notes mod is new too.  Hi.
+  - Coal has had its buy stack increased and price adjusted accordingly.
 
 # Niflheim 1.3.1 - 6/1/2021
   - Surtlings have had their damage reduced somewhat.
