@@ -1,0 +1,27 @@
+﻿{
+  "M150_RicePlant_Seed_Name": "Semillas de arroz",
+  "M150_RicePlant_Seed_Desc": "Plante la semilla en un suelo cultivado lleno de agua sin comerla.",
+  "M150_sapling_RicePlant_Name": "Planta de arroz",
+  "M150_sapling_RicePlant_Desc": "Podemos cosechar arroz de esta planta.",
+  "M150_Rice_Raw_Name": "Manojo de arroz",
+  "M150_Rice_Raw_Desc": "Esto no se puede comer tal cual.",
+
+  "M150_Ricebowl_Name": "Arroz cocido",
+  "M150_Ricebowl_Desc": "Es arroz al vapor. El buen gusto.",
+  "M150_RiceBall001_Normal_Name": "Onigiri",
+  "M150_RiceBall001_Normal_Desc": "Las bolas de arroz son cómodas de llevar.",
+  "M150_RiceBall002_Nori_Name": "Nori Onigiri",
+  "M150_RiceBall002_Nori_Desc": "Esta es una bola de arroz de algas secas.",
+  "M150_RiceBall003_Ume_Name": "Ume Onigiri",
+  "M150_RiceBall003_Ume_Desc": "Esta es una bola de arroz con ciruela en escabeche.",
+  "M150_RiceBall004_Yaki_Name": "Yaki Onigiri",
+  "M150_RiceBall004_Yaki_Desc": "Esta es una bola de arroz a la parrilla.",
+
+  "M150_SaltWater_Name": "Agua de mar",
+  "M150_SaltWater_Desc": "No debes beber agua de mar.",
+
+  "M150_Bucket_Name": "Balde",
+  "M150_Bucket_Desc": "Puede obtener agua de mar arrojando este cubo al mar.",
+  "M150_SaltWaterBucket_Name": "Balde de agua salada",
+  "M150_SaltWaterBucket_Desc": "El agua salada es más pesada que el agua pura."
+}
