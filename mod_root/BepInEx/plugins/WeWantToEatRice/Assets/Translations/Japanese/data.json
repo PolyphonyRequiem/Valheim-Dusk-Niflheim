@@ -1,0 +1,27 @@
+﻿{
+  "M150_RicePlant_Seed_Name": "種もみ",
+  "M150_RicePlant_Seed_Desc": "食べずに水を張った耕作地に植えよう",
+  "M150_sapling_RicePlant_Name": "稲",
+  "M150_sapling_RicePlant_Desc": "お米が実る植物",
+  "M150_Rice_Raw_Name": "稲束",
+  "M150_Rice_Raw_Desc": "このままでは食べられないよ",
+
+  "M150_Ricebowl_Name": "銀シャリ",
+  "M150_Ricebowl_Desc": "おいしい",
+  "M150_RiceBall001_Normal_Name": "おにぎり",
+  "M150_RiceBall001_Normal_Desc": "携帯に便利",
+  "M150_RiceBall002_Nori_Name": "海苔おにぎり",
+  "M150_RiceBall002_Nori_Desc": "手がべたべたしない",
+  "M150_RiceBall003_Ume_Name": "梅おにぎり",
+  "M150_RiceBall003_Ume_Desc": "酸味が食欲をそそる",
+  "M150_RiceBall004_Yaki_Name": "焼きおにぎり",
+  "M150_RiceBall004_Yaki_Desc": "ノルドの焼きおにぎりは豪快に直火だ",
+
+  "M150_SaltWater_Name": "塩水",
+  "M150_SaltWater_Desc": "塩水を飲んではいけない",
+
+  "M150_Bucket_Name": "桶",
+  "M150_Bucket_Desc": "海に投げ込むと塩水が手に入る",
+  "M150_SaltWaterBucket_Name": "塩水選桶",
+  "M150_SaltWaterBucket_Desc": "塩水は水より重い"
+}

@@ -1,0 +1,221 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "AshVexx_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+	  "cTintItems" : {
+         "fRed" : 0.4,
+         "fGreen" : 0.1,
+         "fBlue" : 0
+		 },
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+	  "sCustomTexture" : null
+   },
+   "Category_Character" : {
+      "sName" : "Ash Vexx",
+      "sFaction" : "Boss",
+      "bBoss" : true,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "defeated_AshVexx",
+      "fMoveSpeedMulti" : 1.15,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 3000,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Immune",
+         "m_frost" : "Weak",
+         "m_lightning" : "Resistant",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 55,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 175,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "@1",
+         "@2",
+		 "GoblinKing_Nova@spear_poke@@35",
+         "SwordIronFire",
+         "ArmorPaddedGreaves",
+         "HelmetPadded",
+         "ArmorPaddedCuirass",
+         "CapeLinen"
+      ],
+      "aRandomWeapon" : [
+	  
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],      
+	  "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName" : "GoblinShaman_attack_fireball",
+            "sTargetAnim" : "throw_bomb",
+            "fAIAttackInterval" : 25,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 0,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 250,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "troll_groundslam",
+            "sTargetAnim" : "knife_secondary",
+            "fAIAttackInterval" : 15,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 250,
+                 "fSlash" : 0,
+                 "fPierce" : 0,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 0,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 40,
+      "fViewAngle" : 120,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 15,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 0,
+      "fCircleTargetDistance" : 0,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bRandomGender" : false,
+      "aBeardIds" : [
+         "Beard10"
+      ],
+      "aHairIds" : [
+         "Hair10"
+      ],
+      "cSkinColorMin" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.1,
+         "fBlue" : 0.1
+      },
+      "cSkinColorMax" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.1,
+         "fBlue" : 0.1
+      },
+      "cHairColorMin" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.1,
+         "fBlue" : 0.1
+      },
+      "cHairColorMax" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.1,
+         "fBlue" : 0.1
+      },
+      "fHairValueMin" : 0.2,
+      "fHairValueMax" : 0.2
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

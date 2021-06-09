@@ -1,0 +1,184 @@
+{
+   "sOriginalPrefabName" : "Greydwarf_Shaman",
+   "sNewPrefabName" : "Bitterstump_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 0.8,
+         "fY" : 0.8,
+         "fZ" : 0.8
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Bitterstump",
+      "sFaction" : "Boss",
+      "bBoss" : true,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "defeated_Bitterstump",
+      "fMoveSpeedMulti" : 1.3,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : true,
+      "fHealth" : 2250,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Normal",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "VeryWeak",
+         "m_frost" : "Immune",
+         "m_lightning" : "Resistant",
+         "m_poison" : "Immune",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 70,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+		 "@1",
+		 "@2",
+		 "@3",
+		 "@4",
+		 "@5"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName" : "Greydwarf_shaman_heal",
+            "sTargetAnim" : null,
+            "fAIAttackInterval" : 12,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 200,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "Greydwarf_shaman_attack",
+            "sTargetAnim" : null,
+            "fAIAttackInterval" : 10,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 90,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "dragon_coldbreath",
+            "sTargetAnim" : "spray",
+            "fAIAttackInterval" : 18,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 100,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "gd_king_rootspawn",
+            "sTargetAnim" : "heal",
+            "fAIAttackInterval" : 40,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 75,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "Greydwarf_attack",
+            "sTargetAnim" : "attack",
+            "fAIAttackInterval" : 6,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 85,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 50,
+      "fViewAngle" : 120,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "HorseSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 20,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : true,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 8,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+
+
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}
