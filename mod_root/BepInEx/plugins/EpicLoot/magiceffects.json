@@ -1497,8 +1497,7 @@
       "Description" : "$mod_epicloot_me_throwable_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon"
+          "OneHandedWeapon"
         ],
         "ExcludedSkillTypes": [
           "Pickaxes",
@@ -1971,7 +1970,8 @@
       "Description" : "$mod_epicloot_me_freebuild_desc",
       "Requirements" : {
         "AllowedItemNames" : [
-          "$item_hammer"
+          "$item_hammer",
+          "$item_hoe"
         ],
         "AllowedRarities" : [
           "Legendary"
@@ -1987,8 +1987,7 @@
       "Description" : "$mod_epicloot_me_recallweapon_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon"
+          "OneHandedWeapon"
         ],
         "ExcludedSkillTypes": [
           "Pickaxes"
@@ -2064,7 +2063,8 @@
       "Description" : "$mod_epicloot_me_featherfall_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Legs"
+          "Legs",
+          "Utility"
         ],
         "AllowedRarities" : [
           "Rare",
