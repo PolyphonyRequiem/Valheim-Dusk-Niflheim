@@ -49,6 +49,7 @@ if (-not $Debug)
 
     Remove-Item -Path (Join-Path $out "\BepInEx\plugins\Valheim.WhereAmI.dll")
     Remove-Item -Path (Join-Path $out "\BepInEx\plugins\SkToolboxValheim.dll")
+    Remove-Item -Path (Join-Path $out "\BepInEx\plugins\UnityExplorer.BIE5.Mono.dll")
     Remove-Item -Path (Join-Path $out "\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll")
 }
 

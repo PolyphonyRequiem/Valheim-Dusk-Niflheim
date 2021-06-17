@@ -48,8 +48,8 @@ namespace PatchNotesExtender
             Assembly assembly = Assembly.GetCallingAssembly();
             AssetBundle ab = AssetBundle.LoadFromStream(assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{name}"));
 #if DEBUG
-			foreach (var s in assembly.GetManifestResourceNames()) Plugin.Log.LogInfo("Resource: " + s);
-			foreach (var s in ab.GetAllAssetNames()) Plugin.Log.LogInfo("Asset in bundle: " + s);
+			foreach (var s in assembly.GetManifestResourceNames()) PatchNotesExtender.Log.LogInfo("Resource: " + s);
+			foreach (var s in ab.GetAllAssetNames()) PatchNotesExtender.Log.LogInfo("Asset in bundle: " + s);
 #endif
 
             return ab;
