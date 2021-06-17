@@ -1,0 +1,58 @@
+{
+    "components": [
+      {
+        "type": "http",
+        "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1100/",
+        "description": "BepinexPack Valheim",
+        "extractor": "zip",
+        "fileMaps": [
+          {
+            "sourceRoot": "BepInExPack_Valheim",
+            "sources": "**/*",
+            "destination": "./"
+          }
+        ]
+      },
+      {
+        "type": "http",
+        "fileUri": "https://niflheim.blob.core.windows.net/modpack-binaries/Niflheim-ModBins-1.3.1-release.zip",
+        "description": "NiflheimBins",
+        "extractor": "zip",
+        "fileMaps": [
+          {
+            "destination": "./"
+          }
+        ]
+      },
+      {
+        "type": "nexus",
+        "modId": 453,
+        "modVersion": "0.10.1",
+        "description": "Spawn That - Plugin",
+        "fileName": "SpawnThat",
+        "extractor": "zip",
+        "fileMaps": [
+          {
+            "sources": "**/*",
+            "exclusions": "readme.md",
+            "destination": "./Bepinex/plugins/"
+          }
+        ]
+      },
+      {
+        "type": "nexus",
+        "modId": 387,
+        "modVersion": "0.8.0",
+        "description": "Epic Loot - Plugin",
+        "fileName": "Epic Loot",
+        "extractor": "zip",
+        "fileMaps": [
+          {
+            "sources": "**/*",
+            "exclusions": "readme.md",
+            "destination": "./Bepinex/plugins/"
+          }
+        ]
+      }
+    ]
+  }

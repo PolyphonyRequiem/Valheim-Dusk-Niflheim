@@ -1,9 +1,11 @@
 /modbins/**
 /modbase/**
 /out/**
+/downloadedarchives/**
 /src/**/bin/*
 /src/**/obj/*
 /src/**/pkg/*
+/src/**/nupkg/*
 *.dll
 *.wav
 /src/.vs/Niflheim/v16
