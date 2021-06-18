@@ -8,7 +8,7 @@ Epic Loot - https://www.nexusmods.com/valheim/mods/387
 Hardcore - https://github.com/fracticality/valheim-hardcore
 Jam - https://www.nexusmods.com/valheim/mods/177
 MassFarming - https://www.nexusmods.com/valheim/mods/527 - maybe ignore durability setting??
-Forsaken - https://www.nexusmods.com/valheim/mods/799 - we should update
+Forsaken - https://www.nexusmods.com/valheim/mods/799 - we should update   
 BetterUI - https://www.nexusmods.com/valheim/mods/189 - there is an update that supports quickslots, but i believe it breaks epicloot for now
 ClockMod - https://www.nexusmods.com/valheim/mods/85
 Combat Overhaul - https://www.nexusmods.com/valheim/mods/591 - currently on 1.3.2, lots of updates since then apparently, might remove the need for the better secondaries mod.
@@ -24,6 +24,7 @@ RRRMonsters - 0.2.0 - https://www.nexusmods.com/valheim/mods/702
 RRRNPCs - 0.2.0 -https://www.nexusmods.com/valheim/mods/687
 RRR Spawn Variety - 0.2.0 - https://www.nexusmods.com/valheim/mods/685
 RRR Core - 0.2.3 - https://www.nexusmods.com/valheim/mods/671
+
 Skill Injector - https://www.nexusmods.com/valheim/mods/341
 SecondaryAttacks - https://www.nexusmods.com/valheim/mods/596
 Trashcan - https://www.nexusmods.com/valheim/mods/902
@@ -56,5 +57,13 @@ Mod ideas:
 Portal Gateway - Handy Portals, but as an extra portal type.
 Guardian Stones
 
+MISSING: 
+hardcore & company
+
 RETIRE LIST:
 cartography
+forsaken
+handyward
+farmgrid
+mapcoordinates
+secondaryattacks
