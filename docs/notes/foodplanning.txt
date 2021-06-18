@@ -1,0 +1,55 @@
+Meadows:
+
+Functions:
+   - Building Defenses
+     - HP - Falling Damage/Attrition due to distraction
+     - Duration - It's easy to lose track of your hunger while building, long lasting food helps alleviate the food maintainance.
+     - Endurance - used for recovering during building as well as short sprints moving around the site
+   - Hunting
+     - Stamina - For sneaking, long bow draws/multiple shots, melee combat, and running down deer.
+     - HP/Tick - For quick recovery from any skirmishes.
+     - Endurance - For quick recovery from sneaking, sprints, and bow fatigue
+   - Gathering
+     - Foraging - If gathering, you're going to be picking up raspberries and the like, and can probably just throw meat on the fire once in a while if you have the opportunity.  Keep slots free and carry weight low to gather more stuff.
+     - Duration - Food should last you most of an outing or longer if you're gathering.
+     - Stamina - Helps you get around and run from fights.
+   - Woodcutting
+     - Stamina - Swing more Axe
+     - Endurance - Swing Axe longer sooner
+     - HP - BONK
+   - Eikthyr
+     - HP - Eik can dish out a -lot- of damage
+     - HP/Tick - Gotta recover from the damage you DO take
+     - Stamina - Getting caught without stamina in this fight can be rough.
+   - Raid Defense
+     - HP - Surviving the onslaught.
+     - Stamina - Fighting back.
+     - HP/Tick - Fall back and recover inside your defenses, get back in the fight faster.
+   - Exploration
+     - Stamina - Got a long way to go, fording rivers, swimming in the sea, running up steep hills.  Stamina grants victory against these barriers.
+     - Duration - Long trips require long-lasting food and slots/weight to spare for spoils.
+     - HP - You never know what you'll run into out there, best to be prepared.
+
+Priorities:
+HP        3@***      2@*
+Stamina   3@*** 1@** 1@*
+HP/Tick         3@** 1@*
+Duration        3@**
+Endurance       1@** 2@*
+Foraging  1@***
+
+the basic idea is, 
+I should be easily able to get 10*s in my top priority.
+I should be able to get 12 or 13* if I want to REALLY push it
+I should be able to get 8* in my 2nd preference
+I should be able to get 6* in my 3rd preference
+
+FOODS
+
+Raspberry:
+HP: *
+Stamina: ***
+Hp/tick: **
+Duration: ***
+Endurance: *
+Foragability: *****
