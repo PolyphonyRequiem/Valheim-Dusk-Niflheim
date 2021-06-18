@@ -26,7 +26,8 @@ namespace ModManager
             var client = NexusModsClient.Create(this.nexusApiKey);
             var extractors = new Dictionary<string, ExtractorBase>
             {
-                {"zip", new ZipExtractor() }
+                {"zip", new ZipExtractor() },
+                {"rar", new RarExtractor() }
             };
 
             NexusModComponentHandler nexusHandler = new NexusModComponentHandler(client, extractors, archiveDownloadRoot, componentRoot);
