@@ -278,6 +278,62 @@
     },
     {
       "type": "nexus",
+      "modId": 105,
+      "modVersion": "1.5.0",
+      "description": "Crafting Stations Level Based Build Range",
+      "fileName": "CraftingStationLevelRange",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "CraftingStationLevelRange.dll",
+          "destination": "./Bepinex/plugins/CraftingStationLevelRange"
+        }   
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 452,
+      "modVersion": "1.0.5",
+      "description": "Speedy Paths",
+      "fileName": "Speedy Paths",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "SpeedyPaths.dll",
+          "destination": "./Bepinex/plugins/SpeedyPaths"
+        }   
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 278,
+      "modVersion": "1.4.0",
+      "description": "CustomRaids",
+      "fileName": "custom-raids-v1.4.0",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "Valheim.CustomRaids.dll",
+          "destination": "./Bepinex/plugins/Valheim.CustomRaids"
+        }   
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 221,
+      "modVersion": "1.10.1",
+      "description": "Drop That",
+      "fileName": "drop-that",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "Valheim.DropThat.dll",
+          "destination": "./Bepinex/plugins/Valheim.DropThat"
+        }   
+      ]
+    },
+    {
+      "type": "nexus",
       "modId": 453,
       "modVersion": "0.10.1",
       "description": "Spawn That",
@@ -285,9 +341,63 @@
       "extractor": "zip",
       "fileMaps": [
         {
-          "sources": "**/*",
-          "exclusions": "readme.md",
-          "destination": "./Bepinex/plugins/"
+          "sources": "Valheim.SpawnThat.dll",
+          "destination": "./Bepinex/plugins/Valheim.SpawnThat"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 453,
+      "modVersion": "0.1.1",
+      "description": "WhereAmI",
+      "fileName": "WhereAmI_v0.1.1",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "Valheim.WhereAmI.dll",
+          "destination": "./Bepinex/plugins/Valheim.WhereAmI"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 88,
+      "modVersion": "1.3.1",
+      "description": "ServerSideMap",
+      "fileName": "ServerSideMap",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "ServerSideMap.dll",
+          "destination": "./Bepinex/plugins/ServerSideMap"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 566,
+      "modVersion": "1.2.3",
+      "description": "Blacksmith's Tools",
+      "fileName": "Blacksmith's Tools",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "BlacksmithsTools.dll",
+          "destination": "./Bepinex/plugins/BlacksmithsTools"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 640,
+      "modVersion": "1.1.0",
+      "description": "Barbarian's Armor",
+      "fileName": "Barbarian's Armor 1.1.0",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./"
         }
       ]
     }
