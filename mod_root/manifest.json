@@ -1,76 +1,295 @@
 {
-    "components": [
-      {
-        "type": "http",
-        "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1100/",
-        "description": "BepinexPack Valheim",
-        "extractor": "zip",
-        "fileMaps": [
-          {
-            "sourceRoot": "./BepInExPack_Valheim/",
-            "sources": "**/*",
-            "destination": "./"
-          }
-        ]
-      },
-      {
-        "type": "nexus",
-        "modId": 406,
-        "modVersion": "1.5.4",
-        "description": "Better Wards",
-        "fileName": "Better Wards",
-        "extractor": "zip",
-        "fileMaps": [
-          {
-            "sourceRoot": "./Better Wards 1.5.4/",
-            "sources": "**/*",
-            "destination": "./"
-          }
-        ]
-      },
-      {
-        "type": "nexus",
-        "modId": 433,
-        "modVersion": "2.0.4",
-        "description": "Better Trader",
-        "fileName": "Better Trader",
-        "extractor": "zip",
-        "fileMaps": [
-          {
-            "sources": "**/*",
-            "destination": "./"
-          }
-        ]
-      },
-      {
-        "type": "nexus",
-        "modId": 453,
-        "modVersion": "0.10.1",
-        "description": "Spawn That",
-        "fileName": "SpawnThat",
-        "extractor": "zip",
-        "fileMaps": [
-          {
-            "sources": "**/*",
-            "exclusions": "readme.md",
-            "destination": "./Bepinex/plugins/"
-          }
-        ]
-      },
-      {
-        "type": "nexus",
-        "modId": 387,
-        "modVersion": "0.8.0",
-        "description": "Epic Loot",
-        "fileName": "Epic Loot",
-        "extractor": "zip",
-        "fileMaps": [
-          {
-            "sources": "**/*",
-            "exclusions": "readme.md",
-            "destination": "./Bepinex/plugins/"
-          }
-        ]
-      }
-    ]
-  }
+  "components": [
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1100/",
+      "description": "BepinexPack Valheim",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./BepInExPack_Valheim/",
+          "destination": "./"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 402,
+      "modVersion": "1.5.4",
+      "description": "Better Wards",
+      "fileName": "Better Wards",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./Better Wards 1.5.4/",
+          "destination": "./"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 433,
+      "modVersion": "2.0.4",
+      "description": "Better Trader",
+      "fileName": "Better Trader 2.0.4 (Zip)",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./"
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://github.com/BepInEx/BepInEx.ConfigurationManager/releases/download/v16.3/BepInEx.ConfigurationManager_v16.3.zip",
+      "description": "BepInEx Configuration Manager",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 495,
+      "modVersion": "3.9.1",
+      "description": "Creature Level and Loot Control",
+      "fileName": "Creature Level and Loot Control",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 387,
+      "modVersion": "0.8.0",
+      "description": "Epic Loot",
+      "fileName": "Epic Loot",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./files/",
+          "destination": "./Bepinex/plugins/EpicLoot"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 177,
+      "modVersion": "1.0.3",
+      "description": "Jam",
+      "fileName": "Jam",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./files/",
+          "destination": "./Bepinex/plugins/Jam"
+        }
+      ]
+    },    
+    {
+      "type": "nexus",
+      "modId": 527,
+      "modVersion": "1.2",
+      "description": "MassFarming",
+      "fileName": "MassFarming",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 189,
+      "modVersion": "1.6.4",
+      "description": "BetterUI",
+      "fileName": "BetterUI",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },    
+    {
+      "type": "nexus",
+      "modId": 85,
+      "modVersion": "1.4.3",
+      "description": "Clock Mod",
+      "fileName": "Clock Mod",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },  
+    {
+      "type": "nexus",
+      "modId": 591,
+      "modVersion": "1.7.8",
+      "description": "Combat Overhaul",
+      "fileName": "Combat Overhaul",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./plugins/"
+        }
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 281,
+      "modVersion": "1.0.2",
+      "description": "Extended Item Data Framework",
+      "fileName": "Extended Item Data Framework",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./Bepinex/plugins/ExtendedItemDataFramework"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 431,
+      "modVersion": "1.3",
+      "description": "Food Stamina Regen",
+      "fileName": "Food Stamina Regen",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./Bepinex/plugins/FoodStaminaRegen"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 460,
+      "modVersion": "2.1",
+      "description": "Mod Config Enforcer",
+      "fileName": "ModConfigEnforcer_v2.1",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./Bepinex/plugins/ModConfigEnforcer"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 193,
+      "modVersion": "1.4.0",
+      "description": "QuickConnect",
+      "fileName": "Quick Connect",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./Bepinex/"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 671,
+      "modVersion": "0.2.7",
+      "description": "RRR Core",
+      "fileName": "RRRCore_0.2.7",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "RRRCore.dll",
+          "destination": "./Bepinex/plugins/RRRCore/"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 687,
+      "modVersion": "0.2.3",
+      "description": "RRR NPCs",
+      "fileName": "RRRNpcs_0.2.3",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "RRRNpcs.dll",
+          "destination": "./Bepinex/plugins/RRRNpcs/"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 702,
+      "modVersion": "0.2.2",
+      "description": "RRR Monsters",
+      "fileName": "RRRMonsters_0.2.2",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "RRRMonsters.dll",
+          "destination": "./Bepinex/plugins/RRRMonsters"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 705,
+      "modVersion": "0.2.1",
+      "description": "RRR BetterRaids",
+      "fileName": "RRRBetterRaids_0.2.1",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "RRRBetterRaids.dll",
+          "destination": "./Bepinex/plugins/RRRBetterRaids"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 341,
+      "modVersion": "1.1.1",
+      "description": "Skill Injector",
+      "fileName": "SkillInjectorMod.zip",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "SkillInjector.dll",
+          "destination": "./Bepinex/plugins/SkillInjector"
+        }     
+      ]
+    },  
+    {
+      "type": "nexus",
+      "modId": 902,
+      "modVersion": "1.1.3",
+      "description": "ValheimTrashCan",
+      "fileName": "ValheimTrashCan",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },  
+    {
+      "type": "nexus",
+      "modId": 607,
+      "modVersion": "1.0.0",
+      "description": "WeightlessCoins",
+      "fileName": "Weightless Coins 1.0.0",
+      "extractor": "rar",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 803,
+      "modVersion": "2.0.6",
+      "description": "Terraheim",
+      "fileName": "Terraheim",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 453,
+      "modVersion": "0.10.1",
+      "description": "Spawn That",
+      "fileName": "SpawnThat",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "**/*",
+          "exclusions": "readme.md",
+          "destination": "./Bepinex/plugins/"
+        }
+      ]
+    }
+  ]
+}
