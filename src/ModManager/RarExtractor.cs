@@ -9,7 +9,6 @@ namespace ModManager
 {
     public class RarExtractor : ExtractorBase
     {
-
         public override void Extract(FileInfo archive, DirectoryInfo archiveTempRoot, DirectoryInfo componentRoot, List<FileMap> fileMaps)
         {
             string archivename = Path.GetFileNameWithoutExtension(archive.Name);
@@ -30,8 +29,6 @@ namespace ModManager
                     }
                 }
             }
-
-            ZipFile.ExtractToDirectory(archive.FullName, archiveTempDirectory.FullName);
 
             base.ArrangeFiles(archiveTempDirectory, componentRoot, fileMaps);
         }
