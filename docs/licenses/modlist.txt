@@ -55,3 +55,6 @@ MapSharingMadeEasy - https://www.nexusmods.com/valheim/mods/300
 Mod ideas:
 Portal Gateway - Handy Portals, but as an extra portal type.
 Guardian Stones
+
+RETIRE LIST:
+cartography
