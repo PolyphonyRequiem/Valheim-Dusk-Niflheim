@@ -53,7 +53,14 @@ namespace ModManager
                 });
             }
 
-            Process.Start("cmd", $"/C tree {componentRoot.FullName} /f").WaitForExit();
+            try
+            {
+                Process.Start("cmd", $"/C tree {componentRoot.FullName} /f").WaitForExit();
+            }
+            catch (Exception ex)
+            {
+                // no output
+            }
         }
     }
 }
