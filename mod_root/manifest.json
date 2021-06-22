@@ -522,6 +522,35 @@
       "fileMaps": [{}]
     },
     {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/ValheimModding/HookGenPatcher/0.0.2/",
+      "description": "HookGenPatcher",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "destination": "./Bepinex"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 507,
+      "modVersion": "0.1.6",
+      "description": "JotunnLib",
+      "fileName": "JotunnLib",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 504,
+      "modVersion": "0.0.8",
+      "description": "ValheimLib",
+      "fileName": "ValheimLib",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
       "type": "nexus",
       "modId": 658,
       "modVersion": "1.0.1",
