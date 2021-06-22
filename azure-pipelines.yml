@@ -12,6 +12,7 @@ pool:
 variables:
   major: 1
   minor: 2
+  GLOBAL_NEXUSKEY: $(NexusKey)
 
 name: $(major).$(minor)$(Rev:.r)
 
@@ -19,8 +20,10 @@ steps:
   - task: PowerShell@2
     inputs:
       filePath: './build/build.ps1'
-      arguments: '-Version $(Build.BuildNumber)'
+      arguments: '-Version $(Build.BuildNumber) -NexusKey $($ENV:GLOBAL_NEXUSKEY)'
       failOnStderr: true
+    env:
+      GLOBAL_NEXUSKEY: $(GLOBAL_NEXUSKEY)
 
   - task: PublishPipelineArtifact@1
     inputs:
