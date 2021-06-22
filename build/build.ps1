@@ -9,11 +9,11 @@ if ($NexusKey -eq $null)
 }
 $ErrorActionPreference = "Stop"
 
-$scriptRoot = if ($PSScriptRoot) {$PSScriptRoot} else {".\"}
-$root = Join-Path  $scriptRoot ..\
-$mod_root = Join-Path $root .\mod_root
+$scriptRoot = if ($PSScriptRoot) {$PSScriptRoot} else {"./"}
+$root = Join-Path  $scriptRoot ../
+$mod_root = Join-Path $root ./mod_root
 
-$out = Join-Path $root .\out
+$out = Join-Path $root ./out
 
 if (-not (Test-Path $mod_root))
 {
@@ -36,20 +36,20 @@ New-Item -Path $out -ItemType Directory
 # Write-Host "Placing modbins..."
 # Copy-Item $modbins\* $out -Force -Recurse
 Write-Host "Fetching Mod Binaries..."
-dotnet run --project $root\src\packager\Niflheim.Packager.csproj $mod_root\manifest.json $NexusKey  $out $root\downloadedarchives
+dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives
 
 Write-Host "Placing mod_root..."
-Copy-Item $mod_root\* $out -Force -Recurse
+Copy-Item $mod_root/* $out -Force -Recurse
 
 if (-not $Debug)
 {
     Write-Host "Stripping out debugging tools..."
 
     $DebugTools = @(
-        (Join-Path $out "\BepInEx\plugins\Valheim.WhereAmI.dll"),
-        (Join-Path $out "\BepInEx\plugins\SkToolboxValheim.dll"),
-        (Join-Path $out "\BepInEx\plugins\UnityExplorer.BIE5.Mono.dll"),
-        (Join-Path $out "\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll")
+        (Join-Path $out "/BepInEx/plugins/Valheim.WhereAmI.dll"),
+        (Join-Path $out "/BepInEx/plugins/SkToolboxValheim.dll"),
+        (Join-Path $out "/BepInEx/plugins/UnityExplorer.BIE5.Mono.dll"),
+        (Join-Path $out "/BepInEx/plugins/ConfigurationManager/ConfigurationManager.dll")
     )
 
     foreach ($item in $DebugTools) {
@@ -69,5 +69,5 @@ if ($Debug -and $Version)
 
 $archiveName = if ($Version){"Niflheim-$Version.zip"} else {"Niflheim.zip"}
 
-Compress-Archive -Path $out\* -DestinationPath $out\Niflheim.zip
+Compress-Archive -Path $out/* -DestinationPath $out/Niflheim.zip
 ###Compress-Archive -Path $out\* -DestinationPath $out\$archiveName
