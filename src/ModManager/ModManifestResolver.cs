@@ -27,7 +27,9 @@ namespace ModManager
             var extractors = new Dictionary<string, ExtractorBase>
             {
                 {"zip", new ZipExtractor() },
-                {"rar", new RarExtractor() }
+                {"rar", new RarExtractor() },
+                {"7z", new SevenZipExtractor() },
+                {"none", new NoExtractor() }
             };
 
             NexusModComponentHandler nexusHandler = new NexusModComponentHandler(client, extractors, archiveDownloadRoot, componentRoot);

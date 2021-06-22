@@ -23,10 +23,13 @@ namespace Firoso.Niflheim.Tools.Packager
                 return;
             }
 
+
             var manifestFile = new FileInfo(args[0]);
             var nexusApiKey = args[1];
             var outputPath = new DirectoryInfo(args[2]);
             var archivePath = new DirectoryInfo(args[3]);
+
+            Console.WriteLine("-------------STARTING PACKAGE DOWNLOAD-------------");
 
             var resolver = new ModManager.ModManifestResolver(nexusApiKey);
 

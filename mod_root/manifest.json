@@ -86,7 +86,7 @@
           "destination": "./Bepinex/plugins/Jam"
         }
       ]
-    },    
+    },
     {
       "type": "nexus",
       "modId": 527,
@@ -400,6 +400,162 @@
           "destination": "./"
         }
       ]
+    },
+    {
+      "type": "nexus",
+      "modId": 950,
+      "modVersion": "1.0.8",
+      "description": "Build Expansion",
+      "fileName": "Build Expansion v1.0.8",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "BuildExpansion.dll",
+          "destination": "./Bepinex/plugins/BuildExpansion"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1027,
+      "modVersion": "1.1.0",
+      "description": "Odin's PotionsPlus",
+      "fileName": "Odin's PotionsPlus",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 159,
+      "modVersion": "0.9.1",
+      "description": "AutoFuel",
+      "fileName": "Auto Fuel",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "AutoFuel.dll",
+          "destination": "./Bepinex/plugins/AutoFuel"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1042,
+      "modVersion": "1.6.1",
+      "description": "Plant Everything",
+      "fileName": "Plant Everything",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "Advize_PlantEverything.dll",
+          "destination": "./Bepinex/plugins/PlantEverything"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1087,
+      "modVersion": "1.0.8",
+      "description": "More Gates",
+      "fileName": "More Gates 1.0.8",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "Moregates.dll",
+          "destination": "./Bepinex/plugins/Moregates"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1174,
+      "modVersion": "0.0.4",
+      "description": "Odin Architect",
+      "fileName": "OdinArchitect 0.0.4",
+      "extractor": "7z",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.0.12/Jotunn.dll",
+      "description": "Jotunn",
+      "extractor": "none",
+      "fileMaps":[
+        {
+          "sources": "Jotunn.dll",
+          "destination": "./Bepinex/plugins/"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1301,
+      "modVersion": "0.7.1",
+      "description": "AtosArrowsJVL",
+      "fileName": "AtosArrowsJVL",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 348,
+      "modVersion": "1.6.2",
+      "description": "Better Archery",
+      "fileName": "Better Archery",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 348,
+      "modVersion": "1.6.2",
+      "description": "Better Archery",
+      "fileName": "Better Archery",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://niflheim.blob.core.windows.net/modpacks/Fracticality.zip",
+      "description": "FracticalityStuff",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 658,
+      "modVersion": "1.0.1",
+      "description": "MasterChef",
+      "fileName": "MasterChef",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 854,
+      "modVersion": "0.4.1",
+      "description": "Item Drawers",
+      "fileName": "Item Drawers",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 1189,
+      "modVersion": "4.2.2",
+      "description": "More Two Handers",
+      "fileName": "More Two Handers",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 66,
+      "modVersion": "1.2.0",
+      "description": "ItemStacks",
+      "fileName": "mtnewton-ItemStacks-1.2.0",
+      "extractor": "zip",
+      "fileMaps": [{}]
     }
   ]
 }
