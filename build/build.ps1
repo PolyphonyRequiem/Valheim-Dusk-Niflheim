@@ -37,6 +37,10 @@ New-Item -Path $out -ItemType Directory
 # Copy-Item $modbins\* $out -Force -Recurse
 Write-Host "Fetching Mod Binaries..."
 dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives
+dotnet restore $root/src/PatchNotesExtender/PatchNotesExtender.csproj
+dotnet build $root/src/PatchNotesExtender -property:Configuration=Release
+
+Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
 
 Write-Host "Placing mod_root..."
 Copy-Item $mod_root/* $out -Force -Recurse
