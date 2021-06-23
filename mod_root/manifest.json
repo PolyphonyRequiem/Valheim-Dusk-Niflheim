@@ -270,7 +270,7 @@
     {
       "type": "nexus",
       "modId": 803,
-      "modVersion": "2.0.6",
+      "modVersion": "2.1.1",
       "description": "Terraheim",
       "fileName": "Terraheim",
       "extractor": "zip",
@@ -585,6 +585,20 @@
       "fileName": "mtnewton-ItemStacks-1.2.0",
       "extractor": "zip",
       "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 699,
+      "modVersion": "1.1.0",
+      "description": "Better Auto Run",
+      "fileName": "Better Auto Run",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "BetterAutoRun.dll",
+          "destination": "./Bepinex/plugins/BetterAutoRun"
+        }   
+      ]
     }
   ]
 }
