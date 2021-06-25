@@ -255,6 +255,48 @@
             }
         ]
     },
+    "AxeSerpent": {
+        "enabled": true,
+        "effectVal": 40,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 20
+            },
+            {
+                "type": "chop",
+                "value": 70
+            },
+            {
+                "type": "lightning",
+                "value": 90
+            }
+        ],
+        "recipe": [
+            {
+                "item": "SalamanderFur",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "Copper",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "SerpentScale",
+                "amount": 8,
+                "perLevel": 1
+            }
+        ]
+    },
     "BattleaxeBronze": {
         "enabled": true,
         "station": "forge",
@@ -403,6 +445,34 @@
             }
         ]
     },
+    "BattleaxeFlint": {
+        "enabled": true,
+        "station": "piece_workbench",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "blunt",
+                "value": 32
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 20,
+                "perLevel": 5
+            },
+            {
+                "item": "Flint",
+                "amount": 4,
+                "perLevel": 2
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 0
+            }
+        ]
+    },
     "BowBlackmetal": {
         "enabled": true,
         "station": "forge",
@@ -498,6 +568,38 @@
             {
                 "item": "LinenThread",
                 "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "GreatswordChitin": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 55
+            },
+            {
+                "type": "blunt",
+                "value": 15
+            }
+        ],
+        "recipe": [
+            {
+                "item": "ElderBark",
+                "amount": 20,
+                "perLevel": 10
+            },
+            {
+                "item": "Iron",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Chitin",
+                "amount": 30,
                 "perLevel": 5
             }
         ]
@@ -639,6 +741,33 @@
                 "item": "LeatherScraps",
                 "amount": 2,
                 "perLevel": 1
+            }
+        ]
+    },
+    "KnifeSilver": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 15
+            },
+            {
+                "type": "pierce",
+                "value": 15
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Silver",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Obsidian",
+                "amount": 15,
+                "perLevel": 4
             }
         ]
     },
@@ -899,6 +1028,69 @@
             },
             {
                 "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ShieldFire": {
+        "enabled": true,
+        "effectVal": 0.10,
+        "effectDur": 45,
+        "effectCooldown": 60,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+        ],
+        "recipe": [
+            {
+                "item": "Bronze",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 12,
+                "perLevel": 10
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 12,
+                "perLevel": 10
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 2,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ShieldFireTower": {
+        "enabled": true,
+        "effectVal": 4,
+        "projProtection": 0.10,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+        ],
+        "recipe": [
+            {
+                "item": "Bronze",
+                "amount": 3,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 15,
+                "perLevel": 10
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 15,
+                "perLevel": 10
+            },
+            {
+                "item": "BlackMetal",
                 "amount": 5,
                 "perLevel": 1
             }

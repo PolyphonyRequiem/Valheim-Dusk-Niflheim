@@ -62,7 +62,7 @@
     {
       "type": "nexus",
       "modId": 387,
-      "modVersion": "0.8.0",
+      "modVersion": "0.8.2",
       "description": "Epic Loot",
       "fileName": "Epic Loot",
       "extractor": "zip",
@@ -182,9 +182,9 @@
     {
       "type": "nexus",
       "modId": 671,
-      "modVersion": "0.2.7",
+      "modVersion": "0.2.8",
       "description": "RRR Core",
-      "fileName": "RRRCore_0.2.7",
+      "fileName": "RRRCore_0.2.8",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -270,7 +270,7 @@
     {
       "type": "nexus",
       "modId": 803,
-      "modVersion": "2.1.1",
+      "modVersion": "2.1.3",
       "description": "Terraheim",
       "fileName": "Terraheim",
       "extractor": "zip",
@@ -441,7 +441,7 @@
     {
       "type": "nexus",
       "modId": 1042,
-      "modVersion": "1.6.1",
+      "modVersion": "1.6.3",
       "description": "Plant Everything",
       "fileName": "Plant Everything",
       "extractor": "zip",
@@ -599,6 +599,14 @@
           "destination": "./Bepinex/plugins/BetterAutoRun"
         }   
       ]
-    }
+    },
+    {
+      "type": "nexus",
+      "modId": 1080,
+      "modVersion": "1.1.9",
+      "description": "Fisticuffs",
+      "fileName": "FistiCuffs",
+      "extractor": "zip",
+      "fileMaps": [{}]}
   ]
 }
