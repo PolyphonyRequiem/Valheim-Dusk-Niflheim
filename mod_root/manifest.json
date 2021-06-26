@@ -607,6 +607,20 @@
       "description": "Fisticuffs",
       "fileName": "FistiCuffs",
       "extractor": "zip",
-      "fileMaps": [{}]}
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 1215,
+      "modVersion": "6.0.0",
+      "description": "ChaosAmor",
+      "fileName": "Chaos Armor V6 Low Res",
+      "extractor": "rar",
+      "fileMaps": [
+        {
+          "destination": "./"
+        }
+      ]
+    }
   ]
 }
