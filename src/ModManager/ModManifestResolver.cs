@@ -55,10 +55,11 @@ namespace ModManager
 
             try
             {
-                Process.Start("cmd", $"/C tree {componentRoot.FullName} /f").WaitForExit();
+                Process.Start("cmd", $"/C tree {componentRoot.FullName} /f /a").WaitForExit();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
+                Console.WriteLine ("Unable to run tree command.");
                 // no output
             }
         }
