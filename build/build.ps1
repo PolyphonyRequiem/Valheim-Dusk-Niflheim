@@ -7,6 +7,7 @@ if ($NexusKey -eq $null)
 {
     throw "No Nexus Key."
 }
+
 $ErrorActionPreference = "Stop"
 
 $scriptRoot = if ($PSScriptRoot) {$PSScriptRoot} else {"./"}
@@ -37,8 +38,9 @@ New-Item -Path $out -ItemType Directory
 # Copy-Item $modbins\* $out -Force -Recurse
 Write-Host "Fetching Mod Binaries..."
 dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives
-dotnet restore $root/src/PatchNotesExtender/PatchNotesExtender.csproj
-dotnet build $root/src/PatchNotesExtender -property:Configuration=Release
+dotnet restore $root/src/Niflheim.sln
+nuget restore $root/src/Niflheim.sln
+dotnet build $root/src/Niflheim.sln -property:Configuration=Release
 
 Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
 
