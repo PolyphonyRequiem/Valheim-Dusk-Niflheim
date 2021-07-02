@@ -270,7 +270,7 @@
     {
       "type": "nexus",
       "modId": 803,
-      "modVersion": "2.1.3",
+      "modVersion": "2.1.4",
       "description": "Terraheim",
       "fileName": "Terraheim",
       "extractor": "zip",
@@ -626,6 +626,15 @@
           "destination": "./Bepinex/plugins/BoneAppetit"
         }
       ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1344,
+      "modVersion": "1.0.1",
+      "description": "FoodRebalance",
+      "fileName": "FoodRebalance",
+      "extractor": "rar",
+      "fileMaps": [{}]
     }
   ]
 }
