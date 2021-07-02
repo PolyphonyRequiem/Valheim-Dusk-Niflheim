@@ -335,7 +335,7 @@
     {
       "type": "nexus",
       "modId": 453,
-      "modVersion": "0.10.1",
+      "modVersion": "0.11.2",
       "description": "Spawn That",
       "fileName": "SpawnThat",
       "extractor": "zip",
@@ -441,7 +441,7 @@
     {
       "type": "nexus",
       "modId": 1042,
-      "modVersion": "1.6.3",
+      "modVersion": "1.7.0",
       "description": "Plant Everything",
       "fileName": "Plant Everything",
       "extractor": "zip",
@@ -552,15 +552,6 @@
     },
     {
       "type": "nexus",
-      "modId": 658,
-      "modVersion": "1.0.1",
-      "description": "MasterChef",
-      "fileName": "MasterChef",
-      "extractor": "zip",
-      "fileMaps": [{}]
-    },
-    {
-      "type": "nexus",
       "modId": 854,
       "modVersion": "0.4.1",
       "description": "Item Drawers",
@@ -619,6 +610,20 @@
       "fileMaps": [
         {
           "destination": "./"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1250,
+      "modVersion": "3.0.2",
+      "description": "BoneAppetit",
+      "fileName": "BoneAppetit",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./plugins/",
+          "destination": "./Bepinex/plugins/BoneAppetit"
         }
       ]
     }
