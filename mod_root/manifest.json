@@ -180,11 +180,9 @@
       ]
     },  
     {
-      "type": "nexus",
-      "modId": 671,
-      "modVersion": "0.2.8",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRCore/2.8.0/",
       "description": "RRR Core",
-      "fileName": "RRRCore_0.2.8",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -194,11 +192,9 @@
       ]
     },  
     {
-      "type": "nexus",
-      "modId": 687,
-      "modVersion": "0.2.3",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRNpcs/0.2.2/",
       "description": "RRR NPCs",
-      "fileName": "RRRNpcs_0.2.3",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -208,11 +204,9 @@
       ]
     },  
     {
-      "type": "nexus",
-      "modId": 702,
-      "modVersion": "0.2.2",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRMonsters/2.2.1/",
       "description": "RRR Monsters",
-      "fileName": "RRRMonsters_0.2.2",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -222,11 +216,9 @@
       ]
     },  
     {
-      "type": "nexus",
-      "modId": 705,
-      "modVersion": "0.2.1",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRBetterRaids/2.1.0/",
       "description": "RRR BetterRaids",
-      "fileName": "RRRBetterRaids_0.2.1",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -604,8 +596,8 @@
       "type": "nexus",
       "modId": 1215,
       "modVersion": "6.0.1",
-      "description": "ChaosAmor",
-      "fileName": "Chaos Armor V6 Low Res",
+      "description": "ChaosArmor",
+      "fileName": "Chaos Armor V6.0.1 Low Res",
       "extractor": "rar",
       "fileMaps": [
         {
@@ -631,8 +623,8 @@
       "type": "nexus",
       "modId": 1344,
       "modVersion": "1.0.1",
-      "description": "FoodRebalance",
-      "fileName": "FoodRebalance",
+      "description": "FoodRebalancer",
+      "fileName": "FoodRebalancer",
       "extractor": "rar",
       "fileMaps": [{}]
     }
