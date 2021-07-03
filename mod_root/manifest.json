@@ -198,7 +198,7 @@
       "extractor": "zip",
       "fileMaps": [
         {
-          "sources": "RRRNpcs.dll",
+          "sources": "RRRNpcs_0.2.2.dll",
           "destination": "./Bepinex/plugins/RRRNpcs/"
         }     
       ]
