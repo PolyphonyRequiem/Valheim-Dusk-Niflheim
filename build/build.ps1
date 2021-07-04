@@ -1,5 +1,6 @@
 param (
     [switch]$Debug = $false,
+    [switch]$Package = $false,
     [string]$Version = "",
     [string]$NexusKey = $null
 )
@@ -73,7 +74,9 @@ if ($Debug -and $Version)
     $Version = "$Version-debug"
 }
 
-$archiveName = if ($Version){"Niflheim-$Version.zip"} else {"Niflheim.zip"}
-
-Compress-Archive -Path $out/* -DestinationPath $out/Niflheim.zip
+###$archiveName = if ($Version){"Niflheim-$Version.zip"} else {"Niflheim.zip"}
 ###Compress-Archive -Path $out\* -DestinationPath $out\$archiveName
+if ($Package)
+{
+    Compress-Archive -Path $out/* -DestinationPath $out/Niflheim.zip
+}

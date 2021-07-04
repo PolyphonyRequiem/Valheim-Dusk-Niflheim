@@ -195,7 +195,7 @@
       "type": "http",
       "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRNpcs/0.2.3/",
       "description": "RRR NPCs",
-      "extractor": "none",
+      "extractor": "zip",
       "fileMaps": [
         {
           "sources": "RRRNpcs.dll",
