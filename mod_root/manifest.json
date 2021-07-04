@@ -195,7 +195,7 @@
       "type": "http",
       "fileUri": "https://cdn.discordapp.com/attachments/861090747800879164/861097049112707072/RRRNpcs.dll",
       "description": "RRR NPCs",
-      "extractor": "zip",
+      "extractor": "none",
       "fileMaps": [
         {
           "sources": "RRRNpcs.dll",
