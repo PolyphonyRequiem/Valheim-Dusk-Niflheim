@@ -285,7 +285,7 @@
   ///////////////////////////////////////////////////////////////////////////////////////////////
   "AugmentCosts": [
     {
-      "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "Torch", "Tool" ],
+      "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "`To`rch", "Tool" ],
       "Rarity": "Magic",
       "Cost": [
         { "Item": "ShardMagic",   "Amount": 1 },
@@ -356,5 +356,13 @@
         { "Item": "ReagentLegendary", "Amount": 1 }
       ]
     }
+  ],
+  "ReAugmentCosts" : [
+    { "Item": "Coins", "Amount": 5000 },
+    { "Item": "Coins", "Amount": 10000 },
+    { "Item": "Coins", "Amount": 15000 },
+    { "Item": "Coins", "Amount": 20000 },
+    { "Item": "Coins", "Amount": 25000 },
+    { "Item": "Coins", "Amount": 30000 }
   ]
 }

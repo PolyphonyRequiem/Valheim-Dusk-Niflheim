@@ -2597,6 +2597,101 @@
       "Suffixes": [
         "$mod_epicloot_me_luck_suffix1"
       ]
+    },
+    {
+      "Type" : "ModifyParryWindow",
+      "DisplayText" : "$mod_epicloot_me_modifyparrywindow_display",
+      "Description" : "$mod_epicloot_me_modifyparrywindow_desc",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "Shield"
+        ],
+        "ExcludedItemNames": [
+          "$item_shield_serpentscale"
+        ],
+        "ItemHasParryPower" : true
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 10, "MaxValue" : 40, "Increment" : 1 },
+        "Rare" : { "MinValue" : 20, "MaxValue" : 60, "Increment" : 1 },
+        "Epic" : { "MinValue" : 40, "MaxValue" : 80, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 50, "MaxValue" : 100, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyparrywindow_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyparrywindow_suffix1"
+      ]
+    },
+    {
+      "Type" : "Slow",
+      "DisplayText" : "$mod_epicloot_me_slow_display",
+      "Description" : "$mod_epicloot_me_slow_desc",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 30, "MaxValue" : 50, "Increment" : 1 },
+        "Rare" : { "MinValue" : 40, "MaxValue" : 60, "Increment" : 1 },
+        "Epic" : { "MinValue" : 50, "MaxValue" : 70, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 60, "MaxValue" : 80, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_slow_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_slow_suffix1"
+      ]
+    },
+
+    // Set Effects
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Type" : "Bulwark",
+      "DisplayText" : "$mod_epicloot_set_me_bulwark",
+      "Requirements" : {
+        "NoRoll" :  true 
+      },
+      "ValuesPerRarity" : {
+        "Legendary" : { "MinValue" : 5, "MaxValue" : 5, "Increment" : 1 }
+      },
+      "Ability" : "Bulwark"
+    },
+    {
+      "Type" : "Undying",
+      "DisplayText" : "$mod_epicloot_set_me_undying",
+      "Requirements" : {
+        "NoRoll" :  true 
+      },
+      "Ability" : "Undying"
+    },
+    {
+      "Type" : "FrostDamageAOE",
+      "DisplayText" : "$mod_epicloot_set_me_frostdamageaoe_display",
+      "Requirements" : {
+        "NoRoll": true
+      },
+      "ValuesPerRarity" : {
+        "Legendary" : { "MinValue" : 50, "MaxValue" : 50, "Increment" : 1 }
+      }
+    },
+    {
+      "Type" : "Berserker",
+      "DisplayText" : "$mod_epicloot_set_me_berserker",
+      "Requirements" : {
+        "NoRoll" :  true 
+      },
+      "Ability" : "Berserker"
     }
   ]
 }
