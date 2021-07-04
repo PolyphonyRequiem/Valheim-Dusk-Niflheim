@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Polly;
+using Polly.Retry;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -35,14 +37,21 @@ namespace ModManager
 
         protected async Task<FileInfo> DownloadFileAsync(ModComponent component, string downloadUri, string filename)
         {
-            using (WebClient webClient = new WebClient())
-            {
-                var outFile = new FileInfo(Path.Combine(archiveDownloadRoot.FullName, filename));
-                Console.WriteLine($"\tDownloading component {component.Description} from {downloadUri}");
-                await webClient.DownloadFileTaskAsync(downloadUri, outFile.FullName);
-                Console.WriteLine($"\tDownloaded to {outFile.FullName}");
-                return outFile;
-            }
+            var policyResult = Policy.Handle<Exception>()
+                .RetryAsync(3)
+                .ExecuteAndCaptureAsync(async () =>
+                   {
+                       using (WebClient webClient = new WebClient())
+                       {
+                           var outFile = new FileInfo(Path.Combine(archiveDownloadRoot.FullName, filename));
+                           Console.WriteLine($"\tDownloading component {component.Description} from {downloadUri}");
+                           await webClient.DownloadFileTaskAsync(downloadUri, outFile.FullName);
+                           Console.WriteLine($"\tDownloaded to {outFile.FullName}");
+                           return outFile;
+                       }
+                   });
+
+            return policyResult.Result.Result;
         }
 
         protected void Extract(ModComponent component, FileInfo archive)
