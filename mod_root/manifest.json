@@ -627,6 +627,17 @@
       "fileName": "FoodRebalancer",
       "extractor": "rar",
       "fileMaps": [{}]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Skrip/SkToolbox/1.10.4/",
+      "description": "SKToolBox",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources":"SKToolBoxValheim.dll"
+        }
+      ]
     }
   ]
 }
