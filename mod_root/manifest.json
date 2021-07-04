@@ -193,7 +193,7 @@
     },  
     {
       "type": "http",
-      "fileUri": "https://cdn.discordapp.com/attachments/861090747800879164/861097049112707072/RRRNpcs.dll",
+      "fileUri": "ror2mm://v1/install/valheim.thunderstore.io/neurodr0me/RRRNpcs/0.2.3/",
       "description": "RRR NPCs",
       "extractor": "none",
       "fileMaps": [
