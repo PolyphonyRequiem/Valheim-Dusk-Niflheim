@@ -193,12 +193,12 @@
     },  
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRNpcs/0.2.2/",
+      "fileUri": "https://cdn.discordapp.com/attachments/861090747800879164/861097049112707072/RRRNpcs.dll",
       "description": "RRR NPCs",
       "extractor": "zip",
       "fileMaps": [
         {
-          "sources": "RRRNpcs_0.2.2.dll",
+          "sources": "RRRNpcs.dll",
           "destination": "./Bepinex/plugins/RRRNpcs/"
         }     
       ]
