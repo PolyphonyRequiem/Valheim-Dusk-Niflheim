@@ -15,6 +15,12 @@ namespace ModManager
             {
                 archiveTempDirectory.Delete(true);
             }
+            DirectoryInfo destinationDirectory = new DirectoryInfo(Path.Join(componentRoot.FullName, fileMaps[0].Destination));
+
+            if (!destinationDirectory.Exists)
+            {
+                destinationDirectory.Create();
+            }
 
             File.Copy(archive.FullName, Path.Join(componentRoot.FullName, fileMaps[0].Destination, fileMaps[0].Sources));
         }
