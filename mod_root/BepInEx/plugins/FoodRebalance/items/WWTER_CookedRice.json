@@ -1,0 +1,9 @@
+{
+    "name": "M150_Ricebowl",
+    "weight": 30,
+    "stack": 20,
+    "health": 20,
+    "stamina": 35,
+    "regen": 2,
+    "duration": 1000
+}

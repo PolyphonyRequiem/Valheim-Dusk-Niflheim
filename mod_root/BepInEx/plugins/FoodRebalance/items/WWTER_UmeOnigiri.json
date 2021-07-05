@@ -1,0 +1,9 @@
+{
+    "name": "M150_RiceBall003_Ume",
+    "weight": 30,
+    "stack": 20,
+    "health": 30,
+    "stamina": 45,
+    "regen": 2,
+    "duration": 1000
+}

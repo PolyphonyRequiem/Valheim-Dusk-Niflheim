@@ -1,0 +1,9 @@
+{
+    "name": "M150_PureWater",
+    "weight": 20,
+    "stack": 20,
+    "health": 10,
+    "stamina": 20,
+    "regen": 10,
+    "duration": 200
+}

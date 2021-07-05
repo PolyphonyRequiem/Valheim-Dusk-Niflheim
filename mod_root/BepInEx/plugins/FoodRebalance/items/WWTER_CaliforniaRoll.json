@@ -1,0 +1,9 @@
+{
+    "name": "M150_CaliforniaRoll",
+    "weight": 35,
+    "stack": 15,
+    "health": 65,
+    "stamina": 65,
+    "regen": 3,
+    "duration": 1500
+}

@@ -1,7 +1,7 @@
 {
     "name": "Raspberry",
     "weight": 10,
-    "stack": 30,
+    "stack": 50,
     "health": 15,
     "stamina": 30,
     "regen": 2,

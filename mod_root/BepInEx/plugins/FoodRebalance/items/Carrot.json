@@ -1,7 +1,7 @@
 {
     "name": "Carrot",
     "weight": 20,
-    "stack": 30,
+    "stack": 50,
     "health": 20,
     "stamina": 25,
     "regen": 1,

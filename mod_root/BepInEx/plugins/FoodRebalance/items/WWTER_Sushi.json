@@ -1,0 +1,9 @@
+{
+    "name": "M150_Sushi",
+    "weight": 30,
+    "stack": 15,
+    "health": 45,
+    "stamina": 55,
+    "regen": 3,
+    "duration": 1200
+}
