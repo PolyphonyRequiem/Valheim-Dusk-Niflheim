@@ -1,0 +1,9 @@
+{
+    "name": "rk_coffee",
+    "weight": 30,
+    "stack": 10,
+    "health": 5,
+    "stamina": 60,
+    "regen": 2,
+    "duration": 900
+}

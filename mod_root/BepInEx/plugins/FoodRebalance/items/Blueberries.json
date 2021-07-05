@@ -1,0 +1,9 @@
+{
+    "name": "Blueberries",
+    "weight": 10,
+    "stack": 1,
+    "health": 20,
+    "stamina": 30,
+    "regen": 1,
+    "duration": 480
+}

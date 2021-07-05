@@ -626,7 +626,11 @@
       "description": "FoodRebalancer",
       "fileName": "FoodRebalancer",
       "extractor": "rar",
-      "fileMaps": [{}]
+      "fileMaps": [
+        {
+          "sources": "*.dll"
+        }
+      ]
     },
     {
       "type": "http",
@@ -635,7 +639,7 @@
       "extractor": "zip",
       "fileMaps": [
         {
-          "sources":"SKToolBoxValheim.dll"
+          "sources":"SkToolboxValheim.dll"
         }
       ]
     }

@@ -1,0 +1,9 @@
+{
+    "name": "HoneyBlueberryJam",
+    "weight": 30,
+    "stack": 20,
+    "health": 30,
+    "stamina": 30,
+    "regen": 6,
+    "duration": 15000
+}

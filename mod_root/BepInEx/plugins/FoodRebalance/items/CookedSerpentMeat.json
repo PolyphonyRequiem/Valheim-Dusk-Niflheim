@@ -1,0 +1,9 @@
+{
+    "name": "SerpentMeatCooked",
+    "weight": 100,
+    "stack": 20,
+    "health": 65,
+    "stamina": 40,
+    "regen": 3,
+    "duration": 1800
+}

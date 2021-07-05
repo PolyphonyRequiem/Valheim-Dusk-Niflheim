@@ -1,0 +1,9 @@
+{
+    "name": "QueensJam",
+    "weight": 30,
+    "stack": 20,
+    "health": 40,
+    "stamina": 40,
+    "regen": 4,
+    "duration": 1200
+}
