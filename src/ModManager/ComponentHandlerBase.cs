@@ -35,7 +35,7 @@ namespace ModManager
 
         public abstract Task Resolve(T component);
 
-        protected async Task<FileInfo> DownloadFileAsync(ModComponent component, string downloadUri, string filename)
+        protected Task<FileInfo> DownloadFileAsync(ModComponent component, string downloadUri, string filename)
         {
             var policyResult = Policy.Handle<Exception>()
                 .RetryAsync(3)
@@ -51,7 +51,7 @@ namespace ModManager
                        }
                    });
 
-            return policyResult.Result.Result;
+            return Task.FromResult(policyResult.Result.Result);
         }
 
         protected void Extract(ModComponent component, FileInfo archive)
