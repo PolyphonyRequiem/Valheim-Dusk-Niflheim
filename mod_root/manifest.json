@@ -628,7 +628,7 @@
       "extractor": "zip",
       "fileMaps": [
         {
-          "sourceRoot": "**/*.json;**/*.dll",
+          "sources": "**/*.json;**/*.dll",
           "destination": "./Bepinex/plugins/WeWantToEatRice"
         }
       ]
@@ -642,7 +642,7 @@
       "extractor": "rar",
       "fileMaps": [
         {
-          "sources": "*.dll"
+          "sources": "**/*.dll"
         }
       ]
     },
