@@ -621,6 +621,20 @@
     },
     {
       "type": "nexus",
+      "modId": 1225,
+      "modVersion": "0.0.3",
+      "description": "WeWantToEatRice",
+      "fileName": "WeWantToEatRice0_0_3",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "**/*.json;**/*.dll",
+          "destination": "./Bepinex/plugins/WeWantToEatRice"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
       "modId": 1344,
       "modVersion": "1.0.1",
       "description": "FoodRebalancer",
