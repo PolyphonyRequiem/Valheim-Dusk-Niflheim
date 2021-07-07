@@ -1,0 +1,9 @@
+{
+    "name": "rk_bloodsausage",
+    "weight": 40,
+    "stack": 20,
+    "health": 65,
+    "stamina": 50,
+    "regen": 3,
+    "duration": 1800
+}

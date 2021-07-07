@@ -1,0 +1,9 @@
+{
+    "name": "SerpentStew",
+    "weight": 100,
+    "stack": 15,
+    "health": 80,
+    "stamina": 70,
+    "regen": 4,
+    "duration": 1800
+}

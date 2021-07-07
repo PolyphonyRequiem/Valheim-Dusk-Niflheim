@@ -1,0 +1,9 @@
+{
+    "name": "rk_candiedturnip",
+    "weight": 20,
+    "stack": 30,
+    "health": 40,
+    "stamina": 60,
+    "regen": 4,
+    "duration": 1400
+}
