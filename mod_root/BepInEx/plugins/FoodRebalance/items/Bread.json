@@ -1,0 +1,9 @@
+{
+    "name": "Bread",
+    "weight": 30,
+    "stack": 20,
+    "health": 30,
+    "stamina": 40,
+    "regen": 2,
+    "duration": 1200
+}

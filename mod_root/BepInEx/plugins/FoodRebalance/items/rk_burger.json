@@ -1,0 +1,9 @@
+{
+    "name": "rk_burger",
+    "weight": 50,
+    "stack": 10,
+    "health": 85,
+    "stamina": 55,
+    "regen": 3,
+    "duration": 2000
+}

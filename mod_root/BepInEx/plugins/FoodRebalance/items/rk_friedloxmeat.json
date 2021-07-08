@@ -1,0 +1,9 @@
+{
+    "name": "rk_friedloxmeat",
+    "weight": 50,
+    "stack": 10,
+    "health": 110,
+    "stamina": 50,
+    "regen": 4,
+    "duration": 2200
+}
