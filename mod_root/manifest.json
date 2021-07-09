@@ -545,15 +545,6 @@
     },
     {
       "type": "nexus",
-      "modId": 854,
-      "modVersion": "0.4.1",
-      "description": "Item Drawers",
-      "fileName": "Item Drawers",
-      "extractor": "zip",
-      "fileMaps": [{}]
-    },
-    {
-      "type": "nexus",
       "modId": 1189,
       "modVersion": "4.2.2",
       "description": "More Two Handers",
@@ -609,7 +600,7 @@
     {
       "type": "nexus",
       "modId": 1250,
-      "modVersion": "3.0.2",
+      "modVersion": "3.0.1",
       "description": "BoneAppetit",
       "fileName": "BoneAppetit",
       "extractor": "zip",
