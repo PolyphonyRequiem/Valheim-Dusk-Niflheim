@@ -1,0 +1,13 @@
+Goblin Equpiment does NOT scale! If you want to use goblin equipment, goblins must stay their original size. Configure CLLC to make sure these goblins do not get larger.
+
+NewGoblinHelmetLeather
+NewGoblinHelmetSkull
+NewGoblinArmBandIron
+NewGoblinArmBandFeathers
+NewGoblinArmorIron
+NewGoblinArmorFeathers
+NewGoblinArmorLeather
+NewGoblinShoulderPadIron
+NewGoblinShoulderPadLeather
+GoblinShieldWood
+GoblinShieldBlackMetal

@@ -1,0 +1,34 @@
+The Skeleton and ghost can equip all armor except Hoods and Padded Helmet. They can use from the list of weapons below.
+
+SkeletonAxeIron
+SkeletonSLedgeIron
+SkeletonSledgeJump
+SkeletonSwordBronze
+SkeletonSwordBronzeKick
+SkeletonSwordBronzeSmite
+SkeletonSwordBronzeTaunt
+SkeletonSwordIron
+SkeletonSwordIronKick
+SkeletonSwordIronSmite
+SkeletonSwordIronTaunt
+SkeletonSwordSilver
+SkeletonSwordSilverKick
+SkeletonSwordSilverSmite
+SkeletonSwordSilverTaunt
+SkeletonSwordSilverPoison
+SkeletonSwordSilverPoisonKick
+SkeletonSwordSilverPoisonSmite
+SkeletonSwordSilverPoisonTaunt
+SkeletonSwordBlackMetal
+SkeletonSwordBlackMetalKick
+SkeletonSwordBlackMetalSmite
+SkeletonSwordBlackMetalTaunt
+
+
+For the weapons SkeletonAxeIron, SkeletonSwordBronze, SkeletonSwordIron, SkeletonSwordSilver, SkeletonSwordSilverPoison, SkeletonSwordBlackMetal
+in order for these to function, they must be set with a specific animation for example SkeletonSwordBronze@swing_longsword0 or SkeletonSwordBronze@jump_attack
+
+if you want your skeleton to do multiple animations with the same weapon type you could give him all weapons
+SkeletonSwordBronze@swing_longsword0
+SkeletonSwordBronze@swing_longsword1
+SkeletonSwordBronze@swing_longsword2

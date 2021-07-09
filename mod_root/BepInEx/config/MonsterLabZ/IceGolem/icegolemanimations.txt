@@ -1,0 +1,21 @@
+attack
+attack_bow (not tested on golem)
+knife_secondary (not tested on golem)
+swing_sledge
+stomp1
+combo_stomp
+groundslam
+throw
+swing_axe0 (not tested on golem)
+swing_axe1 (not tested on golem)
+swing_axe2 (not tested on golem)
+battleaxe_attack0 (not tested on golem)
+battleaxe_attack1 (not tested on golem)
+spear_throw (not tested on golem)
+cast1 (not tested on golem)
+cast2 (not tested on golem)
+rage (not tested on golem)
+bash (havn't tested on golem yet)
+kick  (not tested on golem)
+taunt
+jump_attack

@@ -1,0 +1,20 @@
+attack
+attack_bow
+knife_secondary
+swing_sledge
+swing_longsword0
+swing_longsword1 (ground slam attack)
+swing_longsword2
+swing_axe0
+swing_axe1
+swing_axe2
+battleaxe_attack0
+battleaxe_attack1
+spear_throw
+cast1
+cast2
+rage
+bash (havn't tested on golem yet)
+kick
+taunt (i dont think i set this up yet)
+jump_attack (not recommended lol)
