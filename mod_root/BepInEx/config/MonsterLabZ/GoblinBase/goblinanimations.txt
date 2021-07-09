@@ -1,0 +1,15 @@
+swing_longsword
+spear_throw
+attack_bow
+attack_poke
+attack_cast
+attack_protect
+stab
+spear_stab
+swing_longsword2
+swing_longsword3
+heavy_swing
+knife_slash0
+knife_slash1
+knife_slash2
+knife_secondary

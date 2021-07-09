@@ -1,0 +1,6 @@
+attack
+throw
+left_swing
+cast1
+cast2
+groundslam

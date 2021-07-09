@@ -1,0 +1,6 @@
+attack0
+attack1
+attack2
+double_attack
+horn_attack
+taunt

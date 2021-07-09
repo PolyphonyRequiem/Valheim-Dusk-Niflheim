@@ -1,0 +1,1 @@
+he only runs away. JSONS dont work for AnimalAI Monsters. To spawn this creature type "spawn GoblinLoot" or add that prefab to spawn that and change drops with drop that
