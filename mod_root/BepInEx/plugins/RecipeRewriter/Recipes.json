@@ -1,0 +1,50 @@
+{
+  "recipes": [
+    {
+      "name": "SerpentStew",
+      "amount": 3,
+      "enabled": true,
+      "minStationLevel": 1,
+      "craftingStation": "piece_cauldron",
+      "resources": [
+        {
+          "name": "Turnip",
+          "amount": 9
+        },
+		{
+          "name": "SerpentMeatCooked",
+          "amount": 2
+        },
+		{
+          "name": "Honey",
+          "amount": 9
+        },
+		{
+          "name": "rk_broth",
+          "amount": 3
+        }
+      ]
+    },
+	{
+      "name": "NordicJam",
+      "amount": 4,
+      "enabled": true,
+      "minStationLevel": 1,
+      "craftingStation": "piece_cauldron",
+      "resources": [
+        {
+          "name": "Blueberries",
+          "amount": 8
+        },
+		{
+          "name": "rk_dragonegg",
+          "amount": 2
+        },
+		{
+          "name": "Honey",
+          "amount": 4
+        }
+      ]
+    }
+  ]
+}
