@@ -223,6 +223,7 @@
       "extractor": "zip",
       "fileMaps": [
         {
+          "sourceRoot": "./plugins/MonsterLabZ",
           "sources": "DYBAssets.dll",
           "destination": "./Bepinex/plugins/MonsterLabZ"
         }     
