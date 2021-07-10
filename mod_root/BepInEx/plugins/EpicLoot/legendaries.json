@@ -405,7 +405,7 @@
         "HeimdallLegs"
       ],
       "SetBonuses": [
-        { "Count": 2, "Effect": { "Type": "ModifyBlockPower", "Values": { "MinValue": 200, "MaxValue": 200, "Increment": 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyBlockPower", "Values": { "MinValue": 100, "MaxValue": 100, "Increment": 1 } } },
         { "Count": 3, "Effect": { "Type": "Bulwark" } },
         { "Count": 4, "Effect": { "Type": "Undying" } }
       ]
@@ -421,7 +421,7 @@
       ],
       "SetBonuses": [
         { "Count": 2, "Effect": { "Type": "AddHealthRegen", "Values": { "MinValue": 2, "MaxValue": 2, "Increment": 1 } } },
-        { "Count": 2, "Effect": { "Type": "ModifyHealthRegen", "Values": { "MinValue": 100, "MaxValue": 100, "Increment": 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyHealthRegen", "Values": { "MinValue": 50, "MaxValue": 50, "Increment": 1 } } },
         { "Count": 3, "Effect": { "Type": "Berserker" } },
         { "Count": 4, "Effect": { "Type": "FrostDamageAOE", "Values": { "MinValue": 50, "MaxValue": 50, "Increment": 1 } } }
       ]
