@@ -217,7 +217,7 @@
     {
       "type": "nexus",
       "modId": 1264,
-      "modVersion": "1.0.5",
+      "modVersion": "1.6.1",
       "description": "MonsterLabZ",
       "fileName": "MonsterLabZ",
       "extractor": "zip",
