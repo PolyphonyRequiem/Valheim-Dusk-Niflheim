@@ -640,6 +640,19 @@
       ]
     },
     {
+      "type": "nexus",
+      "modId": 553,
+      "modVersion": "0.3.2",
+      "description": "Custom Server Loading Screen",
+      "fileName": "Custom Server Loading Screen",
+      "extractor": "rar",
+      "fileMaps": [
+        {
+          "sources": "**/*.dll"
+        }
+      ]
+    },
+    {
       "type": "http",
       "fileUri": "https://valheim.thunderstore.io/package/download/Skrip/SkToolbox/1.10.4/",
       "description": "SKToolBox",
