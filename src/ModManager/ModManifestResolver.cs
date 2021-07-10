@@ -21,7 +21,7 @@ namespace ModManager
 
             this.nexusApiKey = nexusApiKey;
         }
-        public async Task ResolveManifest(FileInfo manifestFile, DirectoryInfo componentRoot, DirectoryInfo archiveDownloadRoot)
+        public async Task ResolveManifest(FileInfo manifestFile, DirectoryInfo componentRoot, DirectoryInfo archiveDownloadRoot, bool debug)
         {
             var client = NexusModsClient.Create(this.nexusApiKey);
             var extractors = new Dictionary<string, ExtractorBase>
@@ -45,6 +45,11 @@ namespace ModManager
 
             foreach (var component in manifest.Components)
             {
+                if (component.isDebugTool && debug == false)
+                {
+                    continue; //skip debug tools
+                }
+
                 await (component switch
                 {
                     NexusModComponent nexusComponent => nexusHandler.Resolve(nexusComponent),

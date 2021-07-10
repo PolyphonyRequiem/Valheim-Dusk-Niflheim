@@ -19,7 +19,7 @@ namespace Firoso.Niflheim.Tools.Packager
                 Console.WriteLine($"niflheim-packager v{versionString}");
                 Console.WriteLine("-------------");
                 Console.WriteLine("\nUsage:");
-                Console.WriteLine(@"  dotnet tool run modpack <ManifestFile> <NexusApiKey> <RelativeOutputPath> <DownloadedArchives>");
+                Console.WriteLine(@"  dotnet tool run modpack <ManifestFile> <NexusApiKey> <RelativeOutputPath> <DownloadedArchives> <Debug>");
                 return;
             }
 
@@ -28,12 +28,13 @@ namespace Firoso.Niflheim.Tools.Packager
             var nexusApiKey = args[1];
             var outputPath = new DirectoryInfo(args[2]);
             var archivePath = new DirectoryInfo(args[3]);
+            var debug = Boolean.Parse(args[4]);
 
             Console.WriteLine("-------------STARTING PACKAGE DOWNLOAD-------------");
 
             var resolver = new ModManager.ModManifestResolver(nexusApiKey);
 
-            await resolver.ResolveManifest(manifestFile, outputPath, archivePath);
+            await resolver.ResolveManifest(manifestFile, outputPath, archivePath, debug);
         }
     }
 }
