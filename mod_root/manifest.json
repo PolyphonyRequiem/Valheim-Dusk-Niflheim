@@ -470,7 +470,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.0.12/Jotunn.dll",
+      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.1.3/Jotunn.dll",
       "description": "Jotunn",
       "extractor": "none",
       "fileMaps":[
@@ -654,14 +654,22 @@
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/RecipeRewriter.zip",
       "description": "RecipeRewriter",
       "extractor": "zip",
-      "fileMaps": [{}]
+      "fileMaps": [
+        {
+          "destination": "./Bepinex/plugins/RecipeRewriter"
+        }
+      ]
     },
     {
       "type": "http",
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/FoodStaminaRegen.zip",
       "description": "FoodStaminaRegen-Fork",
       "extractor": "zip",
-      "fileMaps": [{}]
+      "fileMaps": [
+        {
+          "destination": "./Bepinex/plugins/FoodStaminaRegen"
+        }
+      ]
     }
   ]
 }
