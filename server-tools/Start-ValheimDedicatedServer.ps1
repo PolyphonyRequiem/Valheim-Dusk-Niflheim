@@ -19,7 +19,7 @@ if (-not $config.ContainsKey($WorldId))
     throw "The worldId $WorldId was not found in the configuration source provided by $ValheimWorldsConfig"
 }
 
-$valheimServerExe = Join-Path (Join-Path "$ValheimServerRootPath" "$($config[$WorldId].InstallPath)") "valheim_server.exe"
+$valheimServerExe = Join-Path (Join-Path (Split-Path $ValheimWorldsConfig) "$($config[$WorldId].InstallPath)") "valheim_server.exe"
 
 if (-not (Test-Path $valheimServerExe))
 {
