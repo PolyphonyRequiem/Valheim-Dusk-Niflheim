@@ -33,12 +33,8 @@ Write-Host "Creating output directory..."
  
 New-Item -Path $out -ItemType Directory
 
-# Write-Host "Placing modbase..."
-# Copy-Item $modbase\* $out\ -Force -Recurse
-# Write-Host "Placing modbins..."
-# Copy-Item $modbins\* $out -Force -Recurse
 Write-Host "Fetching Mod Binaries..."
-dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives
+dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives ($Debug.ToString())
 
 If ($lastExitCode -ne "0") {
     throw "Package download failed.  This happens a lot, stay cool, wait a moment, then run the build again.  Both Nexus and thunderstore have flakey content delivery networks."
@@ -66,25 +62,6 @@ Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Desti
 
 Write-Host "Placing mod_root..."
 Copy-Item $mod_root/* $out -Force -Recurse
-
-if (-not $Debug)
-{
-    Write-Host "Stripping out debugging tools..."
-
-    $DebugTools = @(
-        (Join-Path $out "/BepInEx/plugins/Valheim.WhereAmI.dll"),
-        (Join-Path $out "/BepInEx/plugins/SkToolboxValheim.dll"),
-        (Join-Path $out "/BepInEx/plugins/UnityExplorer.BIE5.Mono.dll"),
-        (Join-Path $out "/BepInEx/plugins/ConfigurationManager/ConfigurationManager.dll")
-    )
-
-    foreach ($item in $DebugTools) {
-        if (Test-Path($item))
-        {
-            Remove-Item -Path $item
-        }
-    }    
-}
 
 Write-Host "Packaging"
 

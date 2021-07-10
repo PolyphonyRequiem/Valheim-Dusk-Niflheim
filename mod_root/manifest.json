@@ -43,6 +43,7 @@
       "type": "http",
       "fileUri": "https://github.com/BepInEx/BepInEx.ConfigurationManager/releases/download/v16.3/BepInEx.ConfigurationManager_v16.3.zip",
       "description": "BepInEx Configuration Manager",
+      "isDebugTool": true,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -347,6 +348,7 @@
       "description": "WhereAmI",
       "fileName": "WhereAmI_v0.1.1",
       "extractor": "zip",
+      "isDebugTool": true,
       "fileMaps": [
         {
           "sources": "Valheim.WhereAmI.dll",
@@ -487,15 +489,6 @@
       "modVersion": "0.7.1",
       "description": "AtosArrowsJVL",
       "fileName": "AtosArrowsJVL",
-      "extractor": "zip",
-      "fileMaps": [{}]
-    },
-    {
-      "type": "nexus",
-      "modId": 348,
-      "modVersion": "1.6.2",
-      "description": "Better Archery",
-      "fileName": "Better Archery",
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -656,6 +649,7 @@
       "type": "http",
       "fileUri": "https://valheim.thunderstore.io/package/download/Skrip/SkToolbox/1.10.4/",
       "description": "SKToolBox",
+      "isDebugTool": true,
       "extractor": "zip",
       "fileMaps": [
         {

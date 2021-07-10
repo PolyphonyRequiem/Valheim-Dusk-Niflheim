@@ -45,7 +45,7 @@ namespace ModManager
 
             foreach (var component in manifest.Components)
             {
-                if (component.isDebugTool && debug == false)
+                if (component.IsDebugTool && debug == false)
                 {
                     continue; //skip debug tools
                 }
