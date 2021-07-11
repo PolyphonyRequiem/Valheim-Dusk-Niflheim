@@ -678,6 +678,18 @@
           "destination": "./Bepinex/plugins/FoodStaminaRegen"
         }
       ]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/BuildIt/1.0.0/",
+      "description": "FoodStaminaRegen-Fork",
+      "extractor": "rar",
+      "fileMaps": [
+        {
+          "sourceRoot": "./plugins",
+          "destination": "./Bepinex/plugins/BuildIt"
+        }
+      ]
     }
   ]
 }
