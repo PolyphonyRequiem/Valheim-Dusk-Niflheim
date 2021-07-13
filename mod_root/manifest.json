@@ -690,6 +690,13 @@
           "destination": "./Bepinex/plugins/BuildIt"
         }
       ]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/AlreeNicolas/Forgotten_Biomes/0.0.10/",
+      "description": "ForgottenBiomes",
+      "extractor": "zip",
+      "fileMaps": [{}]
     }
   ]
 }
