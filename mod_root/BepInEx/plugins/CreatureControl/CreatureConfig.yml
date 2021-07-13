@@ -13,6 +13,7 @@ groups:
         - Ghost
         - Wraith
     Brutes:
+        - Troll Outcast
         - Greydwarf brute
         - Troll
         - Lox
