@@ -1,0 +1,9 @@
+{
+    "name":"ArmorTrollLeatherLegs",
+    "maxQuality": 8,
+    "sharedStats":
+    [
+        "armor:50.0",
+        "armorPerLevel:80.0"
+    ]
+}

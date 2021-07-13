@@ -697,6 +697,13 @@
       "description": "ForgottenBiomes",
       "extractor": "zip",
       "fileMaps": [{}]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/valheim-dynamic-items.zip",
+      "description": "valheim-dynamic-items",
+      "extractor": "zip",
+      "fileMaps": [{}]
     }
   ]
 }
