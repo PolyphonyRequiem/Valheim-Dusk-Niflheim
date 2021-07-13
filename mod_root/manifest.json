@@ -412,11 +412,9 @@
       ]
     },
     {
-      "type": "nexus",
-      "modId": 1027,
-      "modVersion": "1.1.0",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/PotionPlus/1.1.0/",
       "description": "Odin's PotionsPlus",
-      "fileName": "Odin's PotionsPlus",
       "extractor": "zip",
       "fileMaps": [{}]
     },
