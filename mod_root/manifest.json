@@ -570,11 +570,10 @@
       ]
     },
     {
-      "type": "nexus",
-      "modId": 1080,
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/sbtoonz/Fisticuffs/1.1.9/",
       "modVersion": "1.1.9",
       "description": "Fisticuffs",
-      "fileName": "FistiCuffs",
       "extractor": "zip",
       "fileMaps": [{}]
     },
