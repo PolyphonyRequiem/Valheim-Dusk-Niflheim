@@ -1553,6 +1553,59 @@
       ]
     },
     {
+      "Object": "RRRM_MeadowsTroll",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.1", "Weight" : 97 },
+            { "Item": "ModUtility", "Weight" : 3, "Rarity": [ 88, 2, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.2", "Weight" : 96 },
+            { "Item": "ModUtility", "Weight" : 4, "Rarity": [ 85, 5, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.3", "Weight" : 95 },
+            { "Item": "ModUtility", "Weight" : 5, "Rarity": [ 80, 10, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.4", "Weight" : 94 },
+            { "Item": "ModUtility", "Weight" : 6, "Rarity": [ 72, 17, 1, 0 ] }
+          ]
+        }, 
+        {
+          "Level": 5,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.5", "Weight" : 93 },
+            { "Item": "ModUtility", "Weight" : 7, "Rarity": [ 66, 22, 2, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 100] ],
+          "Loot": [
+            { "Item": "Tier1Mob.6", "Weight" : 92 },
+            { "Item": "ModUtility", "Weight" : 8, "Rarity": [ 60, 27, 3, 0] }
+          ]
+        }
+      ]
+    },
+    {
       "Object": "Troll",
       "LeveledLoot": [
         {

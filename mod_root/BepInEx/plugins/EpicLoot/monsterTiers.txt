@@ -9,6 +9,7 @@ T0:
 T1:
 -Greydwarf
 -Skeleton
+-Troll Runt
 
 T2:
 -Greydwarf_Elite
