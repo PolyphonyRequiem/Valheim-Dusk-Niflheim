@@ -23,16 +23,22 @@ if (-not (Test-Path $mod_root))
     throw "Unable to locate mod_root at $mod_root"
 }
 
-if (Test-Path $out) 
+if ((Test-Path $out) -and (-not $ConfigOnly)) 
 {
-    Write-Host "Found existing output in $out... deleting..."
+    Write-Host "Found existing output in $out... "
 
     Remove-Item -Path $out -Recurse 
-}
-
-Write-Host "Creating output directory..."
+    
+    Write-Host "Creating output directory..."
  
-New-Item -Path $out -ItemType Directory
+    New-Item -Path $out -ItemType Directory
+}
+elseif (-not (Test-Path $out))
+{
+    Write-Host "Creating output directory..."
+ 
+    New-Item -Path $out -ItemType Directory
+}
 
 if (-not $ConfigOnly)
 {
