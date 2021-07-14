@@ -33,7 +33,8 @@ if (Test-Path $out)
 Write-Host "Creating output directory..."
  
 New-Item -Path $out -ItemType Directory
-if ($ConfigOnly)
+
+if (-not $ConfigOnly)
 {
     Write-Host "Fetching Mod Binaries..."
     dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives ($Debug.ToString())
