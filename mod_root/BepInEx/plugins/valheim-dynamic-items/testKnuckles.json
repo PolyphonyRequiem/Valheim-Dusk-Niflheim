@@ -38,7 +38,7 @@
         "frost:99.0",
         "lightning:99.0",
         "poison:99.0",
-        "spirit:99.0"
+        "spirit:99.0",
         "blunt:28.0",
         "damage:8.0",
         "pierce:6.0",
@@ -60,5 +60,5 @@
         "lightning:0.0",
         "poison:0.0",
         "spirit:0.0"
-    ],
+    ]
 }
