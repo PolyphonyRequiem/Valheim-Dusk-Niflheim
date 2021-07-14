@@ -1,46 +1,46 @@
 {
-   "sOriginalPrefabName" : "Troll",
-   "sNewPrefabName" : "MeadowsTroll",
+   "sOriginalPrefabName" : "Draugr",
+   "sNewPrefabName" : "MeadowsNightDraugr",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 0.7,
-         "fY" : 0.7,
-         "fZ" : 0.7
+         "fX" : 0.9,
+         "fY" : 0.9,
+         "fZ" : 0.9
       },
-      "cTintColor" : {"fRed" : 0.9, "fGreen" : 1.2,"fBlue" : 0.7},
+      "cTintColor" : {"fRed" : 0.7, "fGreen" : 1.2,"fBlue" : 0.7},
       "cTintItems" : null,
       "cBodySmoke" : null,
       "cBodyFlames" : null,
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Troll Runt",
-      "sFaction" : "ForestMonsters",
+      "sName" : "The Drowned",
+      "sFaction" : "Undead",
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 0.8,
+      "fMoveSpeedMulti" : 1,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
-      "bToleratesSmoke" : false,
-      "fHealth" : 300,
+      "bToleratesSmoke" : true,
+      "fHealth" : 60,
       "dDamageTaken" : {
-         "m_blunt" : "Resistant",
+         "m_blunt" : "Normal",
          "m_slash" : "Normal",
-         "m_pierce" : "Weak",
+         "m_pierce" : "Normal",
          "m_chop" : "Ignore",
          "m_pickaxe" : "Ignore",
-         "m_fire" : "Normal",
+         "m_fire" : "Weak",
          "m_frost" : "Normal",
          "m_lightning" : "Normal",
-         "m_poison" : "Normal",
-         "m_spirit" : "Immune"
+         "m_poison" : "Immune",
+         "m_spirit" : "Normal"
       }
    },
    "Category_Humanoid" : {
       "dtAttackDamageOverride" : {
          "fDamage" : 0,
-         "fBlunt" : 40,
+         "fBlunt" : 25,
          "fSlash" : 0,
          "fPierce" : 0,
          "fChop" : 0,
@@ -54,29 +54,31 @@
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "troll_punch",
-         "troll_groundslam"
+         
       ],
       "aRandomWeapon" : [
-         
+         "draugr_axe",
+         "draugr_sword"
       ],
       "aRandomArmor" : [
          
       ],
       "aRandomShield" : [
-         
+         "ShieldWood",
+         "ShieldBanded",
+         ""
       ],
       "aaRandomSets" : [
-        
+         
       ],
       "aHitEffects" : [
-         "vfx_foresttroll_hit",
-         "sfx_troll_hit"
+         "vfx_draugr_hit",
+         "sfx_draugr_hit"
       ],
       "aDeathEffects" : [
-         "sfx_troll_death",
-         "Troll_ragdoll",
-         "vfx_troll_death"
+         "vfx_draugr_death",
+         "sfx_draugr_death",
+         "Draugr_ragdoll"
       ],
       "aConsumeItemEffects" : [
          
@@ -84,20 +86,20 @@
       "aAdvancedCustomAttacks" : null
    },
    "Category_BaseAI" : {
-      "fViewRange" : 20,
-      "fViewAngle" : 70,
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
       "fHearRange" : 9999,
       "aAlertedEffects" : [
-         "sfx_troll_alerted"
+         "sfx_draugr_alerted"
       ],
       "aIdleEffects" : [
-         "sfx_troll_idle"
+         "sfx_draugr_idle"
       ],
-      "fIdleEffectsInterval" : 5,
-      "fIdleEffectsChance" : 0.25,
-      "sPathAgentType" : "TrollSize",
+      "fIdleEffectsInterval" : 10,
+      "fIdleEffectsChance" : 0.5,
+      "sPathAgentType" : "HumanoidNoSwim",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 30,
+      "fRandomMoveInterval" : 20,
       "fRandomMoveRange" : 10,
       "bRandomFly" : false,
       "fChanceToTakeoff" : 1,
@@ -121,20 +123,20 @@
       "fFleeIfLowHealth" : 0,
       "bCirculateWhileCharging" : false,
       "bCirculateWhileChargingFlying" : false,
-      "bEnableHuntPlayer" : false,
+      "bEnableHuntPlayer" : true,
       "bAttackPlayerObjects" : true,
       "bAttackPlayerObjectsWhenAlerted" : null,
       "fInterceptTimeMax" : 2,
-      "fInterceptTimeMin" : 1,
-      "fMaxChaseDistance" : 200,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
       "fMinAttackInterval" : 0,
       "fCircleTargetInterval" : 0,
-      "fCircleTargetDuration" : 5,
-      "fCircleTargetDistance" : 10,
+      "fCircleTargetDuration" : 4,
+      "fCircleTargetDistance" : 8,
       "bSleeping" : false,
-      "bNoiseWakeup" : false,
+      "bNoiseWakeup" : true,
       "fNoiseRangeScale" : 1,
-      "fWakeupRange" : 5,
+      "fWakeupRange" : 15,
       "aWakeupEffects" : [
          
       ],
@@ -152,17 +154,17 @@
       "drDrops" : [
          {
             "sPrefabName" : "Coins",
-            "iAmountMin" : 10,
-            "iAmountMax" : 20,
+            "iAmountMin" : 5,
+            "iAmountMax" : 15,
             "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "TrollHide",
-            "iAmountMin" : 2,
-            "iAmountMax" : 2,
-            "fChance" : 1,
+            "sPrefabName" : "RawFish",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
          }
