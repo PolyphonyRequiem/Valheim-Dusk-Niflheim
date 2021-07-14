@@ -169,7 +169,7 @@
     },  
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRCore/2.8.0/",
+      "fileUri": "hhttps://valheim.thunderstore.io/package/download/neurodr0me/RRRCore/2.9.0/",
       "description": "RRR Core",
       "extractor": "zip",
       "fileMaps": [
@@ -599,20 +599,6 @@
         {
           "sourceRoot": "./plugins/",
           "destination": "./Bepinex/plugins/BoneAppetit"
-        }
-      ]
-    },
-    {
-      "type": "nexus",
-      "modId": 1225,
-      "modVersion": "0.0.3",
-      "description": "WeWantToEatRice",
-      "fileName": "WeWantToEatRice0_0_3",
-      "extractor": "zip",
-      "fileMaps": [
-        {
-          "sources": "**/*.json;**/*.dll",
-          "destination": "./Bepinex/plugins/WeWantToEatRice"
         }
       ]
     },
