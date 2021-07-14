@@ -687,6 +687,13 @@
       "description": "valheim-dynamic-items",
       "extractor": "zip",
       "fileMaps": [{}]
+    },
+    {
+      "type":"http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/RandyKnapp/EquipmentAndQuickSlots/2.0.9/",
+      "description": "Equipment and QuickSlots",
+      "extractor": "zip",
+      "fileMaps": [{}]
     }
   ]
 }
