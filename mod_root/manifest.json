@@ -169,7 +169,7 @@
     },  
     {
       "type": "http",
-      "fileUri": "hhttps://valheim.thunderstore.io/package/download/neurodr0me/RRRCore/2.9.0/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRCore/2.9.0/",
       "description": "RRR Core",
       "extractor": "zip",
       "fileMaps": [
