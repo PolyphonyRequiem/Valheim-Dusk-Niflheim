@@ -2,7 +2,8 @@ param (
     [switch]$Debug = $false,
     [switch]$Package = $false,
     [string]$Version = "",
-    [string]$NexusKey = $null
+    [string]$NexusKey = $null,
+    [switch]$ConfigOnly = $false
 )
 if ($NexusKey -eq $null)
 {
@@ -32,33 +33,36 @@ if (Test-Path $out)
 Write-Host "Creating output directory..."
  
 New-Item -Path $out -ItemType Directory
+if ($ConfigOnly)
+{
+    Write-Host "Fetching Mod Binaries..."
+    dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives ($Debug.ToString())
 
-Write-Host "Fetching Mod Binaries..."
-dotnet run --project $root/src/packager/Niflheim.Packager.csproj $mod_root/manifest.json $NexusKey  $out $root/downloadedarchives ($Debug.ToString())
+    If ($lastExitCode -ne "0") {
+        throw "Package download failed.  This happens a lot, stay cool, wait a moment, then run the build again.  Both Nexus and thunderstore have flakey content delivery networks."
+    }
 
-If ($lastExitCode -ne "0") {
-    throw "Package download failed.  This happens a lot, stay cool, wait a moment, then run the build again.  Both Nexus and thunderstore have flakey content delivery networks."
+    dotnet restore $root/src/Niflheim.sln
+
+    If ($lastExitCode -ne "0") {
+        throw "dotnet restore failed.  This is rare."
+    }
+
+    nuget restore $root/src/Niflheim.sln
+
+    If ($lastExitCode -ne "0") {
+        throw "NugetRestore failed.  This is rare"
+    }
+
+    dotnet build $root/src/Niflheim.sln -property:Configuration=Release
+
+    If ($lastExitCode -ne "0") {
+        throw "Build failed.  This is rare"
+    }
+
+    Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
 }
 
-dotnet restore $root/src/Niflheim.sln
-
-If ($lastExitCode -ne "0") {
-    throw "dotnet restore failed.  This is rare."
-}
-
-nuget restore $root/src/Niflheim.sln
-
-If ($lastExitCode -ne "0") {
-    throw "NugetRestore failed.  This is rare"
-}
-
-dotnet build $root/src/Niflheim.sln -property:Configuration=Release
-
-If ($lastExitCode -ne "0") {
-    throw "Build failed.  This is rare"
-}
-
-Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
 
 Write-Host "Placing mod_root..."
 Copy-Item $mod_root/* $out -Force -Recurse
