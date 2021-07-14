@@ -19,7 +19,7 @@
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 0.8,
+      "fMoveSpeedMulti" : 1.1,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
@@ -54,8 +54,8 @@
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "troll_punch",
-         "troll_groundslam"
+         "troll_log_swing_h",
+         "troll_log_swing_v"
       ],
       "aRandomWeapon" : [
          
@@ -108,8 +108,8 @@
       "fFlyAltitudeMin" : 3,
       "fFlyAltitudeMax" : 10,
       "fTakeoffTime" : 5,
-      "bAvoidFire" : false,
-      "bAfraidOfFire" : false,
+      "bAvoidFire" : true,
+      "bAfraidOfFire" : true,
       "bAvoidWater" : true,
       "sSpawnMessage" : "",
       "sDeathMessage" : ""
@@ -119,7 +119,7 @@
       "bFleeIfHurtWhenTargetCantBeReached" : true,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
-      "bCirculateWhileCharging" : false,
+      "bCirculateWhileCharging" : true,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
       "bAttackPlayerObjects" : true,
