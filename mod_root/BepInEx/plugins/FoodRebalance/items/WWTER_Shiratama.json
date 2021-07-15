@@ -1,9 +1,0 @@
-{
-    "name": "M150_Shiratama",
-    "weight": 30,
-    "stack": 20,
-    "health": 25,
-    "stamina": 45,
-    "regen": 3,
-    "duration": 1000
-}
