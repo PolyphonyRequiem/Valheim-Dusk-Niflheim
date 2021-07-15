@@ -917,6 +917,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -943,6 +947,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -969,6 +977,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -995,6 +1007,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1022,6 +1038,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1048,6 +1068,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1074,6 +1098,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1100,6 +1128,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1126,6 +1158,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1153,6 +1189,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -1179,6 +1219,10 @@
           "Shoulder",
           "Utility",
           "Shield"
+        ],
+        "AllowedRarities" : [
+          "Epic",
+          "Legendary"
         ]
       },
       "ValuesPerRarity" : {
@@ -2460,6 +2504,7 @@
           "Knives"
         ],
         "AllowedRarities" : [
+          "Rare",
           "Epic",
           "Legendary"
         ]
