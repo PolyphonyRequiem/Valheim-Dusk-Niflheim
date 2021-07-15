@@ -61,15 +61,12 @@
       "fileMaps": [{}]
     },
     {
-      "type": "nexus",
-      "modId": 387,
-      "modVersion": "0.8.2",
+      "type": "http",
+      "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/EpicLootForked.zip",
       "description": "Epic Loot",
-      "fileName": "Epic Loot",
       "extractor": "zip",
       "fileMaps": [
         {
-          "sourceRoot": "./files/",
           "destination": "./Bepinex/plugins/EpicLoot"
         }
       ]
