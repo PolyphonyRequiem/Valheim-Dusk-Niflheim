@@ -56,6 +56,8 @@
       "fAttackDamageTotalOverride" : 15,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
+         "@1",
+         "@2",
          "KnifeSilverTH",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",
@@ -168,9 +170,14 @@
       "drDrops" : [
          {
             "sPrefabName" : "RunestoneMagic",
-            "iAmountMin" : 3,
-            "iAmountMax" : 5,
-            "d"
+            "iAmountMin" : 1,
+            "iAmountMax" : 2,
+            "fChance" : 1.0,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         }
+      ]
+   },
    "Category_Special" : {
       "bCanTame" : false,
       "bAlwaysTame" : false,
