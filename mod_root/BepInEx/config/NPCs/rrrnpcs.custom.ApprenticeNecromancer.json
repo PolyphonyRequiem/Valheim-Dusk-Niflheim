@@ -8,10 +8,15 @@
          "fZ" : 1
       },
       "cTintColor" : null,
+      "cTintItems" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.5,
+         "fBlue" : 0.5
+		 },
       "cBodySmoke" : {
          "fRed" : 0.4,
          "fGreen" : 0.1,
-         "fBlue" : 0
+         "fBlue" : 0.0
 		 },
       "cBodyFlames" : null
    },
@@ -40,28 +45,19 @@
       }
    },
    "Category_Humanoid" : {
-      "dtAttackDamageOverride" : {
-         "fDamage" : 0,
-         "fBlunt" : 0,
-         "fSlash" : 0,
-         "fPierce" : 0,
-         "fChop" : 0,
-         "fPickaxe" : 0,
-         "fFire" : 0,
-         "fFrost" : 0,
-         "fLightning" : 0,
-         "fPoison" : 0,
-         "fSpirit" : 0
-      },
-      "fAttackDamageTotalOverride" : 15,
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 18,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
          "@1",
          "@2",
-         "KnifeSilverTH",
+         "@3",
+         "@4",
+         "KnifeBlackMetal",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",
-         "CapeLinen"
+         "CapeLinen",
+         "ArmorTrollLeatherLegs"
       ],
       "aRandomWeapon" : [
          
@@ -77,51 +73,79 @@
       ],
       "aAdvancedCustomAttacks" :[
          {
-            "sOriginalPrefabName" : "Spell_FelVortex_DoD",
-            "sTargetAnim" : "throw_bomb",
-            "fAIAttackInterval" : 20,
+            "sOriginalPrefabName" : "dragon_spit_shotgun",
+            "sTargetAnim" : "knife_stab",
+            "fAIAttackInterval" : 40,
             "bAIPrioritized" : true,
             "dtAttackDamageOverride" : {
                  "fDamage" : 0,
                  "fBlunt" : 0,
                  "fSlash" : 0,
-                 "fPierce" : 5,
-                 "fChop" : 0,
-                 "fPickaxe" : 0,
-                 "fFire" : 5,
-                 "fFrost" : 5,
-                 "fLightning" : 5,
-                 "fPoison" : 5,
-                 "fSpirit" : 0
-            },
-            "fAttackDamageTotalOverride" : null,
-            "sAttackProjectileOverride" : null,
-            "aStartEffects" : ["VFX_PoisonSlash2_DoD"],
-            "aHitEffects" : null,
-            "aTriggerEffects" : null
-         },
-         {
-            "sOriginalPrefabName" : "KnifeSilverTH",
-            "sTargetAnim" : "knife_secondary",
-            "fAIAttackInterval" : 12,
-            "bAIPrioritized" : true,
-            "dtAttackDamageOverride" : {
-                 "fDamage" : 0,
-                 "fBlunt" : 0,
-                 "fSlash" : 0,
-                 "fPierce" : 25,
+                 "fPierce" : 0,
                  "fChop" : 0,
                  "fPickaxe" : 0,
                  "fFire" : 0,
                  "fFrost" : 0,
                  "fLightning" : 0,
-                 "fPoison" : 0,
+                 "fPoison" : 25,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackStatusEffect" : "SE_FlashBurn_DoD",
+            "sAttackProjectileOverride" : "Imp_Voidbolt_projectile_dod",
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "KnifeBlackMetal",
+            "sTargetAnim" : "knife_secondary",
+            "fAIAttackInterval" : 30,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 0,
+            "sAttackProjectileOverride" : "Projectile_Dark01_DoD",
+            "sAttackStatusEffect": "SE_Weak_DoD",
+            "aStartEffects" : null,
+            "aHitEffects" : ["fx_crit"],
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "Spell_DarkSkull_DoD",
+            "sTargetAnim" : "knife_secondary",
+            "fAIAttackInterval" : 5,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 0,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 0,
+                 "fFrost" : 5,
+                 "fLightning" : 0,
+                 "fPoison" : 25,
                  "fSpirit" : 0
             },
             "fAttackDamageTotalOverride" : null,
             "sAttackProjectileOverride" : null,
             "aStartEffects" : null,
-            "aHitEffects" : ["fx_crit"],
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "GoblinShaman_attack_protect",
+			   "sAITargetType" : "FriendHurt",
+			   "sAttackStatusEffect" : "SE_LesserRegen_DoD",
+            "sTargetAnim" : "knife_secondary",
+            "fAIAttackInterval" : 10,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
             "aTriggerEffects" : null
          }
       ]
@@ -132,8 +156,8 @@
       "fHearRange" : 9999,
       "sPathAgentType" : "Humanoid",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 30,
-      "fRandomMoveRange" : 15,
+      "fRandomMoveInterval" : 3,
+      "fRandomMoveRange" : 3,
       "bAvoidFire" : false,
       "bAfraidOfFire" : false,
       "bAvoidWater" : true,
@@ -145,7 +169,7 @@
       "bFleeIfHurtWhenTargetCantBeReached" : true,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
-      "bCirculateWhileCharging" : false,
+      "bCirculateWhileCharging" : true,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
       "bAttackPlayerObjects" : true,
@@ -189,9 +213,10 @@
       "bSfxNoDeath" : false
    },
    "Category_NpcOnly" : {
-      "bIsFemale" : true,
+      "bIsFemale" : false,
       "bRandomGender" : false,
       "aBeardIds" : [
+         "Beard1"
       ],
       "aHairIds" : [
          "Hair13"
