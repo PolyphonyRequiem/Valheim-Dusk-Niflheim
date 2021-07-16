@@ -661,8 +661,8 @@
     },
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/BuildIt/1.0.0/",
-      "description": "FoodStaminaRegen-Fork",
+      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/BuildIt/1.2.0/",
+      "description": "BuildIt",
       "extractor": "rar",
       "fileMaps": [
         {
