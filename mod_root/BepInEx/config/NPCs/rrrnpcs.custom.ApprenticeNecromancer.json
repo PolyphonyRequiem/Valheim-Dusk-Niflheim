@@ -166,9 +166,11 @@
    "Category_CharacterDrop" : {
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
-         
-      ]
-   },
+         {
+            "sPrefabName" : "RunestoneMagic",
+            "iAmountMin" : 3,
+            "iAmountMax" : 5,
+            "d"
    "Category_Special" : {
       "bCanTame" : false,
       "bAlwaysTame" : false,
