@@ -52,7 +52,6 @@
          "@1",
          "@2",
          "@3",
-         "@4",
          "KnifeBlackMetal",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",
@@ -91,28 +90,14 @@
                  "fSpirit" : 0
             },
             "fAttackDamageTotalOverride" : null,
-            "sAttackStatusEffect" : "SE_FlashBurn_DoD",
             "sAttackProjectileOverride" : "Imp_Voidbolt_projectile_dod",
             "aStartEffects" : null,
             "aHitEffects" : null,
             "aTriggerEffects" : null
          },
          {
-            "sOriginalPrefabName" : "KnifeBlackMetal",
-            "sTargetAnim" : "knife_secondary",
-            "fAIAttackInterval" : 30,
-            "bAIPrioritized" : true,
-            "dtAttackDamageOverride" : null,
-            "fAttackDamageTotalOverride" : 0,
-            "sAttackProjectileOverride" : "Projectile_Dark01_DoD",
-            "sAttackStatusEffect": "SE_Weak_DoD",
-            "aStartEffects" : null,
-            "aHitEffects" : ["fx_crit"],
-            "aTriggerEffects" : null
-         },
-         {
             "sOriginalPrefabName" : "Spell_DarkSkull_DoD",
-            "sTargetAnim" : "knife_secondary",
+            "sTargetAnim" : "knife_stab",
             "fAIAttackInterval" : 5,
             "bAIPrioritized" : true,
             "dtAttackDamageOverride" : {
@@ -125,11 +110,12 @@
                  "fFire" : 0,
                  "fFrost" : 5,
                  "fLightning" : 0,
-                 "fPoison" : 25,
+                 "fPoison" : 5,
                  "fSpirit" : 0
             },
             "fAttackDamageTotalOverride" : null,
             "sAttackProjectileOverride" : null,
+            "sAttackStatusEffect" : "SE_FlashBurn_DoD",
             "aStartEffects" : null,
             "aHitEffects" : null,
             "aTriggerEffects" : null
@@ -137,8 +123,8 @@
          {
             "sOriginalPrefabName" : "GoblinShaman_attack_protect",
 			   "sAITargetType" : "FriendHurt",
-			   "sAttackStatusEffect" : "SE_LesserRegen_DoD",
-            "sTargetAnim" : "knife_secondary",
+			   "sAttackStatusEffect" : "SE_Regen_DoD",
+            "sTargetAnim" : "knife_stab",
             "fAIAttackInterval" : 10,
             "bAIPrioritized" : true,
             "dtAttackDamageOverride" : null,
