@@ -1,6 +1,6 @@
 {
    "sOriginalPrefabName" : "RRR_NPC",
-   "sNewPrefabName" : "Example",
+   "sNewPrefabName" : "ApprenticeNecromancer",
    "Category_Appearance" : {
       "vScale" : {
          "fX" : 1,
@@ -8,31 +8,35 @@
          "fZ" : 1
       },
       "cTintColor" : null,
-      "cBodySmoke" : null,
+      "cBodySmoke" : {
+         "fRed" : 0.4,
+         "fGreen" : 0.1,
+         "fBlue" : 0
+		 },
       "cBodyFlames" : null
    },
    "Category_Character" : {
-      "sName" : "Human",
-      "sFaction" : "Players",
-      "bBoss" : false,
+      "sName" : "Young Seiðr",
+      "sFaction" : "Boss",
+      "bBoss" : true,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 1,
+      "fMoveSpeedMulti" : 1.1,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
-      "fHealth" : 100,
+      "fHealth" : 200,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
-         "m_slash" : "Normal",
+         "m_slash" : "Resistant",
          "m_pierce" : "Normal",
          "m_chop" : "Immune",
          "m_pickaxe" : "Immune",
          "m_fire" : "Normal",
          "m_frost" : "Normal",
          "m_lightning" : "Normal",
-         "m_poison" : "Normal",
-         "m_spirit" : "Immune"
+         "m_poison" : "Resistant",
+         "m_spirit" : "Weak"
       }
    },
    "Category_Humanoid" : {
@@ -49,10 +53,13 @@
          "fPoison" : 0,
          "fSpirit" : 0
       },
-      "fAttackDamageTotalOverride" : null,
+      "fAttackDamageTotalOverride" : 15,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         
+         "KnifeSilverTH",
+         "HelmetTrollLeather",
+         "ArmorTrollLeatherChest",
+         "CapeLinen"
       ],
       "aRandomWeapon" : [
          
@@ -65,16 +72,66 @@
       ],
       "aaRandomSets" : [
          
+      ],
+      "aAdvancedCustomAttacks" :[
+         {
+            "sOriginalPrefabName" : "Spell_FelVortex_DoD",
+            "sTargetAnim" : "throw_bomb",
+            "fAIAttackInterval" : 20,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 5,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 5,
+                 "fFrost" : 5,
+                 "fLightning" : 5,
+                 "fPoison" : 5,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : ["VFX_PoisonSlash2_DoD"],
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "KnifeSilverTH",
+            "sTargetAnim" : "knife_secondary",
+            "fAIAttackInterval" : 12,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 25,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 0,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : ["fx_crit"],
+            "aTriggerEffects" : null
+         }
       ]
-   },
+   }, 
    "Category_BaseAI" : {
-      "fViewRange" : 30,
-      "fViewAngle" : 90,
+      "fViewRange" : 45,
+      "fViewAngle" : 120,
       "fHearRange" : 9999,
       "sPathAgentType" : "Humanoid",
       "fRandomCircleInterval" : 2,
       "fRandomMoveInterval" : 30,
-      "fRandomMoveRange" : 3,
+      "fRandomMoveRange" : 15,
       "bAvoidFire" : false,
       "bAfraidOfFire" : false,
       "bAvoidWater" : true,
@@ -82,11 +139,11 @@
       "sDeathMessage" : ""
    },
    "Category_MonsterAI" : {
-      "fAlertRange" : 20,
+      "fAlertRange" : 80,
       "bFleeIfHurtWhenTargetCantBeReached" : true,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
-      "bCirculateWhileCharging" : true,
+      "bCirculateWhileCharging" : false,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
       "bAttackPlayerObjects" : true,
@@ -95,9 +152,9 @@
       "fInterceptTimeMin" : 0,
       "fMaxChaseDistance" : 300,
       "fMinAttackInterval" : 0,
-      "fCircleTargetInterval" : 10,
-      "fCircleTargetDuration" : 3,
-      "fCircleTargetDistance" : 5,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 0,
+      "fCircleTargetDistance" : 0,
       "aConsumeItems" : [
          
       ],
@@ -117,68 +174,41 @@
       "bAlwaysTame" : false,
       "bCommandableWhenTame" : false,
       "bCanProcreateWhenTame" : false,
-      "bFxNoTame" : false,
       "bSfxNoAlert" : false,
       "bSfxNoIdle" : false,
       "bSfxNoHit" : false,
       "bSfxNoDeath" : false
    },
    "Category_NpcOnly" : {
-      "bIsFemale" : false,
+      "bIsFemale" : true,
       "bRandomGender" : false,
-      "bNoBeardIfFemale" : false,
       "aBeardIds" : [
-         "BeardNone",
-         "Beard1",
-         "Beard2",
-         "Beard3",
-         "Beard4",
-         "Beard5",
-         "Beard6",
-         "Beard7",
-         "Beard8",
-         "Beard9",
-         "Beard10"
       ],
       "aHairIds" : [
-         "HairNone",
-         "Hair1",
-         "Hair2",
-         "Hair3",
-         "Hair4",
-         "Hair5",
-         "Hair6",
-         "Hair7",
-         "Hair8",
-         "Hair9",
-         "Hair10",
-         "Hair11",
-         "Hair12",
-         "Hair13",
-         "Hair14"
+         "Hair13"
       ],
       "cSkinColorMin" : {
-         "fRed" : 0.5,
-         "fGreen" : 0.5,
+         "fRed" : 0.4,
+         "fGreen" : 0.3,
          "fBlue" : 0.5
       },
       "cSkinColorMax" : {
-         "fRed" : 1,
-         "fGreen" : 1,
-         "fBlue" : 1
+         "fRed" : 0.4,
+         "fGreen" : 0.3,
+         "fBlue" : 0.5
       },
       "cHairColorMin" : {
-         "fRed" : 1,
-         "fGreen" : 0.5,
+         "fRed" : 0.2,
+         "fGreen" : 0.2,
          "fBlue" : 0.3
       },
       "cHairColorMax" : {
-         "fRed" : 1,
-         "fGreen" : 0.9,
-         "fBlue" : 0.7
+         "fRed" : 0.2,
+         "fGreen" : 0.2,
+         "fBlue" : 0.3
       },
-      "fHairValueMin" : 0.1,
-      "fHairValueMax" : 1
+      "fHairValueMin" : 0.3,
+      "fHairValueMax" : 0.3
    },
    "sConfigFormatVersion" : "0.2.0"
 }

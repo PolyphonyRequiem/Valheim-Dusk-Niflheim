@@ -691,6 +691,28 @@
       "description": "Equipment and QuickSlots",
       "extractor": "zip",
       "fileMaps": [{}]
+    },
+    {
+      "type":"http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieAssets/0.4.0/",
+      "description": "DoOrDieAssets",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./plugins/"
+        }
+      ]
+    },
+    {
+      "type":"http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieMonsters/0.1.7/",
+      "description": "DoOrDieMonsters",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sourceRoot": "./plugins/"
+        }
+      ]
     }
   ]
 }
