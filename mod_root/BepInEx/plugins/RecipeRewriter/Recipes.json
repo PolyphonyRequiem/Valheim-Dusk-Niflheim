@@ -1,7 +1,10 @@
 {
   "recipes": [
     {
-      "name": "SerpentStew",
+      "match":
+      {
+        "name": "SerpentStew"
+      },
       "amount": 3,
       "enabled": true,
       "minStationLevel": 1,
@@ -26,7 +29,10 @@
       ]
     },
     {
-      "name": "NordicJam",
+      "match":
+      {
+        "name": "NordicJam"
+      },
       "amount": 4,
       "enabled": true,
       "minStationLevel": 1,
@@ -47,7 +53,11 @@
       ]
     },
     {
-      "name": "Bronze",
+      "match":
+      {
+        "name": "Bronze",
+        "amount": 1
+      },
       "amount": 2,
       "enabled": true,
       "minStationLevel": 1,
@@ -60,6 +70,27 @@
         {
           "name": "Tin",
           "amount": 1
+        }
+      ]
+    },
+    {
+      "match":
+      {
+        "name": "Bronze",
+        "amount": 5
+      },
+      "amount": 10,
+      "enabled": true,
+      "minStationLevel": 1,
+      "craftingStation": "forge",
+      "resources": [
+        {
+          "name": "Copper",
+          "amount": 10
+        },
+        {
+          "name": "Tin",
+          "amount": 5
         }
       ]
     },
