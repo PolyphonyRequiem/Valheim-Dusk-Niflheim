@@ -95,7 +95,11 @@
       ]
     },
     {
-      "name": "ArrowStone",
+      "match":
+      {
+        "name": "ArrowStone",
+        "amount": 5
+      },
       "amount": 20,
       "enabled": false,
       "minStationLevel": 1,
