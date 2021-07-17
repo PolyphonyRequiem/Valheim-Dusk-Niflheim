@@ -50,8 +50,6 @@
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
          "@1",
-         "@2",
-         "@3",
          "KnifeBlackMetal",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",

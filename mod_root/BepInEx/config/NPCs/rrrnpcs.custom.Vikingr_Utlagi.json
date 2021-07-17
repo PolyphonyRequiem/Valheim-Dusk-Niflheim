@@ -144,9 +144,28 @@
       "bIsFemale" : false,
       "bRandomGender" : false,
       "aBeardIds" : [
-         "Beard1"
+         "Beard1",
+         "Beard2",
+         "Beard3",
+         "Beard4",
+         "Beard5",
+         "Beard6",
+         "Beard7",
+         "Beard8",
+         "Beard9",
+         "Beard10"
       ],
       "aHairIds" : [
+         "Hair1",
+         "Hair2",
+         "Hair3",
+         "Hair4",
+         "Hair5",
+         "Hair6",
+         "Hair7",
+         "Hair8",
+         "Hair9",
+         "Hair10",
          "Hair13"
       ],
       "cSkinColorMin" : {
