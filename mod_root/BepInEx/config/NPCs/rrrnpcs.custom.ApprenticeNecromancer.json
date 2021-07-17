@@ -23,7 +23,7 @@
    "Category_Character" : {
       "sName" : "Young Seiðr",
       "sFaction" : "Boss",
-      "bBoss" : true,
+      "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
       "fMoveSpeedMulti" : 1.1,
@@ -72,30 +72,6 @@
       ],
       "aAdvancedCustomAttacks" :[
          {
-            "sOriginalPrefabName" : "dragon_spit_shotgun",
-            "sTargetAnim" : "knife_stab",
-            "fAIAttackInterval" : 40,
-            "bAIPrioritized" : true,
-            "dtAttackDamageOverride" : {
-                 "fDamage" : 0,
-                 "fBlunt" : 0,
-                 "fSlash" : 0,
-                 "fPierce" : 0,
-                 "fChop" : 0,
-                 "fPickaxe" : 0,
-                 "fFire" : 0,
-                 "fFrost" : 0,
-                 "fLightning" : 0,
-                 "fPoison" : 25,
-                 "fSpirit" : 0
-            },
-            "fAttackDamageTotalOverride" : null,
-            "sAttackProjectileOverride" : "Imp_Voidbolt_projectile_dod",
-            "aStartEffects" : null,
-            "aHitEffects" : null,
-            "aTriggerEffects" : null
-         },
-         {
             "sOriginalPrefabName" : "Spell_DarkSkull_DoD",
             "sTargetAnim" : "knife_stab",
             "fAIAttackInterval" : 5,
@@ -115,21 +91,7 @@
             },
             "fAttackDamageTotalOverride" : null,
             "sAttackProjectileOverride" : null,
-            "sAttackStatusEffect" : "SE_FlashBurn_DoD",
-            "aStartEffects" : null,
-            "aHitEffects" : null,
-            "aTriggerEffects" : null
-         },
-         {
-            "sOriginalPrefabName" : "GoblinShaman_attack_protect",
-			   "sAITargetType" : "FriendHurt",
-			   "sAttackStatusEffect" : "SE_Regen_DoD",
-            "sTargetAnim" : "knife_stab",
-            "fAIAttackInterval" : 10,
-            "bAIPrioritized" : true,
-            "dtAttackDamageOverride" : null,
-            "fAttackDamageTotalOverride" : null,
-            "sAttackProjectileOverride" : null,
+            "sAttackStatusEffect" : null,
             "aStartEffects" : null,
             "aHitEffects" : null,
             "aTriggerEffects" : null

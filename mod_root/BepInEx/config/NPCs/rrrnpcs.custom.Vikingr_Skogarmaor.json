@@ -23,7 +23,7 @@
    "Category_Character" : {
       "sName" : "Vikingr Skogarmaor",
       "sFaction" : "Boss",
-      "bBoss" : true,
+      "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
       "fMoveSpeedMulti" : 1.1,
