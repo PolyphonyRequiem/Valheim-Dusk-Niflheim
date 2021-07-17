@@ -3,9 +3,9 @@
    "sNewPrefabName" : "Greydwarf_Stoneheart",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 0.7,
+         "fX" : 1.2,
          "fY" : 1.2,
-         "fZ" : 1.2
+         "fZ" : 0.7
       },
       "cTintColor" : {
          "fRed" : 0.5,
