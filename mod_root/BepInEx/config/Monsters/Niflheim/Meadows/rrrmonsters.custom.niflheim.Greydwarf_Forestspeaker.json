@@ -13,7 +13,11 @@
          "fBlue" : 0.7
       },
       "cTintItems" : null,
-      "cBodySmoke" : null,
+      "cBodySmoke" : {
+         "fRed" : 0.8,
+         "fGreen" : 0.9,
+         "fBlue" : 0.9
+      },
       "cBodyFlames" : null,
       "sCustomTexture" : null
    },
