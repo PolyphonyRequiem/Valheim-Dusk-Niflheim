@@ -31,7 +31,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : true,
-      "fHealth" : 135,
+      "fHealth" : 80,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
@@ -65,8 +65,7 @@
          "Greydwarf_attack",
          "@1",
          "@2",
-         "@3",
-         "@4"
+         "@3"
       ],
       "aRandomWeapon" : [
          
@@ -130,8 +129,8 @@
                  "fPierce" : 0,
                  "fChop" : 0,
                  "fPickaxe" : 0,
-                 "fFire" : 0,
-                 "fFrost" : 70,
+                 "fFire" : 15,
+                 "fFrost" : 0,
                  "fLightning" : 0,
                  "fPoison" : 0,
                  "fSpirit" : 0
@@ -148,19 +147,7 @@
             "fAIAttackInterval" : 18,
             "bAIPrioritized" : true,
             "dtAttackDamageOverride" : null,
-            "fAttackDamageTotalOverride" : 25,
-            "sAttackProjectileOverride" : null,
-            "aStartEffects" : null,
-            "aHitEffects" : null,
-            "aTriggerEffects" : null
-         },
-         {
-            "sOriginalPrefabName" : "gd_king_rootspawn",
-            "sTargetAnim" : "heal",
-            "fAIAttackInterval" : 40,
-            "bAIPrioritized" : true,
-            "dtAttackDamageOverride" : null,
-            "fAttackDamageTotalOverride" : 25,
+            "fAttackDamageTotalOverride" : 15,
             "sAttackProjectileOverride" : null,
             "aStartEffects" : null,
             "aHitEffects" : null,
