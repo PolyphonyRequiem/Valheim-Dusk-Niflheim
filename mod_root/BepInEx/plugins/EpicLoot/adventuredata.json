@@ -185,6 +185,8 @@
     "AddsMaxLevel": 5,
     "AddsHealthMultiplier": 1.5, 
     "Targets": [
+      { "Biome": "Ocean", "TargetID": "Serpent", "RewardGold": 1, "RewardIron": 0 },
+
       { "Biome": "Meadows", "TargetID": "Greydwarf",        "RewardGold": 0, "RewardIron": 1   },
       { "Biome": "Meadows", "TargetID": "Greydwarf",        "RewardGold": 0, "RewardIron": 1   },
       { "Biome": "Meadows", "TargetID": "Skeleton",         "RewardGold": 0, "RewardIron": 1   },
