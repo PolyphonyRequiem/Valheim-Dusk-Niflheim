@@ -6,6 +6,7 @@ groups:
         - Draugr Archer
     Caster:
         - Greydwarf shaman
+        - Greydwarf Forestspeaker
     Undead:
         - Skeleton
         - Rancid remains
@@ -13,6 +14,7 @@ groups:
         - Ghost
         - Wraith
     Brutes:
+        - Greydwarf Reclaimer
         - Troll Outcast
         - Greydwarf brute
         - Troll
@@ -35,9 +37,13 @@ groups:
         - Boar
         - Neck
     Forest Creatures:
+        - Greydwarf Stoneheart
         - Greydwarf
         - Greyling
     Low Humanoids:
+        - Vikingr Utlagi
+        - Vikingr Skogarmaor
+        - RRRN_ApprenticeNecromancer
         - RRR_Hostile_T1
         - RRR_Hostile_T2
         - RRR_Hostile_T3

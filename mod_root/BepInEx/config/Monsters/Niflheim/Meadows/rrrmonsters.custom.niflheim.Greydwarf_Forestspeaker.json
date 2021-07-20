@@ -31,7 +31,7 @@
       "bToleratesWater": true,
       "bToleratesFire": false,
       "bToleratesSmoke": true,
-      "fHealth": 80,
+      "fHealth": 40,
       "dDamageTaken": {
          "m_blunt": "Normal",
          "m_slash": "Normal",
@@ -97,7 +97,7 @@
                "fFire": 0,
                "fFrost": 0,
                "fLightning": 0,
-               "fPoison": 5,
+               "fPoison": 10,
                "fSpirit": 0
             },
             "fAttackDamageTotalOverride": null,

@@ -46,11 +46,11 @@
    },
    "Category_Humanoid" : {
       "dtAttackDamageOverride" : null,
-      "fAttackDamageTotalOverride" : 18,
+      "fAttackDamageTotalOverride" : 15,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
          "@1",
-         "KnifeBlackMetal",
+         "Bow",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",
          "CapeLinen",
@@ -71,7 +71,7 @@
       "aAdvancedCustomAttacks" :[
          {
             "sOriginalPrefabName" : "Spell_DarkSkull_DoD",
-            "sTargetAnim" : "knife_stab",
+            "sTargetAnim" : "knife_secondary",
             "fAIAttackInterval" : 5,
             "bAIPrioritized" : true,
             "dtAttackDamageOverride" : {
@@ -88,7 +88,6 @@
                  "fSpirit" : 0
             },
             "fAttackDamageTotalOverride" : null,
-            "sAttackProjectileOverride" : null,
             "sAttackStatusEffect" : null,
             "aStartEffects" : null,
             "aHitEffects" : null,
