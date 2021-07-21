@@ -475,15 +475,6 @@
     },
     {
       "type": "nexus",
-      "modId": 1125,
-      "modVersion": "0.3.3",
-      "description": "PlanBuild",
-      "fileName": "PlanBuild",
-      "extractor": "zip",
-      "fileMaps": [{}]
-    },
-    {
-      "type": "nexus",
       "modId": 348,
       "modVersion": "1.6.2",
       "description": "Better Archery",
