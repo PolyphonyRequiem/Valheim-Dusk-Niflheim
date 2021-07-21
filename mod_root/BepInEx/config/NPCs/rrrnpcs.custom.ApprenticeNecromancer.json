@@ -30,7 +30,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
-      "fHealth" : 200,
+      "fHealth" : 80,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Resistant",
@@ -50,6 +50,7 @@
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
          "@1",
+         "@2",
          "Bow",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",
@@ -70,29 +71,55 @@
       ],
       "aAdvancedCustomAttacks" :[
          {
-            "sOriginalPrefabName" : "Spell_DarkSkull_DoD",
-            "sTargetAnim" : "knife_secondary",
-            "fAIAttackInterval" : 5,
-            "bAIPrioritized" : true,
-            "dtAttackDamageOverride" : {
-                 "fDamage" : 0,
-                 "fBlunt" : 0,
-                 "fSlash" : 0,
-                 "fPierce" : 0,
-                 "fChop" : 0,
-                 "fPickaxe" : 0,
-                 "fFire" : 0,
-                 "fFrost" : 5,
-                 "fLightning" : 0,
-                 "fPoison" : 5,
-                 "fSpirit" : 0
+            "sOriginalPrefabName": "Spell_DarkSkull_DoD",
+            "sTargetAnim": "throw_bomb",
+            "fAIAttackInterval": 5,
+            "bAIPrioritized": true,
+            "dtAttackDamageOverride": {
+               "fDamage": 0,
+               "fBlunt": 0,
+               "fSlash": 0,
+               "fPierce": 0,
+               "fChop": 0,
+               "fPickaxe": 0,
+               "fFire": 0,
+               "fFrost": 0,
+               "fLightning": 0,
+               "fPoison": 10,
+               "fSpirit": 0
             },
-            "fAttackDamageTotalOverride" : null,
-            "sAttackStatusEffect" : null,
-            "aStartEffects" : null,
-            "aHitEffects" : null,
-            "aTriggerEffects" : null
-         }
+            "fAttackDamageTotalOverride": null,
+            "sAttackProjectileOverride": null,
+            "aStartEffects": null,
+            "aHitEffects": null,
+            "aTriggerEffects": null
+         },
+         {
+            "sOriginalPrefabName": "Greydwarf_shaman_heal",
+            "sAITargetType": "FriendHurt",
+            "sTargetAnim": "throw_bomb",
+            "fAIAttackInterval": 20,
+            "bAIPrioritized": true,
+            "dtAttackDamageOverride": {
+               "fDamage": 0,
+               "fBlunt": 0,
+               "fSlash": 0,
+               "fPierce": 0,
+               "fChop": 0,
+               "fPickaxe": 0,
+               "fFire": 0,
+               "fFrost": 0,
+               "fLightning": 0,
+               "fPoison": 10,
+               "fSpirit": 0
+            },
+            "fAttackDamageTotalOverride": null,
+            "sAttackStatusEffect" : "SE_LesserRegen_DoD",
+            "sAttackProjectileOverride" : "AoE_Regen50_DoD",
+            "aStartEffects": null,
+            "aHitEffects": null,
+            "aTriggerEffects": null
+         },
       ]
    }, 
    "Category_BaseAI" : {

@@ -37,28 +37,19 @@
       }
    },
    "Category_Humanoid": {
-      "dtAttackDamageOverride": {
-         "fDamage": 0,
-         "fBlunt": 18,
-         "fSlash": 0,
-         "fPierce": 0,
-         "fChop": 0,
-         "fPickaxe": 0,
-         "fFire": 0,
-         "fFrost": 0,
-         "fLightning": 0,
-         "fPoison": 0,
-         "fSpirit": 0
-      },
+      "dtAttackDamageOverride": null,
       "fAttackDamageTotalOverride": null,
       "sAttackProjectileOverride": null,
       "aDefaultItems": [
-         "SledgeStagbreaker",
          "ArmorRagsLegs",
          "ArmorBarbarianCapeJD",
          "ArmorRagsChest"
       ],
-      "aRandomWeapon": [],
+      "aRandomWeapon": [
+         "AxeStone",
+         "Club",
+         "SpearFlint"
+      ],
       "aRandomArmor": [],
       "aRandomShield": [],
       "aaRandomSets": [],

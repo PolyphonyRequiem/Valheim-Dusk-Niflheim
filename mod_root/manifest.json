@@ -431,24 +431,10 @@
     },
     {
       "type": "nexus",
-      "modId": 1042,
-      "modVersion": "1.7.0",
-      "description": "Plant Everything",
-      "fileName": "Plant Everything",
-      "extractor": "zip",
-      "fileMaps": [
-        {
-          "sources": "Advize_PlantEverything.dll",
-          "destination": "./Bepinex/plugins/PlantEverything"
-        }
-      ]
-    },
-    {
-      "type": "nexus",
       "modId": 1087,
-      "modVersion": "1.0.8",
+      "modVersion": "1.0.9",
       "description": "More Gates",
-      "fileName": "More Gates 1.0.8",
+      "fileName": "More Gates 1.0.9",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -481,9 +467,18 @@
     {
       "type": "nexus",
       "modId": 1301,
-      "modVersion": "0.7.1",
+      "modVersion": "0.7.2",
       "description": "AtosArrowsJVL",
       "fileName": "AtosArrowsJVL",
+      "extractor": "zip",
+      "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 1125,
+      "modVersion": "0.3.3",
+      "description": "PlanBuild",
+      "fileName": "PlanBuild",
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -661,7 +656,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/BuildIt/1.2.0/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/BuildIt/1.3.1/",
       "description": "BuildIt",
       "extractor": "rar",
       "fileMaps": [
@@ -705,7 +700,7 @@
     },
     {
       "type":"http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieMonsters/0.1.7/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieMonsters/0.1.8/",
       "description": "DoOrDieMonsters",
       "extractor": "zip",
       "fileMaps": [
@@ -713,6 +708,31 @@
           "sourceRoot": "./plugins/"
         }
       ]
+    },
+    {
+      "type":"http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Smoothbrain/PassivePowers/1.0.0/",
+      "description": "PassivePowers",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/PassivePowers"
+        }
+      ]
+    },
+    {
+      "type":"http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/ComfyMods/ColorfulPortals/1.0.1/",
+      "description": "ColorfulPortals",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/ColorfulPortals"
+        }
+      ]
     }
+
   ]
 }
