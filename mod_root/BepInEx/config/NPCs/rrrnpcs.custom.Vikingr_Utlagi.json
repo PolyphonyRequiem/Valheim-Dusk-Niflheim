@@ -48,10 +48,11 @@
       "aRandomWeapon": [],
       "aRandomArmor": [],
       "aRandomShield": [],
-      "aaRandomSets": [
-         ["AxeStone"],
-         ["Club"],
-         ["SpearFlint"]
+      "aaRandomSets": 
+      [
+         {"aSetItems" :["AxeStone"]},
+         {"aSetItems" :["Club"]},
+         {"aSetItems" :["SpearFlint"]}
       ],
       "aAdvancedCustomAttacks": []
    },

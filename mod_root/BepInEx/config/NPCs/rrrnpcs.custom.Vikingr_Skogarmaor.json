@@ -64,9 +64,9 @@
          
       ],
       "aaRandomSets" : [
-         ["GreataxeFlintTH"],
-         ["SledgeStagbreaker"],
-         ["Bow"]
+         {"aSetItems" :["GreataxeFlintTH"]},
+         {"aSetItems" :["SledgeStagbreaker"]},
+         {"aSetItems" :["Bow"]}
       ],
       "aAdvancedCustomAttacks" :[
 

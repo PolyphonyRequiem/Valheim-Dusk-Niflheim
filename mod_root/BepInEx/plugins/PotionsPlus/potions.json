@@ -12,6 +12,10 @@
         {
           "item": "Raspberry",
           "amount": 2
+        },
+        {
+          "item": "ShardMagic",
+          "amount": 10
         }
       ]
     },
@@ -31,6 +35,10 @@
         {
           "item": "Resin",
           "amount": 2
+        },
+        {
+          "item": "ShardMagic",
+          "amount": 10
         }
       ]
     },
@@ -50,6 +58,10 @@
         {
           "item": "Mushroom",
           "amount": 1
+        },
+        {
+          "item": "ShardRare",
+          "amount": 5
         }
       ]
     },
@@ -69,6 +81,10 @@
         {
           "item": "Blueberries",
           "amount": 2
+        },
+        {
+          "item": "ShardRare",
+          "amount": 5
         }
       ]
     },
@@ -84,6 +100,10 @@
         {
           "item": "MushroomYellow",
           "amount": 2
+        },
+        {
+          "item": "ShardRare",
+          "amount": 5
         }
       ]
     },
@@ -103,6 +123,10 @@
         {
           "item": "Cloudberry",
           "amount": 1
+        },
+        {
+          "item": "ShardEpic",
+          "amount": 5
         }
       ]
     },
@@ -118,6 +142,10 @@
         {
           "item": "Bloodbag",
           "amount": 2
+        },
+        {
+          "item": "ShardEpic",
+          "amount": 5
         }
       ]
     },
@@ -137,6 +165,10 @@
         {
           "item": "Bloodbag",
           "amount": 1
+        },
+        {
+          "item": "ShardEpic",
+          "amount": 5
         }
       ]
     },
@@ -156,6 +188,10 @@
         {
           "item": "Flax",
           "amount": 2
+        },
+        {
+          "item": "ShardEpic",
+          "amount": 5
         }
       ]
     }
