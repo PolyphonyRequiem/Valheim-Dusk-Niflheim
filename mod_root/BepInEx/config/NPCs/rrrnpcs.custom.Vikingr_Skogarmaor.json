@@ -55,8 +55,7 @@
          "ArmorTrollLeatherChest"
       ],
       "aRandomWeapon" : [
-         "GreataxeFlintTH",
-         "SledgeStagbreaker"
+         
       ],
       "aRandomArmor" : [
          
@@ -65,7 +64,9 @@
          
       ],
       "aaRandomSets" : [
-         
+         ["GreataxeFlintTH"],
+         ["SledgeStagbreaker"],
+         ["Bow"]
       ],
       "aAdvancedCustomAttacks" :[
 

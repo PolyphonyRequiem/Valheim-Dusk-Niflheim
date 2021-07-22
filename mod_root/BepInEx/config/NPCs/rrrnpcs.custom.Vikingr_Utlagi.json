@@ -45,14 +45,14 @@
          "ArmorBarbarianCapeJD",
          "ArmorRagsChest"
       ],
-      "aRandomWeapon": [
-         "AxeStone",
-         "Club",
-         "SpearFlint"
-      ],
+      "aRandomWeapon": [],
       "aRandomArmor": [],
       "aRandomShield": [],
-      "aaRandomSets": [],
+      "aaRandomSets": [
+         ["AxeStone"],
+         ["Club"],
+         ["SpearFlint"]
+      ],
       "aAdvancedCustomAttacks": []
    },
    "Category_BaseAI": {
