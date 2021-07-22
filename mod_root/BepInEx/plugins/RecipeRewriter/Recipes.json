@@ -97,7 +97,7 @@
     {
       "match":
       {
-        "name": "StoneArrow"
+        "name": "ArrowStone"
       },
       "amount": 20,
       "enabled": false,
