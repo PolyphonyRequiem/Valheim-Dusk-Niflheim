@@ -432,9 +432,9 @@
     {
       "type": "nexus",
       "modId": 1087,
-      "modVersion": "1.0.9",
+      "modVersion": "1.0.10",
       "description": "More Gates",
-      "fileName": "More Gates 1.0.9",
+      "fileName": "More gates The JVL update(fixed)",
       "extractor": "zip",
       "fileMaps": [
         {

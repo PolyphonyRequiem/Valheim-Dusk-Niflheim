@@ -97,7 +97,8 @@
     {
       "match":
       {
-        "name": "ArrowStone"
+        "name": "ArrowStone",
+        "amount": 20
       },
       "amount": 20,
       "enabled": false,
