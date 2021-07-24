@@ -723,15 +723,6 @@
           "destination": "./Bepinex/plugins/ColorfulPortals"
         }
       ]
-    },
-    {
-      "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/JereKuusela/ESP/1.3.0/",
-      "description": "ESP",
-      "extractor": "zip",
-      "isDebugTool":true,
-      "fileMaps":[{}]
     }
-
   ]
 }
