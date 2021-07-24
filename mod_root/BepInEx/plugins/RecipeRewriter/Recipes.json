@@ -1,8 +1,7 @@
 {
   "recipes": [
     {
-      "match":
-      {
+      "match": {
         "name": "SerpentStew"
       },
       "amount": 3,
@@ -29,8 +28,7 @@
       ]
     },
     {
-      "match":
-      {
+      "match": {
         "name": "NordicJam"
       },
       "amount": 4,
@@ -53,8 +51,7 @@
       ]
     },
     {
-      "match":
-      {
+      "match": {
         "name": "Bronze",
         "amount": 1
       },
@@ -74,8 +71,7 @@
       ]
     },
     {
-      "match":
-      {
+      "match": {
         "name": "Bronze",
         "amount": 5
       },
@@ -95,8 +91,7 @@
       ]
     },
     {
-      "match":
-      {
+      "match": {
         "name": "ArrowStone",
         "amount": 20
       },
@@ -104,7 +99,32 @@
       "enabled": false,
       "minStationLevel": 1,
       "craftingStation": "piece_workbench",
+      "resources": []
+    }
+  ],
+  "pieces": [
+    {
+      "match": {
+        "name": "piece_stonecutter",
+        "buildTool": "Hammer"
+      },
       "resources": [
+        {
+          "name": "Stone",
+          "amount": 25
+        },
+        {
+          "name": "RoundLog",
+          "amount": 10
+        },
+        {
+          "name": "Bronze",
+          "amount": 5
+        },
+        {
+          "name": "SurtlingCore",
+          "amount": 2
+        }
       ]
     }
   ]
