@@ -49,7 +49,6 @@
       "fAttackDamageTotalOverride" : 15,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "@1",
          "Bow",
          "HelmetTrollLeather",
          "ArmorTrollLeatherChest",
@@ -69,30 +68,7 @@
          
       ],
       "aAdvancedCustomAttacks" :[
-         {
-            "sOriginalPrefabName": "Spell_DarkSkull_DoD",
-            "sTargetAnim": "throw_bomb",
-            "fAIAttackInterval": 5,
-            "bAIPrioritized": true,
-            "dtAttackDamageOverride": {
-               "fDamage": 0,
-               "fBlunt": 0,
-               "fSlash": 0,
-               "fPierce": 0,
-               "fChop": 0,
-               "fPickaxe": 0,
-               "fFire": 0,
-               "fFrost": 0,
-               "fLightning": 0,
-               "fPoison": 10,
-               "fSpirit": 0
-            },
-            "fAttackDamageTotalOverride": null,
-            "sAttackProjectileOverride": null,
-            "aStartEffects": null,
-            "aHitEffects": null,
-            "aTriggerEffects": null
-         }
+         
       ]
    }, 
    "Category_BaseAI" : {
