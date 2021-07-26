@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="Menthus.bepinex.plugins.BetterTrader.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="vendor.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
