@@ -9,7 +9,7 @@ namespace DefaultItemsConverter
     class Program
     {
         private record ItemData(string name, int price, int sellPrice, bool tradeable, bool sellable, bool ignorewaitfordiscovery);
-        static Regex matchExpression = new Regex(@"(?<itemName>[a-zA-Z]+):\s*Stack\s*=\s*(?<stackSize>\d+?)\s*Price\s*=\s*(?<price>\d+)\s*SellPrice\s*=\s*(?<sellPrice>\d+)\sTradeable\s*=\s*(?<tradeable>true|false)\s*IgnoreWaitForDiscovery\s*=\s*(?<discovery>true|false)\s*Sellable\s*=\s*(?<sellable>true|false)");
+        static Regex matchExpression = new Regex(@"(?<itemName>[a-zA-Z]+):\s*Price\s*=\s*(?<price>\d+)\s*SellPrice\s*=\s*(?<sellPrice>\d+)\sTradeable\s*=\s*(?<tradeable>true|false)\s*IgnoreWaitForDiscovery\s*=\s*(?<discovery>true|false)\s*Sellable\s*=\s*(?<sellable>true|false)");
 
         enum SearchState
         {
@@ -36,8 +36,8 @@ namespace DefaultItemsConverter
                 itemData.Add(
                     new ItemData(
                         result.Groups["itemName"].Value,
-                        (int)Math.Ceiling((double)int.Parse(result.Groups["price"].Value) / int.Parse(result.Groups["stackSize"].Value)),
-                        (int)Math.Ceiling((double)int.Parse(result.Groups["sellPrice"].Value) / int.Parse(result.Groups["stackSize"].Value)),
+                        int.Parse(result.Groups["price"].Value),
+                        int.Parse(result.Groups["sellPrice"].Value),
                         bool.Parse(result.Groups["tradeable"].Value),
                         bool.Parse(result.Groups["sellable"].Value),
                         bool.Parse(result.Groups["discovery"].Value)));
