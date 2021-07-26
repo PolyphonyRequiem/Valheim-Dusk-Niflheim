@@ -723,6 +723,15 @@
           "destination": "./Bepinex/plugins/ColorfulPortals"
         }
       ]
+    },
+    {
+      "type": "nexus",
+      "modId": 1303,
+      "modVersion": "1.0.3",
+      "description": "JotunnFix for Better Trader",
+      "fileName": "Digitalroot.Valheim.JotunnBetterTraderFix",
+      "extractor": "zip",
+      "fileMaps": [{}]
     }
   ]
 }
