@@ -8,12 +8,19 @@ MEADOWS:
     Endurance: 0%
     Duration: 480
 
-MEADOWS:
+BLACKFOREST:
     Stamina: 15
     Health: 15
     Health per tick: 1
     Endurance: 0%
     Duration: 480    
+
+SWAMP:
+    Stamina: 20
+    Health: 20
+    Health per tick: 1
+    Endurance: 0%
+    Duration: 600        
 
 BUDGET:
 i_1 - 1.5
