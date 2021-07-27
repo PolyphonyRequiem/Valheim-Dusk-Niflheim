@@ -1,9 +1,9 @@
 {
-    "name": "Sausages",
+    "name": "rk_bloodsausage",
     "weight": 40,
     "stack": 20,
     "health": 50,
     "stamina": 40,
-    "regen": 3,
-    "duration": 1400
+    "regen": 1,
+    "duration": 840
 }
