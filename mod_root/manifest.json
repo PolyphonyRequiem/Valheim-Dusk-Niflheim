@@ -736,7 +736,7 @@
     {
       "type": "nexus",
       "modId": 1359,
-      "modVersion": "1.0.3",
+      "modVersion": "1.0.0",
       "description": "Rune Magic",
       "fileName": "Rune Magic",
       "extractor": "zip",
