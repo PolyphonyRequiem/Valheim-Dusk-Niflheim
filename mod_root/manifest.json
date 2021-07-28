@@ -714,7 +714,7 @@
     },
     {
       "type":"http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/ComfyMods/ColorfulPortals/1.0.1/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/ComfyMods/ColorfulPortals/1.1.0/",
       "description": "ColorfulPortals",
       "extractor": "zip",
       "fileMaps": [
@@ -732,6 +732,17 @@
       "fileName": "Digitalroot.Valheim.JotunnBetterTraderFix",
       "extractor": "zip",
       "fileMaps": [{}]
+    },
+    {
+      "type": "nexus",
+      "modId": 1359,
+      "modVersion": "1.0.3",
+      "description": "Rune Magic",
+      "fileName": "Rune Magic",
+      "extractor": "zip",
+      "fileMaps": [{
+        "destination": "./Bepinex/plugins/RuneMagic"
+      }]
     }
   ]
 }
