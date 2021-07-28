@@ -68,6 +68,8 @@ if (-not $ConfigOnly)
     }
 
     Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
+
+    Copy-Item $root/src/NiflheimBespoke/bin/Release/NiflheimBespoke.dll -Destination $out/Bepinex/plugins/NiflheimBespoke.dll
 }
 
 
