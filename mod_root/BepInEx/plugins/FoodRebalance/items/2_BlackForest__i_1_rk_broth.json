@@ -1,7 +1,7 @@
 {
     "name": "rk_broth",
     "weight": 40,
-    "stack": 1,
+    "stack": 10,
     "health": 15,
     "stamina": 20,
     "regen": 2,
