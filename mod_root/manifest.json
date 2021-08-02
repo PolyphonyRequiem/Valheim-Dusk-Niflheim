@@ -311,11 +311,9 @@
       ]
     },
     {
-      "type": "nexus",
-      "modId": 221,
-      "modVersion": "1.10.1",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/ASharpPen/Drop_That/2.1.0/",
       "description": "Drop That",
-      "fileName": "drop-that",
       "extractor": "zip",
       "fileMaps": [
         {
