@@ -80,6 +80,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleCommands\DumpAllItemsCommand.cs" />
     <Compile Include="Properties\IgnoreAccessModifiers.cs" />
     <Compile Include="NiflheimBespoke.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
