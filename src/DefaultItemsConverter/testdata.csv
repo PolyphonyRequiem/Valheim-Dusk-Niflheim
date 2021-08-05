@@ -1,4 +1,6 @@
-﻿#Merchant Stuff#
+﻿Name,Price,SellPrice,Tradeable,IgnoreWaitForDiscovery,Sellable
+
+#Merchant Stuff#
 Amber,5,50,false,true,true
 AmberPearl,10,100,false,true,true
 Ruby,200,200,false,true,true
