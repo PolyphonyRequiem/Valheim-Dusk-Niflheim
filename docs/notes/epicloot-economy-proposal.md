@@ -29,4 +29,11 @@
 
 ## Discussions:
 - Unclear what to do with re-augmentation, but using Dust/Shards/Tokens seems logical.
-- 
+
+## For Randy:
+ - Enchanter/Augmenter materials and crafting station bindings configurable.
+ - Augmentation caps (max number of augmentation slots) by configuration.
+
+Also features I'm looking into:
+ - Augmentation base costs with attempt accumulation, such as increasing shard cost each attempt - (haven't done this yet, but I assume it could be stored easily enough in the item data using extended item data framework, no?)
+ - A "cleansing" process to dis-enchant an item and return it to being mundane with the intent of enchanting it again.  Probably would be an augmenter feature?  Would use configurable costs by category and rarity just like disenchant yields do right now.
