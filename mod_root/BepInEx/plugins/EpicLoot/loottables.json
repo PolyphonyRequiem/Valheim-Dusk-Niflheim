@@ -355,14 +355,14 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "ShardMagic", "Weight": 100 }
           ]
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 10, "Rarity": [ 90, 0, 0, 0 ] },
             { "Item": "ShardMagic", "Weight": 90 }
@@ -370,7 +370,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 10, "Rarity": [ 87, 3, 0, 0 ] },
             { "Item": "ShardMagic", "Weight": 87 },
@@ -379,7 +379,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 10, "Rarity": [ 84, 6, 0, 0 ] },
             { "Item": "ShardMagic", "Weight": 84 },
@@ -388,7 +388,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 10, "Rarity": [ 80, 10, 0, 0 ] },
             { "Item": "ShardMagic", "Weight": 80 },
@@ -397,7 +397,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 56], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 10, "Rarity": [ 75, 15, 0, 0 ] },
             { "Item": "ShardMagic", "Weight": 75 },
@@ -411,7 +411,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 7, "Rarity": [ 88, 2, 0, 0 ] },
             { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 88, 2, 0, 0 ] },
@@ -421,7 +421,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 6, "Rarity": [ 85, 5, 0, 0 ] },
             { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 85, 5, 0, 0 ] },
@@ -431,7 +431,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 5, "Rarity": [ 80, 10, 0, 0 ] },
             { "Item": "Tier1Everything", "Weight": 5, "Rarity": [ 80, 10, 0, 0 ] },
@@ -441,7 +441,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 72, 17, 1, 0 ] },
             { "Item": "Tier1Everything", "Weight": 6, "Rarity": [ 72, 17, 1, 0 ] },
@@ -452,7 +452,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 3, "Rarity": [ 66, 22, 2, 0 ] },
             { "Item": "Tier1Everything", "Weight": 7, "Rarity": [ 66, 22, 2, 0 ] },
@@ -463,7 +463,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 56], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 2,  "Rarity": [ 60, 27, 3, 0 ] },
             { "Item": "Tier1Everything", "Weight": 8, "Rarity": [ 60, 27, 3, 0 ] },
@@ -479,7 +479,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 10, "Rarity": [ 75, 13, 2, 0 ] },
             { "Item": "ShardMagic", "Weight": 75 },
@@ -489,7 +489,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 10, "Rarity": [ 70, 17, 3, 0 ] },
             { "Item": "ShardMagic", "Weight": 70 },
@@ -499,7 +499,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 10, "Rarity": [ 65, 21, 4, 0 ] },
             { "Item": "ShardMagic", "Weight": 65 },
@@ -509,7 +509,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 8, "Rarity": [ 55, 27, 6, 2 ] },
             { "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 55, 27, 6, 2 ] },
@@ -521,7 +521,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 6, "Rarity": [49, 31, 8, 2 ] },
             { "Item": "Tier2Everything", "Weight": 4, "Rarity": [49, 31, 8, 2 ] },
@@ -533,7 +533,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 56], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 4,  "Rarity": [45, 32, 10, 3 ] },
             { "Item": "Tier2Everything", "Weight": 6, "Rarity": [45, 32, 10, 3 ] },
@@ -550,7 +550,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 8, "Rarity": [ 60, 28, 2, 0 ] },
             { "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 60, 28, 2, 0 ] },
@@ -561,7 +561,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 6, "Rarity": [ 54, 30, 5, 1 ] },
             { "Item": "Tier2Everything", "Weight": 4, "Rarity": [ 54, 30, 5, 1 ] },
@@ -573,7 +573,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 48, 32, 8, 2 ] },
             { "Item": "Tier2Everything", "Weight": 6, "Rarity": [ 48, 32, 8, 2 ] },
@@ -585,7 +585,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 42, 34, 11, 3 ] },
             { "Item": "Tier2Everything", "Weight": 7, "Rarity": [ 42, 34, 11, 3 ] },
@@ -598,7 +598,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 36, 36, 14, 4 ] },
             { "Item": "Tier2Everything", "Weight": 6, "Rarity": [ 36, 36, 14, 4 ] },
@@ -611,7 +611,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 56], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier2Everything", "Weight": 5,  "Rarity": [ 30, 38, 17, 5 ] },
             { "Item": "Tier3Everything", "Weight": 5, "Rarity": [ 30, 38, 17, 5 ] },
@@ -628,7 +628,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 45, 38, 5, 2 ] },
             { "Item": "ShardMagic", "Weight": 45 },
@@ -639,7 +639,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 40, 39, 8, 3 ] },
             { "Item": "ShardMagic", "Weight": 40 },
@@ -650,7 +650,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 35, 40, 11, 4 ] },
             { "Item": "ShardMagic", "Weight": 35 },
@@ -661,7 +661,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 30, 41, 14, 5 ] },
             { "Item": "ShardMagic", "Weight": 30 },
@@ -672,7 +672,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 25, 42, 17, 6 ] },
             { "Item": "ShardMagic", "Weight": 25 },
@@ -683,7 +683,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 56], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 20, 43, 20, 7 ] },
             { "Item": "ShardMagic", "Weight": 20 },
@@ -699,7 +699,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 30, 40, 16, 4 ] },
             { "Item": "ShardMagic", "Weight": 30 },
@@ -710,7 +710,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 27, 40, 18, 5 ] },
             { "Item": "ShardMagic", "Weight": 27 },
@@ -721,7 +721,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 24, 40, 20, 6 ] },
             { "Item": "ShardMagic", "Weight": 24 },
@@ -732,7 +732,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 21, 40, 22, 7 ] },
             { "Item": "ShardMagic", "Weight": 21 },
@@ -743,7 +743,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 18, 40, 24, 8 ] },
             { "Item": "ShardMagic", "Weight": 18 },
@@ -754,7 +754,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 56], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 10,  "Rarity": [ 15, 40, 26, 9 ] },
             { "Item": "ShardMagic", "Weight": 15 },
@@ -770,7 +770,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 92], [1, 5], [2, 2], [3, 1] ],
+          "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
             { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 15, 41, 28, 6 ] },
             { "Item": "ShardMagic", "Weight": 15 },
@@ -781,7 +781,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 80], [1, 12], [2, 5], [3, 3] ],
+          "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
             { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 12, 40, 30, 8 ] },
             { "Item": "ShardMagic", "Weight": 12 },
@@ -792,7 +792,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 63], [1, 20], [2, 11], [3, 6] ],
+          "Drops": [ [0, 113], [1, 20], [2, 11], [3, 6] ],
           "Loot": [
             { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 9, 39, 32, 10 ] },
             { "Item": "ShardMagic", "Weight": 9 },
@@ -803,7 +803,7 @@
         },
         {
           "Level": 4,
-          "Drops": [ [0, 43], [1, 29], [2, 18], [3, 10] ],
+          "Drops": [ [0, 93], [1, 29], [2, 18], [3, 10] ],
           "Loot": [
             { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 6, 38, 34, 12 ] },
             { "Item": "ShardMagic", "Weight": 6 },
@@ -814,7 +814,7 @@
         },
         {
           "Level": 5,
-          "Drops": [ [0, 20], [1, 39], [2, 26], [3, 15] ],
+          "Drops": [ [0, 70], [1, 39], [2, 26], [3, 15] ],
           "Loot": [
             { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 3, 37, 36, 14 ] },
             { "Item": "ShardMagic", "Weight": 3 },
@@ -825,7 +825,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [0, 6], [1, 40], [2, 33], [3, 21] ],
+          "Drops": [ [0, 5], [1, 40], [2, 33], [3, 21] ],
           "Loot": [
             { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 0, 36, 38, 16 ] },
             { "Item": "ShardRare", "Weight": 36 },

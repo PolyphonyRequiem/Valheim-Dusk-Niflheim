@@ -76,68 +76,63 @@
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_boar", "$item_trophy_deer", "$item_trophy_neck", "$item_trophy_greydwarf" ],
-      "Products" : [ { "Item": "ShardMagic", "Amount": 1 } ]
-    },
-    {
-      "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_greydwarfbrute" ],
-      "Products" : [ { "Item": "DustMagic", "Amount": 1 } ]
-    },
-    {
-      "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_skeleton", "$item_trophy_skeletonpoison" ],
-      "Products" : [ { "Item": "EssenceMagic", "Amount": 1 } ]
-    },
-    {
-      "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_greydwarfshaman" ],
+      "ItemNames" : [ "$item_trophy_boar", "$item_trophy_deer", "$item_trophy_neck"],
       "Products" : [ { "Item": "ReagentMagic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_draugr", "$item_trophy_draugrelite", "$item_trophy_draugrfem",  "$item_trophy_leech", "$item_trophy_surtling", "$item_trophy_wolf" ],
-      "Products" : [ { "Item": "ShardRare", "Amount": 1 } ]
+      "ItemNames" : [ "$item_trophy_greydwarfbrute", "$item_trophy_greydwarf", "$item_trophy_greydwarfshaman"  ],
+      "Products" : [ { "Item": "DustMagic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_foresttroll", "$item_trophy_troll" ],
-      "Products" : [ { "Item": "DustRare", "Amount": 1 } ]
+      "ItemNames" : [ "$item_trophy_skeleton" ],
+      "Products" : [ { "Item": "EssenceMagic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_wraith" ],
-      "Products" : [ { "Item": "EssenceRare", "Amount": 1 } ]
-    },
-    {
-      "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_blob" ],
+      "ItemNames" : [ "$item_trophy_foresttroll", "$item_trophy_troll", "$item_trophy_leech",  "$item_trophy_wolf", "$item_trophy_serpent" ],
       "Products" : [ { "Item": "ReagentRare", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_deathsquito" ],
-      "Products" : [ { "Item": "ShardEpic", "Amount": 1 } ]
+      "ItemNames" : [ "$item_trophy_draugr", "$item_trophy_draugrfem" ],
+      "Products" : [ { "Item": "DustRare", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_goblinbrute" ],
+      "ItemNames" : [ "$item_trophy_blob" ,"$item_trophy_surtling", "$item_trophy_wraith", "$item_trophy_draugrelite", "$item_trophy_skeletonpoison" ],
+      "Products" : [ { "Item": "EssenceRare", "Amount": 1 } ]
+    },
+    {
+      "ItemTypes" : [ "Trophie" ],
+      "ItemNames" : [  "$item_trophy_goblinshaman" ],
       "Products" : [ { "Item": "DustEpic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_fenring" ],
+      "ItemNames" : [ "$item_trophy_goblin", "$item_trophy_hatchling" ],
       "Products" : [ { "Item": "EssenceEpic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_goblinshaman" ],
+      "ItemNames" : [ "$item_trophy_lox", "$item_trophy_fenring" ],
       "Products" : [ { "Item": "ReagentEpic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_sgolem", "$item_trophy_serpent" ],
-      "Products" : [ { "Item": "ShardLegendary", "Amount": 1 } ]
+      "ItemNames" : [ "$item_trophy_deathsquito"],
+      "Products" : [ { "Item": "DustLegendary", "Amount": 1 } ]
+    },
+    {
+      "ItemTypes" : [ "Trophie" ],
+      "ItemNames" : [ "$item_trophy_goblinbrute"],
+      "Products" : [ { "Item": "EssenceLegendary", "Amount": 1 } ]
+    },
+    {
+      "ItemTypes" : [ "Trophie" ],
+      "ItemNames" : [ "$item_trophy_sgolem" ],
+      "Products" : [ { "Item": "ReagentLegendary", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
@@ -211,7 +206,7 @@
       "Rarity": "Magic",
       "Cost": [
         { "Item": "RunestoneMagic", "Amount": 1 },
-        { "Item": "DustMagic",      "Amount": 5 },
+        { "Item": "ShardMagic",     "Amount": 10 },
         { "Item": "EssenceMagic",   "Amount": 5 }
       ]
     },
@@ -220,7 +215,7 @@
       "Rarity": "Rare",
       "Cost": [
         { "Item": "RunestoneRare", "Amount": 1 },
-        { "Item": "DustRare",      "Amount": 5 },
+        { "Item": "ShardRare",      "Amount": 10 },
         { "Item": "EssenceRare",   "Amount": 5 }
       ]
     },
@@ -229,7 +224,7 @@
       "Rarity": "Epic",
       "Cost": [
         { "Item": "RunestoneEpic", "Amount": 1 },
-        { "Item": "DustEpic",      "Amount": 5 },
+        { "Item": "ShardEpic",      "Amount": 10 },
         { "Item": "EssenceEpic",   "Amount": 5 }
       ]
     },
@@ -238,7 +233,7 @@
       "Rarity": "Legendary",
       "Cost": [
         { "Item": "RunestoneLegendary", "Amount": 1 },
-        { "Item": "DustLegendary",      "Amount": 5 },
+        { "Item": "ShardLegendary",      "Amount": 10 },
         { "Item": "EssenceLegendary",   "Amount": 5 }
       ]
     },
@@ -247,7 +242,7 @@
       "Rarity": "Magic",
       "Cost": [
         { "Item": "RunestoneMagic", "Amount": 1 },
-        { "Item": "DustMagic",      "Amount": 5 },
+        { "Item": "ShardMagic",      "Amount": 10 },
         { "Item": "ReagentMagic",   "Amount": 5 }
       ]
     },
@@ -256,7 +251,7 @@
       "Rarity": "Rare",
       "Cost": [
         { "Item": "RunestoneRare", "Amount": 1 },
-        { "Item": "DustRare",      "Amount": 5 },
+        { "Item": "ShardRare",      "Amount": 10 },
         { "Item": "ReagentRare",   "Amount": 5 }
       ]
     },
@@ -265,7 +260,7 @@
       "Rarity": "Epic",
       "Cost": [
         { "Item": "RunestoneEpic", "Amount": 1 },
-        { "Item": "DustEpic",      "Amount": 5 },
+        { "Item": "ShardEpic",      "Amount": 10 },
         { "Item": "ReagentEpic",   "Amount": 5 }
       ]
     },
@@ -274,7 +269,7 @@
       "Rarity": "Legendary",
       "Cost": [
         { "Item": "RunestoneLegendary", "Amount": 1 },
-        { "Item": "DustLegendary",      "Amount": 5 },
+        { "Item": "ShardLegendary",      "Amount": 10 },
         { "Item": "ReagentLegendary",   "Amount": 5 }
       ]
     }
@@ -285,84 +280,75 @@
   ///////////////////////////////////////////////////////////////////////////////////////////////
   "AugmentCosts": [
     {
-      "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "`To`rch", "Tool" ],
+      "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "`Torch", "Tool" ],
       "Rarity": "Magic",
       "Cost": [
-        { "Item": "ShardMagic",   "Amount": 1 },
-        { "Item": "DustMagic",    "Amount": 1 },
-        { "Item": "EssenceMagic", "Amount": 1 }
+        { "Item": "ForestToken",   "Amount": 1 },
+        { "Item": "DustMagic",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "Torch", "Tool" ],
       "Rarity": "Rare",
       "Cost": [
-        { "Item": "ShardRare",   "Amount": 1 },
-        { "Item": "DustRare",    "Amount": 1 },
-        { "Item": "EssenceRare", "Amount": 1 }
+        { "Item": "ForestToken",   "Amount": 2 },
+        { "Item": "DustRare",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "Torch", "Tool" ],
       "Rarity": "Epic",
       "Cost": [
-        { "Item": "ShardEpic",   "Amount": 1 },
-        { "Item": "DustEpic",    "Amount": 1 },
-        { "Item": "EssenceEpic", "Amount": 1 }
+        { "Item": "IronToken",   "Amount": 1 },
+        { "Item": "DustEpic",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "OneHandedWeapon", "Bow", "TwoHandedWeapon", "Torch", "Tool" ],
       "Rarity": "Legendary",
       "Cost": [
-        { "Item": "ShardLegendary",   "Amount": 1 },
-        { "Item": "DustLegendary",    "Amount": 1 },
-        { "Item": "EssenceLegendary", "Amount": 1 }
+        { "Item": "GoldToken",   "Amount": 1 },
+        { "Item": "DustLegendary",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility" ],
       "Rarity": "Magic",
       "Cost": [
-        { "Item": "ShardMagic",   "Amount": 1 },
-        { "Item": "DustMagic",    "Amount": 1 },
-        { "Item": "ReagentMagic", "Amount": 1 }
+        { "Item": "ForestToken",   "Amount": 1 },
+        { "Item": "DustMagic",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility" ],
       "Rarity": "Rare",
       "Cost": [
-        { "Item": "ShardRare",   "Amount": 1 },
-        { "Item": "DustRare",    "Amount": 1 },
-        { "Item": "ReagentRare", "Amount": 1 }
+        { "Item": "ForestToken",   "Amount": 2 },
+        { "Item": "DustRare",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility" ],
       "Rarity": "Epic",
       "Cost": [
-        { "Item": "ShardEpic",   "Amount": 1 },
-        { "Item": "DustEpic",    "Amount": 1 },
-        { "Item": "ReagentEpic", "Amount": 1 }
+        { "Item": "IronBountyToken",   "Amount": 1 },
+        { "Item": "DustEpic",    "Amount": 3 }
       ]
     },
     {
       "ItemTypes" : [ "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility" ],
       "Rarity": "Legendary",
       "Cost": [
-        { "Item": "ShardLegendary",   "Amount": 1 },
-        { "Item": "DustLegendary",    "Amount": 1 },
-        { "Item": "ReagentLegendary", "Amount": 1 }
+        { "Item": "GoldToken",   "Amount": 1 },
+        { "Item": "DustLegendary",    "Amount": 3 }
       ]
     }
   ],
   "ReAugmentCosts" : [
     { "Item": "Coins", "Amount": 5000 },
-    { "Item": "Coins", "Amount": 10000 },
-    { "Item": "Coins", "Amount": 15000 },
-    { "Item": "Coins", "Amount": 20000 },
-    { "Item": "Coins", "Amount": 25000 },
-    { "Item": "Coins", "Amount": 30000 }
+    { "Item": "IronBountyToken", "Amount": 5 },
+    { "Item": "GoldBountyToken", "Amount": 3 },
+    { "Item": "GoldBountyToken", "Amount": 15 },
+    { "Item": "SpiderChitin_DoD", "Amount": 10 }
   ]
 }

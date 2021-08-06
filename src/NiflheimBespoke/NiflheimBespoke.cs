@@ -44,8 +44,28 @@ namespace NiflheimBespoke
 
         private void InitializeItemsFromVanillaAvailableEvent()
         {
-            //ConfigureCoreWoodChest();
+            ConfigureCoreWoodChest();
+            ConfigureGoblinFetish();
+        }
 
+        private void ConfigureGoblinFetish()
+        {
+            var goblinFetishPrefab = PrefabManager.Instance.CreateClonedPrefab("GoblinFetish", "GoblinTotem");
+
+            var goblinFetishItemDrop = goblinFetishPrefab.GetComponent<ItemDrop>();
+            goblinFetishItemDrop.m_itemData.m_shared.m_name = "Goblin Fetish";
+            goblinFetishItemDrop.m_itemData.m_shared.m_description = "Believed by some supersitious Fulings to be an idol imbuded with great power, protecting them in battle.  Looks like it didn't work.";
+
+            var goblinFetish = new CustomItem(goblinFetishPrefab, false)
+            {
+                ItemDrop = goblinFetishItemDrop
+            };
+
+            ItemManager.Instance.AddItem(goblinFetish);
+        }
+
+        private void ConfigureCoreWoodChest()
+        {
             var coreWoodChestPrefab = this.niflheimBespokeAssets.LoadAsset<GameObject>("piece_chest_coreWood");
             var coreWoodChestContainer = coreWoodChestPrefab.GetComponent<Container>();
             coreWoodChestContainer.m_width = 6;
