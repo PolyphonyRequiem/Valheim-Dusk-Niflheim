@@ -3,9 +3,9 @@
    "sNewPrefabName" : "Vikingr_Skogarmaor",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 1,
-         "fY" : 1,
-         "fZ" : 1
+         "fX" : 1.1,
+         "fY" : 1.1,
+         "fZ" : 1.1
       },
       "cTintColor" : null,
       "cTintItems" : {
@@ -13,11 +13,7 @@
          "fGreen" : 0.5,
          "fBlue" : 0.5
 		 },
-      "cBodySmoke" : {
-         "fRed" : 0.4,
-         "fGreen" : 0.1,
-         "fBlue" : 0.0
-		 },
+      "cBodySmoke" : null,
       "cBodyFlames" : null
    },
    "Category_Character" : {
@@ -30,7 +26,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
-      "fHealth" : 120,
+      "fHealth" : 110,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
@@ -49,7 +45,6 @@
       "fAttackDamageTotalOverride": null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "GreataxeFlintTH",
          "ArmorBarbarianBronzeLegsJDT3_Terraheim_BarbarianArmor_AddNewSets",
          "CapeWolf",
          "ArmorTrollLeatherChest"
@@ -137,6 +132,14 @@
             "fChance" : 0.05,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "RRRM_Rainbow_Butterfly",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 1.0,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
          }
       ]
    },
