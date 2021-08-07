@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1100/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1500/",
       "description": "BepinexPack Valheim",
       "extractor": "zip",
       "fileMaps": [
@@ -452,7 +452,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.1/Jotunn.dll",
+      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.2/Jotunn.dll",
       "description": "Jotunn",
       "extractor": "none",
       "fileMaps":[
@@ -671,13 +671,6 @@
     },
     {
       "type":"http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/RandyKnapp/EquipmentAndQuickSlots/2.0.9/",
-      "description": "Equipment and QuickSlots",
-      "extractor": "zip",
-      "fileMaps": [{}]
-    },
-    {
-      "type":"http",
       "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieAssets/0.4.0/",
       "description": "DoOrDieAssets",
       "extractor": "zip",
@@ -695,18 +688,6 @@
       "fileMaps": [
         {
           "sourceRoot": "./plugins/"
-        }
-      ]
-    },
-    {
-      "type":"http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/Smoothbrain/PassivePowers/1.0.0/",
-      "description": "PassivePowers",
-      "extractor": "zip",
-      "fileMaps": [
-        {
-          "sources": "**/*.dll",
-          "destination": "./Bepinex/plugins/PassivePowers"
         }
       ]
     },
