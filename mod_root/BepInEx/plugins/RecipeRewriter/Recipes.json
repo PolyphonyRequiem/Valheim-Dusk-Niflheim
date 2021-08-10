@@ -100,6 +100,36 @@
       "minStationLevel": 1,
       "craftingStation": "piece_workbench",
       "resources": []
+    },
+    {
+      "match": {
+        "name": "BowFineWood"
+      },
+      "amount": 1,
+      "enabled": true,
+      "minStationLevel": 3,
+      "craftingStation": "piece_workbench",
+      "resources": [
+        {
+          "name": "FineWood",
+          "amount": 10,
+          "amountPerLevel": 10
+        },
+        {
+          "name": "RoundLog",
+          "amount": 10,
+          "amountPerLevel": 10
+        },
+        {
+          "name": "DeerHide",
+          "amount": 2,
+          "amountPerLevel": 2
+        },
+        {
+          "name": "BronzeNails",
+          "amount": 10
+        }
+      ]
     }
   ],
   "pieces": [
