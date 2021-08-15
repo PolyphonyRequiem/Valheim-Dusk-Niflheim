@@ -25,8 +25,7 @@
         <ContentControl DockPanel.Dock="Bottom" Height="100">
 
         </ContentControl>
-        <ScrollViewer >
-            <ListView ItemsSource="{Binding Source={StaticResource cvs}}" IsSynchronizedWithCurrentItem="true" d:DataContext="{d:DesignInstance Type=viewmodels:FoodItemViewModel}">
+            <ListView ItemsSource="{Binding Source={StaticResource cvs}}" IsSynchronizedWithCurrentItem="true" d:DataContext="{d:DesignInstance Type=viewmodels:FoodItemViewModel}" ScrollViewer.CanContentScroll="True">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="{x:Type ListViewItem}">
                         <Setter Property="Background" Value="{Binding BudgetBalance, Converter={StaticResource BudgetConverter}}" />
@@ -151,7 +150,6 @@
                     </GridView>
                 </ListView.View>
             </ListView>
-        </ScrollViewer>
         <Grid DockPanel.Dock="Right"/>
     </DockPanel>
 </Window>
