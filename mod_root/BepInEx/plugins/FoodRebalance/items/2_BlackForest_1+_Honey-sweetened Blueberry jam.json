@@ -4,6 +4,6 @@
   "stack": 20,
   "health": 20,
   "stamina": 40,
-  "regen": 4,
-  "duration": 960
+  "regen": 5,
+  "duration": 1080
 }
