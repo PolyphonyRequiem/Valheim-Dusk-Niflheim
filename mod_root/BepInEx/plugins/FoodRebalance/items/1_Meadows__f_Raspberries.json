@@ -1,9 +1,9 @@
 {
-  "name": "Mushroom",
+  "name": "Raspberry",
   "weight": 10,
   "stack": 50,
-  "health": 20,
-  "stamina": 25,
+  "health": 15,
+  "stamina": 30,
   "regen": 1,
   "duration": 480
 }

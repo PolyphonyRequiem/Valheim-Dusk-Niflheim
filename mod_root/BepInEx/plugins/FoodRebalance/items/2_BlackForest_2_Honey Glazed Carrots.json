@@ -1,0 +1,9 @@
+{
+  "name": "rk_glazedcarrots",
+  "weight": 20,
+  "stack": 20,
+  "health": 20,
+  "stamina": 50,
+  "regen": 4,
+  "duration": 720
+}

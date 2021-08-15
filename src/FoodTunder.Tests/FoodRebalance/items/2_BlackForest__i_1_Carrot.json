@@ -1,0 +1,9 @@
+{
+    "name": "Carrot",
+    "weight": 20,
+    "stack": 50,
+    "health": 15,
+    "stamina": 20,
+    "regen": 1,
+    "duration": 720
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Mushroom",
+  "name": "Cloudberry",
   "weight": 10,
   "stack": 50,
   "health": 20,
-  "stamina": 25,
+  "stamina": 35,
   "regen": 1,
-  "duration": 480
+  "duration": 600
 }

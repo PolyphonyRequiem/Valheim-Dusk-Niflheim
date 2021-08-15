@@ -1,0 +1,157 @@
+﻿<Window x:Class="FoodTuner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:FoodTuner.ViewModels" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" xmlns:converters="clr-namespace:FoodTuner.View.Converters" xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        d:DataContext="{d:DesignInstance Type=viewmodels:WorkspaceViewModel}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600">
+    <Window.Resources>
+        <ResourceDictionary>
+            <BooleanToVisibilityConverter x:Key="BoolToVis" />
+            <converters:ComplexityConverter x:Key="ComplexityToString" />
+            <converters:BiomeConverter x:Key="BiomeToString" />
+            <converters:BudgetConverter x:Key="BudgetConverter" />
+            <CollectionViewSource Source="{Binding FoodItems}" x:Key="cvs">
+                <CollectionViewSource.SortDescriptions>
+                    <scm:SortDescription Direction="Ascending" PropertyName="Biome"/>
+                    <scm:SortDescription Direction="Ascending" PropertyName="Complexity"/>
+                </CollectionViewSource.SortDescriptions>
+            </CollectionViewSource>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <ContentControl DockPanel.Dock="Bottom" Height="100">
+
+        </ContentControl>
+        <ScrollViewer >
+            <ListView ItemsSource="{Binding Source={StaticResource cvs}}" IsSynchronizedWithCurrentItem="true" d:DataContext="{d:DesignInstance Type=viewmodels:FoodItemViewModel}">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="Background" Value="{Binding BudgetBalance, Converter={StaticResource BudgetConverter}}" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                    <Border BorderBrush="Transparent" BorderThickness="0" Background="{TemplateBinding Background}">
+                                        <GridViewRowPresenter HorizontalAlignment="Stretch" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Width="Auto" Margin="0" Content="{TemplateBinding Content}"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView AllowsColumnReorder="True">
+                        <GridViewColumn Header="Save" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Save" Width="45" Visibility="{Binding IsUpdated, Converter={StaticResource BoolToVis}}" Command="{Binding SaveCommand}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Name" Width="200">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Name}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Id" Width="140">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding GameId}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Biome" Width="140">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding BiomeNames}" Text="{Binding Biome, Converter={StaticResource BiomeToString}}" IsEditable="False" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Complexity" Width="140">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding Complexities}" Text="{Binding Complexity, Converter={StaticResource ComplexityToString}}" IsEditable="False" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Bonus">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox IsChecked="{Binding BudgetBonus}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Health" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:IntegerUpDown Value="{Binding Health}" AllowTextInput="True" Increment="5" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Stamina" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:IntegerUpDown Value="{Binding Stamina}" AllowTextInput="True" Increment="5" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Regen" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:IntegerUpDown Value="{Binding Regen}" AllowTextInput="True" Increment="1" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Duration" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:IntegerUpDown Value="{Binding Duration}" AllowTextInput="True" Increment="120" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Endurance" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:IntegerUpDown Value="{Binding Endurance}" AllowTextInput="True" Increment="1" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Weight" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:DecimalUpDown Value="{Binding Weight}" AllowTextInput="True" Increment=".1" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Stack Size" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <xctk:IntegerUpDown Value="{Binding Stack}" AllowTextInput="True" Increment="1" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Budget" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding TotalBudget, StringFormat=N1}" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Cost" Width="60">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding BudgetSpent, StringFormat=N1}" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+        <Grid DockPanel.Dock="Right"/>
+    </DockPanel>
+</Window>

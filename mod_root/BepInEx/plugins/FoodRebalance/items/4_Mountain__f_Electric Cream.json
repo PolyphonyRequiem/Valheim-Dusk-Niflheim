@@ -1,0 +1,9 @@
+{
+  "name": "rk_electriccream",
+  "weight": 30,
+  "stack": 15,
+  "health": 60,
+  "stamina": 70,
+  "regen": 3,
+  "duration": 1500
+}

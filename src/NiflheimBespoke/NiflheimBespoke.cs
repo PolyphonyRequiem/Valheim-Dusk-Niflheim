@@ -6,14 +6,9 @@
 
 using BepInEx;
 using UnityEngine;
-using BepInEx.Configuration;
 using Jotunn.Utils;
 using Jotunn.Managers;
 using System;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System.Linq;
-using System.IO;
 using System.Reflection;
 using BepInEx.Logging;
 using Jotunn.Entities;
@@ -44,6 +39,7 @@ namespace NiflheimBespoke
 
         private void InitializeItemsFromVanillaAvailableEvent()
         {
+            ItemManager.OnVanillaItemsAvailable -= InitializeItemsFromVanillaAvailableEvent;
             ConfigureCoreWoodChest();
             ConfigureGoblinFetish();
         }

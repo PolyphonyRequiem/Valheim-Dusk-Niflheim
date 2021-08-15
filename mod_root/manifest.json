@@ -452,7 +452,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.2/Jotunn.dll",
+      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.3/Jotunn.dll",
       "description": "Jotunn",
       "extractor": "none",
       "fileMaps":[
@@ -550,8 +550,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/sbtoonz/Fisticuffs/1.1.9/",
-      "modVersion": "1.1.9",
+      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/Fisticuffs/1.1.5/",
       "description": "Fisticuffs",
       "extractor": "zip",
       "fileMaps": [{}]
@@ -706,7 +705,7 @@
     {
       "type": "nexus",
       "modId": 1359,
-      "modVersion": "1.0.0",
+      "modVersion": "1.0.2",
       "description": "Rune Magic",
       "fileName": "Rune Magic",
       "extractor": "zip",

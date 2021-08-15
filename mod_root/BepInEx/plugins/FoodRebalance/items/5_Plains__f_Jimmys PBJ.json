@@ -1,0 +1,9 @@
+{
+  "name": "rk_pbj",
+  "weight": 40,
+  "stack": 10,
+  "health": 70,
+  "stamina": 70,
+  "regen": 5,
+  "duration": 2000
+}
