@@ -13,7 +13,7 @@
             <converters:ComplexityConverter x:Key="ComplexityToString" />
             <converters:BiomeConverter x:Key="BiomeToString" />
             <converters:BudgetConverter x:Key="BudgetConverter" />
-            <CollectionViewSource Source="{Binding FoodItems}" x:Key="cvs">
+            <CollectionViewSource Source="{Binding FoodItems}" IsLiveSortingRequested="True" x:Key="cvs">
                 <CollectionViewSource.SortDescriptions>
                     <scm:SortDescription Direction="Ascending" PropertyName="Biome"/>
                     <scm:SortDescription Direction="Ascending" PropertyName="Complexity"/>

@@ -32,13 +32,16 @@ namespace FoodTuner.FileHandlers
 
         public void UpdateFoodItemEndurance(FoodItem foodItem)
         {
-            Regex enduranceExpression = new Regex(@$"{foodItem.Name}\s*=\s*(?<Endurance>\d+)");
+            Regex enduranceExpression = new Regex(@$"{foodItem.Name}\s*=\s*(?<Endurance>[\d.]+)");
             var content = File.ReadAllText(enduranceFile.FullName);
             var match = enduranceExpression.Match(content);
 
             if (match.Success)
             {
-                enduranceExpression.Replace(content, $"{foodItem.Name} = {foodItem.Endurance * 0.1d}");
+                var newEndurance = String.Format("{0:N1}",foodItem.Endurance * 0.1d);
+                var replacementString = $"{foodItem.Name} = {newEndurance}";
+                var newContent = enduranceExpression.Replace(content, replacementString);
+                File.WriteAllText(enduranceFile.FullName, newContent);
             }
             else
             {

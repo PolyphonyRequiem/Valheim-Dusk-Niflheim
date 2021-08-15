@@ -124,9 +124,9 @@ namespace FoodTuner.FileHandlers
                 return match.Groups["Complexity"].Value switch
                 {
                     "_f" => FoodComplexity.Foragable,
-                    "i_1" => FoodComplexity.SimpleIngredient,
-                    "i_2" => FoodComplexity.CommonIngredient,
-                    "i_3" => FoodComplexity.ComplexIngredient,
+                    "_i_1" => FoodComplexity.SimpleIngredient,
+                    "_i_2" => FoodComplexity.CommonIngredient,
+                    "_i_3" => FoodComplexity.ComplexIngredient,
                     "1" => FoodComplexity.PreparedSingleIngredientFoodItem,
                     "2" => FoodComplexity.PreparedSimpleMeal,
                     "3" => FoodComplexity.PreparedCommonMeal,
