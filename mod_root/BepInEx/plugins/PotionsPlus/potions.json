@@ -4,14 +4,14 @@
       "name": "Recipe_Lesser_Spiritual_Healing_Vial",
       "item": "Lesser_Spiritual_Healing_Vial",
       "amount": 1,
-      "craftingStation": "piece_cauldron",
+      "craftingStation": "piece_workbench",
       "minStationLevel": 1,
       "enabled": true,
       "repairStation": "",
       "resources": [
         {
           "item": "Raspberry",
-          "amount": 2
+          "amount": 5
         },
         {
           "item": "ShardMagic",
@@ -23,18 +23,18 @@
       "name": "Recipe_Lesser_Stamina_Vial",
       "item": "Lesser_Stamina_Vial",
       "amount": 1,
-      "craftingStation": "piece_cauldron",
+      "craftingStation": "piece_workbench",
       "minStationLevel": 1,
       "enabled": true,
       "repairStation": "",
       "resources": [
         {
           "item": "Raspberry",
-          "amount": 1
+          "amount": 2
         },
         {
           "item": "Resin",
-          "amount": 2
+          "amount": 5
         },
         {
           "item": "ShardMagic",
@@ -53,11 +53,11 @@
       "resources": [
         {
           "item": "Blueberries",
-          "amount": 2
+          "amount": 5
         },
         {
           "item": "Mushroom",
-          "amount": 1
+          "amount": 2
         },
         {
           "item": "ShardRare",
@@ -76,11 +76,11 @@
       "resources": [
         {
           "item": "Thistle",
-          "amount": 1
+          "amount": 2
         },
         {
           "item": "Blueberries",
-          "amount": 2
+          "amount": 3
         },
         {
           "item": "ShardRare",
@@ -99,7 +99,7 @@
       "resources": [
         {
           "item": "MushroomYellow",
-          "amount": 2
+          "amount": 4
         },
         {
           "item": "ShardRare",
@@ -118,11 +118,11 @@
       "resources": [
         {
           "item": "Flax",
-          "amount": 2
+          "amount": 5
         },
         {
           "item": "Cloudberry",
-          "amount": 1
+          "amount": 3
         },
         {
           "item": "ShardEpic",
@@ -141,7 +141,7 @@
       "resources": [
         {
           "item": "Bloodbag",
-          "amount": 2
+          "amount": 4
         },
         {
           "item": "ShardEpic",
@@ -160,11 +160,11 @@
       "resources": [
         {
           "item": "Cloudberry",
-          "amount": 1
+          "amount": 2
         },
         {
           "item": "Bloodbag",
-          "amount": 1
+          "amount": 2
         },
         {
           "item": "ShardEpic",
@@ -183,11 +183,11 @@
       "resources": [
         {
           "item": "Cloudberry",
-          "amount": 2
+          "amount": 3
         },
         {
           "item": "Flax",
-          "amount": 2
+          "amount": 5
         },
         {
           "item": "ShardEpic",
