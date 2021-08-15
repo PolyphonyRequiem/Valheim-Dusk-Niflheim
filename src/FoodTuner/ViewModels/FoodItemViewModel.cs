@@ -46,7 +46,7 @@ namespace FoodTuner.ViewModels
             "Ingredient - Simple",
             "Ingredient - Common",
             "Ingredient - Complex",
-            "Cooked Food",
+            "Food",
             "Meal - Simple",
             "Meal - Common",
             "Meal - Complex",
