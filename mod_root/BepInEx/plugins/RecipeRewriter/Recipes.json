@@ -156,6 +156,24 @@
           "amount": 2
         }
       ]
+    },
+    {
+      "match": {
+        "name": "sapling_carrot",
+        "buildTool": "Cultivator"
+      },
+      "biomes": [
+        "BlackForest"
+      ]
+    },
+    {
+      "match": {
+        "name": "sapling_seedcarrot",
+        "buildTool": "Cultivator"
+      },
+      "biomes": [
+        "BlackForest"
+      ]
     }
   ]
 }
