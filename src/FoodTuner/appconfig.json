@@ -1,4 +1,4 @@
 ﻿{
-  "foodRebalanceDirectoryPath": "C:/Valheim-Dusk-Niflheim/mod_root/BepInEx/plugins/FoodRebalance/Items/",
-  "enduranceFilePath": "C:/Valheim-Dusk-Niflheim/mod_root/BepInEx/config/org.bepinex.plugins.foodstaminaregen.cfg"
+  "foodRebalanceDirectoryPath": "../../../../../mod_root/BepInEx/plugins/FoodRebalance/Items/",
+  "enduranceFilePath": "../../../../../mod_root/BepInEx/config/org.bepinex.plugins.foodstaminaregen.cfg"
 }
