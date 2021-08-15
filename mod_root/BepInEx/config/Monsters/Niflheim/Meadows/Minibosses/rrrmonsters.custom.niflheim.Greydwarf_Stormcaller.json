@@ -26,7 +26,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : true,
-      "fHealth" : 450,
+      "fHealth" : 280,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
@@ -58,9 +58,9 @@
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
          "Greydwarf_attack",
-         "Greydwarf_shaman_heal@@@20",
-         "Eikthyr_charge@attack@@6",
-         "Eikthyr_stomp@attack@@20"
+         "Greydwarf_shaman_heal@@@30",
+         "Eikthyr_charge@attack@@20",
+         "Eikthyr_stomp@attack@@10"
       ],
       "aRandomWeapon" : [
          
