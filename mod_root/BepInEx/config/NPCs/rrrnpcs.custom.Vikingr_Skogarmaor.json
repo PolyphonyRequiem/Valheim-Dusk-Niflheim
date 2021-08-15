@@ -126,6 +126,14 @@
             "bLevelMultiplier" : true
          },
          {
+            "sPrefabName" : "BronzeNails",
+            "iAmountMin" : 1,
+            "iAmountMax" : 3,
+            "fChance" : 0.6,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
             "sPrefabName" : "QueenBee",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
