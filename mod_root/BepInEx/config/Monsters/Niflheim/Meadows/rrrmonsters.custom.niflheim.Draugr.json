@@ -19,11 +19,11 @@
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 0.8,
+      "fMoveSpeedMulti" : 1.0,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : true,
-      "fHealth" : 60,
+      "fHealth" : 50,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
