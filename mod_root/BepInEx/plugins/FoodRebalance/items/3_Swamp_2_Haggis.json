@@ -2,8 +2,8 @@
   "name": "rk_haggis",
   "weight": 35,
   "stack": 20,
-  "health": 55,
-  "stamina": 50,
+  "health": 45,
+  "stamina": 40,
   "regen": 3,
   "duration": 1800
 }

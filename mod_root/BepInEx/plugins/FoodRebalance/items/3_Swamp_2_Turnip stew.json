@@ -2,8 +2,8 @@
   "name": "TurnipStew",
   "weight": 40,
   "stack": 15,
-  "health": 40,
-  "stamina": 65,
+  "health": 35,
+  "stamina": 56,
   "regen": 1,
   "duration": 1440
 }

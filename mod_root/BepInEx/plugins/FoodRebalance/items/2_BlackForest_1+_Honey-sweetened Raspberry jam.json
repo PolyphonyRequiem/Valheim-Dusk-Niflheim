@@ -2,8 +2,8 @@
   "name": "HoneyRaspberryJam",
   "weight": 30,
   "stack": 20,
-  "health": 15,
-  "stamina": 45,
+  "health": 21,
+  "stamina": 30,
   "regen": 5,
   "duration": 1080
 }
