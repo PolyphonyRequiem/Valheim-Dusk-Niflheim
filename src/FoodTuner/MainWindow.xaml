@@ -95,14 +95,14 @@
                         <GridViewColumn Header="Health" Width="60">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <xctk:IntegerUpDown Value="{Binding Health}" AllowTextInput="True" Increment="5" Width="50"/>
+                                    <xctk:IntegerUpDown Value="{Binding Health}" AllowTextInput="True" Increment="1" Width="50"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
                         <GridViewColumn Header="Stamina" Width="60">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <xctk:IntegerUpDown Value="{Binding Stamina}" AllowTextInput="True" Increment="5" Width="50"/>
+                                    <xctk:IntegerUpDown Value="{Binding Stamina}" AllowTextInput="True" Increment="1" Width="50"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
