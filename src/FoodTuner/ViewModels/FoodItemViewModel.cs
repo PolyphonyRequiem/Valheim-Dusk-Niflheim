@@ -7,8 +7,10 @@ using FoodTuner.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using Duration = FoodTuner.Model.Duration;
 
 namespace FoodTuner.ViewModels
 {
@@ -53,6 +55,17 @@ namespace FoodTuner.ViewModels
             "Meal - Legendary"
         };
 
+        private static string[] durations = new string[]
+        {
+            "Snack",
+            "Very Short",
+            "Short",
+            "Average",
+            "Long",
+            "Very Long",
+            "Extremely Long"
+        };
+
         private readonly FoodItem foodItem;
         private bool isUpdated;
 
@@ -78,6 +91,8 @@ namespace FoodTuner.ViewModels
         public IEnumerable<string> BiomeNames => biomeNames;
 
         public IEnumerable<string> Complexities => complexities;
+
+        public IEnumerable<string> Durations => durations;
 
         public IRelayCommand SaveCommand { get; set; }
 
@@ -138,10 +153,12 @@ namespace FoodTuner.ViewModels
             set => UpdatePropertyAndMarkUpdated(foodItem.Regen, value, foodItem, (f, n) => f.Regen = n);
         }
 
-        public int Duration
+        public Duration Duration
         {
-            get => foodItem.Duration;
-            set => UpdatePropertyAndMarkUpdated(foodItem.Duration, value, foodItem, (f, n) => f.Duration = n);
+            get => Enum.GetValues<Duration>().ToList().Cast<int>().Contains(foodItem.Duration) ?
+                                            (Duration)foodItem.Duration :
+                                            Duration.Average;
+            set => UpdatePropertyAndMarkUpdated(foodItem.Duration, (int)value, foodItem, (f, n) => f.Duration = n);
         }
 
         public int Endurance

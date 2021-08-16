@@ -12,6 +12,7 @@
             <BooleanToVisibilityConverter x:Key="BoolToVis" />
             <converters:ComplexityConverter x:Key="ComplexityToString" />
             <converters:BiomeConverter x:Key="BiomeToString" />
+            <converters:DurationConverter x:Key="DurationToString" />
             <converters:BudgetConverter x:Key="BudgetConverter" />
             <CollectionViewSource Source="{Binding FoodItems}" IsLiveSortingRequested="True" x:Key="cvs">
                 <CollectionViewSource.SortDescriptions>
@@ -77,6 +78,13 @@
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
+                        <GridViewColumn Header="Duration" Width="140">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding Durations}" Text="{Binding Duration, Converter={StaticResource DurationToString}}" IsEditable="False"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
                         <GridViewColumn Header="Bonus">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
@@ -102,13 +110,6 @@
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <xctk:IntegerUpDown Value="{Binding Regen}" AllowTextInput="True" Increment="1" Width="50"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Duration" Width="60">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <xctk:IntegerUpDown Value="{Binding Duration}" AllowTextInput="True" Increment="120" Width="50"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>

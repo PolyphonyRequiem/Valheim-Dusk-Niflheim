@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using FoodTuner.Model;
 using FoodTuner.Services;
+using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 
@@ -30,7 +32,9 @@ namespace FoodTuner.ViewModels
                     viewModelToUpdate.Health = foodRecord.FoodItem.Health;
                     viewModelToUpdate.Stamina = foodRecord.FoodItem.Stamina;
                     viewModelToUpdate.Regen = foodRecord.FoodItem.Regen;
-                    viewModelToUpdate.Duration = foodRecord.FoodItem.Duration;
+                    viewModelToUpdate.Duration = Enum.GetValues<Duration>().ToList().Cast<int>().Contains(foodRecord.FoodItem.Duration) ?
+                                                 (Duration)foodRecord.FoodItem.Duration :
+                                                 Duration.Average;
                     viewModelToUpdate.Endurance = foodRecord.FoodItem.Endurance;
                     viewModelToUpdate.Weight = foodRecord.FoodItem.Weight;
                     viewModelToUpdate.Stack = foodRecord.FoodItem.Stack;

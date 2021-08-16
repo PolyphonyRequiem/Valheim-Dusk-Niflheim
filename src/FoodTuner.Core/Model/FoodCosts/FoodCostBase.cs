@@ -10,8 +10,6 @@ namespace FoodTuner.Model.Costs
 
         public abstract int BaseRegen { get; }
 
-        public abstract int BaseDuration { get; }
-
         public abstract int BaseEndurance { get; }
 
         public virtual double ComputeHealthCost(FoodItem foodItem)
@@ -54,24 +52,6 @@ namespace FoodTuner.Model.Costs
             };
         }
 
-        public virtual double ComputeDurationCost(FoodItem foodItem)
-        {
-            var adjustedDuration = foodItem.Duration - BaseDuration;
-
-            if (adjustedDuration < 0)
-            {
-                return 0.0;
-            }
-
-            if (adjustedDuration % FoodCostsConstants.DurationCostIncrement != 0)
-            {
-                adjustedDuration = adjustedDuration - (adjustedDuration % FoodCostsConstants.DurationCostIncrement) + FoodCostsConstants.DurationCostIncrement;
-            }
-
-            return adjustedDuration / FoodCostsConstants.DurationCostIncrement * FoodCostsConstants.DurationFlatCost;
-                
-        }
-
         public virtual double ComputeEnduranceCost(FoodItem foodItem)
         {
 
@@ -98,7 +78,6 @@ namespace FoodTuner.Model.Costs
             return ComputeHealthCost(foodItem) +
                    ComputeStaminaCost(foodItem) +
                    ComputeRegenCost(foodItem) +
-                   ComputeDurationCost(foodItem) +
                    ComputeEnduranceCost(foodItem);
         }
     }

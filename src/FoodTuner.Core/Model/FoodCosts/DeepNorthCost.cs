@@ -11,7 +11,6 @@ namespace FoodTuner.Model.Costs
         public override int BaseHealth => 50;
         public override int BaseStamina => 50;
         public override int BaseRegen => 3;
-        public override int BaseDuration => 480;
         public override int BaseEndurance => 4;
     }
 }
