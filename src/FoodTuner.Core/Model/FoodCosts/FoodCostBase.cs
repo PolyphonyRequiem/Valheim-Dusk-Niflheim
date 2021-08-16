@@ -50,7 +50,7 @@ namespace FoodTuner.Model.Costs
                                   (Math.Min(adjustedRegen - 2, 2)) * 1.0,
                 > 4 =>            (Math.Min(adjustedRegen, 2)) * 0.5 +
                                   (Math.Min(adjustedRegen - 2, 2)) * 1.0 +
-                                  (Math.Min(adjustedRegen - 2, 2)) * 2.0
+                                  (adjustedRegen-4) * 2.0
             };
         }
 
