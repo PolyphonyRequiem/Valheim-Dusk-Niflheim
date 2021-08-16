@@ -120,20 +120,6 @@
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Weight" Width="60">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <xctk:DecimalUpDown Value="{Binding Weight}" AllowTextInput="True" Increment=".1" Width="50"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Stack Size" Width="60">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <xctk:IntegerUpDown Value="{Binding Stack}" AllowTextInput="True" Increment="1" Width="50"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
                         <GridViewColumn Header="Budget" Width="60">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
@@ -148,7 +134,21 @@
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                    </GridView>
+                    <GridViewColumn Header="Weight" Width="60">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <xctk:DecimalUpDown Value="{Binding Weight}" AllowTextInput="True" Increment=".1" Width="50"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Stack Size" Width="60">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <xctk:IntegerUpDown Value="{Binding Stack}" AllowTextInput="True" Increment="1" Width="50"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
                 </ListView.View>
             </ListView>
         <Grid DockPanel.Dock="Right"/>
