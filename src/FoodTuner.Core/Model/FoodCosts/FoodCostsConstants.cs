@@ -8,9 +8,9 @@ namespace FoodTuner.Model.Costs
 {
     public static class FoodCostsConstants
     {
-        public const double HealthFlatCost = 1.0;
-        public const int    HealthCostIncrement = 5;
-        public const double StaminaFlatCost = 1.0;
-        public const int    StaminaCostIncrement = 5;
+        public const double HealthFlatCost = 0.2;
+        public const int    HealthCostIncrement = 1;
+        public const double StaminaFlatCost = 0.2;
+        public const int    StaminaCostIncrement = 1;
     }
 }
