@@ -712,6 +712,19 @@
       "fileMaps": [{
         "destination": "./Bepinex/plugins/RuneMagic"
       }]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Smoothbrain/PassivePowers/1.0.0/",
+      "description": "Passive Powers",
+      "extractor": "zip",
+      "fileMaps":[
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/PassivePowers"
+        }
+      ]
+      
     }
   ]
 }
