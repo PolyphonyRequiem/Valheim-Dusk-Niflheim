@@ -37,27 +37,44 @@
 # This will make metal float in water.
 # metal:
 #   floating: yes
+groups:
+  NoTeleport:
+    - ore
+    - metal
+    - woods
+    - trophy
+    - boss trophy
+    - valuable
+    - seed
+    - Resin
+    - Raw Pork
+    - Raw Meat
+    - Leather Scraps
+    - ShardMagic
+    - ShardRare
+    - ShardEpic
+    - ShardLegendary
+    - DustMagic
+    - DustRare
+    - DustEpic
+    - DustLegendary
+    - EssenceMagic
+    - EssenceRare
+    - EssenceEpic
+    - EssenceLegendary
+    - ReagentMagic
+    - ReagentRare
+    - ReagentEpic
+    - ReagentLegendary
+    - RunestoneMagic
+    - RunestoneRare
+    - RunestoneEpic
+    - RunestoneLegendary
+  YesTeleport:
+    - Coins
 
-ore:
+NoTeleport:
   teleportable: no
 
-metal:
-  teleportable: no
-
-woods:
-  teleportable: no
-
-trophy: 
-  teleportable: no
-
-boss trophy:
-  teleportable: no
-
-valuable:
-  teleportable: no
-
-seed:
-  teleportable: no
-
-Coins:
-  teleportable: yes 
+YesTeleport:
+  teleportable: yes
