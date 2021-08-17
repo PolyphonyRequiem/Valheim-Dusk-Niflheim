@@ -8,8 +8,6 @@ namespace NiflheimBespoke.Patches
     {
         static void Prefix(ZDOMan __instance, string prefab, ref List<ZDO> zdos, ref int index)
         {
-            NiflheimBespoke.Log.LogMessage("Running GetAllZDOsWithPrefabIterative Prefix");
-
             if (prefab == "portal_wood")
             {
                 int fakeIndex = index;
