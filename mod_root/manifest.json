@@ -54,7 +54,7 @@
     {
       "type": "nexus",
       "modId": 495,
-      "modVersion": "4.3.3",
+      "modVersion": "4.4.1",
       "description": "Creature Level and Loot Control",
       "fileName": "Creature Level and Loot Control",
       "extractor": "zip",

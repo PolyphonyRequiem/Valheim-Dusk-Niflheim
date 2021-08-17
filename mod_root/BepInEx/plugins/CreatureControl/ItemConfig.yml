@@ -1,0 +1,63 @@
+# Do not forget to turn the YAML file on in the settings.
+
+# Predefined groups:
+# all, ore, metal, food, woods, trophy, boss trophy, valuable, seed.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, arrows, weapon.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+
+# Things you can change: amount, weight, weight factor, stack, stack factor, pickup, floating, teleportable, loss.
+# Things you can configure per world level: amount, pickup, teleportable, loss.
+
+# Examples:
+# This will increase wood gained by 10%, until you reach the first world level.
+# wood:
+#   amount:
+#     0: 1.1
+#     1: default
+
+# This will make dragon eggs teleportable.
+# dragon egg:
+#   teleportable: yes
+
+# This will make silver ore lighter and increase the stack size.
+# silver ore:
+#   weight: 10
+  # stack: 50
+
+# This will make you keep your food in the inventory, if you happen to die.
+# food:
+#   loss: no
+
+# This will stop your character from picking up Ooze automatically.
+# ooze:
+#   pickup: no
+
+# This will make metal float in water.
+# metal:
+#   floating: yes
+
+ore:
+  teleportable: no
+
+metal:
+  teleportable: no
+
+woods:
+  teleportable: no
+
+trophy: 
+  teleportable: no
+
+boss trophy:
+  teleportable: no
+
+valuable:
+  teleportable: no
+
+seed:
+  teleportable: no
+
+Coins:
+  teleportable: yes 
