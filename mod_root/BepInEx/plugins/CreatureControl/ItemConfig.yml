@@ -70,8 +70,22 @@ groups:
     - RunestoneRare
     - RunestoneEpic
     - RunestoneLegendary
+    - SurtlingCore
+    - AncientSeed
+    - Thistle
+    - Dandelion
+    - Bronze Nails
+    - Egg
+    - Greydwarf eye
+    - Bone Fragments
+    - Feathers
+    - Deer hide
+    - Troll hide
+    - Queen bee
+
   YesTeleport:
     - Coins
+    - Wood
 
 NoTeleport:
   teleportable: no
