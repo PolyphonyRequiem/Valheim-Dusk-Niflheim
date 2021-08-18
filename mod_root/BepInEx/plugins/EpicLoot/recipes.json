@@ -322,7 +322,7 @@
       "amount": 5,
       "craftingStation": "",
       "resources": [
-        { "item": "RunestoneMagic", "amount": 9 },
+        { "item": "RunestoneMagic", "amount": 15 },
         { "item": "ElderBark", "amount": 50 }
       ]
     },
@@ -342,7 +342,7 @@
       "amount": 5,
       "craftingStation": "",
       "resources": [
-        { "item": "RunestoneRare", "amount": 9  },
+        { "item": "RunestoneRare", "amount": 15  },
         { "item": "Crystal", "amount": 25 }
       ]
     },
@@ -362,7 +362,7 @@
       "amount": 5,
       "craftingStation": "",
       "resources": [
-        { "item": "RunestoneEpic", "amount": 9 },
+        { "item": "RunestoneEpic", "amount": 15 },
         { "item": "BlackMetalScrap", "amount": 25 }
       ]
     },
