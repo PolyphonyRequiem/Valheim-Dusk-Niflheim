@@ -161,11 +161,11 @@
          },
          {
             "sPrefabName" : "TrollHide",
-            "iAmountMin" : 2,
-            "iAmountMax" : 2,
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
             "fChance" : 1,
             "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
+            "bLevelMultiplier" : false
          }
       ]
    },
