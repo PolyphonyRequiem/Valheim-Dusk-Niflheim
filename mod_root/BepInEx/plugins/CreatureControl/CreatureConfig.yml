@@ -11,6 +11,7 @@ groups:
         - Skeleton
         - Rancid remains
     Ethereal:
+        - Vengeful Ghost
         - Ghost
         - Wraith
     Brutes:
@@ -21,7 +22,7 @@ groups:
         - Lox
         - Fuling Berserker
         - Stone Golem
-    Speedster:
+    speedster:
         - Deathsquito
     Poison:
         - Blob
@@ -59,7 +60,7 @@ Wildlife:
     infusion: 0
     health: 1.0
     damage: 1.3
-    movement speeD: 1.2
+    movement speed: 1.2
     health per star: 0.04
     stars:
         0: [20, 0, 0, 0, 0]
@@ -1300,47 +1301,47 @@ Ethereal:
         5: [0, 0, 0, 15, 85]
     effect:
         0:
-            Aggressive: [0, 0, 0, 0, 0]
+            Aggressive: [50, 50, 50, 50, 50]
             Armored: [0, 0, 0, 0, 0]
             Curious: [0, 0, 0, 0, 0]
             Quick: [0, 0, 0, 0, 0]
-            Regenerating: [0, 0, 0, 0, 0]
-            Splitting: [100, 100, 100, 100, 100]
+            Regenerating: [50, 50, 50, 50, 50]
+            Splitting: [0, 0, 0, 0, 0]
         1:
-            Aggressive: [0, 0, 0, 0, 0]
+            Aggressive: [50, 50, 50, 50, 50]
             Armored: [0, 0, 0, 0, 0]
             Curious: [0, 0, 0, 0, 0]
             Quick: [0, 0, 0, 0, 0]
-            Regenerating: [0, 0, 0, 0, 0]
-            Splitting: [100, 100, 100, 100, 100]
+            Regenerating: [50, 50, 50, 50, 50]
+            Splitting: [0, 0, 0, 0, 0]
         2:
-            Aggressive: [0, 0, 0, 0, 0]
+            Aggressive: [50, 50, 50, 50, 50]
             Armored: [0, 0, 0, 0, 0]
             Curious: [0, 0, 0, 0, 0]
             Quick: [0, 0, 0, 0, 0]
-            Regenerating: [0, 0, 0, 0, 0]
-            Splitting: [100, 100, 100, 100, 100]
+            Regenerating: [50, 50, 50, 50, 50]
+            Splitting: [0, 0, 0, 0, 0]
         3:
-            Aggressive: [0, 0, 0, 0, 0]
+            Aggressive: [50, 50, 50, 50, 50]
             Armored: [0, 0, 0, 0, 0]
             Curious: [0, 0, 0, 0, 0]
             Quick: [0, 0, 0, 0, 0]
-            Regenerating: [0, 0, 0, 0, 0]
-            Splitting: [100, 100, 100, 100, 100]
+            Regenerating: [50, 50, 50, 50, 50]
+            Splitting: [0, 0, 0, 0, 0]
         4:
-            Aggressive: [0, 0, 0, 0, 0]
+            Aggressive: [50, 50, 50, 50, 50]
             Armored: [0, 0, 0, 0, 0]
             Curious: [0, 0, 0, 0, 0]
             Quick: [0, 0, 0, 0, 0]
-            Regenerating: [0, 0, 0, 0, 0]
-            Splitting: [100, 100, 100, 100, 100]
+            Regenerating: [50, 50, 50, 50, 50]
+            Splitting: [0, 0, 0, 0, 0]
         5:
-            Aggressive: [0, 0, 0, 0, 0]
+            Aggressive: [50, 50, 50, 50, 50]
             Armored: [0, 0, 0, 0, 0]
             Curious: [0, 0, 0, 0, 0]
             Quick: [0, 0, 0, 0, 0]
-            Regenerating: [0, 0, 0, 0, 0]
-            Splitting: [100, 100, 100, 100, 100]
+            Regenerating: [50, 50, 50, 50, 50]
+            Splitting: [0, 0, 0, 0, 0]
     infusion:
         0:
             Spirit: [100, 100, 100, 100, 100, 100]
@@ -1441,7 +1442,7 @@ Poison:
         4: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
         5: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
 
-Speedster:
+speedster:
     size: 0
     health: 1.3
     damage: 0.55
