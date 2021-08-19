@@ -728,6 +728,19 @@
           "sources": "**/*.dll",
           "destination": "./Bepinex/plugins/AutoPickupSelector"
         }]
+    },
+    {
+      "type": "nexus",
+      "modId": 263,
+      "modVersion": "0.2.7",
+      "description": "MultiCraft",
+      "fileName": "MultiCraft",
+      "extractor": "rar",
+      "fileMaps": [
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/MultiCraft"
+        }]
     }
   ]
 }
