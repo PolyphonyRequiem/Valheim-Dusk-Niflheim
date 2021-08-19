@@ -715,7 +715,19 @@
           "destination": "./Bepinex/plugins/PassivePowers"
         }
       ]
-      
+    },
+    {
+      "type": "nexus",
+      "modId": 868,
+      "modVersion": "4.4.1",
+      "description": "AutoPickupSelector",
+      "fileName": "RagnarsRokare_AutoPickupSelector.zip",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/AutoPickupSelector"
+        }]
     }
   ]
 }
