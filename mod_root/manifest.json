@@ -719,7 +719,7 @@
     {
       "type": "nexus",
       "modId": 868,
-      "modVersion": "4.4.1",
+      "modVersion": "0.4",
       "description": "AutoPickupSelector",
       "fileName": "RagnarsRokare_AutoPickupSelector.zip",
       "extractor": "zip",
