@@ -37,6 +37,7 @@ groups:
     Wildlife:
         - Boar
         - Neck
+        - Dire Boar
     Forest Creatures:
         - Greydwarf Stormcaller
         - Greydwarf Stoneheart

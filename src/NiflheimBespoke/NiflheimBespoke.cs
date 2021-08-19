@@ -15,6 +15,7 @@ using Jotunn.Entities;
 using Jotunn.Configs;
 using NiflheimBespoke.ConsoleCommands;
 using HarmonyLib;
+using System.Linq;
 
 namespace NiflheimBespoke
 {
@@ -24,7 +25,7 @@ namespace NiflheimBespoke
     {
         public const string PluginGUID = "firoso.niflheim.bespoke";
         public const string PluginName = "NiflheimBespoke";
-        public const string PluginVersion = "0.1.3";
+        public const string PluginVersion = "0.2.1";
 
         public static ManualLogSource Log { get; private set; }
 
@@ -53,7 +54,80 @@ namespace NiflheimBespoke
             ConfigureGoblinFetish();
             ConfigurePocketPortal();
             ConfigureBoarDrops();
+            ConfigureDireBoar();
         }
+
+        private void ConfigureDireBoar()
+        {
+            Log.LogMessage("Setting up DireBoar Feature");
+            var direboar = PrefabManager.Instance.CreateClonedPrefab("DireBoar", "Boar");
+            var attack = PrefabManager.Instance.CreateClonedPrefab("direboar_base_attack", "boar_base_attack");
+            var direBoarMaterial = this.niflheimBespokeAssets.LoadAsset<Material>("DireBoar");
+
+            direboar.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            direboar.GetComponentsInChildren<SkinnedMeshRenderer>().Where(c=>c.name == "Poly Art Boar").Single().material = direBoarMaterial;
+            direboar.GetComponentsInChildren<Component>(true).Where(c => c.name == "Fangs 004").First().gameObject.SetActive(false);
+            direboar.GetComponentsInChildren<Component>(true).Where(c => c.name == "Fangs 005").First().gameObject.SetActive(true);
+            direboar.GetComponentsInChildren<Component>(true).Where(c => c.name == "Fangs 006").First().gameObject.SetActive(true);
+
+            // setup attack
+            var attackShared = attack.GetComponent<ItemDrop>().m_itemData.m_shared;
+            attackShared.m_name = "direboar_attack";
+            attackShared.m_damages.m_blunt = 22;
+            attackShared.m_damages.m_pierce = 6;
+            attackShared.m_attackForce = 55;
+
+            // setup humanoid
+            var direboarHumanoid = direboar.GetComponent<Humanoid>();
+            direboarHumanoid.m_name = "Dire Boar";
+            direboarHumanoid.m_defaultItems[0] = attack;
+            direboarHumanoid.m_health = 40;
+
+            // setup drops
+            var drops = direboar.GetComponent<CharacterDrop>();
+            var rawMeatDrop = drops.m_drops.Find(d => d.m_prefab.name == "RawMeat");
+            drops.m_drops.Remove(rawMeatDrop);
+            
+            var leatherScrapsDrop = drops.m_drops.Find(d => d.m_prefab.name == "LeatherScraps");
+            leatherScrapsDrop.m_amountMax = 2;
+
+            var trophyBoarDrop = drops.m_drops.Find(d => d.m_prefab.name == "TrophyBoar");
+            trophyBoarDrop.m_chance = 0.25f;
+
+            drops.m_drops.Add(new CharacterDrop.Drop { m_amountMax = 1, m_amountMin = 1, m_chance = 1, m_levelMultiplier = true, m_onePerPlayer = false, m_prefab = GetPrefabByName("rk_pork") });
+            Log.LogMessage("Registering DireBoar");
+
+            PrefabManager.Instance.AddPrefab(direboar);
+        }
+
+        //private void ConfigureDireBoar()
+        //{
+        //    Log.LogMessage("Setting up DireBoar Feature");
+        //    var direBoarPrefab = this.niflheimBespokeAssets.LoadAsset<GameObject>("DireBoar");
+
+        //    var vfxboardeath = PrefabManager.Cache.GetPrefab<GameObject>("vfx_boar_death");
+        //    var boarragdoll = PrefabManager.Cache.GetPrefab<GameObject>("boar_ragdoll");
+        //    var sfxboardeath = PrefabManager.Cache.GetPrefab<GameObject>("sfx_boar_death");
+        //    var vfxboarhit = PrefabManager.Cache.GetPrefab<GameObject>("vfx_boar_hit");
+        //    var sfxboarhit = PrefabManager.Cache.GetPrefab<GameObject>("sfx_boar_hit");
+        //    var fxbackstab = PrefabManager.Cache.GetPrefab<GameObject>("fx_backstab");
+        //    if ((new GameObject[] { vfxboardeath, boarragdoll, sfxboardeath, vfxboarhit, sfxboarhit, fxbackstab }).Any(v=>v == null))
+        //    {
+        //        Log.LogMessage("Some effect was null");
+        //    }
+
+        //    var death = new EffectList { m_effectPrefabs = new EffectList.EffectData[3] { new EffectList.EffectData { m_prefab = vfxboardeath }, new EffectList.EffectData { m_prefab = boarragdoll },  new EffectList.EffectData { m_prefab = sfxboardeath } } };
+        //    var hit = new EffectList { m_effectPrefabs = new EffectList.EffectData[2] { new EffectList.EffectData { m_prefab = vfxboarhit }, new EffectList.EffectData { m_prefab = sfxboarhit } } };
+        //    var crit = new EffectList { m_effectPrefabs = new EffectList.EffectData[1] { new EffectList.EffectData { m_prefab = fxbackstab } } };
+
+        //    direBoarPrefab.GetComponent<Humanoid>().m_deathEffects = death;
+        //    direBoarPrefab.GetComponent<Humanoid>().m_hitEffects = hit;
+        //    direBoarPrefab.GetComponent<Humanoid>().m_critHitEffects = crit;
+
+        //    direBoarPrefab.GetComponent<Humanoid>().m_name = "Dire Boar";
+        //    Log.LogMessage("Registering DireBoar");
+        //    PrefabManager.Instance.AddPrefab(direBoarPrefab);
+        //}
 
         private void ConfigureBoarDrops()
         {
@@ -96,7 +170,7 @@ namespace NiflheimBespoke
                     new RequirementConfig
                     {
                         Item = "SurtlingCore",
-                        Amount = 5
+                        Amount = 2
                     },
                     new RequirementConfig
                     {
@@ -187,6 +261,19 @@ namespace NiflheimBespoke
             var coreWoodChestContainer = coreWoodChestPrefab.GetComponent<Container>();
             coreWoodChestContainer.m_width = 6;
             coreWoodChestContainer.m_height = 3;
+
+            var vfxstonebuild = PrefabManager.Cache.GetPrefab<GameObject>("vfx_Place_stone_wall_2x1");
+            var vfxwoodhit = PrefabManager.Cache.GetPrefab<GameObject>("vfx_SawDust");
+            var sfxwoodbuild = PrefabManager.Cache.GetPrefab<GameObject>("sfx_build_hammer_wood");
+            var sfxwoodbreak = PrefabManager.Cache.GetPrefab<GameObject>("sfx_wood_break");
+
+            var buildWood = new EffectList { m_effectPrefabs = new EffectList.EffectData[2] { new EffectList.EffectData { m_prefab = sfxwoodbuild }, new EffectList.EffectData { m_prefab = vfxstonebuild } } };
+            var breakWood = new EffectList { m_effectPrefabs = new EffectList.EffectData[2] { new EffectList.EffectData { m_prefab = sfxwoodbreak }, new EffectList.EffectData { m_prefab = vfxwoodhit } } };
+            var hitWood = new EffectList { m_effectPrefabs = new EffectList.EffectData[1] { new EffectList.EffectData { m_prefab = vfxwoodhit } } };
+            
+            coreWoodChestPrefab.GetComponent<Piece>().m_placeEffect = buildWood;
+            coreWoodChestPrefab.GetComponent<WearNTear>().m_destroyedEffect = breakWood;
+            coreWoodChestPrefab.GetComponent<WearNTear>().m_hitEffect = breakWood;
 
             CustomPiece piece = new CustomPiece(coreWoodChestPrefab, new PieceConfig
             {
