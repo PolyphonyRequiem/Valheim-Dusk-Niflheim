@@ -37,12 +37,12 @@ groups:
     Wildlife:
         - Boar
         - Neck
-        - Dire Boar
     Forest Creatures:
         - Greydwarf Stormcaller
         - Greydwarf Stoneheart
         - Greydwarf
         - Greyling
+        - Dire Boar
     Low Humanoids:
         - Vikingr Utlagi
         - Vikingr Skogarmaor
