@@ -52,6 +52,19 @@ namespace NiflheimBespoke
             ConfigureSturdyChest();
             ConfigureGoblinFetish();
             ConfigurePocketPortal();
+            ConfigureBoarDrops();
+        }
+
+        private void ConfigureBoarDrops()
+        {
+            Log.LogMessage("Setting up Boar Drops Restrictions Feature");
+
+            var characterDropBoar = NiflheimBespoke.GetComponentFromPrefab<CharacterDrop>("Boar");
+
+            var porkDrop = characterDropBoar.m_drops.Find(d => d.m_prefab.name == "rk_pork");
+
+            characterDropBoar.m_drops.Remove(porkDrop);
+            Log.LogMessage("Pork removed from drop table");
         }
 
         private void ConfigurePocketPortal()
