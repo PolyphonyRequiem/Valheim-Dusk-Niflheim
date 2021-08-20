@@ -2,8 +2,8 @@
   "name": "CookedMeat",
   "weight": 50,
   "stack": 20,
-  "health": 30,
-  "stamina": 24,
+  "health": 25,
+  "stamina": 15,
   "regen": 1,
-  "duration": 1080
+  "duration": 1800
 }

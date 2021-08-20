@@ -2,8 +2,8 @@
   "name": "rk_omlette",
   "weight": 50,
   "stack": 20,
-  "health": 55,
-  "stamina": 21,
+  "health": 50,
+  "stamina": 30,
   "regen": 1,
-  "duration": 2160
+  "duration": 1800
 }

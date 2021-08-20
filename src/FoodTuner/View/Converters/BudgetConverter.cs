@@ -11,9 +11,9 @@ namespace FoodTuner.View.Converters
         {
             return (double)value switch
             {
-                > .05 => Brushes.YellowGreen,
-                <= .05 and >= -0.05 => Brushes.Green,
-                < -0.05 => Brushes.LightCoral,
+                > .09 => Brushes.YellowGreen,
+                <= .09 and >= -0.09 => Brushes.Green,
+                < -0.09 => Brushes.LightCoral,
                 _ => throw new NotImplementedException()
             };
         }

@@ -9,9 +9,9 @@ namespace FoodTuner.Model.Budgeting
         private static Dictionary<Biomes, double> biomeMultiplier = new Dictionary<Biomes, double>() 
         {
             [Biomes.Meadows] = 1.0,
-            [Biomes.BlackForest] = 1.10,
-            [Biomes.Swamp] = 1.25,
-            [Biomes.Ocean] = 1.4,
+            [Biomes.BlackForest] = 1.20,
+            [Biomes.Swamp] = 1.4,
+            [Biomes.Ocean] = 1.5,
             [Biomes.Mountain] = 1.6,
             [Biomes.Plains] = 1.85,
             [Biomes.Mistlands] = 2.1,
@@ -38,11 +38,11 @@ namespace FoodTuner.Model.Budgeting
             [FoodComplexity.SimpleIngredient] = 1.5,
             [FoodComplexity.CommonIngredient] = 2.5,
             [FoodComplexity.ComplexIngredient] = 3.5,
-            [FoodComplexity.PreparedSingleIngredientFoodItem] = 7.0,
-            [FoodComplexity.PreparedSimpleMeal] = 10.0,
-            [FoodComplexity.PreparedCommonMeal] = 13.0,
-            [FoodComplexity.PreparedComplexMeal] = 15.0,
-            [FoodComplexity.PreparedLegendaryMeal] = 18.0,
+            [FoodComplexity.PreparedSingleIngredientFoodItem] = 5.5,
+            [FoodComplexity.PreparedSimpleMeal] = 8.0,
+            [FoodComplexity.PreparedCommonMeal] = 10.5,
+            [FoodComplexity.PreparedComplexMeal] = 14.0,
+            [FoodComplexity.PreparedLegendaryMeal] = 17.5,
         };
 
         private static Dictionary<Duration, double> durationMultiplier = new Dictionary<Duration, double>()

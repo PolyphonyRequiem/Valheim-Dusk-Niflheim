@@ -3,7 +3,7 @@
   "weight": 25,
   "stack": 20,
   "health": 40,
-  "stamina": 24,
-  "regen": 2,
+  "stamina": 23,
+  "regen": 1,
   "duration": 1080
 }

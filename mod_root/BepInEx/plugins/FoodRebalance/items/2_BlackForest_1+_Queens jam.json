@@ -2,8 +2,8 @@
   "name": "QueensJam",
   "weight": 30,
   "stack": 20,
-  "health": 30,
-  "stamina": 35,
+  "health": 27,
+  "stamina": 27,
   "regen": 3,
-  "duration": 1440
+  "duration": 2160
 }

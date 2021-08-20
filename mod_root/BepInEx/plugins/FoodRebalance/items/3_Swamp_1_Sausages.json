@@ -2,7 +2,7 @@
   "name": "Sausages",
   "weight": 40,
   "stack": 20,
-  "health": 45,
+  "health": 40,
   "stamina": 30,
   "regen": 2,
   "duration": 1800

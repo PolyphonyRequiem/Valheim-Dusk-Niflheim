@@ -2,8 +2,8 @@
   "name": "rk_coffee",
   "weight": 30,
   "stack": 10,
-  "health": 16,
-  "stamina": 65,
+  "health": 15,
+  "stamina": 66,
   "regen": 1,
-  "duration": 1440
+  "duration": 1080
 }

@@ -2,8 +2,8 @@
   "name": "rk_fishstew",
   "weight": 50,
   "stack": 10,
-  "health": 56,
+  "health": 50,
   "stamina": 45,
-  "regen": 3,
+  "regen": 2,
   "duration": 1440
 }

@@ -2,7 +2,7 @@
   "name": "rk_candiedturnip",
   "weight": 20,
   "stack": 30,
-  "health": 36,
+  "health": 32,
   "stamina": 50,
   "regen": 3,
   "duration": 840
