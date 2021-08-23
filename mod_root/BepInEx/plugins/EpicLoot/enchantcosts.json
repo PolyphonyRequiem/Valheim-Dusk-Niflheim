@@ -160,10 +160,6 @@
       "Products" : [ { "Item": "RunestoneLegendary", "Amount": 4 } ]
     },
     {
-      "ItemNames" : [ "Grig Horn" ],
-      "Products" : [ { "Item": "RunestoneEpic", "Amount": 1 } ]
-    },
-    {
       "ItemNames" : [ "$item_cryptkey" ],
       "Products" : [
         { "Item": "DustRare",    "Amount": 2 },
