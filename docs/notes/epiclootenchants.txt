@@ -43,15 +43,11 @@ AddFrostDamage
 AddLightningDamage
 AddPoisonDamage
 AddSpiritDamage
-AddFireResistance
-AddFrostResistance
-AddLightningResistance
-AddPoisonResistance
-AddSpiritResistance
 
 --Shields---
 ModifyParryWindow
 ModifyBlockStaminaUse
+ModifyBlockPower
 ReflectDamage
 AvoidDamageTaken
 StaggerOnDamageTaken
@@ -77,7 +73,6 @@ Indestructible
 Weightless
 AddCarryWeight
 Waterproof
-
 
 --skill improvements--
 
@@ -112,3 +107,573 @@ Bulwark ( invulnerability; spirit damage still hits through it )
 Undying  ( full health heal on death )
 FrostDamageAOE ( only on 2 handed axes does frost cone aoe for 50% weapon damage )
 Berserker ( lower hp higher damage )
+
+
+--- CONCEPTUAL MAP ---
+
+Chest:
+-body
+-heart
+-will
+-protection
+
+Head:
+-body
+-mind
+-projection of will
+-physical protection
+-knowledge, skill, ability
+
+Legs:
+-body
+-carry
+-move
+-freedom
+
+Cloak:
+-surround
+-protect
+-travel
+-hide
+-empower
+-project
+-enchant
+
+Rings:
+-ward
+-enhance
+-project
+-enchant
+-empower
+
+Belts:
+-ward
+-body
+-reinforce
+-carry
+-empower
+
+Shield:
+-ward
+-skill
+-projection of will
+-physical protection
+
+--- CONCEPTUAL CLASSIFICATION ---
+
+-BODY-
+IncreaseHealth
+Comfortable
+AddCarryWeight
+AddUnarmedSkill
+AddBluntDamage
+AddSlashingDamage
+AddPiercingDamage
+
+-HEART-
+IncreaseStamina
+ModifySprintStaminaUse
+ModifyJumpStaminaUse
+Luck
+Riches
+Glowing
+
+-MIND-
+QuickLearner
+AddSwordsSkill
+AddKnivesSkill
+AddClubsSkill
+AddPolearmsSkill
+AddSpearsSkill
+AddBlockingSkill
+AddAxesSkill
+AddBowsSkill
+AddUnarmedSkill
+AddPickaxesSkill
+AddMovementSkills
+QuickDraw
+ModifyAttackSpeed
+
+-WILL-
+ModifyHealthRegen
+ModifyStaminaRegen
+AddElementalResistancePercentage
+Immovable
+Luck
+Riches
+ModifyMovementSpeedLowHealth
+ModifyHealthRegenLowHealth
+ModifyStaminaRegenLowHealth
+AvoidDamageTakenLowHealth
+AddCarryWeight
+
+-WILL : PROJECTION-
+ReflectDamage
+Glowing
+StaggerOnDamageTaken
+ModifyStaggerDuration
+LifeStealLowHealth
+ModifyArmorLowHealth
+ModifyDamageLowHealth
+ModifyBlockPowerLowHealth
+ModifyParryLowHealth
+ModifyAttackSpeedLowHealth
+FreeBuild
+AddBlockingSkill
+AddFireDamage
+AddFrostDamage
+AddLightningDamage
+AddPoisonDamage
+AddSpiritDamage
+
+-PROTECTION : GENERAL-
+ModifyArmor
+AddFireResistancePercentage
+AddFrostResistancePercentage
+AddLightningResistancePercentage
+AddPoisonResistancePercentage
+AddSpiritResistancePercentage
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+
+-PROTECTION : PHYSICAL-
+ModifyArmor
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+AddPhysicalResistancePercentage
+Duelist
+
+-KNOWLEDGE SKILLS AND ABILITIES-
+ModifyParryWindow
+ModifyBlockStaminaUse
+Duelist
+Executioner
+Opportunist
+
+-MOVEMENT-
+IncreaseStamina
+ModifyStaminaRegen
+AvoidDamageTaken
+ModifyMovementSpeed
+ModifySprintStaminaUse
+ModifyJumpStaminaUse
+
+-FREEDOM-
+WaterWalking
+FeatherFall
+Waterproof
+AddCarryWeight
+Comfortable
+
+-SURROUND-
+Glowing
+
+-TRAVEL-
+ModifyDiscoveryRadius
+ModifyMovementSpeed
+ModifySprintStaminaUse
+ModifyJumpStaminaUse
+AddMovementSkills
+ModifyMovementSpeedLowHealth
+ModifyStaminaRegenLowHealth
+IncreaseStamina
+ModifyStaminaRegen
+
+-HIDE-
+AddMovementSkills
+ModifyBackstab
+
+-EMPOWER-
+Luck
+Riches
+Comfortable
+QuickLearner
+LifeStealLowHealth
+
+-PROJECT-
+ReflectDamage
+Glowing
+AddFireDamage
+AddFrostDamage
+AddLightningDamage
+AddPoisonDamage
+AddSpiritDamage
+
+-ENCHANT-
+Glowing
+AddFireDamage
+AddFrostDamage
+AddLightningDamage
+AddPoisonDamage
+AddSpiritDamage
+AddFireResistancePercentage
+AddFrostResistancePercentage
+AddLightningResistancePercentage
+AddPoisonResistancePercentage
+AddSpiritResistancePercentage
+AddElementalResistancePercentage
+Slow
+Paralyze
+LifeSteal
+ReflectDamage
+FeatherFall
+DoubleJump
+WaterWalking
+Luck
+Riches
+QuickLearner
+Waterproof
+
+-WARD-
+Waterproof
+AddBlockingSkill
+ModifyBlockPower
+ModifyBlockPowerLowHealth
+ModifyParryWindow
+ModifyParryLowHealth
+AvoidDamageTaken
+AvoidDamageTakenLowHealth
+AddElementalResistancePercentage
+AddPhysicalResistancePercentage
+
+-ENHANCE-
+IncreaseHealth
+IncreaseStamina
+ModifyMovementSpeed
+Luck
+ModifyDiscoveryRadius
+QuickLearner
+AddCarryWeight
+Waterproof
+
+-REINFORCE-
+IncreaseHealth
+IncreaseStamina
+ModifyParryWindow
+ModifyBlockStaminaUse
+ModifyBlockPower
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+ModifyBlockPowerLowHealth
+ModifyParryLowHealth
+
+-CARRY-
+AddCarryWeight
+Weightless
+
+-SKILL-
+AddSwordsSkill
+AddKnivesSkill
+AddClubsSkill
+AddPolearmsSkill
+AddSpearsSkill
+AddBlockingSkill
+AddAxesSkill
+AddBowsSkill
+AddUnarmedSkill
+AddPickaxesSkill
+AddMovementSkills
+
+--- PROPOSALS ---
+-- RESPECT TERRAHEIM ARMOR THEMES -- DIFFERENT SETS SHOULD HAVE DIFFERENT AFFIXES --
+
+-- WEAPONS --
+
+-MELEE 1H-
+-- SWORDS
+-- KNIVES
+-- CLUBS
+-- SPEARS
+-- AXES
+-- FIST
+-- PICKAXES -?-
+
+-MELEE 2H-
+-- SWORDS
+-- CLUBS
+-- POLEARM
+-- AXES
+
+-RANGED-
+-- BOW
+
+-- SHIELDS --
+-ROUND-
+
+-TOWER-
+
+-- ARMOR --
+
+-- UTILITIES --
+-- RINGS
+-- BELTS
+-- NECKLACE (?)
+
+-- TOOLS --
+-- CULTIVATOR
+-- HAMMER
+-- PICKAXES
+-- FISHING POLE?
+
+-- TORCH --
+
+
+
+
+--- COMPILED DATA ---
+-- CHEST --
+IncreaseHealth
+Comfortable
+AddCarryWeight + 1
+AddUnarmedSkill
+AddBluntDamage
+AddSlashingDamage
+AddPiercingDamage
+IncreaseStamina
+ModifySprintStaminaUse
+ModifyJumpStaminaUse
+Luck + 1
+Riches + 1
+Glowing
+ModifyHealthRegen
+ModifyStaminaRegen
+AddElementalResistancePercentage
+Immovable
+ModifyMovementSpeedLowHealth
+ModifyHealthRegenLowHealth
+ModifyStaminaRegenLowHealth
+AvoidDamageTakenLowHealth
+ModifyArmor
+AddFireResistancePercentage
+AddFrostResistancePercentage
+AddLightningResistancePercentage
+AddPoisonResistancePercentage
+AddSpiritResistancePercentage
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+
+-- HEAD --
+IncreaseHealth
+Comfortable
+AddCarryWeight
+AddUnarmedSkill + 1
+AddBluntDamage
+AddSlashingDamage
+AddPiercingDamage
+QuickLearner
+AddSwordsSkill
+AddKnivesSkill
+AddClubsSkill
+AddPolearmsSkill
+AddSpearsSkill
+AddBlockingSkill + 1
+AddAxesSkill
+AddBowsSkill
+AddPickaxesSkill
+AddMovementSkills
+QuickDraw
+ModifyAttackSpeed
+ReflectDamage
+Glowing
+StaggerOnDamageTaken
+ModifyStaggerDuration
+LifeStealLowHealth
+ModifyArmorLowHealth
+ModifyDamageLowHealth
+ModifyBlockPowerLowHealth
+ModifyParryLowHealth
+ModifyAttackSpeedLowHealth
+FreeBuild
+AddFireDamage
+AddFrostDamage
+AddLightningDamage
+AddPoisonDamage
+AddSpiritDamage
+ModifyArmor
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+AddPhysicalResistancePercentage
+Duelist + 1
+ModifyParryWindow
+ModifyBlockStaminaUse
+Executioner
+Opportunist
+
+-- LEGS --
+IncreaseHealth
+Comfortable
+AddCarryWeight
+AddUnarmedSkill
+AddBluntDamage
+AddSlashingDamage
+AddPiercingDamage
+AddCarryWeight
+Weightless
+IncreaseStamina
+ModifyStaminaRegen
+AvoidDamageTaken
+ModifyMovementSpeed
+ModifySprintStaminaUse
+ModifyJumpStaminaUse
+WaterWalking
+FeatherFall
+Waterproof
+AddCarryWeight
+Comfortable
+
+-- CLOAK -- 
+Glowing + 2
+ModifyArmor
+AddFireResistancePercentage + 1
+AddFrostResistancePercentage + 1
+AddLightningResistancePercentage + 1
+AddPoisonResistancePercentage + 1
+AddSpiritResistancePercentage + 1
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+ModifyDiscoveryRadius
+ModifyMovementSpeed
+ModifySprintStaminaUse
+ModifyJumpStaminaUse
+AddMovementSkills + 1
+ModifyMovementSpeedLowHealth
+ModifyStaminaRegenLowHealth
+IncreaseStamina
+ModifyStaminaRegen
+ModifyBackstab
+Luck + 1
+Riches + 1
+Comfortable
+QuickLearner + 1
+LifeStealLowHealth
+ReflectDamage + 1
+AddFireDamage + 1
+AddFrostDamage + 1
+AddLightningDamage + 1
+AddPoisonDamage + 1
+AddSpiritDamage + 1
+AddElementalResistancePercentage
+Slow
+Paralyze
+LifeSteal
+FeatherFall
+DoubleJump
+WaterWalking
+Waterproof
+
+-- RINGS --
+Waterproof + 2
+AddBlockingSkill
+ModifyBlockPower
+ModifyBlockPowerLowHealth
+ModifyParryWindow
+ModifyParryLowHealth
+AvoidDamageTaken
+AvoidDamageTakenLowHealth
+AddElementalResistancePercentage + 1
+AddPhysicalResistancePercentage
+IncreaseHealth
+IncreaseStamina
+ModifyMovementSpeed
+Luck + 2
+ModifyDiscoveryRadius
+QuickLearner + 2
+AddCarryWeight
+ReflectDamage + 1
+Glowing + 1
+AddFireDamage + 1
+AddFrostDamage + 1
+AddLightningDamage +1
+AddPoisonDamage + 1
+AddSpiritDamage +1
+AddFireResistancePercentage
+AddFrostResistancePercentage
+AddLightningResistancePercentage
+AddPoisonResistancePercentage
+AddSpiritResistancePercentage
+Slow
+Paralyze
+LifeSteal
+FeatherFall
+DoubleJump
+WaterWalking
+Riches
+Comfortable
+LifeStealLowHealth
+
+-- BELTS --
+Waterproof
+AddBlockingSkill
+ModifyBlockPower + 1
+ModifyBlockPowerLowHealth + 1
+ModifyParryWindow + 1
+ModifyParryLowHealth + 1
+AvoidDamageTaken
+AvoidDamageTakenLowHealth
+AddElementalResistancePercentage
+AddPhysicalResistancePercentage
+IncreaseHealth + 1
+Comfortable + 1
+AddCarryWeight + 1
+AddUnarmedSkill
+AddBluntDamage
+AddSlashingDamage
+AddPiercingDamage
+IncreaseStamina
+ModifyBlockStaminaUse
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+Weightless
+Luck
+Riches
+QuickLearner
+LifeStealLowHealth
+
+-- SHIELD --
+Waterproof
+AddBlockingSkill + 2
+ModifyBlockPower
+ModifyBlockPowerLowHealth + 1
+ModifyParryWindow
+ModifyParryLowHealth + 1
+AvoidDamageTaken
+AvoidDamageTakenLowHealth
+AddElementalResistancePercentage
+AddPhysicalResistancePercentage + 1
+AddSwordsSkill
+AddKnivesSkill
+AddClubsSkill
+AddPolearmsSkill
+AddSpearsSkill
+AddAxesSkill
+AddBowsSkill
+AddUnarmedSkill
+AddPickaxesSkill
+AddMovementSkills
+ReflectDamage
+Glowing
+StaggerOnDamageTaken
+ModifyStaggerDuration
+LifeStealLowHealth
+ModifyArmorLowHealth
+ModifyDamageLowHealth
+ModifyAttackSpeedLowHealth
+FreeBuild
+AddFireDamage
+AddFrostDamage
+AddLightningDamage
+AddPoisonDamage
+AddSpiritDamage
+ModifyArmor
+AddBluntResistancePercentage
+AddSlashingResistancePercentage
+AddPiercingResistancePercentage
+AddPhysicalResistancePercentage
+Duelist
