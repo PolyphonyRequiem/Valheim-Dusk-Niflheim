@@ -2,8 +2,8 @@
   "name": "rk_nut_ella",
   "weight": 20,
   "stack": 20,
-  "health": 40,
-  "stamina": 28,
+  "health": 35,
+  "stamina": 35,
   "regen": 1,
-  "duration": 720
+  "duration": 540
 }

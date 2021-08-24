@@ -1,0 +1,9 @@
+{
+  "name": "FishWraps",
+  "weight": 35,
+  "stack": 10,
+  "health": 100,
+  "stamina": 90,
+  "regen": 3,
+  "duration": 1800
+}

@@ -10,7 +10,7 @@ namespace FoodTuner.Model.Costs
     {
         public const double HealthFlatCost = 0.2;
         public const int    HealthCostIncrement = 1;
-        public const double StaminaFlatCost = 0.2;
+        public const double StaminaFlatCost = 0.15;
         public const int    StaminaCostIncrement = 1;
     }
 }

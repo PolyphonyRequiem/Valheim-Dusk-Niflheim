@@ -92,11 +92,11 @@ namespace FoodTuner.FileHandlers
                 FoodComplexity.SimpleIngredient => "_i_1",
                 FoodComplexity.CommonIngredient => "_i_2",
                 FoodComplexity.ComplexIngredient => "_i_3",
-                FoodComplexity.PreparedSingleIngredientFoodItem => "1",
-                FoodComplexity.PreparedSimpleMeal => "2",
-                FoodComplexity.PreparedCommonMeal => "3",
-                FoodComplexity.PreparedComplexMeal => "4",
-                FoodComplexity.PreparedLegendaryMeal => "5",
+                FoodComplexity.VeryCommonMeal => "1",
+                FoodComplexity.CommonMeal => "2",
+                FoodComplexity.UncommonMeal => "3",
+                FoodComplexity.RareMeal => "4",
+                FoodComplexity.EpicMeal => "5",
                 _ => "_f",
             };
         }
@@ -127,11 +127,11 @@ namespace FoodTuner.FileHandlers
                     "_i_1" => FoodComplexity.SimpleIngredient,
                     "_i_2" => FoodComplexity.CommonIngredient,
                     "_i_3" => FoodComplexity.ComplexIngredient,
-                    "1" => FoodComplexity.PreparedSingleIngredientFoodItem,
-                    "2" => FoodComplexity.PreparedSimpleMeal,
-                    "3" => FoodComplexity.PreparedCommonMeal,
-                    "4" => FoodComplexity.PreparedComplexMeal,
-                    "5" => FoodComplexity.PreparedLegendaryMeal,
+                    "1" => FoodComplexity.VeryCommonMeal,
+                    "2" => FoodComplexity.CommonMeal,
+                    "3" => FoodComplexity.UncommonMeal,
+                    "4" => FoodComplexity.RareMeal,
+                    "5" => FoodComplexity.EpicMeal,
                     _ => FoodComplexity.Foragable,
                 };
             }

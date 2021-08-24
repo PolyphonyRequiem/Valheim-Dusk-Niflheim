@@ -2,8 +2,8 @@
   "name": "rk_kabob",
   "weight": 30,
   "stack": 20,
-  "health": 50,
-  "stamina": 32,
+  "health": 45,
+  "stamina": 60,
   "regen": 2,
-  "duration": 1440
+  "duration": 540
 }

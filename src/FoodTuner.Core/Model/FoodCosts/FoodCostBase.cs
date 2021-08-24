@@ -2,83 +2,67 @@
 
 namespace FoodTuner.Model.Costs
 {
-    public abstract class FoodCostBase
-    {
-        public abstract int BaseHealth { get; }
+   public abstract class FoodCostBase
+   {
+      public abstract int BaseHealth { get; }
 
-        public abstract int BaseStamina { get; }
+      public abstract int BaseStamina { get; }
 
-        public abstract int BaseRegen { get; }
+      public abstract int BaseRegen { get; }
 
-        public abstract int BaseEndurance { get; }
+      public abstract int BaseEndurance { get; }
 
-        public virtual double ComputeHealthCost(FoodItem foodItem)
-        {
-            var adjustedHealth = foodItem.Health - BaseHealth;
-            
-            if (adjustedHealth < 0)
-            {
-                return 0.0;
-            }
+      public virtual double ComputeHealthCost(FoodItem foodItem)
+      {
+         var adjustedHealth = foodItem.Health - BaseHealth;
 
-            return adjustedHealth / FoodCostsConstants.HealthCostIncrement * FoodCostsConstants.HealthFlatCost;
-        }
+         if (adjustedHealth < 0)
+         {
+            return 0.0;
+         }
 
-        public virtual double ComputeStaminaCost(FoodItem foodItem)
-        {
-            var adjustedStamina = foodItem.Stamina - BaseStamina;
+         return adjustedHealth / FoodCostsConstants.HealthCostIncrement * FoodCostsConstants.HealthFlatCost;
+      }
 
-            if (adjustedStamina < 0)
-            {
-                return 0.0;
-            }
+      public virtual double ComputeStaminaCost(FoodItem foodItem)
+      {
+         var adjustedStamina = foodItem.Stamina - BaseStamina;
 
-            return adjustedStamina / FoodCostsConstants.StaminaCostIncrement * FoodCostsConstants.StaminaFlatCost;
-        }
+         if (adjustedStamina < 0)
+         {
+            return 0.0;
+         }
 
-        public virtual double ComputeRegenCost(FoodItem foodItem)
-        {
-            var adjustedRegen = foodItem.Regen - BaseRegen;
+         return adjustedStamina / FoodCostsConstants.StaminaCostIncrement * FoodCostsConstants.StaminaFlatCost;
+      }
 
-            return adjustedRegen switch
-            {
-                <= 0 =>           0.0,
-                > 0 and <= 2 =>   (Math.Min(adjustedRegen, 2)) * 0.5,
-                > 2 and <= 4 =>   (Math.Min(adjustedRegen, 2)) * 0.5 +
-                                  (Math.Min(adjustedRegen - 2, 2)) * 1.0,
-                > 4 =>            (Math.Min(adjustedRegen, 2)) * 0.5 +
-                                  (Math.Min(adjustedRegen - 2, 2)) * 1.0 +
-                                  (adjustedRegen-4) * 2.0
-            };
-        }
+      public virtual double ComputeRegenCost(FoodItem foodItem)
+      {
+         var adjustedRegen = foodItem.Regen - BaseRegen;
 
-        public virtual double ComputeEnduranceCost(FoodItem foodItem)
-        {
+         if (adjustedRegen <= 0)
+         {
+            return 0.0;
+         }
+         return Math.Pow(adjustedRegen / 2.0, 2.0);
+      }
 
-            var adjustedEndurance = foodItem.Endurance - BaseEndurance;
+      public virtual double ComputeEnduranceCost(FoodItem foodItem)
+      {
+         var adjustedEndurance = foodItem.Endurance - BaseEndurance;
+         if (adjustedEndurance <= 0)
+         {
+            return 0.0;
+         }
+         return Math.Pow(adjustedEndurance / 8.0, 2.5);
+      }
 
-            return adjustedEndurance switch
-            {
-                <= 0 =>           0.0,
-                > 0 and <= 6 =>   (Math.Min(adjustedEndurance, 6)) * 0.1,
-                > 6 and <= 10 =>  (Math.Min(adjustedEndurance, 6)) * 0.1 +
-                                  (Math.Min(adjustedEndurance - 6, 4)) * 0.3,
-                > 10 and <= 12 => (Math.Min(adjustedEndurance, 6)) * 0.1 +
-                                  (Math.Min(adjustedEndurance - 6, 4)) * 0.3 +
-                                  (Math.Min(adjustedEndurance - 10, 2)) * 0.5,
-                > 12 =>           (Math.Min(adjustedEndurance, 6)) * 0.1 +
-                                  (Math.Min(adjustedEndurance - 6, 4)) * 0.3 +
-                                  (Math.Min(adjustedEndurance - 10, 2)) * 0.5 +
-                                  (adjustedEndurance - 12) * 1.0
-            };
-        }
-
-        public virtual double DetermineCost(FoodItem foodItem)
-        {
-            return ComputeHealthCost(foodItem) +
-                   ComputeStaminaCost(foodItem) +
-                   ComputeRegenCost(foodItem) +
-                   ComputeEnduranceCost(foodItem);
-        }
-    }
+      public virtual double DetermineCost(FoodItem foodItem)
+      {
+         return ComputeHealthCost(foodItem) +
+                ComputeStaminaCost(foodItem) +
+                ComputeRegenCost(foodItem) +
+                ComputeEnduranceCost(foodItem);
+      }
+   }
 }

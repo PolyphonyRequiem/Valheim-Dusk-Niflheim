@@ -2,8 +2,8 @@
   "name": "rk_butter",
   "weight": 30,
   "stack": 20,
-  "health": 20,
-  "stamina": 16,
+  "health": 15,
+  "stamina": 25,
   "regen": 1,
-  "duration": 720
+  "duration": 240
 }

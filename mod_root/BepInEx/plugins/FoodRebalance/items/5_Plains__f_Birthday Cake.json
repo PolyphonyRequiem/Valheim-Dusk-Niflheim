@@ -1,9 +1,0 @@
-{
-  "name": "rk_birthday",
-  "weight": 25,
-  "stack": 10,
-  "health": 50,
-  "stamina": 80,
-  "regen": 6,
-  "duration": 1440
-}

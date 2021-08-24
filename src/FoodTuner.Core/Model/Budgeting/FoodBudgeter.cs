@@ -9,14 +9,14 @@ namespace FoodTuner.Model.Budgeting
         private static Dictionary<Biomes, double> biomeMultiplier = new Dictionary<Biomes, double>() 
         {
             [Biomes.Meadows] = 1.0,
-            [Biomes.BlackForest] = 1.20,
-            [Biomes.Swamp] = 1.4,
-            [Biomes.Ocean] = 1.5,
-            [Biomes.Mountain] = 1.6,
-            [Biomes.Plains] = 1.85,
-            [Biomes.Mistlands] = 2.1,
-            [Biomes.Ashlands] = 2.35,
-            [Biomes.DeepNorth] = 2.65
+            [Biomes.BlackForest] = 1.25,
+            [Biomes.Swamp] = 1.5,
+            [Biomes.Ocean] = 1.7,
+            [Biomes.Mountain] = 1.9,
+            [Biomes.Plains] = 2.3,
+            [Biomes.Mistlands] = 2.7,
+            [Biomes.Ashlands] = 3.1,
+            [Biomes.DeepNorth] = 3.5
         };
 
         private static Dictionary<Biomes, double> biomeBonuses = new Dictionary<Biomes, double>()
@@ -38,22 +38,22 @@ namespace FoodTuner.Model.Budgeting
             [FoodComplexity.SimpleIngredient] = 1.5,
             [FoodComplexity.CommonIngredient] = 2.5,
             [FoodComplexity.ComplexIngredient] = 3.5,
-            [FoodComplexity.PreparedSingleIngredientFoodItem] = 5.5,
-            [FoodComplexity.PreparedSimpleMeal] = 8.0,
-            [FoodComplexity.PreparedCommonMeal] = 10.5,
-            [FoodComplexity.PreparedComplexMeal] = 14.0,
-            [FoodComplexity.PreparedLegendaryMeal] = 17.5,
+            [FoodComplexity.VeryCommonMeal] = 5.5,
+            [FoodComplexity.CommonMeal] = 8.0,
+            [FoodComplexity.UncommonMeal] = 10.5,
+            [FoodComplexity.RareMeal] = 14.0,
+            [FoodComplexity.EpicMeal] = 17.5,
         };
 
         private static Dictionary<Duration, double> durationMultiplier = new Dictionary<Duration, double>()
         {
-            [Duration.Snack] = 1.3,
-            [Duration.VeryShort] = 1.2,
-            [Duration.Short] = 1.1,
+            [Duration.Snack] = 1.15,
+            [Duration.VeryShort] = 1.1,
+            [Duration.Short] = 1.05,
             [Duration.Average] = 1.0,
-            [Duration.Long] = 0.9,
-            [Duration.VeryLong] = 0.75,
-            [Duration.ExtremelyLong] = 0.6
+            [Duration.Long] = 0.925,
+            [Duration.VeryLong] = 0.85,
+            [Duration.ExtremelyLong] = 0.775
         };
 
         public static double GetBudget(FoodItem foodItem, bool useBudgetBoostBonus)
@@ -69,8 +69,8 @@ namespace FoodTuner.Model.Budgeting
             return foodItem.Complexity switch
             {
                 FoodComplexity.Foragable or
-                >= FoodComplexity.PreparedSingleIngredientFoodItem and
-                <= FoodComplexity.PreparedLegendaryMeal => budgetBase * budgetMultiplier + budgetBonus,
+                >= FoodComplexity.VeryCommonMeal and
+                <= FoodComplexity.EpicMeal => budgetBase * budgetMultiplier + budgetBonus,
                 _ => budgetBase + budgetBonus,
             };
         }

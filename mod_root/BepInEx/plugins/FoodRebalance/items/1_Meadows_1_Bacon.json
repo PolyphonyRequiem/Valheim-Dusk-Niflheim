@@ -1,0 +1,9 @@
+{
+  "name": "rk_bacon",
+  "weight": 15,
+  "stack": 20,
+  "health": 25,
+  "stamina": 30,
+  "regen": 1,
+  "duration": 360
+}

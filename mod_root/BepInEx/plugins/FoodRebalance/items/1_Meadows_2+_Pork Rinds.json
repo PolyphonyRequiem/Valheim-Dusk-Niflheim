@@ -2,8 +2,8 @@
   "name": "rk_porkrind",
   "weight": 15,
   "stack": 10,
-  "health": 30,
-  "stamina": 24,
+  "health": 35,
+  "stamina": 35,
   "regen": 1,
-  "duration": 1800
+  "duration": 540
 }

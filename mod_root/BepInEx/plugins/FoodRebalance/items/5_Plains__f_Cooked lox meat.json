@@ -1,9 +1,0 @@
-{
-  "name": "CookedLoxMeat",
-  "weight": 50,
-  "stack": 10,
-  "health": 50,
-  "stamina": 40,
-  "regen": 3,
-  "duration": 1800
-}

@@ -2,8 +2,8 @@
   "name": "MushroomYellow",
   "weight": 10,
   "stack": 50,
-  "health": 33,
+  "health": 35,
   "stamina": 25,
-  "regen": 2,
-  "duration": 720
+  "regen": 1,
+  "duration": 540
 }

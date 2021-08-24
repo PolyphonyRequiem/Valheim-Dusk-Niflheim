@@ -2,12 +2,12 @@
 {
     public enum Duration : int
     {
-        Snack = 480, // 8m
-        VeryShort = 720, // 12m
-        Short = 1080, // 18m
-        Average = 1440, // 24m
-        Long = 1800, // 30m
-        VeryLong = 2160, // 36m
-        ExtremelyLong = 2520 // 42m
+        Snack = 240, // 4m
+        VeryShort = 360, // 6m
+        Short = 540, // 9m
+        Average = 720, // 12m
+        Long = 900, // 15m
+        VeryLong = 1080, // 18m
+        ExtremelyLong = 1260 // 21m
     }
 }

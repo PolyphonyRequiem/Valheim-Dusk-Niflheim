@@ -1,0 +1,9 @@
+{
+  "name": "BloodPudding",
+  "weight": 50,
+  "stack": 10,
+  "health": 80,
+  "stamina": 80,
+  "regen": 6,
+  "duration": 1800
+}

@@ -1,0 +1,9 @@
+{
+  "name": "rk_mead",
+  "weight": 30,
+  "stack": 10,
+  "health": 50,
+  "stamina": 100,
+  "regen": 7,
+  "duration": 1440
+}

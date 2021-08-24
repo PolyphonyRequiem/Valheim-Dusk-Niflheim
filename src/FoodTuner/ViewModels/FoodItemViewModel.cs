@@ -48,11 +48,11 @@ namespace FoodTuner.ViewModels
             "Ingredient - Simple",
             "Ingredient - Common",
             "Ingredient - Complex",
-            "Food",
-            "Meal - Simple",
+            "Meal - Very Common",
             "Meal - Common",
-            "Meal - Complex",
-            "Meal - Legendary"
+            "Meal - Uncommon",
+            "Meal - Rare",
+            "Meal - Epic"
         };
 
         private static string[] durations = new string[]

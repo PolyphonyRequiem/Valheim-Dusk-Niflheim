@@ -1,0 +1,9 @@
+{
+  "name": "rk_carrotsticks",
+  "weight": 30,
+  "stack": 10,
+  "health": 30,
+  "stamina": 40,
+  "regen": 1,
+  "duration": 540
+}

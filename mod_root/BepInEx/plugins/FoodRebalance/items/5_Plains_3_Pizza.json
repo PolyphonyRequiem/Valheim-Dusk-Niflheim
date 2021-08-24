@@ -1,0 +1,9 @@
+{
+  "name": "rk_pizza",
+  "weight": 50,
+  "stack": 10,
+  "health": 90,
+  "stamina": 90,
+  "regen": 2,
+  "duration": 900
+}

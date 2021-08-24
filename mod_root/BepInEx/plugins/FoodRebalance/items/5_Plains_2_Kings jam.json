@@ -1,0 +1,9 @@
+{
+  "name": "KingsJam",
+  "weight": 30,
+  "stack": 10,
+  "health": 60,
+  "stamina": 75,
+  "regen": 4,
+  "duration": 720
+}

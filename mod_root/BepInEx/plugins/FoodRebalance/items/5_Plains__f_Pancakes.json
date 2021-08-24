@@ -1,9 +1,0 @@
-{
-  "name": "rk_pancake",
-  "weight": 35,
-  "stack": 10,
-  "health": 50,
-  "stamina": 80,
-  "regen": 4,
-  "duration": 1800
-}

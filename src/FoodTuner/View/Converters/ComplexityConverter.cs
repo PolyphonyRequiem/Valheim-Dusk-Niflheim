@@ -15,11 +15,11 @@ namespace FoodTuner.View.Converters
                 FoodComplexity.SimpleIngredient => "Ingredient - Simple",
                 FoodComplexity.CommonIngredient => "Ingredient - Common",
                 FoodComplexity.ComplexIngredient => "Ingredient - Complex",
-                FoodComplexity.PreparedSingleIngredientFoodItem => "Food",
-                FoodComplexity.PreparedSimpleMeal => "Meal - Simple",
-                FoodComplexity.PreparedCommonMeal => "Meal - Common",
-                FoodComplexity.PreparedComplexMeal => "Meal - Complex",
-                FoodComplexity.PreparedLegendaryMeal => "Meal - Legendary",
+                FoodComplexity.VeryCommonMeal => "Meal - Very Common",
+                FoodComplexity.CommonMeal => "Meal - Common",
+                FoodComplexity.UncommonMeal => "Meal - Uncommon",
+                FoodComplexity.RareMeal => "Meal - Rare",
+                FoodComplexity.EpicMeal => "Meal - Epic",
                 _ => "Unknown Complexity"
             };
         }
@@ -32,11 +32,11 @@ namespace FoodTuner.View.Converters
                 "Ingredient - Simple" => FoodComplexity.SimpleIngredient,
                 "Ingredient - Common" => FoodComplexity.CommonIngredient,
                 "Ingredient - Complex" => FoodComplexity.ComplexIngredient,
-                "Food" => FoodComplexity.PreparedSingleIngredientFoodItem,
-                "Meal - Simple" => FoodComplexity.PreparedSimpleMeal,
-                "Meal - Common" => FoodComplexity.PreparedCommonMeal,
-                "Meal - Complex" => FoodComplexity.PreparedComplexMeal,
-                "Meal - Legendary" => FoodComplexity.PreparedLegendaryMeal,
+                "Meal - Very Common" => FoodComplexity.VeryCommonMeal,
+                "Meal - Common" => FoodComplexity.CommonMeal,
+                "Meal - Uncommon" => FoodComplexity.UncommonMeal,
+                "Meal - Rare" => FoodComplexity.RareMeal,
+                "Meal - Epic" => FoodComplexity.EpicMeal,
                 _ => FoodComplexity.Foragable
             };
         }

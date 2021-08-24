@@ -1,9 +1,0 @@
-{
-  "name": "rk_moochi",
-  "weight": 50,
-  "stack": 10,
-  "health": 70,
-  "stamina": 60,
-  "regen": 3,
-  "duration": 1800
-}
