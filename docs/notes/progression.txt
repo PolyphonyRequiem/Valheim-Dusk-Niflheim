@@ -1,0 +1,39 @@
+Meadows:
+Crafting
+ + Food
+ + Potions
+ + Leather Armor
+ + Troll Armor
+
+BF:
+ + Enchanting
+ + Augmenting
+ + Cultivating 
+ + Stonecutting
+ + Vendor 
+ + Bronze Armor
+ + Barbarian Armor
+
+SWAMP:         -        OCEAN
+ + Fishing              + SAILING
+ + Meads (Ancient Bark) + Chitin - Harpoon
+ + Reliable Metals      + EPIC FUCKING FOOD
+ + Long Boat            + Serpent Shield - 5% move, no parry factor, but can parry.
+ + Iron Armor
+
+MOUNTAINS: 
+ + Advanced (Epic) Enchants
+ + Wolf Armor
+ + Abundant food options?
+ + Artisan Table (after boss)
+
+PLAINS:
+ + Artisan Table (actually useful now)
+ + BREAD and advanced food (Cultivate and Hunt)
+ + Padded Armor
+ + Specialized Weapons
+ + Legendaddy enchanting, Legendary Uniques + SET items
+
+
+
+ 

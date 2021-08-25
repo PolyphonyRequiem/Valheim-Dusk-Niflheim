@@ -2864,8 +2864,8 @@
           "Level": 1,
           "Drops": [ [1, 70], [2, 30], [3, 0], [4, 0] ],
           "Loot": [
-            // { "Item": "Tier1Everything",   "Weight": 1, "Rarity": [ 90, 9, 1, 0 ] },
-            // { "Item": "Tier0Shields",      "Weight": 1, "Rarity": [ 90, 9, 1, 0 ] },
+            { "Item": "Tier1Everything",   "Weight": 1, "Rarity": [ 90, 9, 1, 0 ] },
+            { "Item": "Tier0Shields",      "Weight": 1, "Rarity": [ 90, 9, 1, 0 ] },
             { "Item": "SledgeStagbreaker", "Weight": 1, "Rarity": [ 90, 9, 1, 0 ] }
           ]
         },
@@ -2913,7 +2913,7 @@
           "Level": 1,
           "Drops": [ [1, 35], [2, 55], [3, 10], [4, 0] ],
           "Loot": [
-            // { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 60, 29, 10, 1 ] }
+             { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 60, 29, 10, 1 ] }
           ]
         },
         {
@@ -2960,7 +2960,7 @@
           "Level": 1,
           "Drops": [ [1, 0], [2, 60], [3, 35], [4, 5] ],
           "Loot": [
-            // { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 20, 60, 15, 5 ] }
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 20, 60, 15, 5 ] }
           ]
         },
         {
@@ -3007,7 +3007,7 @@
           "Level": 1,
           "Drops": [ [2, 40], [3, 40], [4, 20], [5, 0] ],
           "Loot": [
-            // { "Item": "Tier4Everything", "Weight": 1, "Rarity": [0, 40, 50, 10 ] }
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [0, 40, 50, 10 ] }
           ]
         },
         {
@@ -3054,7 +3054,7 @@
           "Level": 1,
           "Drops": [ [2, 20], [3, 60], [4, 15], [5, 5] ],
           "Loot": [
-            // { "Item": "Tier5Everything", "Weight": 1, "Rarity": [0, 0, 80, 20 ] }
+            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [0, 0, 80, 20 ] }
           ]
         },
         {
