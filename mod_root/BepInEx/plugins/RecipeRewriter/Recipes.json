@@ -141,19 +141,23 @@
       "resources": [
         {
           "name": "Stone",
-          "amount": 25
+          "amount": 25,
+          "recover": true
         },
         {
           "name": "RoundLog",
-          "amount": 10
+          "amount": 10,
+          "recover": true
         },
         {
           "name": "Bronze",
-          "amount": 5
+          "amount": 5,
+          "recover": true
         },
         {
           "name": "SurtlingCore",
-          "amount": 2
+          "amount": 2,
+          "recover": true
         }
       ]
     },
