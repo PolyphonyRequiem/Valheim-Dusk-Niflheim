@@ -34,7 +34,7 @@ namespace NiflheimBespoke
         private Harmony harmonyInstance;
 
         private void Awake()
-        {          
+        {
             Log = this.Logger;
             harmonyInstance = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
             this.niflheimBespokeAssets = AssetUtils.LoadAssetBundleFromResources("niflheimbespoke", Assembly.GetExecutingAssembly());
@@ -114,7 +114,6 @@ namespace NiflheimBespoke
             });
 
             ItemManager.Instance.AddRecipe(baitRecipe);
-
         }
 
         private void ConfigureDireBoar()
