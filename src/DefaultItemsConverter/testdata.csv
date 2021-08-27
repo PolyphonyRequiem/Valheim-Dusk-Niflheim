@@ -11,8 +11,8 @@ DvergerCirclet,31,620,true,true,true
 ChefHat,900,90,true,true,true
 Megingjord,4750,950,true,true,true 
 YmirFlesh,600,250,true,true,true
-FishingRod,1750,350,true,true,true
-FishingBait,1,1,true,true,true
+FishingRod,1750,350,false,true,false
+FishingBait,1,1,false,true,false
 
 LeatherQuiver,6000,600,true,true,true
 LeatherBelt,4500,450,true,true,true
