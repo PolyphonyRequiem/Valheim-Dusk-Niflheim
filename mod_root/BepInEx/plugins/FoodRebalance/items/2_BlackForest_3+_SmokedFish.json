@@ -1,9 +1,0 @@
-{
-  "name": "rk_smokedfish",
-  "weight": 50,
-  "stack": 20,
-  "health": 40,
-  "stamina": 24,
-  "regen": 2,
-  "duration": 1440
-}

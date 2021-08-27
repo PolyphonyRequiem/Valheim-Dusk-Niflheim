@@ -1,9 +1,0 @@
-{
-  "name": "MushroomBlue",
-  "weight": 10,
-  "stack": 50,
-  "health": 45,
-  "stamina": 40,
-  "regen": 1,
-  "duration": 720
-}

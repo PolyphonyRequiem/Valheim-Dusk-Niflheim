@@ -55,6 +55,66 @@ namespace NiflheimBespoke
             ConfigurePocketPortal();
             ConfigureBoarDrops();
             ConfigureDireBoar();
+            ConfigureFishing();
+        }
+
+        private void ConfigureFishing()
+        {
+            var fishingPoleRecipe = new CustomRecipe(new RecipeConfig
+            {
+                Amount = 1,
+                CraftingStation = "piece_workbench",
+                Enabled = true,
+                Item = "FishingRod",
+                MinStationLevel = 4,
+                Name = "CreateFishingRod",
+                Requirements = new RequirementConfig[]
+                {
+                    new RequirementConfig
+                    {
+                        Amount = 20,
+                        Item = "IronNails"
+                    },
+                    new RequirementConfig
+                    {
+                        Amount = 8,
+                        Item = "ElderBark"
+                    },
+                    new RequirementConfig
+                    {
+                        Amount = 20,
+                        Item = "Entrails"
+                    },
+                    new RequirementConfig
+                    {
+                        Amount = 16,
+                        Item = "Resin"
+                    }
+                }
+            });
+
+            ItemManager.Instance.AddRecipe(fishingPoleRecipe);
+
+            var baitRecipe = new CustomRecipe(new RecipeConfig
+            {
+                Amount = 5,
+                CraftingStation = "piece_workbench",
+                Enabled = true,
+                Item = "FishingBait",
+                MinStationLevel = 1,
+                Name = "CreateFishingBait",
+                Requirements = new RequirementConfig[]
+                {
+                    new RequirementConfig
+                    {
+                        Amount = 1,
+                        Item = "Bacon"
+                    }
+                }
+            });
+
+            ItemManager.Instance.AddRecipe(baitRecipe);
+
         }
 
         private void ConfigureDireBoar()

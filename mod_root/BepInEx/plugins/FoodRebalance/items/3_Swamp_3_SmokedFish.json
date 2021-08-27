@@ -1,9 +1,9 @@
 {
-  "name": "FishCooked",
+  "name": "rk_smokedfish",
   "weight": 50,
   "stack": 20,
   "health": 60,
-  "stamina": 20,
+  "stamina": 50,
   "regen": 1,
-  "duration": 720
+  "duration": 540
 }
