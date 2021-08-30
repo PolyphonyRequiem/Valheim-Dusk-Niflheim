@@ -87,6 +87,36 @@ groups:
     - Obsidian
     - Flint
     - Chitin
+    - Flax
+    - Barley
+    - Coal
+    - IronNails
+    - Crystal
+    - FishRaw
+    - FreezeGland
+    - Guck
+    - LinenThread
+    - Ooze
+    - SerpentMeat
+    - SerpentScale
+    - SharpeningStone
+    - WitheredBone
+    - WolfFang
+    - WolfPelt
+    - YagluthDrop
+    - YmirRemains
+    - BarleyWineBase
+    - MeadBaseFrostResist
+    - MeadBaseHealthMedium
+    - MeadBaseHealthMinor
+    - MeadBasePoisonResist
+    - MeadBaseStaminaMedium
+    - MeadBaseStaminaMinor
+    - MeadBaseTasty
+    - rk_dragonegg
+    - Entrails
+    - Chain
+    - GoblinTotem
 
   YesTeleport:
     - Coins
