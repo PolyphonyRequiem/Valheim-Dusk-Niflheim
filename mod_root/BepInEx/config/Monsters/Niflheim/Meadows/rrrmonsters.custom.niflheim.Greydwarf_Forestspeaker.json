@@ -31,7 +31,7 @@
       "bToleratesWater": true,
       "bToleratesFire": false,
       "bToleratesSmoke": true,
-      "fHealth": 40,
+      "fHealth": 45,
       "dDamageTaken": {
          "m_blunt": "Normal",
          "m_slash": "Normal",
@@ -118,7 +118,7 @@
                "fPierce": 0,
                "fChop": 0,
                "fPickaxe": 0,
-               "fFire": 10,
+               "fFire": 9,
                "fFrost": 0,
                "fLightning": 0,
                "fPoison": 0,
@@ -143,7 +143,7 @@
                "fChop": 0,
                "fPickaxe": 0,
                "fFire": 0,
-               "fFrost": 7,
+               "fFrost": 12,
                "fLightning": 0,
                "fPoison": 0,
                "fSpirit": 0
@@ -228,18 +228,18 @@
             "bLevelMultiplier": true
          },
          {
-            "sPrefabName": "Wood",
+            "sPrefabName": "Lesser_Spiritual_Healing_Vial",
             "iAmountMin": 1,
             "iAmountMax": 1,
-            "fChance": 1,
+            "fChance": 0.1,
             "bOnePerPlayer": false,
             "bLevelMultiplier": true
          },
          {
-            "sPrefabName": "Resin",
+            "sPrefabName": "Lesser_Stamina_Vial",
             "iAmountMin": 1,
             "iAmountMax": 2,
-            "fChance": 1,
+            "fChance": 0.1,
             "bOnePerPlayer": false,
             "bLevelMultiplier": true
          },
@@ -247,15 +247,15 @@
             "sPrefabName": "TrophyGreydwarfShaman",
             "iAmountMin": 1,
             "iAmountMax": 1,
-            "fChance": 0.1,
+            "fChance": 0.2,
             "bOnePerPlayer": false,
             "bLevelMultiplier": false
          },
          {
             "sPrefabName": "ElderBark",
             "iAmountMin": 1,
-            "iAmountMax": 1,
-            "fChance": 1,
+            "iAmountMax": 2,
+            "fChance": 0.8,
             "bOnePerPlayer": false,
             "bLevelMultiplier": true
          }

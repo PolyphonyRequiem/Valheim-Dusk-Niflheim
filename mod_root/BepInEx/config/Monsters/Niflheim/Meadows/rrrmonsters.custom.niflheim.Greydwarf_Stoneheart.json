@@ -3,9 +3,9 @@
    "sNewPrefabName" : "Greydwarf_Stoneheart",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 1.2,
-         "fY" : 0.7,
-         "fZ" : 1.2
+         "fX" : 1.15,
+         "fY" : 0.85,
+         "fZ" : 1.15
       },
       "cTintColor" : {
          "fRed" : 0.5,
@@ -23,11 +23,11 @@
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 0.85,
+      "fMoveSpeedMulti" : 0.9,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : true,
-      "fHealth" : 45,
+      "fHealth" : 80,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
@@ -43,7 +43,7 @@
    },
    "Category_Humanoid" : {
       "dtAttackDamageOverride" : {
-         "fDamage" : 18,
+         "fDamage" : 20,
          "fBlunt" : 0,
          "fSlash" : 0,
          "fPierce" : 0,
@@ -58,7 +58,9 @@
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "Greydwarf_attack"
+         "Greydwarf_attack",
+         "Greydwarf_throw",
+         "Greydwarf_shaman_heal"
       ],
       "aRandomWeapon" : [
          

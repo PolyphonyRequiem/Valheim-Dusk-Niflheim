@@ -56,6 +56,16 @@ namespace NiflheimBespoke
             ConfigureBoarDrops();
             ConfigureDireBoar();
             ConfigureFishing();
+            ConfigureBows();
+        }
+
+        private void ConfigureBows()
+        {
+            foreach (var bow in ObjectDB.instance.GetAllItems(ItemDrop.ItemData.ItemType.Bow, ""))
+            {
+                bow.m_itemData.m_shared.m_maxDurability *= 0.60f;
+                bow.m_itemData.m_shared.m_durabilityPerLevel *= 0.60f;
+            }
         }
 
         private void ConfigureFishing()

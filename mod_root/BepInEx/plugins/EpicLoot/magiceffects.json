@@ -6924,8 +6924,7 @@
         "$mod_epicloot_me_modifyparry_prefix2"
       ],
       "Suffixes": [
-        "$mod_epicloot_me_modifyparry_suffix1",
-        "$mod_epicloot_me_modifyparry_suffix2"
+        "$mod_epicloot_me_modifyparry_suffix1"
       ],
       "EquipFx": "",
       "Type": "ModifyParry",
@@ -6944,7 +6943,9 @@
         "ExcludedItemTypes": [],
         "AllowedRarities": [],
         "ExcludedRarities": [],
-        "AllowedSkillTypes": [],
+        "AllowedSkillTypes": [
+          "None"
+        ],
         "ExcludedSkillTypes": [],
         "AllowedItemNames": [],
         "ExcludedItemNames": []
@@ -6978,8 +6979,7 @@
         "$mod_epicloot_me_modifyparry_prefix2"
       ],
       "Suffixes": [
-        "$mod_epicloot_me_modifyparry_suffix1",
-        "$mod_epicloot_me_modifyparry_suffix2"
+        "$mod_epicloot_me_modifyparry_suffix1"
       ],
       "EquipFx": "",
       "Type": "ModifyParry",
@@ -6997,10 +6997,13 @@
         "ExcludedItemTypes": [],
         "AllowedRarities": [],
         "ExcludedRarities": [],
-        "AllowedSkillTypes": [],
+        "AllowedSkillTypes": [
+          "Blocking"
+        ],
         "ExcludedSkillTypes": [],
         "AllowedItemNames": [],
-        "ExcludedItemNames": []
+        "ExcludedItemNames": [],
+        "ItemHasParryPower": true
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -7031,8 +7034,7 @@
         "$mod_epicloot_me_modifyparry_prefix2"
       ],
       "Suffixes": [
-        "$mod_epicloot_me_modifyparry_suffix1",
-        "$mod_epicloot_me_modifyparry_suffix2"
+        "$mod_epicloot_me_modifyparry_suffix1"
       ],
       "EquipFx": "",
       "Type": "ModifyParry",
@@ -7080,12 +7082,10 @@
       "SelectionWeight": 1.0,
       "CanBeAugmented": true,
       "Prefixes": [
-        "$mod_epicloot_me_modifyparrywindow_prefix1",
-        "$mod_epicloot_me_modifyparrywindow_prefix2"
+        "$mod_epicloot_me_modifyparrywindow_prefix1"
       ],
       "Suffixes": [
-        "$mod_epicloot_me_modifyparrywindow_suffix1",
-        "$mod_epicloot_me_modifyparrywindow_suffix2"
+        "$mod_epicloot_me_modifyparrywindow_suffix1"
       ],
       "EquipFx": "",
       "Type": "ModifyParryWindow",
@@ -7104,7 +7104,9 @@
         "ExcludedItemTypes": [],
         "AllowedRarities": [],
         "ExcludedRarities": [],
-        "AllowedSkillTypes": [],
+        "AllowedSkillTypes": [
+          "None"
+        ],
         "ExcludedSkillTypes": [],
         "AllowedItemNames": [],
         "ExcludedItemNames": []
@@ -7134,12 +7136,10 @@
       "SelectionWeight": 1.0,
       "CanBeAugmented": true,
       "Prefixes": [
-        "$mod_epicloot_me_modifyparrywindow_prefix1",
-        "$mod_epicloot_me_modifyparrywindow_prefix2"
+        "$mod_epicloot_me_modifyparrywindow_prefix1"
       ],
       "Suffixes": [
-        "$mod_epicloot_me_modifyparrywindow_suffix1",
-        "$mod_epicloot_me_modifyparrywindow_suffix2"
+        "$mod_epicloot_me_modifyparrywindow_suffix1"
       ],
       "EquipFx": "",
       "Type": "ModifyParryWindow",
@@ -7157,10 +7157,13 @@
         "ExcludedItemTypes": [],
         "AllowedRarities": [],
         "ExcludedRarities": [],
-        "AllowedSkillTypes": [],
+        "AllowedSkillTypes": [
+          "Blocking"
+        ],
         "ExcludedSkillTypes": [],
         "AllowedItemNames": [],
-        "ExcludedItemNames": []
+        "ExcludedItemNames": [],
+        "ItemHasParryPower": true
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -7187,12 +7190,10 @@
       "SelectionWeight": 1.0,
       "CanBeAugmented": true,
       "Prefixes": [
-        "$mod_epicloot_me_modifyparrywindow_prefix1",
-        "$mod_epicloot_me_modifyparrywindow_prefix2"
+        "$mod_epicloot_me_modifyparrywindow_prefix1"
       ],
       "Suffixes": [
-        "$mod_epicloot_me_modifyparrywindow_suffix1",
-        "$mod_epicloot_me_modifyparrywindow_suffix2"
+        "$mod_epicloot_me_modifyparrywindow_suffix1"
       ],
       "EquipFx": "",
       "Type": "ModifyParryWindow",
@@ -8532,7 +8533,10 @@
           "Legs"
         ],
         "ExcludedItemTypes": [],
-        "AllowedRarities": [],
+        "AllowedRarities": [
+          "Epic",
+          "Legendary"
+        ],
         "ExcludedRarities": [],
         "AllowedSkillTypes": [],
         "ExcludedSkillTypes": [],
