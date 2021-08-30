@@ -665,6 +665,71 @@ Forest Creatures:
         4: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
         5: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
 
+Greyling:
+    size: 0
+    health: 1.0
+    damage: 1.2
+    movement speed: 1.1
+    health per star: 0.25
+    damage per star: 0.15
+    stars:
+        0: [20, 0, 0, 0, 0]
+        1: [80, 5, 0, 0, 0]
+        2: [15, 80, 5, 0, 0]
+        3: [0, 15, 80, 5, 0]
+        4: [0, 0, 15, 80, 5]
+        5: [0, 0, 0, 15, 85]
+    effect:
+        0:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [5, 6, 7, 8, 9]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [5, 6, 7, 8, 9]
+        1:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [5, 6, 7, 8, 9]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [5, 6, 7, 8, 9]
+        2:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [5, 6, 7, 8, 9]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [5, 6, 7, 8, 9]
+        3:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [5, 6, 7, 8, 9]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [5, 6, 7, 8, 9]
+        4:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [5, 6, 7, 8, 9]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [5, 6, 7, 8, 9]
+        5:
+            Aggressive: [5, 6, 7, 8, 9]
+            Armored: [5, 6, 7, 8, 9]
+            Curious: [5, 6, 7, 8, 9]
+            Quick: [5, 6, 7, 8, 9]
+            Regenerating: [5, 6, 7, 8, 9]
+            Splitting: [5, 6, 7, 8, 9]
+    loot:
+        0: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
+        1: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
+        2: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
+        3: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
+        4: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]
+        5: [0.66, 0.80, 1.00, 1.20, 1.50, 1.85]        
+
 Surtling:
     size: 0
     health: 1.1
