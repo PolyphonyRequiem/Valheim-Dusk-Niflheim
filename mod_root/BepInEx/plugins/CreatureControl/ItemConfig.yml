@@ -86,7 +86,6 @@ groups:
     - Carrot
     - Obsidian
     - Flint
-    - Chitin
     - Flax
     - Barley
     - Coal
@@ -121,6 +120,8 @@ groups:
     - LoxPelt
     - Needle
     - Bloodbag
+    - NeckTail
+    - Chitin
 
   YesTeleport:
     - Coins
