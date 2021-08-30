@@ -103,6 +103,26 @@
     },
     {
       "match": {
+        "name": "ArrowWood",
+        "amount": 20
+      },
+      "amount": 20,
+      "enabled": true,
+      "minStationLevel": 1,
+      "craftingStation": "piece_workbench",
+      "resources": [
+        {
+          "name": "Wood",
+          "amount": 8
+        },
+        {
+          "name": "Feather",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "match": {
         "name": "BowFineWood"
       },
       "amount": 1,

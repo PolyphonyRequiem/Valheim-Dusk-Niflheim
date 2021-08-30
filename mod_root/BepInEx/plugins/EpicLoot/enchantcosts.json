@@ -106,14 +106,19 @@
     // },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [  "$item_trophy_goblinshaman", "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_fenring" ],
-      "Products" : [ { "Item": "DustEpic", "Amount": 1 } ]
+      "ItemNames" : [ "$item_trophy_blob" ,"$item_trophy_surtling", "$item_trophy_wraith", "$item_trophy_draugrelite", "$item_trophy_skeletonpoison" ],
+      "Products" : [ { "Item": "DustRare", "Amount": 1 } ]
     },
     // {
     //   "ItemTypes" : [ "Trophie" ],
     //   "ItemNames" : [ "$item_trophy_goblin", "$item_trophy_hatchling" ],
     //   "Products" : [ { "Item": "EssenceEpic", "Amount": 1 } ]
     // },
+    {
+      "ItemTypes" : [ "Trophie" ],
+      "ItemNames" : [  "$item_trophy_goblinshaman", "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_fenring" ],
+      "Products" : [ { "Item": "DustEpic", "Amount": 1 } ]
+    },
     // {
     //   "ItemTypes" : [ "Trophie" ],
     //   "ItemNames" : [ "$item_trophy_lox", "$item_trophy_fenring" ],
