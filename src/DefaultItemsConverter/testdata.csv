@@ -84,8 +84,8 @@ BlueMushroom,70,70,false,false,true
 Raspberries,500,50,false,false,true
 
 #Misc#
-Feathers,20,20,false,false,true
-Resin,50,50,false,false,true
+Feathers,20,2,false,false,true
+Resin,20,2,false,false,true
 Stone,20,2,true,false,true
 Flint,50,10,false,false,true
 Coal,70,2,true,false,true
