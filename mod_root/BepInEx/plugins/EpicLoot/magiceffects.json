@@ -6104,7 +6104,8 @@
         "AllowedSkillTypes": [],
         "ExcludedSkillTypes": [],
         "AllowedItemNames": [],
-        "ExcludedItemNames": []
+        "ExcludedItemNames": [],
+        "ItemHasElementalDamage": true
       },
       "ValuesPerRarity": {
         "Magic": {
