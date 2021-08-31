@@ -118,6 +118,7 @@ FrometalOre,800,160,false,false,false
 Tin,1,1,false,false,false
 Copper,350,350,false,false,false
 Iron,300,300,false,false,false
+Bronze,450,450,false,false,false
 Silver,600,600,false,false,false
 BlackMetal,500,500,false,false,false
 Flametal,800,800,false,false,false
@@ -305,6 +306,7 @@ Bonearrow,35,3,true,false,false
 Corearrow,35,3,true,false,false
 ExplodingIceArrow,35,3,true,false,false
 Fireaoearrow,35,3,true,false,false
+Poisonaoearrow,35,3,true,false,false
 FlametalGreatarrow,35,3,true,false,false
 HeavyBluntedArrow,35,3,true,false,false
 HeavyBoneArrow,35,3,true,false,false
@@ -402,6 +404,7 @@ IronShield,16000,1600,false,false,true
 IronTowerShield,16000,1600,false,false,true
 BandedShield,16000,1600,false,false,true
 SerpentScaleShield,14800,1480,false,false,true
+SilverShield,45000,4500,false,false,true
 BlackMetalShield,55000,5500,false,false,true
 BlackMetalTowerShield,55000,5500,false,false,true
 KnightShield,55000,5500,false,false,true	
