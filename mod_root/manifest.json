@@ -416,7 +416,7 @@
     {
       "type": "nexus",
       "modId": 159,
-      "modVersion": "0.9.1",
+      "modVersion": "0.9.2",
       "description": "AutoFuel",
       "fileName": "Auto Fuel",
       "extractor": "zip",
@@ -452,7 +452,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.3/Jotunn.dll",
+      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.7/Jotunn.dll",
       "description": "Jotunn",
       "extractor": "none",
       "fileMaps":[
@@ -465,7 +465,7 @@
     {
       "type": "nexus",
       "modId": 1301,
-      "modVersion": "0.7.2",
+      "modVersion": "0.7.5",
       "description": "AtosArrowsJVL",
       "fileName": "AtosArrowsJVL",
       "extractor": "zip",
@@ -696,7 +696,7 @@
     {
       "type": "nexus",
       "modId": 1359,
-      "modVersion": "1.0.2",
+      "modVersion": "1.0.5",
       "description": "Rune Magic",
       "fileName": "Rune Magic",
       "extractor": "zip",
