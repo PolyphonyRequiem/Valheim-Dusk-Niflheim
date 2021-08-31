@@ -147,7 +147,10 @@
       "Description": "$mod_epicloot_me_addbluntdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -198,7 +201,10 @@
       "Description": "$mod_epicloot_me_addbluntdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -253,7 +259,10 @@
       "Description": "$mod_epicloot_me_addbluntdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -309,7 +318,10 @@
       "Description": "$mod_epicloot_me_addbluntdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -360,7 +372,10 @@
       "Description": "$mod_epicloot_me_addbluntresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddPiercingResistancePercentage",
+          "AddSlashingResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -414,12 +429,8 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddPiercingResistancePercentage",
+          "AddSlashingResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -437,14 +448,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -486,8 +490,8 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddPiercingResistancePercentage",
+          "AddSlashingResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -501,10 +505,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -750,14 +751,7 @@
       "Description": "$mod_epicloot_me_addelementalresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -777,14 +771,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Epic": {
@@ -815,10 +802,7 @@
       "Description": "$mod_epicloot_me_addelementalresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -834,10 +818,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Epic": {
@@ -868,7 +849,12 @@
       "Description": "$mod_epicloot_me_addfiredamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -919,7 +905,12 @@
       "Description": "$mod_epicloot_me_addfiredamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -974,7 +965,12 @@
       "Description": "$mod_epicloot_me_addfiredamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -1030,7 +1026,12 @@
       "Description": "$mod_epicloot_me_addfiredamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -1081,7 +1082,12 @@
       "Description": "$mod_epicloot_me_addfireresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -1135,12 +1141,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -1158,14 +1162,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -1207,8 +1204,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -1222,10 +1221,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -1266,7 +1262,12 @@
       "Description": "$mod_epicloot_me_addfrostdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -1317,7 +1318,12 @@
       "Description": "$mod_epicloot_me_addfrostdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -1372,7 +1378,12 @@
       "Description": "$mod_epicloot_me_addfrostdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -1428,7 +1439,12 @@
       "Description": "$mod_epicloot_me_addfrostdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -1480,12 +1496,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -1503,14 +1517,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -1551,7 +1558,12 @@
       "Description": "$mod_epicloot_me_addfrostresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddSpiritResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -1605,8 +1617,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -1620,10 +1634,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -1718,7 +1729,12 @@
       "Description": "$mod_epicloot_me_addlightningdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -1769,7 +1785,12 @@
       "Description": "$mod_epicloot_me_addlightningdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -1824,7 +1845,12 @@
       "Description": "$mod_epicloot_me_addlightningdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -1880,7 +1906,12 @@
       "Description": "$mod_epicloot_me_addlightningdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -1931,7 +1962,12 @@
       "Description": "$mod_epicloot_me_addlightningresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -1985,12 +2021,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -2008,14 +2042,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -2057,8 +2084,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -2072,10 +2101,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -2214,14 +2240,7 @@
       "Description": "$mod_epicloot_me_addphysicalresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -2241,14 +2260,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Epic": {
@@ -2279,10 +2291,7 @@
       "Description": "$mod_epicloot_me_addphysicalresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -2298,10 +2307,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Epic": {
@@ -2386,7 +2392,10 @@
       "Description": "$mod_epicloot_me_addpiercingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddBluntDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -2437,7 +2446,10 @@
       "Description": "$mod_epicloot_me_addpiercingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddBluntDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -2492,7 +2504,10 @@
       "Description": "$mod_epicloot_me_addpiercingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddBluntDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -2548,7 +2563,10 @@
       "Description": "$mod_epicloot_me_addpiercingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddBluntDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -2599,7 +2617,10 @@
       "Description": "$mod_epicloot_me_addpiercingresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddBluntResistancePercentage",
+          "AddSlashingResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -2653,12 +2674,8 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddBluntResistancePercentage",
+          "AddSlashingResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -2676,14 +2693,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -2725,8 +2735,8 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddBluntResistancePercentage",
+          "AddSlashingResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -2740,10 +2750,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -2784,7 +2791,12 @@
       "Description": "$mod_epicloot_me_addpoisondamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -2835,7 +2847,12 @@
       "Description": "$mod_epicloot_me_addpoisondamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -2890,7 +2907,12 @@
       "Description": "$mod_epicloot_me_addpoisondamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -2946,7 +2968,12 @@
       "Description": "$mod_epicloot_me_addpoisondamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -2997,7 +3024,12 @@
       "Description": "$mod_epicloot_me_addpoisonresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddLightningResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -3051,12 +3083,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddLightningResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -3074,14 +3104,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -3123,8 +3146,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddLightningResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage",
+          "AddSpiritResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -3138,10 +3163,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -3233,7 +3255,10 @@
       "Description": "$mod_epicloot_me_addslashingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddBluntDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -3284,7 +3309,10 @@
       "Description": "$mod_epicloot_me_addslashingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddBluntDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -3339,7 +3367,10 @@
       "Description": "$mod_epicloot_me_addslashingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddBluntDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -3395,7 +3426,10 @@
       "Description": "$mod_epicloot_me_addslashingdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddBluntDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -3447,12 +3481,8 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddPiercingResistancePercentage",
+          "AddBluntResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -3470,14 +3500,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -3519,8 +3542,8 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddPiercingResistancePercentage",
+          "AddBluntResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -3534,10 +3557,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -3578,7 +3598,10 @@
       "Description": "$mod_epicloot_me_addslashingresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddPiercingResistancePercentage",
+          "AddBluntResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -3685,7 +3708,12 @@
       "Description": "$mod_epicloot_me_addspiritdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage"
+        ],
         "AllowedItemTypes": [
           "Bow"
         ],
@@ -3736,7 +3764,12 @@
       "Description": "$mod_epicloot_me_addspiritdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon"
         ],
@@ -3791,7 +3824,12 @@
       "Description": "$mod_epicloot_me_addspiritdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "Torch"
@@ -3847,7 +3885,12 @@
       "Description": "$mod_epicloot_me_addspiritdamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage"
+        ],
         "AllowedItemTypes": [
           "TwoHandedWeapon"
         ],
@@ -3898,7 +3941,12 @@
       "Description": "$mod_epicloot_me_addspiritresistancepercentage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage"
+        ],
         "AllowedItemTypes": [
           "Chest",
           "Helmet",
@@ -3952,12 +4000,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -3975,14 +4021,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -4024,8 +4063,10 @@
       "Requirements": {
         "ExclusiveSelf": true,
         "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage",
+          "AddFireResistancePercentage",
+          "AddFrostResistancePercentage"
         ],
         "AllowedItemTypes": [
           "Utility"
@@ -4039,10 +4080,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -4564,11 +4602,7 @@
       "Description": "$mod_epicloot_me_freebuild_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "$item_hammer",
-          "$item_hoe",
-          "ImprovedHammer"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [],
         "ExcludedItemTypes": [],
         "AllowedRarities": [
@@ -4582,11 +4616,7 @@
           "$item_hoe",
           "ImprovedHammer"
         ],
-        "ExcludedItemNames": [
-          "$item_hammer",
-          "$item_hoe",
-          "ImprovedHammer"
-        ]
+        "ExcludedItemNames": []
       },
       "SelectionWeight": 1.0,
       "CanBeAugmented": true,
@@ -4683,14 +4713,7 @@
       "Description": "$mod_epicloot_me_increasehealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -4707,14 +4730,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -4908,10 +4924,7 @@
       "Description": "$mod_epicloot_me_increasehealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -4924,10 +4937,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -4968,14 +4978,7 @@
       "Description": "$mod_epicloot_me_increasestamina_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -4992,14 +4995,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -5193,10 +5189,7 @@
       "Description": "$mod_epicloot_me_increasestamina_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -5209,10 +5202,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -5253,7 +5243,9 @@
       "Description": "$mod_epicloot_me_indestructible_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "ModifyDurability"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "TwoHandedWeapon",
@@ -6026,7 +6018,9 @@
       "Description": "$mod_epicloot_me_modifydurability_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "Indestructible"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "TwoHandedWeapon",
@@ -6092,7 +6086,13 @@
       "Description": "$mod_epicloot_me_modifyelementaldamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddFireDamage",
+          "AddFrostDamage",
+          "AddLightningDamage",
+          "AddPoisonDamage",
+          "AddSpiritDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "TwoHandedWeapon",
@@ -6157,14 +6157,7 @@
       "Description": "$mod_epicloot_me_modifyhealthregen_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -6181,14 +6174,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -6382,10 +6368,7 @@
       "Description": "$mod_epicloot_me_modifyhealthregen_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -6398,10 +6381,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -6442,14 +6422,7 @@
       "Description": "$mod_epicloot_me_modifyhealthregenlowhealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -6466,14 +6439,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -6667,10 +6633,7 @@
       "Description": "$mod_epicloot_me_modifyhealthregenlowhealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -6683,10 +6646,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -6780,7 +6740,9 @@
       "Description": "$mod_epicloot_me_modifymovementspeed_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "RemoveSpeedPenalty"
+        ],
         "AllowedItemTypes": [
           "Legs",
           "Shoulder",
@@ -6826,7 +6788,9 @@
       "Description": "$mod_epicloot_me_modifymovementspeedlowhealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "RemoveSpeedPenalty"
+        ],
         "AllowedItemTypes": [
           "Legs",
           "Shoulder",
@@ -7205,7 +7169,11 @@
       "Description": "$mod_epicloot_me_modifyphysicaldamage_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "AddSlashingDamage",
+          "AddBluntDamage",
+          "AddPiercingDamage"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "TwoHandedWeapon",
@@ -7435,14 +7403,7 @@
       "Description": "$mod_epicloot_me_modifystaminaregen_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -7459,14 +7420,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -7610,10 +7564,7 @@
       "Description": "$mod_epicloot_me_modifystaminaregen_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -7626,10 +7577,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -7670,14 +7618,7 @@
       "Description": "$mod_epicloot_me_modifystaminaregenlowhealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -7694,14 +7635,7 @@
           "Stulor Belt",
           "Casul Belt"
         ],
-        "ExcludedItemNames": [
-          "Leather Belt",
-          "Aescfell Belt",
-          "St�nbrysan Belt",
-          "Eor�tilia Belt",
-          "Stulor Belt",
-          "Casul Belt"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -7845,10 +7779,7 @@
       "Description": "$mod_epicloot_me_modifystaminaregenlowhealth_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ],
+        "ExclusiveEffectTypes": [],
         "AllowedItemTypes": [
           "Utility"
         ],
@@ -7861,10 +7792,7 @@
           "Gold Ruby Ring",
           "Silver Ring"
         ],
-        "ExcludedItemNames": [
-          "Gold Ruby Ring",
-          "Silver Ring"
-        ]
+        "ExcludedItemNames": []
       },
       "ValuesPerRarity": {
         "Magic": {
@@ -8308,7 +8236,9 @@
       "Description": "$mod_epicloot_me_removespeedpenalty_desc",
       "Requirements": {
         "ExclusiveSelf": true,
-        "ExclusiveEffectTypes": [],
+        "ExclusiveEffectTypes": [
+          "ModifyMovementSpeed"
+        ],
         "AllowedItemTypes": [
           "OneHandedWeapon",
           "TwoHandedWeapon",
