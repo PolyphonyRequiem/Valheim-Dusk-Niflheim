@@ -52,6 +52,23 @@
     },
     {
       "match": {
+        "name": "Nut-ella"
+      },
+      "amount": 1,
+      "enabled": true,
+      "resources": [
+        {
+          "name": "rk_butter",
+          "amount": 1
+        },
+        {
+          "name": "BeechSeeds",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "match": {
         "name": "Bronze",
         "amount": 1
       },
