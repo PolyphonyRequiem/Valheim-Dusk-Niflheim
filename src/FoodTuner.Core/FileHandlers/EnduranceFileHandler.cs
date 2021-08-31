@@ -16,7 +16,7 @@ namespace FoodTuner.FileHandlers
 
         public int GetEnduranceForFoodItem(FoodItem foodItem)
         {
-            Regex enduranceExpression = new Regex(@$"{foodItem.Name}\s*=\s*(?<Endurance>[0-9.]+)");
+            Regex enduranceExpression = new Regex(@$"^{foodItem.Name}\s*=\s*(?<Endurance>[0-9.]+)", RegexOptions.Multiline);
             var content = File.ReadAllText(enduranceFile.FullName);
             var match = enduranceExpression.Match(content);
 
@@ -32,7 +32,7 @@ namespace FoodTuner.FileHandlers
 
         public void UpdateFoodItemEndurance(FoodItem foodItem)
         {
-            Regex enduranceExpression = new Regex(@$"{foodItem.Name}\s*=\s*(?<Endurance>[\d.]+)");
+            Regex enduranceExpression = new Regex(@$"^{foodItem.Name}\s*=\s*(?<Endurance>[\d.]+)", RegexOptions.Multiline);
             var content = File.ReadAllText(enduranceFile.FullName);
             var match = enduranceExpression.Match(content);
 
