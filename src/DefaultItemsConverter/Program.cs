@@ -64,7 +64,7 @@ namespace DefaultItemsConverter
             int i = 0;
             SearchState state = SearchState.Find;
             //[C_Items.Ammo.Bigfirearrow]
-            Regex headerExpression = new Regex(@"\[C_Items\.\w*\.(?<itemName>[a-zA-Z0-9_]*)\]");
+            Regex headerExpression = new Regex(@"\[C_Items\.\w*\.(?<itemName>[a-zA-Z0-9_\w]+)\]");
             ItemData matchingItem = default(ItemData);
 
             Console.WriteLine($"\n\n\n------------------------------\nUpdating Configuration File {sourceConfigFile}\n------------------------------\n\n\n");
