@@ -741,6 +741,19 @@
           "sources": "**/*.dll",
           "destination": "./Bepinex/plugins/MultiCraft"
         }]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/ontrigger/ValheimPerformanceOptimizations/0.6.1/",
+      "description": "VPO",
+      "extractor": "zip",
+      "fileMaps":[
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/ValheimPerformanceOptimizations"
+        }
+      ]
+
     }
   ]
 }
