@@ -1,0 +1,66 @@
+﻿[
+   {
+      "Group": "meadows",
+      "Kits": [
+         {
+            "Id": "starter",
+            "Help": "Starter kit, try not to die? Survive a few days?",
+            "Items": [
+               {
+                  "Name": "Wood",
+                  "Count": 50
+               },
+               {
+                  "Name": "Stone",
+                  "Count": 20
+               },
+               {
+                  "Name": "Club"
+               },
+               {
+                  "Name": "AxeStone"
+               },
+               {
+                  "Name": "Hammer"
+               },
+               {
+                  "Name": "Torch"
+               },
+               {
+                  "Name": "ArmorRagsChest"
+               },
+               {
+                  "Name": "ArmorRagsLegs"
+               }
+            ],
+            "Skills": [
+               {
+                  "Name": "Axes",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "Clubs",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "Unarmed",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "Jump",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "Run",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "Sneak",
+                  "Level": 5.0
+               }
+            ]
+         }
+      ]
+   }
+]
+  

@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodTuner", "FoodTuner\Food
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodTuner.Tests", "FoodTunder.Tests\FoodTuner.Tests.csproj", "{60C3F33B-40DA-47F6-956E-8778F5E0E590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTuner.Core", "FoodTuner.Core\FoodTuner.Core.csproj", "{91149695-B377-4CDA-ADD3-91504CB36965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodTuner.Core", "FoodTuner.Core\FoodTuner.Core.csproj", "{91149695-B377-4CDA-ADD3-91504CB36965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -25,7 +25,7 @@ namespace NiflheimBespoke
     {
         public const string PluginGUID = "firoso.niflheim.bespoke";
         public const string PluginName = "NiflheimBespoke";
-        public const string PluginVersion = "0.2.1";
+        public const string PluginVersion = "0.2.2";
 
         public static ManualLogSource Log { get; private set; }
 
@@ -40,6 +40,7 @@ namespace NiflheimBespoke
             this.niflheimBespokeAssets = AssetUtils.LoadAssetBundleFromResources("niflheimbespoke", Assembly.GetExecutingAssembly());
             ItemManager.OnVanillaItemsAvailable += InitializeItemsFromVanillaAvailableEvent;
             CommandManager.Instance.AddConsoleCommand(new DumpAllItemsCommand());
+            CommandManager.Instance.AddConsoleCommand(new KitCommand());
         }
 
         private void OnDestroy()

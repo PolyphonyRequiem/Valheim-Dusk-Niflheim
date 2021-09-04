@@ -1,0 +1,153 @@
+[
+   {
+      "Group": "meadows",
+      "Kits": [
+         {
+            "Id": "starter",
+            "Help": "Starter kit, try not to die? Survive a few days?",
+            "Items": [
+               {
+                  "Name": "Wood",
+                  "Count": 50
+               },
+               {
+                  "Name": "Stone",
+                  "Count": 20
+               },
+               {
+                  "Name": "Club"
+               },
+               {
+                  "Name": "AxeStone"
+               },
+               {
+                  "Name": "Hammer"
+               },
+               {
+                  "Name": "Torch"
+               },
+               {
+                  "Name": "ArmorRagsChest"
+               },
+               {
+                  "Name": "ArmorRagsLegs"
+               }
+            ],
+            "Skills": [
+               {
+                  "Name": "axes",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "clubs",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "unarmed",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "jump",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "run",
+                  "Level": 5.0
+               },
+               {
+                  "Name": "sneak",
+                  "Level": 5.0
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Group": "blackforest",
+      "Kits": [
+         {
+            "Id": "starter",
+            "Help": "Starter kit, try not to die? Survive a few days?",
+            "Items": [
+               {
+                  "Name": "Wood",
+                  "Count": 75
+               },
+               {
+                  "Name": "Stone",
+                  "Count": 20
+               },
+               {
+                  "Name": "ArrowWood",
+                  "Count": 100
+               },
+               {
+                  "Name": "Bow",
+                  "Quality": 2
+               },
+               {
+                  "Name": "AxeFlint",
+                  "Quality": 2
+               },
+               {
+                  "Name": "Hammer",
+                  "Quality": 2
+               },
+               {
+                  "Name": "SpearFlint",
+                  "Quality": 2
+               },
+               {
+                  "Name": "KnifeFlint",
+                  "Quality": 2
+               },
+               {
+                  "Name": "Torch"
+               },
+               {
+                  "Name": "ArmorLeatherChest"
+               },
+               {
+                  "Name": "ArmorLeatherLegs"
+               },
+               {
+                  "Name": "HelmetLeather"
+               },
+               {
+                  "Name": "CapeDeerHide"
+               }
+            ],
+            "Skills": [
+               {
+                  "Name": "axes",
+                  "Level": 15.0
+               },
+               {
+                  "Name": "clubs",
+                  "Level": 15.0
+               },
+               {
+                  "Name": "unarmed",
+                  "Level": 10.0
+               },
+               {
+                  "Name": "jump",
+                  "Level": 15.0
+               },
+               {
+                  "Name": "run",
+                  "Level": 15.0
+               },
+               {
+                  "Name": "sneak",
+                  "Level": 15.0
+               },
+               {
+                  "Name": "bows",
+                  "Level": 15.0
+               }
+            ]
+         }
+      ]
+   }
+]
