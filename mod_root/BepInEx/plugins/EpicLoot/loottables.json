@@ -552,8 +552,8 @@
           "Level": 1,
           "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
-//            { "Item": "Tier1Everything", "Weight": 8, "Rarity": [ 60, 28, 2, 0 ] },
-//            { "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 60, 28, 2, 0 ] },
+            //{ "Item": "Tier1Everything", "Weight": 8, "Rarity": [ 60, 28, 2, 0 ] },
+            //{ "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 60, 28, 2, 0 ] },
             { "Item": "ShardMagic", "Weight": 60 },
             { "Item": "ShardRare", "Weight": 28 },
             { "Item": "ShardEpic", "Weight": 2 }
@@ -563,8 +563,8 @@
           "Level": 2,
           "Drops": [ [0, 130], [1, 12], [2, 5], [3, 3] ],
           "Loot": [
-//            { "Item": "Tier1Everything", "Weight": 6, "Rarity": [ 54, 30, 5, 1 ] },
-            { "Item": "Tier2Everything", "Weight": 4, "Rarity": [ 54, 30, 5, 1 ] },
+            //{ "Item": "Tier1Everything", "Weight": 6, "Rarity": [ 54, 30, 5, 1 ] },
+            //{ "Item": "Tier2Everything", "Weight": 4, "Rarity": [ 54, 30, 5, 1 ] },
             { "Item": "ShardMagic", "Weight": 54 },
             { "Item": "ShardRare", "Weight": 30 },
             { "Item": "ShardEpic", "Weight": 5 },
@@ -630,7 +630,7 @@
           "Level": 1,
           "Drops": [ [0, 142], [1, 5], [2, 2], [3, 1] ],
           "Loot": [
-//            { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 45, 38, 5, 2 ] },
+            // { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 45, 38, 5, 2 ] },
             { "Item": "ShardMagic", "Weight": 45 },
             { "Item": "ShardRare", "Weight": 38 },
             { "Item": "ShardEpic", "Weight": 5 },
