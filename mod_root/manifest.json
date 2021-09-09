@@ -647,13 +647,6 @@
     },
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/AlreeNicolas/Forgotten_Biomes/0.0.10/",
-      "description": "ForgottenBiomes",
-      "extractor": "zip",
-      "fileMaps": [{}]
-    },
-    {
-      "type": "http",
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/valheim-dynamic-items.zip",
       "description": "valheim-dynamic-items",
       "extractor": "zip",
