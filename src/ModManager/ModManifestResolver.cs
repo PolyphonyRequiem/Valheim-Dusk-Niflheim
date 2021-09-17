@@ -45,6 +45,11 @@ namespace ModManager
 
             foreach (var component in manifest.Components)
             {
+                if (!component.Enabled)
+                {
+                    continue; // skip disabled components
+                }
+
                 if (component.IsDebugTool && debug == false)
                 {
                     continue; //skip debug tools
