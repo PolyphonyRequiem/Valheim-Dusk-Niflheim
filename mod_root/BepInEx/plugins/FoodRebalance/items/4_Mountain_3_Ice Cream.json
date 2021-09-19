@@ -1,9 +1,0 @@
-{
-  "name": "rk_icecream",
-  "weight": 30,
-  "stack": 15,
-  "health": 55,
-  "stamina": 70,
-  "regen": 3,
-  "duration": 1260
-}

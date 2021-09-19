@@ -1,9 +1,0 @@
-{
-  "name": "NordicJam",
-  "weight": 30,
-  "stack": 10,
-  "health": 70,
-  "stamina": 70,
-  "regen": 2,
-  "duration": 1080
-}

@@ -1,9 +1,0 @@
-{
-  "name": "NeckTailGrilled",
-  "weight": 50,
-  "stack": 20,
-  "health": 30,
-  "stamina": 20,
-  "regen": 1,
-  "duration": 720
-}

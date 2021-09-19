@@ -1,9 +1,0 @@
-{
-  "name": "Cloudberry",
-  "weight": 10,
-  "stack": 50,
-  "health": 30,
-  "stamina": 35,
-  "regen": 1,
-  "duration": 240
-}

@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1500/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.1502/",
       "description": "BepinexPack Valheim",
       "extractor": "zip",
       "fileMaps": [
@@ -19,6 +19,7 @@
       "description": "Better Wards",
       "fileName": "Better Wards",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./Better Wards 1.5.4/",
@@ -33,6 +34,7 @@
       "description": "Better Trader",
       "fileName": "Better Trader 2.0.4 (Zip)",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "destination": "./"
@@ -52,11 +54,9 @@
       ]
     },
     {
-      "type": "nexus",
-      "modId": 495,
-      "modVersion": "4.4.1",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/Smoothbrain/CreatureLevelAndLootControl/4.4.3/",
       "description": "Creature Level and Loot Control",
-      "fileName": "Creature Level and Loot Control",
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -65,6 +65,7 @@
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/EpicLootForked.zip",
       "description": "Epic Loot",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "destination": "./Bepinex/plugins/EpicLoot"
@@ -78,6 +79,7 @@
       "description": "Jam",
       "fileName": "Jam",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./files/",
@@ -86,11 +88,9 @@
       ]
     },
     {
-      "type": "nexus",
-      "modId": 527,
-      "modVersion": "1.2",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/k942/MassFarming/1.3.0/",
       "description": "MassFarming",
-      "fileName": "MassFarming",
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -100,6 +100,7 @@
       "modVersion": "1.6.4",
       "description": "BetterUI",
       "fileName": "BetterUI",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },    
@@ -109,6 +110,7 @@
       "modVersion": "1.4.3",
       "description": "Clock Mod",
       "fileName": "Clock Mod",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },  
@@ -118,6 +120,7 @@
       "modVersion": "1.7.8",
       "description": "Combat Overhaul",
       "fileName": "Combat Overhaul",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -126,11 +129,9 @@
       ]
     },  
     {
-      "type": "nexus",
-      "modId": 281,
-      "modVersion": "1.0.2",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/RandyKnapp/ExtendedItemDataFramework/1.0.6/",
       "description": "Extended Item Data Framework",
-      "fileName": "Extended Item Data Framework",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -144,6 +145,7 @@
       "modVersion": "2.1",
       "description": "Mod Config Enforcer",
       "fileName": "ModConfigEnforcer_v2.1",
+      "enabled": true,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -168,6 +170,8 @@
       "type": "http",
       "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRCore/2.9.0/",
       "description": "RRR Core",
+      
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -180,6 +184,8 @@
       "type": "http",
       "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRNpcs/0.2.3/",
       "description": "RRR NPCs",
+      
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -193,6 +199,8 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRMonsters/2.2.1/",
       "description": "RRR Monsters",
       "extractor": "zip",
+      
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "RRRMonsters.dll",
@@ -205,6 +213,8 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/neurodr0me/RRRBetterRaids/2.1.0/",
       "description": "RRR BetterRaids",
       "extractor": "zip",
+      
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "RRRBetterRaids.dll",
@@ -219,6 +229,8 @@
       "description": "MonsterLabZ",
       "fileName": "MonsterLabZ",
       "extractor": "zip",
+      
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./plugins/MonsterLabZ",
@@ -234,6 +246,8 @@
       "description": "Skill Injector",
       "fileName": "SkillInjectorMod.zip",
       "extractor": "zip",
+      
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "SkillInjector.dll",
@@ -248,6 +262,8 @@
       "description": "ValheimTrashCan",
       "fileName": "ValheimTrashCan",
       "extractor": "zip",
+      
+      "enabled": false,
       "fileMaps": [{}]
     },  
     {
@@ -257,14 +273,14 @@
       "description": "WeightlessCoins",
       "fileName": "Weightless Coins 1.0.0",
       "extractor": "rar",
+      
+      "enabled": false,
       "fileMaps": [{}]
     },
     {
-      "type": "nexus",
-      "modId": 803,
-      "modVersion": "2.1.4",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/DasSauerkraut/Terraheim/2.1.7/",
       "description": "Terraheim",
-      "fileName": "Terraheim",
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -275,6 +291,7 @@
       "description": "Crafting Stations Level Based Build Range",
       "fileName": "CraftingStationLevelRange",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "CraftingStationLevelRange.dll",
@@ -289,6 +306,7 @@
       "description": "Speedy Paths",
       "fileName": "Speedy Paths",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "SpeedyPaths.dll",
@@ -303,6 +321,7 @@
       "description": "CustomRaids",
       "fileName": "custom-raids-v1.4.0",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "Valheim.CustomRaids.dll",
@@ -315,6 +334,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/ASharpPen/Drop_That/2.1.0/",
       "description": "Drop That",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "Valheim.DropThat.dll",
@@ -329,6 +349,7 @@
       "description": "Spawn That",
       "fileName": "SpawnThat",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "Valheim.SpawnThat.dll",
@@ -344,6 +365,7 @@
       "fileName": "WhereAmI_v0.1.1",
       "extractor": "zip",
       "isDebugTool": true,
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "Valheim.WhereAmI.dll",
@@ -358,6 +380,7 @@
       "description": "Map Sharing Made Easy",
       "fileName": "Map Sharing Made Easy",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "MapSharingMadeEasy.dll",
@@ -366,11 +389,9 @@
       ]
     },
     {
-      "type": "nexus",
-      "modId": 566,
-      "modVersion": "1.2.3",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/GoldenJude/Blacksmiths_tools/2.0.0/",
       "description": "Blacksmith's Tools",
-      "fileName": "Blacksmith's Tools",
       "extractor": "zip",
       "fileMaps": [
         {
@@ -382,13 +403,14 @@
     {
       "type": "nexus",
       "modId": 640,
-      "modVersion": "1.1.0",
+      "modVersion": "2.0.1",
       "description": "Barbarian's Armor",
-      "fileName": "Barbarian's Armor 1.1.0",
+      "fileName": "Barbarian's Armor",
       "extractor": "zip",
+      "enabled":false,
       "fileMaps": [
         {
-          "destination": "./"
+          
         }
       ]
     },
@@ -398,6 +420,7 @@
       "modVersion": "1.0.8",
       "description": "Build Expansion",
       "fileName": "Build Expansion v1.0.8",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -408,7 +431,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/PotionPlus/1.1.0/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/PotionPlus/1.1.1/",
       "description": "Odin's PotionsPlus",
       "extractor": "zip",
       "fileMaps": [{}]
@@ -419,6 +442,7 @@
       "modVersion": "0.9.2",
       "description": "AutoFuel",
       "fileName": "Auto Fuel",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -434,6 +458,7 @@
       "description": "More Gates",
       "fileName": "More gates The JVL update(fixed)",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "Moregates.dll",
@@ -444,15 +469,15 @@
     {
       "type": "nexus",
       "modId": 1174,
-      "modVersion": "0.0.4",
+      "modVersion": "0.1.0",
       "description": "Odin Architect",
-      "fileName": "OdinArchitect 0.0.4",
+      "fileName": "OdinArchitect 0.1.0",
       "extractor": "7z",
       "fileMaps": [{}]
     },
     {
       "type": "http",
-      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.2.7/Jotunn.dll",
+      "fileUri": "https://github.com/Valheim-Modding/Jotunn/releases/download/v2.3.2/Jotunn.dll",
       "description": "Jotunn",
       "extractor": "none",
       "fileMaps":[
@@ -468,6 +493,7 @@
       "modVersion": "0.7.5",
       "description": "AtosArrowsJVL",
       "fileName": "AtosArrowsJVL",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -476,6 +502,7 @@
       "fileUri": "https://niflheim.blob.core.windows.net/modpacks/Fracticality.zip",
       "description": "FracticalityStuff",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [{}]
     },
     {
@@ -483,6 +510,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/ValheimModding/HookGenPatcher/0.0.2/",
       "description": "HookGenPatcher",
       "extractor": "zip",
+      "enabled": true,
       "fileMaps": [
         {
           "destination": "./Bepinex"
@@ -495,6 +523,7 @@
       "modVersion": "0.1.6",
       "description": "JotunnLib",
       "fileName": "JotunnLib",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -504,6 +533,7 @@
       "modVersion": "0.0.8",
       "description": "ValheimLib",
       "fileName": "ValheimLib",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -513,6 +543,7 @@
       "modVersion": "4.2.2",
       "description": "More Two Handers",
       "fileName": "More Two Handers",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -522,6 +553,7 @@
       "modVersion": "1.2.0",
       "description": "ItemStacks",
       "fileName": "mtnewton-ItemStacks-1.2.0",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },
@@ -531,6 +563,7 @@
       "modVersion": "1.1.0",
       "description": "Better Auto Run",
       "fileName": "Better Auto Run",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [
         {
@@ -543,16 +576,16 @@
       "type": "http",
       "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/Fisticuffs/1.1.5/",
       "description": "Fisticuffs",
+      "enabled": false,
       "extractor": "zip",
       "fileMaps": [{}]
     },
     {
-      "type": "nexus",
-      "modId": 1215,
-      "modVersion": "6.0.1",
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/AeehyehssReeper/ChaosArmor/6.0.4/",
       "description": "ChaosArmor",
-      "fileName": "Chaos Armor V6.0.1 Low Res",
       "extractor": "rar",
+      "enabled":false,
       "fileMaps": [
         {
           "destination": "./"
@@ -566,6 +599,7 @@
       "description": "BoneAppetit",
       "fileName": "BoneAppetit",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./plugins/",
@@ -580,6 +614,7 @@
       "description": "FoodRebalancer",
       "fileName": "FoodRebalancer",
       "extractor": "rar",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "**/*.dll"
@@ -593,6 +628,7 @@
       "description": "Custom Server Loading Screen",
       "fileName": "Custom Server Loading Screen",
       "extractor": "rar",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "**/*.dll"
@@ -605,6 +641,7 @@
       "description": "SKToolBox",
       "isDebugTool": true,
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources":"SkToolboxValheim.dll"
@@ -616,6 +653,7 @@
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/RecipeRewriter.zip",
       "description": "RecipeRewriter",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "destination": "./Bepinex/plugins/RecipeRewriter"
@@ -627,6 +665,7 @@
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/FoodStaminaRegen.zip",
       "description": "FoodStaminaRegen-Fork",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "destination": "./Bepinex/plugins/FoodStaminaRegen"
@@ -638,6 +677,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/OdinPlus/BuildIt/1.3.1/",
       "description": "BuildIt",
       "extractor": "rar",
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./plugins",
@@ -650,6 +690,7 @@
       "fileUri": "https://niflheim.blob.core.windows.net/selfhostmoddistros/valheim-dynamic-items.zip",
       "description": "valheim-dynamic-items",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [{}]
     },
     {
@@ -657,6 +698,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieAssets/0.4.0/",
       "description": "DoOrDieAssets",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./plugins/"
@@ -668,6 +710,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/Horem/DoOrDieMonsters/0.1.8/",
       "description": "DoOrDieMonsters",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sourceRoot": "./plugins/"
@@ -679,6 +722,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/ComfyMods/ColorfulPortals/1.1.0/",
       "description": "ColorfulPortals",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "**/*.dll",
@@ -693,6 +737,7 @@
       "description": "Rune Magic",
       "fileName": "Rune Magic",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [{
         "destination": "./Bepinex/plugins/RuneMagic"
       }]
@@ -702,6 +747,7 @@
       "fileUri": "https://valheim.thunderstore.io/package/download/Smoothbrain/PassivePowers/1.0.0/",
       "description": "Passive Powers",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps":[
         {
           "sources": "**/*.dll",
@@ -716,6 +762,7 @@
       "description": "AutoPickupSelector",
       "fileName": "RagnarsRokare_AutoPickupSelector.zip",
       "extractor": "zip",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "**/*.dll",
@@ -729,6 +776,7 @@
       "description": "MultiCraft",
       "fileName": "MultiCraft",
       "extractor": "rar",
+      "enabled": false,
       "fileMaps": [
         {
           "sources": "**/*.dll",
@@ -737,7 +785,7 @@
     },
     {
       "type": "http",
-      "fileUri": "https://valheim.thunderstore.io/package/download/ontrigger/ValheimPerformanceOptimizations/0.6.1/",
+      "fileUri": "https://valheim.thunderstore.io/package/download/ontrigger/ValheimPerformanceOptimizations/0.7.4/",
       "description": "VPO",
       "extractor": "zip",
       "fileMaps":[
@@ -747,6 +795,56 @@
         }
       ]
 
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/makail/ItemDrawers/0.4.2/",
+      "description": "ItemDrawers",
+      "extractor": "zip",
+      "fileMaps":[
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/ItemDrawers"
+        }
+      ]
+
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/RandyKnapp/EquipmentAndQuickSlots/2.0.14/",
+      "description": "Equipment and Quickslots",
+      "extractor": "zip",
+      "fileMaps":[
+        {
+          "sources": "**/*.dll",
+          "destination": "./Bepinex/plugins/EquipmentAndQuickslots"
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "fileUri": "https://valheim.thunderstore.io/package/download/EmrikNorth_and_Aedenthorn/JotunnBackpacks/2.0.0/",
+      "description": "JotunnBackpacks",
+      "extractor": "zip",
+      "fileMaps":[
+        {
+          "sources": "**/*.*",
+          "destination": "./Bepinex/"
+        }
+      ]
+    },
+    {
+      "type": "nexus",
+      "modId": 847,
+      "modVersion": "0.7.5",
+      "description": "VHVR",
+      "fileName": "vhvr",
+      "extractor": "zip",
+      "fileMaps": [
+        {
+          "sources": "**/*.*",
+          "destination": "./"
+        }]
     }
   ]
 }

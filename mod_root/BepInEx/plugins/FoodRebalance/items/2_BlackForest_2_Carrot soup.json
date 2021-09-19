@@ -1,9 +1,0 @@
-{
-  "name": "CarrotSoup",
-  "weight": 50,
-  "stack": 10,
-  "health": 25,
-  "stamina": 60,
-  "regen": 1,
-  "duration": 900
-}

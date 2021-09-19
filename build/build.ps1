@@ -49,27 +49,27 @@ if (-not $ConfigOnly)
         throw "Package download failed.  This happens a lot, stay cool, wait a moment, then run the build again.  Both Nexus and thunderstore have flakey content delivery networks."
     }
 
-    dotnet restore $root/src/Niflheim.sln
+    # dotnet restore $root/src/Niflheim.sln
 
-    If ($lastExitCode -ne "0") {
-        throw "dotnet restore failed.  This is rare."
-    }
+    # If ($lastExitCode -ne "0") {
+    #     throw "dotnet restore failed.  This is rare."
+    # }
 
-    nuget restore $root/src/Niflheim.sln
+    # nuget restore $root/src/Niflheim.sln
 
-    If ($lastExitCode -ne "0") {
-        throw "NugetRestore failed.  This is rare"
-    }
+    # If ($lastExitCode -ne "0") {
+    #     throw "NugetRestore failed.  This is rare"
+    # }
 
-    dotnet build $root/src/Niflheim.sln -property:Configuration=Release
+    # dotnet build $root/src/Niflheim.sln -property:Configuration=Release
 
-    If ($lastExitCode -ne "0") {
-        throw "Build failed.  This is rare"
-    }
+    # If ($lastExitCode -ne "0") {
+    #     throw "Build failed.  This is rare"
+    # }
 
-    Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
+    # Copy-Item $root/src/PatchNotesExtender/bin/Release/PatchNotesExtender.dll -Destination $out/Bepinex/plugins/PatchNotesExtender.dll
 
-    Copy-Item $root/src/NiflheimBespoke/bin/Release/NiflheimBespoke.dll -Destination $out/Bepinex/plugins/NiflheimBespoke.dll
+    # Copy-Item $root/src/NiflheimBespoke/bin/Release/NiflheimBespoke.dll -Destination $out/Bepinex/plugins/NiflheimBespoke.dll
 }
 
 

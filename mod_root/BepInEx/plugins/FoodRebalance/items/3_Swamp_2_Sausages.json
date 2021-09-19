@@ -1,9 +1,0 @@
-{
-  "name": "Sausages",
-  "weight": 40,
-  "stack": 20,
-  "health": 60,
-  "stamina": 35,
-  "regen": 1,
-  "duration": 720
-}

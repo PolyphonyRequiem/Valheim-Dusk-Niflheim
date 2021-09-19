@@ -1,9 +1,0 @@
-{
-  "name": "Honey",
-  "weight": 10,
-  "stack": 20,
-  "health": 15,
-  "stamina": 50,
-  "regen": 4,
-  "duration": 240
-}

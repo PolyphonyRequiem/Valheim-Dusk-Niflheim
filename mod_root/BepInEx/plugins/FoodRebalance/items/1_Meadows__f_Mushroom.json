@@ -1,9 +1,0 @@
-{
-  "name": "Mushroom",
-  "weight": 10,
-  "stack": 50,
-  "health": 25,
-  "stamina": 20,
-  "regen": 1,
-  "duration": 540
-}

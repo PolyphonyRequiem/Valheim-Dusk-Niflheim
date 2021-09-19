@@ -1,9 +1,0 @@
-{
-  "name": "rk_latte",
-  "weight": 30,
-  "stack": 10,
-  "health": 45,
-  "stamina": 155,
-  "regen": 4,
-  "duration": 540
-}
