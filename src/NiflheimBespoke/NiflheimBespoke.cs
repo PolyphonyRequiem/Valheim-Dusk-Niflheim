@@ -316,10 +316,7 @@ namespace NiflheimBespoke
             goblinFetishItemDrop.m_itemData.m_shared.m_name = "Goblin Fetish";
             goblinFetishItemDrop.m_itemData.m_shared.m_description = "Believed by some supersitious Fulings to be an idol imbuded with great power, protecting them in battle.  Looks like it didn't work.";
 
-            var goblinFetish = new CustomItem(goblinFetishPrefab, false)
-            {
-                ItemDrop = goblinFetishItemDrop
-            };
+            var goblinFetish = new CustomItem(goblinFetishPrefab, false);
 
             ItemManager.Instance.AddItem(goblinFetish);
         }
